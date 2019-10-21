@@ -17,6 +17,7 @@ Bugfixes:
 * Canesword- fixed
 * Jester BR level up substitutions now fixed
 * Dock Leaf now has a proper upgrade
+* Recharge- description fixed
 
 
 
