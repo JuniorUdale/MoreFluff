@@ -1,0 +1,680 @@
+v2.2.0 - Flying High
+
+
+Changes:
+* Twinkle+ now changed
+	* Used to give you an extra dice next turn, and return this dice
+		* (but was bugged to reroll the dice but shh)
+	* Now, it gives you an extra dice next turn, and gives you this dice next turn too!
+* Rockfall and Quicklime are no longer Witch spells
+	* She could go infinite with them!
+
+
+Bugfixes:
+* Helium Balloon now no longer breaks with re-equip next and Fury
+* Inventor now features price gouging
+* Thief no longer encounters enemies he shouldn't in BR
+* Canesword- fixed
+* Jester BR level up substitutions now fixed
+* Dock Leaf now has a proper upgrade
+
+
+
+	
+=====================================================================
+
+v2.1.0 - friday patch
+
+Thanks to everyone on the dicecord reporting bugs - crashes, bugs, glitches - let me know of any items going awry and I'll try to put them back into line!
+
+Changes:
+* Warrior and Thief no longer encounter Slime in PU
+	* This is a vanilla change that this mod forgot to add!
+* Made some BR generators more consistent
+* Recharge nerfed:
+	* Before, it was EVEN, Drain 2 health, reuseable - upgrades to 3 health
+	* Now it's a countdown of 15 (!), Drain 6 health - upgrades to reuseable
+* Decay and Stun Blast buffed
+	* Countdowns from 16 and 12 to 12 and 20, respectively
+* Chromatic Cutlass+ changed:
+	* Used to go from ODD to NORMAL
+	* Now goes from RED to PINK
+	* Putting WORDS in CAPITAL LETTERS makes this READ like a CHEAP undertale RIPOFF
+* 2 new Jester Finale cards (both made from puns):
+	* Battle Sax - do 2x[max3] damage, add 1 weaken
+	* Nerf Hammer - enemy items become harder to play until weakened
+
+Bugfixes:
+* Heckle no longer crashes the game
+* Gavel and Spade have fixed upgrades
+* Bow Wow Wow no longer offered for Jester in BR
+* Finders Keepers no longer broken
+* Certain items are now set to Special (so you shouldn't encounter them via randomness like Val)
+* Fixed Shammer's description yet again
+* Mirror Coating? is no longer backwards
+* Witch's EtU rewards now work
+* Fixed Maintenance being buggy if you were poisoned
+* Lamppost+ now works on ODDs instead of EVENs
+* Mechanicalantern now resets each turn
+* Fixed crashes for:
+	* Blackberry
+	* Magic Smoke
+		* also made this one actually work!
+	* Curseven
+	* Mechanical Charm
+	
+=====================================================================
+
+v2.0.1 - bugfixes aaaaaaaaah
+
+Of course there's going to be some things that went... fucky! Just a quick hotfix that squishes some of the more common bugs.
+
+Patches won't usually be this common unless there's something absolutely gamebreaking that gets discovered!
+
+Changes:
+* Helium Balloon now has a nice effect
+
+Bugfixes:
+* Rose Bush+ now correctly gives you 2 thorns on use
+* Spiked Drink no longer kludgey as hell
+* Fixed some item descriptions - Superbolt and Shammer
+* No longer offered upgrades in Curse of Greed
+* Power Through no longer breaks the game
+* Warrior no longer gets offered tons of shields in his episode 2
+* Cryocautery+ no longer crashes the game
+* Tweaked description of some cards
+
+=====================================================================
+
+v2.0 - Better Late Than Never
+
+Finally! Dicey Dungeons v1.5 is upon us, and with it I bring a myriad of new useless/OP items! I've been waiting to upload this for a while, but delays, updates, and all kinds of things have unfortunately set this mod's release back more than I'd have liked. (One nail in the coffin was the Marshmallow rule...) So, finally, I've gotten off my ass and finished up this mod.
+
+As for what this adds? Well, there are... FAR too many new items to list, honestly. At least 227 new items have been added since the last time I updated this mod, and listing them all here would be an exercise in futility and carpal tunnel. So, I'll just list my favourites:
+
+* Ratchet - uselessly useful
+	* Increases the range of your MAX/MIN items by 1 for a turn.
+	* So, you can turn that Battle Axe into a MAX5 weapon of mass destruction!
+	* Also, what happens if you Nudge a 1...
+	
+* Critical Hit - for when you're feeling lucky
+	* Your attacks have a 25% chance to deal double damage.
+	* Upgraded this becomes a chance to deal triple damage!
+	* And yes, Four Leaf Clover increases these odds...
+	
+* Dainsleif - weird mythological swordlike thingymajig
+	* Decreases the opponent's maximum health by 2x[].
+	* It's an unrestricted slot!
+	* What could go wrong?
+	
+* Mechanicalantern - free dice for all robots
+	* Get a [] next turn for each [] you calculated this turn
+	
+* Plurale Tantrum - it's douse not dice
+	* Fixes your items' grammar
+	* That's it
+	* not all of these items need to be useful, you know
+	
+* Scales of Justdice - made it for the pun
+	* Averages all your dice values
+	* Like a """useful""" Skeleton Key
+	
+* Momentum - for when you're having a second wind
+	* Take an extra turn!
+	* Immediately!
+	* Yep, screw this turn you're on, you're taking a new turn, right here, right now.
+	* Did I mention that this has a countdown of 60?
+	
+* Sunflower - the plants were the real zombies
+	* Consumes one of your spells
+	* Gain 8 mana
+	
+* Baseball Bat - one of Scathach's favourites
+	* Deals 2x[max5] damage...
+	* ...but gives the enemy the dice that you used next turn
+	
+* Rannuncarpus - this seems like a useful repository of flower names
+	* Spell for the Witch
+	* Whenever you gain mana, gain 1 more
+	* And no, this doesn't go infinite with itself!
+	
+* Helium Balloon - pop goes the dice
+	* Roll THREE extra dice!
+	* The catch?
+	* ALL of your dice become filled with helium.
+	* What does this mean?
+	* Well... wait and see!
+	
+* Xiphos - well-used by girl scouts
+	* Deal [max3]+2 damage
+	* Reuseable
+	* It's like Dagger++!
+	* Oh, but it gives the enemy 1 thorns whenever you use it...
+	
+* Chronomancy - because extra turn effects have historically been very balanced
+	* Countdown of 24 for the Robot
+	* Heal 5 health...
+	* ...but on Jackpot, take an extra turn as well
+	
+* Crystal Skull - the 4th item I made and the worst one
+	* Deal 3x[max5] damage (same as Crystal Sword!)
+	* But, you're cursed every turn you hold it...
+	
+* Accumulator - just after the speculator
+	* If [] is less than your CPU counter: deal [] damage
+	* If [] equals your CPU counter: gain [] shield
+	* If [] is MORE than your CPU counter: heal [] health
+	
+* Crackleslash - because making items for a single episode is a good usage of my time
+	* Deal [] damage
+	* Becomes reuseable if [] isn't your uptick
+	* Yes, it's an uptick-exclusive item, everyone's favourite episode
+	
+* Petrification Spell - like catnip
+	* Needs doubles
+	* Makes a random enemy item only activatable with a [] next turn
+	* So, put in double 3s, and one of the enemy's items will have its slots changed to NEEDS 3.
+	* It's what Lock? should have been!
+	* seriously
+	* terry please make this a thing
+	* please
+	
+* Berserker Rage - you won't like me when I'm angry
+	* Whenever you deal damage, lose 4 health, but roll an extra dice
+	* Passives are fun! This one... well, good luck scrapping it and coming out alive
+	
+* Slapjack - definitely not removed for a reason
+	* Finale card, needs 2 dice of any value
+	* Next turn, your Discards instead generate dice:
+	* 1 dice if you discard 2 cards
+	* 2 dice if you discard 3 cards
+	* A surprised look from me if you discard 4 cards because Multicard! is buggy
+	* Snap overrides this - be careful!
+	
+* Primal Slash - you have no idea how difficult it is to implement a prime checking function in HScript
+	* Deal 2x[] damage
+	* but only if the enemy's health is a prime number
+	* What's a prime number?
+	* Google it, you lazy sod
+	
+* Bucket of Water - desperate times call for desperate measures
+	* Set your CPU counter to 0
+	* Needs evens
+	* The catch?
+	* Shock ALL of your items afterwards!
+	* (not your CPU counter though, that would just be cruel
+	
+* Polymorph - literally just wanted to make an item called Polymorph
+	* Replace a random enemy item with another random item
+	* Yes, any item becomes any other item (of the same size)
+	* Yes, this can result in:
+	* Robobot getting Flamethrower
+	* Loud Bird getting Shriek
+	* Scathach getting Splitula
+	* Cornelius getting Boop
+	
+	* Gadgetizes into MASS POLYMORPH
+	* which.. well. You'll see!
+	
+	
+This update has been a LONG time coming - hopefully you all enjoy playing it as much as I've enjoyed making it! <3
+
+=====================================================================
+
+v1.4.1 - Megaquest Compatibility
+
+The awesome modder TheMysticSword has updated his mod, Megaquest! This hotfix makes More Fluff compatible with this mod, by renaming an item, rejiggering some sprockets and anticalibrating the doohickeys.
+
+https://themysticsword.itch.io/dd-megaquest <- go give Megaquest a try! Note that More Fluff items don't appear in the episodes with changed equipment - The World and Mega Quest, unfortunately. Not much I can do about that though!
+
+Note that in order to run both, you need to load Megaquest AFTER More Fluff. 
+
+	diceydungeons.exe mod=morefluff,megaquest
+
+should be the contents of your diceydungeons.bat file.
+
+A couple of other bugfixes, while I'm poking around in the code:
+	* Nail Gun's description is fixed
+	* Solar Beam is no longer... broken af
+	* The correct version now shows up
+
+=====================================================================
+
+v1.4.0 - The Balancing
+
+So, Dicey Dungeons has finally left alpha! Meaning that there's not going to be many updates for a while. Also meaning that I'm going to be beta-testing a lot of new content and working on getting my mod ready for the full release. So, here's one final patch with a ton of bug fixes and balance changes!
+
+This patch is mostly dedicated to getting an absolute buttload of balance changes out there. Some items were OP, some were underpowered, some were literally broken... hopefully this patch will change that.
+
+
+General changes:
+	* Loot frequency has been DECREASED overall.
+		* I've always favoured balancing for fun over balancing for balance's sake. However, giving the player so many items was a bit... strong. With a dozen or so items, you'd pick the OP ones and cruise through a run.
+		* There's still more items than vanilla, but they're a bit more sparse than usual now.
+	* Renamed a few items:
+		* Overclock -> Percussive Maintenance
+		* Liquid Cooling -> Coolant Shooter
+		* Emergency Coolant -> Underclock
+		* Virus -> Sapping Spores
+		* Because... reasons...
+		* (the reasons are that there's Parallel Universe items named these things, so I don't want to accidentally mix up some stuff again)
+	* Added the "Special" status to a LOT of items
+		* This should mean that they're not going to appear for Jester with the Robot card - this would break a lot of things!
+	* Sapping Spores now deals regular damage instead of poison damage
+		* Makes it a bit easier to understand, since "poison" and "poison damage" are kinda interchangeable
+		* So now it deals 2x[] damage, inflicts [] poison, but reduces your max health by []
+	* WHY WAS SHIFTING BLADE NOT CALLED SHIFTING SWORD
+		* How did I avoid alliterating?
+
+Balance changes:
+	I've given all the items in the game a general sweep, talked to people on the dicecord, and looked at "problematic" items. Here's some changes:
+
+	* Shatter:
+		* Upgrade has went from having 2 slots, to being "add 2 to dice value, then split into 3s or less"
+		* It's been a hard card to balance! However, I feel like this is hitting the sweet spot - doesn't make it a dice-gobbler that results in insane damage with Dagger+.
+	* Nail Gun:
+		* Upgrade now makes it deal 9 damage instead of reducing the size
+		* Never really been a fan of size upgrades! Hopefully this makes it more of a late-game item.
+	* Swordstave:
+		* Now MAX5 (was any dice); the Blind option has been removed from it.
+		* It was more or less a direct upgrade to stock. Boomerang and Spiked Shield both have restrictions to them (max5, self-damage) so giving SS a drawback makes sense.
+	* Metallicize:
+		* Now MAX3, the upgrade adding a free 1 to it.
+		* Too strong with regen, basically!
+	* Chakram:
+		* Upgrade now deals 7 damage instead of 6
+		* Hopefully this should make upgrading it more reasonable!
+	* Shatter+:
+		* Reworked. Used to have 2 slots, now instead adds 1 to the dice value and splits the new dice into 3s or less.
+		* Never really been sure what to do with Shatter+! It's a strong upgrade, and hopefully this'll keep it in line with the rest of the items.
+	* Medigun:
+		* Now reusable by default
+		* The upgrade heals you for 2 health if you're below half health
+		* The upgrade wasn't usually worth it; hopefully this'll add some incentive
+	* Electroplating:
+		* Upgrade now adds 2 shield if you're at full health
+		* Hopefully should incentivize adding some healing!
+	* Metalmorph:
+		* Countdown doubled from 4 to 8
+		* Was just... too strong in certain circumstances! Hopefully this should rein it in a little, while keeping it still vaguely usable
+	* Leech Seed:
+		* Now regens for 2 rounds
+		* Upgraded, regens for 3 rounds
+		* Too snowbally if you stack it with Fury!
+	* Piercing Scroll:
+		* Changed from a countdown to just needing an Even dice
+		* Was too weak before! Hopefully this should make it vaguely viable
+	* Resonator:
+		* Went from 3 x [max5] damage -> 2 x [d6] damage
+		* Upgrade adds an extra 1, so it deals 2 x [d6 + 1] damage
+		* It was a bit oppressive before; this should help maintain a strong bulk damaging item while still requiring a lot of damaging items to work.
+	* Leech Seed:
+		* Upgrade has went from 4 rounds of Regen to 5 rounds of Regen
+		* Upgrade wasn't really worth it before; hopefully this makes it more useful
+	* Cat O' Six Tails:
+		* Upgrade now makes it burn 3 dice, or deal 6 damage.
+		* Adding a flat 2 to both scenarios was too strong!
+	* Inspect Element:
+		* Totally reworked!
+		* Now sets your CPU counter to the amount of dice you've rolled that turn.
+		* Like Mechanical Arm but... with your CPU counter!
+	* Shammer:
+		* Upgrade changed from a size upgrade to "on double even, shock + weaken".
+		* Trying to move away from size upgrades in general!
+	* Custard Cream:
+		* Upgrade now returns one of the dice you use, at random
+		* Just needing an even dice was strong - this keeps the "you need to use dice to activate it" feeling while still being more valuable
+	* Antifreeze:
+		* The downgrade no longer has a chance to give you a 1
+		* The upgrade now has 2 MAX2 slots - makes it easier to play while not being infinitely abusable
+	* Mystic Stave:
+		* Upgrade now has 3 uses instead of 2
+		* If you want to spend 3 dice inflicting 3 blind, go for it!
+	* Poisoned Axe:
+		* Now MAX4 by default
+		* Upgrade swaps the order:
+			* Normally, even deals 2x[] damage, odd inflicts [] poison
+			* Upgraded, even inflicts [] poison and odd deals 2x[] damage
+			* Subtle change but it's a fun one!
+	* Lamppost's upgrade has been changed:
+		* Before, it was "if you roll 4 or higher get a free 6 next turn"
+		* Now it's "always get a free [] next turn"
+		* Promotes dice banking with a bit of damage to boot!
+	* Blessed Bat of Bashing:
+		* Now is MAX3 and deals [] damage
+		* Makes it more than a "charm of shitty healing" you equip
+		* Spiked Sword:
+		* Now only grants 1 Thorn.
+		* The upgrade makes it grant [MAX3] Thorns, though
+		* Stacking Thorns is... strong! Hopefully this'll mitigate that strategy
+	* Blender:
+		* Nerfed to MAX3 from MAX4- was a smidge strong before!
+		* Downgrade is now worded correctly and works as intended
+	* Ferrosynthesis/Claymore:
+		* Both now size 1
+		* They just weren't good options before; hopefully now they're viable-ish!
+
+	* Reusable countdown status-inflicting items:
+		* Scorch/Hailstorm/Tremors/Gust
+		* Their upgrades now deal 1 elemental damage along with inflicting the status.
+		* Upgrades were too strong before!
+
+
+
+Bugfixes:
+	* Text fixed on Jack's Pot
+	* Blender's text now reads correctly
+	* Lute Bocks now works when downgraded
+	* Permafrost no longer freezes the enemy
+	* Fixed spacing issues on some cards
+	* Healing Shiv+ was doing 2x[] damage on upgrade for some reason?
+	* Mimic should no longer crash if you face it as Thief on Elimination Round!
+	* Elimination Round Warrior now no longer finds Midnight Charm instead of Boomerang
+	* Resonator now doesn't make unavailable items available - only affects a battle or two on Elimination Round Warrior, but it's something.
+	* Ratling Gun's up/downgrades now function
+	* Some PU-exclusive items no longer show up in normal item pools
+	
+=====================================================================
+
+v1.3.1: heck
+
+Seems a few things were broken!
+
+Bugfixes:
+	* Shifting Blade now works with Fury/Fury?/Re-Equip Next/etc
+	* Healing Shiv now fires in the correct direction
+	* Healing Shiv- nowusesspacesinitsdescription
+	* Warrior's Hard Mode now has Swordstave as a level up option
+	* Firey Firesword of Fire's upgrade text is fixed
+
+=====================================================================
+
+v1.3.0: 0.17 HYPE
+
+0.17 is here! And... after a long time coming, so is my mod!
+		
+* First, the new items for Parallel Universe:
+	* Shifting Blade - not quite a swizzle-stick
+		* Deals [] damage, but gains a random effect each turn.
+		* Upgraded, it gains 2 new random effects!
+	* Ferrosynthesis - great for those aspiring vampires out there
+		* Sets your health (and maximum health, if it goes over!) to however much shield you have.
+		* Your Shield still heals you at the end of your turn, too!
+	* Soul Stealer - no rage, so no empowerment
+		* Drains up to [max3] health
+		* Deals up to double damage the lower health you are!
+	* Blender - now in 3D!
+		* Deals 0 damage. Woo!
+		* Damage increases by 2 until the end of your turn each time you use it.
+	* Lamppost - pretty illuminating
+		* Deals [] damage, gives you a bonus 6 next turn if you use a 6 in it.
+	* Shichishito - was this the murder weapon?
+		* Dice value must total 7, then deals 7 damage.
+		* Returns one of the dice when upgraded!
+	* Firey Firesword of Fire - firey!
+		* Deals 2x[] fire damage!
+		* Also burns all your dice!
+		* Ouch!
+	* Chromatic Cutlass - would work better with a chameleon
+		* Deals 2 damage for each different colour of item you have equipped.
+	* Virus - oh god it's spreading
+		* Deals 2x[] damage (max4), inflicts [] poison.
+		* The catch? It reduces your maximum health by [] whenever you use it!
+	* Overblaster - not quite a crucible
+		* Deals 2 damage, is reusable, and returns the dice.
+		* Also sets the dice on fire. Oops!
+		
+* Some more Finale card options:
+	* Inspiring Tune (restore 5 health)
+	* Cauldron Crafter (permanently add a Cauldron to your deck)
+	* Have a Ball (2 slots, deal [] damage)
+	* Pot of Generosity (Finders Keepers exclusive - permanently deletes your hand!)
+
+* For some reason, a deluge of duplicate-y-ish items:
+	* Triplicate - I wonder what this does...
+		* Gives you 3 copies of a dice, but has a max3 restriction, and is 2 slots big
+	* Booplicate - literally just made this for the pun
+		* Take 2 damage, duplicates the dice
+	* Blooplicate - more puns involving "duplicate"
+		* Roll 2 more blinded dice
+	* Gooplicate - you can see where this is going
+		* If the enemy is poisoned, duplicates the dice
+	* Souplica- no this is getting out of hand, I'm stopping this right now
+	* Befuddle - finally, something that doesn't rhyme
+		* Has 2 slots
+		* Randomly duplicates one of the dice, returns the other one though
+		
+And finally, tons of general-purpose items:
+	* Bite - Like Life Rip, but also a nudge
+		* Drains 1 health and reduces the dice value by 1, but has a MIN5 restriction.
+	* Candy Cane - like Sweets, but... trickier to play
+		* Restore 3 health (overheals into shield too!), but needs an even.
+	* Liquid Cooling - mushy peas are a liquid, right?
+		* Reduces your CPU counter by 2, is reusable, is on a countdown of 5
+	* Tremors and Gust - sounds like a musical duo from the 70s
+		* Inflict 1 shock/weaken, are reusable, are on moderate countdowns
+		* Meant to complement Hailstorm/Scorch with a Crowbar/Mace/Flail-oriented run!
+	* Antifreeze - for when you're not feeling so unlucky
+		* Turns 2 ones into a brand new dice, and is reusable!
+	* Scraps - what, are we a rat now?
+		* Reusable MAX2 item
+		* Heals 1 health on an odd, gives you 1 shield on an even
+		* Sidegrade to both Target Shield and Bandage
+	* Frostbitten, Frozen Flute and Fireflash - paying so many respects
+		* On even, they inflict 1 status effect; on odd, they inflict another.
+		* Just some more... fluff for Inventor to pick up!
+	* Steel Bulwark - fighting in the trenches isn't fun
+		* Doubles your shield, one use per battle
+		* The upgrade removes this restriction!
+		* First person to send me a picture of them with a silly amount of shield against the final boss wins a cookie
+	* Solar Beam - like Focus Beam, but is finicky about when it charges
+		* On even, deals 0 damage. Useful!
+		* On odd, increases all Solar Beam damage by 2.
+	* Trishula and Magnifying Glass - not an Aquaman/Ant Man crossover
+		* Trishula deals 3x[] damage
+		* Magnifying Glass triples the dice value
+	* Divine Blade - heal yourself dammit
+		* Deals [] damage
+		* If it kills the enemy, it restores health equal to the excess damage done
+	* Other stuff
+		* Mini Missile, Venom Catapult, Magic Heal, Unlucky Blade, Flourish, Steamball, Kaboomerang, Clerical Error, Longsword, Poisoned Axe, Grappling Cookie, Ratchet, Tomahawk, Labrys, Nanobots, Thump, Permafrost, Cool Whip, ...
+
+Generator changes:
+	* Jester Warrior no longer has access to Power Through, and regular Jester no longer has access to Bolster, Superbolt, Regen or Leech Seed - they were causing some issues!
+	* Jester's upgrade choices are now completely random - no more "buckets"!
+	* Actually added some countdown items to Robot... no point in him having Mace and no countdowns!
+	* Added Shredder, Flail, and some other older items into more generators
+	* Jester's healing route's floor 4 Booster Pack now contains Life Rip instead of Blood Suck.
+		* Niche as heck, but hey, it's something
+	* Fixed a couple of blips with Witch's generator
+	
+Balance changes:
+	* Reduced the countdowns of Scorch and Hailstorm down to 4
+	* Inspect Element is now only a single MIN4 slot, and the CPU counter is set to [] x2
+	* Lute Crait now works "properly"... well, kind of.
+		* It's silly that I didn't catch it, but it didn't work as intended (it gave you the dice THEN burned you)... so I've changed how it works!
+		* Now, it's changed to """duplicating""" a dice... well, it doesn't always work properly, but it tries its best!
+	* Pee Shooter's upgrade now just straight up increases the poison it inflicts.
+		* Pee Shooter+ was... unwieldy and buggy, so this should hopefully fix that.
+		* Is inflicting 2 poison on a countdown of 5 really that OP? I'm not sure!
+		* Preliminary testing would indicate otherwise, but this is yet to be peer-reviewed
+	* Medigun, Hailstorm and Scorch (reusable countdown items) have all had their countdowns reduced.
+		* Too difficult to pull off in their current state.
+		* Medigun should become more viable with Flail, and Hailstorm and Scorch should become more usable now!
+	* Fire Siphon's countdown has been reduced from 14 to 10 - it was just too unwieldy in its current state.
+	* Chisel's downgrade now just reduces the dice value by 1; increasing the restriction was a bit much.
+	* Made Shield Scrap easier to play... needing doubles to get some more dice was a bit naff.
+	* Decay now inflicts Freeze instead of Shock
+		* This is to fit into the theming of "slowing down" the enemy, as well as being a slightly stronger, slightly harder to pull off Catastrophe
+	* Frostbitten and Dark Cloud have been reworked:
+		* Frostbitten is now named "Kindling" - it now burns [] dice, instead of turning frozen dice into burning dice.
+			* Its original form was a neat concept, but was hard to pull off, and just... not worth it.
+		* Dark Cloud now turns all enemy blind into frozen dice, then blinds 2 dice.
+			* Meant as a combo move - more potent than Hockey Stick, and in a pinch can be used to disrupt the AI (of e.g. Kraken)
+	* Bolster's been reworked:
+		* It now just gives you +1 Shield and takes any die (similarly to Scrap Metal)
+		* By default starts your battle with 4 shield, upgraded it gives you 7 shield
+	* Cache Stash now has an actual upgrade!
+		* Now it's immune to errors while upgraded.
+		* Inventor gets his own version of this item called "Pockets", which upgrades to become reusable.
+	* Ekans Charm got a nerf:
+		* Now it's "Roll TWO dice that add up to 6"
+		* The upgrade makes it roll ??? dice instead.
+		* Also it's less likely to spit out 6 ones!
+	
+
+Bugfixes:
+	* Icicle+ now only freezes 2 dice instead of 3
+	* Vampiric Tendencies Warrior now has a trade available
+	* Drill Arm (and by extension, Arm Drill) now always fire upwards instead of depending on the dice roll
+	* Tape Measure and Standing Ovation now correctly fire backwards
+	* Inventor's level 5 rewards now work properly
+	* Moonbeam+ now does 2 damage, Sunbeam- now deals 0 damage
+	* Thief's trade now always offers a different level up reward
+	* Removed the upgrade trades for Thief- it just didn't work properly
+	* Cleaned up the grammar on some cards
+	* Flak Cannon was incorrectly dealing [] damage instead of 1 damage
+	* Removed Deep Freeze as a Witch spell, was causing some clipping issues
+	* Unnatural Charm now correctly gives dice
+
+=====================================================================
+
+v1.2.1: Whoops! (09/04/2019)
+
+=====================================================================
+
+v1.2.0: Off-brand items are the best! (08/04/2019)
+
+* 25 new items added, including:
+	* Mallet, Trowel, Cat O' Six Tails, Icicle, Healing Shiv, Venomous Goop
+		* Sidegrades to Hammer, Shovel, Whip, Lament, Venus Fly Trap and Toxic Ooze, respectively
+		* Each deal damage and occasionally apply a status!
+		* Shoehorned wildly into the Warrior, Inventor and Robot's loot pools; also available for Jester 
+	* Leech Seed - doesn't glitch out with Toxic
+		* Deals <d6> damage and gives you a Regen effect on 6
+		* Heals for 1 more than Venus Fly Trap, but over a certain number of rounds
+	* Bolster - crappy item that starts you off with shield!
+		* Deals [max3] damage, but while equipped you start each battle with 5 shield
+		* Upgraded it starts you off with 10 shield, weakened it just deals 1 damage
+	* Moonbeam and Sunbeam - because Bumpblade's boring, beams become... best?
+		* Reusable dice manipulation tools which deal damage
+		* (and no, you can't go infinite with them... hopefully!)
+	* Resonator - deal 3x[max5] weaken damage!!!
+		* So strong!
+		* Not once per battle like the stupid Crystal Sword!
+		* Still actually size 2 though!
+		* Also ALL your other items are weakened while it's equipped...
+	* Doppliduplicateinate - it's expialidocious
+		* On even, duplicates the dice
+		* On odd, doubles the dice value
+	* Quicksilver and Quicklime - technically kind of a latin pun if you REEEEALLY think about it
+		* Both are strong effects (get 2x[] shield, get [] new dice)
+		* Both have strong drawbacks (receive [] poison)
+		* Both are swingy but have potential if used correctly and responsibly
+		* Both start with "quick" and contain the letters "l", "i" and "e"
+		* Both are items in the More Fluff mod for Dicey Dungeons
+	* Other stuff
+		* Smoke and Mirrors, Custard Cream, Healing Vapours, Immolate, Pickaxe, Flail, Daydream, Primal Punch, Mini Missile, Cauterize...
+		
+* Some buffs, nerfs, and other changes:
+	* Swordstave changes:
+		* It's effects have been altered slightly - Freeze and Burn have swapped places. Ice is generally stronger than a potential 2 damage, so has been moved "down" the list.
+		* It's upgrade now inflicts 2 of the chosen status. 2 uses in general was a bit overtuned!
+	* Mystery Box now gives the Mimic a multitude of new items:
+		* Flee in terror from the new, devastating Heckfire!
+		* Ponder "huh, i wonder what that dice is" once he uses the mystifying Stealth!
+		* Rejoice with the slightly lowered chance to get Wooden Stake!
+	* Nail Gun has been changed to be size 2, and require 3 dice to work. Its damage has been slightly buffed to compensate for this
+	* Natural Charm+ has been nudged down to 2 uses - holy hell it was strong with Crowbar+
+	* Paintbrush+ has been reverted to giving you just one dice, but now it has 2 uses
+	* Regen (from Regen and Leech Seed) no longer carries on between fights - a slight nerf to the item, but it's less confusing now.
+	* Shatter has been nerfed - it now only has 1 MIN4 slot (upgrade gives it 2 slots). As fun as it was, getting ~12 dice to put into Dagger+ by level 3 was... strong! Kind of reminiscent of old (old!) Hacksaw, and how it's been brought into line.
+	* Lute Crait's downgrade is no longer incredibly punishing! It's just moderately punishing now...
+	* Rend and Metallicize have had their ranges increased by 1 (so from MAX4 x2 -> MAX5 x2, and MAX3 -> MAX4) - they were too situational to be used.
+	
+* Generator changes:
+	* The Inevitability of Rust's generator now switches out a lot of the reusable/multi-use items for normal ones.
+	* The "stick floor" now includes some other, non-stick related stuff. No teflon though!
+	* Reduced the total number of Focus Beams available to Inventor from 3 to 2. Don't worry, you can still copy them!
+	* Removed the "overheat/emergency coolant" floor from Robot -  OH and EC are now ordinary drops from floor 3 onwards
+	* Jester Warrior no longer gets offered reusable items like Pea Shooter. It was probably fine, but having a hand of Peppergun - Pea Shooter - Nighstick isn't fun!
+	* The cost of the Counterfeit Device sidegrades for Thief has been increased - no more shall you fill your inventory with duplicating stuff!
+	* A couple of new items for Witch!
+	* Cleaned up the Thief and Jester's alternate generators (Finders Keepers, Jester Warrior, Losers Weepers) to be more in line with the normal ones
+	
+* Bugfixes:
+	* Inventor's level 5 reward has been fixed!
+	* Rend no longer crashes the game if you find it as Witch
+	* Poisonous Apple's downgrade now correctly gives you the right amount of poison
+	* Unnatural Charm, Shield Scrap and Electroplating's upgrades now properly work
+	* Superbolt now correctly deals Shock damage
+	* Added sound effects to the new gadgets
+	* Fixed the wording on Recharge to be more consistent with Life Drain and Blood Suck
+	
+* Other general... stuff
+	* Cleaned up CHANGELOG.txt - hey, that's this file!
+	* Anyone reading this?
+	* If not, it's fine - playing the mod is the fun part!
+	* I could write anything here and you probably wouldn't notice.
+	* Butts
+	
+=====================================================================
+
+v1.1.0: Not an April Fool's update (01/04/2019)
+
+* New upgrade route for the Jester - Healing!
+	* Use the new "Pristine Sword" (deal 2x[max5] damage, -1 per missing health you have) weapon with topped off health to bash people to death!
+	* Falls under the 3rd "bucket" of upgrades, alongside Weaken and Countdowns
+	* 2 new support items added - Piercing Scroll and Life Rip. Really screws over those 2 enemies with shields!
+	
+* Speaking of which, some slight enemy changes:
+	* Sorceress now has 2 different items (as opposed to 2x Burning Light etc), each with complementary requirements (e.g. max3 / min4)
+	* Power Crystal no longer gives the Extra Turn buff (yikes) since it didn't work anyway (less yikes)
+	
+* Some more fluff items added:
+	* Boomstick and Peppergun, both sidegrades to Shotgun
+		* Both added to the Warrior's and Inventor's item pools
+		* Shotgun added to the Warrior's item pool
+	* New items for You Choose, You Lose:
+		* Butterfly Edge (level 3 reward)
+		* Lute Crait, Jack's Pot and Autoscroll (level 5 rewards)
+		* Redundant Coolant and Overclock (replace Emergency Coolant and Overheat).
+		* Contents may vary!
+	* Magic Frostbolt - deals damage, and freezes.
+		* Replaces Finisher in the Witch's item pool
+		* Intended to be a sidegrade to Magic Missile
+	* Superbolt - starts shocked, but deals 2x[max4] damage.
+		* Added to the Robot's item pool
+	
+* Tweaks/buffs/nerfs/etcs:
+	* Flame Barrier renamed to Magic Firewall
+	* Paintbrush's upgrade now gives a normal dice and a burning dice, instead of having 3 uses that turn
+		* Was a tad OP in Crowbar builds
+	* Turtle and Tickly Nose are now size 1
+		* Neither were really strong enough to warrant being size 2
+	* Electroplating's upgrade now reduces the countdown to 1 (yes, to 1!)
+		* Also fixed a bug where weakening an upgraded Electroplating would break the game a bit
+	* Jester now has access to Tape Measure
+	
+* Various bugfixes/tweaks:
+	* Added sound to Poisonous Apple
+	* Plague Wave now upgrades correctly
+	* Tickly Nose's upgrade actually works now, and is made a bit more clear
+	* Spannersword apparently just had 1 slot? Well, now it has 2
+	* Regen no longer destroys your logs if you're running this through a batch file
+	* Regen's downgrade now remains MAX4 - removing the regen effect was enough of a blow
+	* Robot now correctly gets offered 2 random tool weapons, and not just Locklance and Spannersword
+
+=====================================================================
+
+v1.0.1: Teething problems (30/03/2019)
+
+* Removed internal testing items (which totally weren't used because I'm bad at Witch)
+* Removed "Overheat" from the "You Choose, You Lose" episode
+* Fixed a couple of broken upgrades - Shatter's upgrade increases the range of both slots now
+* "Expose Weakness" and "Shiv" have been removed from the Thief loot tables (dealing 15 damage from 1 item is fiiine)
+* A few other various tweaks
+
+=====================================================================
+
+v1.0.0: Initial release! (29/03/2019)

@@ -1,0 +1,103 @@
+hello onlookers! please ignore this :)
+* Colours:
+0 - gray
+1 - blue (not used)
+2 - red
+3 - green
+4 - yellow
+5 - purple
+6 - cyan (not used)
+7 - white (intermingled with gray)
+8 - brightcyan
+9 - orange
+10 - black (shocked!)
+11 - pink
+12+ - crashes, do not try
+
+e.shockedsetting = 1 when shocked, 0 when unshocked
+
+use [] items to activate, then deal [] damage
+pogo stick? water gun? fidget spinner? yoyo? marbles? lasso? glowstick?
+
+* JITB doesn't work (discard isn't counted as an item use)
+* Balisong doesn't work (changeslots spits out the dice)
+	* consider a dummy "balisong" item which is swapped out for the real item on start, which then has its slots changed from NORMAL to REQUIRE1
+	* would technically work?
+	* dunno how it would react  to having multiple dice in it though
+* Binding Spell doesn't work (eq.getslots() doesn't work on enemy items on your turn)
+	* make it "set an enemy dice to []", boring but works
+	
+	* renamed to Petrification Spell
+	* works now!!!!
+* A way to find out which item was used on "On any equipment use"
+* "On any dice use" hook, which could let us make our own descriptions like Mechanical Leg
+	* kind of fixed with on any countdown reduce?
+* eq.getslots() should be usable on enemy items without breaking
+	* (maybe fixed?)
+	* fixed
+* Discard/Snap should count as an equipment use for consistency (Robot's skillcard counts)
+	* still fixedn't
+
+Yoinked ideas:
+* Befuddle
+* Chisel
+* Flail (Mace/Pavise)
+* Shichishito (kinda, Lucky 7/Nunchuks)
+* Magnifying Glass (kinda, inspired a new witch item)
+
+
+* disable polymorph for scathach (?)
+	* NAAAAAAH IT'S FUN
+* thorium hammer fury
+	* ughghhghghhhhhhhhghghhghgghhgghhghhghghgghhhh
+	* inconsistent, so nah
+* recheck animation times for burn/freeze/shock/weaken, you can set a delay
+
+Paintbrush
+Overheat
+Stun Blast
+Scorch/Hailstorm
+Fire Siphon
+Magic Firewall/Magic Frostbolt
+Immolate
+Heckfire
+Cat O' Six Tails
+Cauterize
+Frozen Flute/Fireflash
+Thorium Hammer
+Overblaster (?)
+Firey Firesword of Fire
+Shrapnel (?)
+Magma Storm
+Thermalily
+
+Underclock
+Deep Freeze
+Decay (?)
+Hockey Stick/Matchstick
+Redundant Coolant
+Icicle (name change too)
+Permafrost
+Frost Nova (?)
+Snowdrop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

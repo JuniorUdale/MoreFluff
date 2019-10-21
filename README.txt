@@ -1,0 +1,4 @@
+Hello there! This is mainly just a proof-of-concept mod, a library of over 400 items where I went "huh, that's a cute idea", then erratically sorted them into some slightly fitting episodes. Balance-wise this mod is probably all over the place (since the amount of loot and shops has been increased MASSIVELY), so I'm counting on you, the user, to shout at me if you find any broken OTK combos!
+
+There are, unfortunately, some known bugs which are out of my control for the moment:
+* Petrification Spell and Ratchet kind of break reuseable items - if you put a dice into them which wouldn't fit into the item normally, then the dice isn't consumed and you can still use it afterwards. So... be wary of petrifying cowboys!

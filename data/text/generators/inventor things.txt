@@ -1,0 +1,56 @@
+1:
+* Item x3
+
+2:
+* Item x2
+* Health x2
+* Shop x2
+	* Health x1
+	* Upgrade x1
+	
+3:
+* Item x1
+* Shop x3
+	* Upgrade x1
+* Health x1
+
+4:
+* Item x3
+* Health x2
+* Shop x2
+
+5:
+* Item x2
+* Shop x4
+	* 1 health shop
+	* Upgrade x2
+	* Health x1
+	
+	
+1:
+* Item x3
+
+2:
+* Item x2
+* Health x2
+* Shop x2
+	* Health x1
+	* Upgrade x1
+	
+3:
+* Item x2
+* Shop x2
+	* Upgrade x1
+* Health x1
+
+4:
+* Item x3
+* Health x2
+* Shop x2
+
+5:
+* Item x2
+* Shop x4
+	* 1x health shop
+	* Health x1
+	* Upgrade x2

@@ -1,0 +1,72 @@
+Name,Displayed As,Symbol,Description,External Scripts?,Stacks?,Remove at End Turn?,Remove at Start Turn?,Invisible?
+regen1,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 1 turn.,NO,YES,NO,NO,NO
+regen2,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 2 turns.,NO,YES,NO,NO,NO
+regen3,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 3 turns.,NO,YES,NO,NO,NO
+regen4,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 4 turns.,NO,YES,NO,NO,NO
+regen5,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 5 turns.,NO,YES,NO,NO,NO
+regen6,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 6 turns.,NO,YES,NO,NO,NO
+regen7,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 7 turns.,NO,YES,NO,NO,NO
+regen8,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 8 turns.,NO,YES,NO,NO,NO
+regen9,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 9 turns.,NO,YES,NO,NO,NO
+regen10,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 10 turns.,NO,YES,NO,NO,NO
+regen11,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 11 turns.,NO,YES,NO,NO,NO
+regen12,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 12 turns.,NO,YES,NO,NO,NO
+bleed1,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 1 turn.,NO,YES,NO,NO,NO
+bleed2,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 2 turns.,NO,YES,NO,NO,NO
+bleed3,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 3 turns.,NO,YES,NO,NO,NO
+bleed4,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 4 turns.,NO,YES,NO,NO,NO
+bleed5,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 5 turns.,NO,YES,NO,NO,NO
+bleed6,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 6 turns.,NO,YES,NO,NO,NO
+bleed7,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 7 turns.,NO,YES,NO,NO,NO
+bleed8,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 8 turns.,NO,YES,NO,NO,NO
+bleed9,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 9 turns.,NO,YES,NO,NO,NO
+bleed10,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 10 turns.,NO,YES,NO,NO,NO
+bleed11,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 11 turn.,NO,YES,NO,NO,NO
+bleed12,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 12 turns.,NO,YES,NO,NO,NO
+pursuit,Pursuit,sword,Increases damage dealt by Pursuit by 3 this turn.,NO,NO,NO,YES,NO
+pursuitnext,Pursuing,sword,Pursuit deals 3 more damage next turn.,NO,NO,NO,YES,NO
+bound1,Bound 1,lock,One of your dice is set to a 1.,NO,NO,YES,NO,NO
+bound2,Bound 2,lock,One of your dice is set to a 2.,NO,NO,YES,NO,NO
+bound3,Bound 3,lock,One of your dice is set to a 3.,NO,NO,YES,NO,NO
+bound4,Bound 4,lock,One of your dice is set to a 4.,NO,NO,YES,NO,NO
+bound5,Bound 5,lock,One of your dice is set to a 5.,NO,NO,YES,NO,NO
+bound6,Bound 6,lock,One of your dice is set to a 6.,NO,NO,YES,NO,NO
+cache,Cached,dice,Store <value> dice for next turn.,NO,YES,NO,YES,NO
+lightstatus,Enlightened,dice,Get [yellow]<value>[] extra dice next turn.,NO,YES,NO,YES,NO
+blessing,Blessing,heal,(Blessed Bat of Bashing)|Restore [heal]<value> health at the end of your turn.,NO,YES,NO,NO,NO
+firesword,Permaflame,fire,(Firey Firesword of Fire)|[red]ALL[] of your dice are set on fire.,NO,NO,NO,NO,NO
+permafrost,Permafrost,ice,Receive [ice]<value> freeze next turn.,NO,YES,NO,NO,NO
+blender,Blender,sword,Deal [sword]<value> more damage with Blender this turn.,NO,YES,YES,NO,NO
+lamppost1,Lamppost,dice,Get a free [yellow]1[] next turn.,NO,NO,NO,YES,NO
+lamppost2,Lamppost,dice,Get a free [yellow]2[] next turn.,NO,NO,NO,YES,NO
+lamppost3,Lamppost,dice,Get a free [yellow]3[] next turn.,NO,NO,NO,YES,NO
+lamppost4,Lamppost,dice,Get a free [yellow]4[] next turn.,NO,NO,NO,YES,NO
+lamppost5,Lamppost,dice,Get a free [yellow]5[] next turn.,NO,NO,NO,YES,NO
+lamppost6,Lamppost,dice,Get a free [yellow]6[] next turn.,NO,NO,NO,YES,NO
+tickly,Tickled,dice,Get <value> free [yellow]1[]s next turn.,NO,YES,NO,YES,NO
+lifesteal,Lifesteal,heal,Whenever your attacks deal damage[;] heal yourself for [heal]<value> health.,NO,YES,YES,NO,NO
+mechanical_lantern,Mechanicalantern,dice,Get <value> free dice next turn.,NO,YES,NO,YES,NO
+ratchet,Ratchet,cog,Increases the range on MAX or MIN|equipment by <value> this turn.,NO,YES,YES,NO,NO
+widget,Widgeted,cog,ODD items take EVEN dice this turn[;]|and EVEN items take ODD dice this turn.,NO,NO,YES,NO,NO
+focusbeam,Focused,sword,[red]Focus Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
+solarbeam,Solar_Powered,sword,[yellow]Solar Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
+lunarbeam,Lunar_Powered,sword,[blue]Lunar Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
+terrabeam,Terra_Charged,sword,[orange]Terra Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
+dynamo,Dynamo,cog,[red]Focus Beam[][;] [yellow]Solar Beam[][;] [blue]Lunar Beam[] and [orange]Terra Beam[]|all deal <value> more damage.,NO,YES,NO,NO,NO
+gemstoneboost,Boosted,gold,Gem Generators create upgraded gems this turn.,NO,NO,YES,NO,NO
+gemstoneamount,Crystallized,gold,Gem Generators create <value> more gems this turn.,NO,YES,YES,NO,NO
+batted,Battered,dice,Enemy caught the dice you batted!|They get <value> more dice next turn.,NO,YES,YES,NO,NO
+newlifesteal,Lifesteal,heal,Your next attack heals you|for the damage done.,NO,YES,YES,NO,NO
+lego,Lego,cog,Gain [thorns]999 thorns at the end of this turn.,NO,NO,NO,NO,NO
+lego2,Lego,cog,Gain [thorns]999999 thorns at the end of this turn.,NO,NO,NO,NO,NO
+helium,Inflated,jinx,Your dice are... floaty!,NO,NO,YES,NO,NO
+whelm,Whelmed,sword,Whelm deals <value> more damage.,NO,YES,NO,NO,NO
+petrified1,Petrified,lock,A random item can only be|activated with a 1 next turn.,NO,NO,YES,NO,NO
+petrified2,Petrified,lock,A random item can only be|activated with a 2 next turn.,NO,NO,YES,NO,NO
+petrified3,Petrified,lock,A random item can only be|activated with a 3 next turn.,NO,NO,YES,NO,NO
+petrified4,Petrified,lock,A random item can only be|activated with a 4 next turn.,NO,NO,YES,NO,NO
+petrified5,Petrified,lock,A random item can only be|activated with a 5 next turn.,NO,NO,YES,NO,NO
+petrified6,Petrified,lock,A random item can only be|activated with a 6 next turn.,NO,NO,YES,NO,NO
+polymorph,Polymorph,potion,A random item has been replaced|with another random item.,NO,YES,NO,NO,NO
+polymorphall,Polymorph_All,potion,ALL items have been replaced|with random items.,NO,NO,NO,NO,NO
+nerfed,Nerfed,jinx,Items are harder to play.|Weakening an item resets it.,NO,YES,NO,NO,NO
