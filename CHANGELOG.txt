@@ -1,4 +1,4 @@
-v2.2.0 - Flying High
+v2.2.0 - completely unsuspicious changes
 
 
 Changes:
@@ -8,6 +8,8 @@ Changes:
 	* Now, it gives you an extra dice next turn, and gives you this dice next turn too!
 * Rockfall and Quicklime are no longer Witch spells
 	* She could go infinite with them!
+* Echo renamed to Reverb for no apparent reason
+	* very slight hearthstone joke also removed from the item
 
 
 Bugfixes:
@@ -19,6 +21,8 @@ Bugfixes:
 * Dock Leaf now has a proper upgrade
 * Recharge- description fixed
 * Battle Sax+ description fixed
+* Echo? now applies the weaken first, then attacks, instead of the other way around
+* Echo?+ also now deals 2 damage instead of 1
 
 
 
@@ -37,7 +41,7 @@ Changes:
 	* Before, it was EVEN, Drain 2 health, reuseable - upgrades to 3 health
 	* Now it's a countdown of 15 (!), Drain 6 health - upgrades to reuseable
 * Decay and Stun Blast buffed
-	* Countdowns from 16 and 12 to 12 and 20, respectively
+	* Countdowns from 16 and 12 to 12 and 10, respectively
 * Chromatic Cutlass+ changed:
 	* Used to go from ODD to NORMAL
 	* Now goes from RED to PINK

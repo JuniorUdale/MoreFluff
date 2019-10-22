@@ -6,7 +6,7 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 var elemweps = shuffle(["Spark","Snowflake","Buzzer","Whisper","Knitting Needle", "Mosquito Bite","Starshine", "Bramble", "Starshine"]);
-var sticks =rand([["Matchstick","Nightstick","Wooden Stick","Hockey Stick"],["Scorch","Hailstorm","Gust","Echo"]]);
+var sticks =rand([["Matchstick","Nightstick","Wooden Stick","Hockey Stick"],["Scorch","Hailstorm","Gust","Reverb"]]);
 var crapstuff = shuffle(["Life Rip","Slime Ball","Stealth","Mini Missile","Blade of JOAT", "Fireflash", "Frostbitten", "Frozen Flute","Knitting Needle", "Mosquito Bite", "Magma Storm", "Cauldron Cauldron", "Drill Bit"]);
 var scrap = shuffle(["Scrap Nettle", "Scrap Bump", "Scrap Club", "Scrap Book", "Scrap Spear", "Scrap Kettle","Scrap Cauldron","Scrap Metal"]);
 var dicemanip = shuffle(["Change Machine", "Giant Spatula", "Saw Wave", "Solder","Tin Snips","Crescent Pendant","Bowsaw","Belt Sander","Velcro", "Sprinkler", "Ballerina Charm", "Triplicate", "Radical Wrench", "Snippers","Natural Charm", "Pockets","Ratula","Budge","Spirit Level","Tape Measure", "Cable Tie", "Shredder", "Hand Lens","Flashlight","Twinkle","Bite"]);
@@ -37,8 +37,7 @@ if(chance(50)){
 		["Candy Cane",rand(dicemanip),"Bite"],
 		["Lunar Beam",rand(shoplist1),"Terra Beam"],
 		["Focus Beam",rand(shoplist1),"Focus Beam"],
-		[rand(shoplist1),uselessthings.pop(),rand(shoplist1)],
-		["Scorch",rand(["Hailstorm","Gust"]),"Echo"]
+		[rand(shoplist1),uselessthings.pop(),rand(shoplist1)]
 	]);
 }else{
 	shopideas = [rand(shoplist1),rand(dicemanip),rand(shoplist1)];
