@@ -18,6 +18,7 @@ Bugfixes:
 * Jester BR level up substitutions now fixed
 * Dock Leaf now has a proper upgrade
 * Recharge- description fixed
+* Battle Sax+ description fixed
 
 
 
