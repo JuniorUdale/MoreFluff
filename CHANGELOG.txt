@@ -10,22 +10,31 @@ Changes:
 	* Now, it gives you an extra dice next turn, and gives you this dice next turn too!
 * Rockfall and Quicklime are no longer Witch spells
 	* She could go infinite with them!
-* Echo renamed to Reverb for no apparent reason
+* Echo renamed to Reverb for absolutely zero reason
 	* very slight hearthstone joke also removed from the item
-	* you don't appreciate Real Humour™
+	* no-one appreciates Real Humour™
 
 Bugfixes:
-* Helium Balloon now no longer breaks with re-equip next and Fury
+* Helium Balloon now no longer breaks with re-equip next or Fury
 * Inventor now features price gouging
 * Thief no longer encounters enemies he shouldn't in BR
 * Canesword- fixed
 * Jester BR level up substitutions now fixed
 * Dock Leaf now has a proper upgrade
-* Recharge- description fixed
-* Battle Sax+ description fixed
+	* darn you upgrade keywords
+* Description fixes for:
+	* Recharge-
+	* Battle Sax+
+	* Jail Bat-
 * Echo? now applies the weaken first, then attacks, instead of the other way around
 * Echo?+ also now deals 2 damage instead of 1
-	
+* Canesword? is no longer... weird
+* Unsettling Dream now uses pierceattack
+	* This means that against e.g. Aoife, she'll lose health instead of her shields being depleted
+	* Consistent with the wording, and Rotten Core
+* Tweaked the sound effect damage of Auto Turret
+	* should hopefully change nothing, but be more consistent
+
 =====================================================================
 
 v2.1.0 - friday patch
