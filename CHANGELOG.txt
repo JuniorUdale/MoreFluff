@@ -11,7 +11,8 @@ Changes:
 * Rockfall and Quicklime are no longer Witch spells
 	* She could go infinite with them!
 * Echo renamed to Reverb for absolutely zero reason
-	* very slight hearthstone joke also removed from the item
+	* nope, no reason at all
+	* Also, the very slight hearthstone joke has also been removed from the item
 	* no-one appreciates Real Humour™
 * Heat Vent reduced to reducing CPU by 2 when unupgraded
 	* no more infinites with Junkblaster
@@ -20,6 +21,7 @@ Changes:
 	* Sonic Boom
 	* Resonator
 * Starshine+ now gives you 2 random statuses instead of 2x a random status
+* Pod Shooter+ is no longer Six Shooter+ but better
 
 Bugfixes:
 * Helium Balloon now no longer breaks with re-equip next or Fury
@@ -35,6 +37,7 @@ Bugfixes:
 	* Jail Bat-
 	* Chimney Fire+
 	* Sonic Boom+
+	* Sapping Spores
 * Echo? now applies the weaken first, then attacks, instead of the other way around
 * Echo?+ also now deals 2 damage instead of 1
 * Canesword? is no longer... weird
@@ -45,6 +48,9 @@ Bugfixes:
 	* should hopefully change nothing, but be more consistent
 * Clarified wording of Envenomate
 * Mortice Lock no longer gives you obscene amounts of dice
+* Flashlight+ and Flashlight- both give you the correct amount of Illuminated
+	* They still gave you the normal amount of dice, but this should fix the status being off
+* Garbage Collection+ now works as expected
 
 And a myriad of other various slight minor tiny tweaks
 
