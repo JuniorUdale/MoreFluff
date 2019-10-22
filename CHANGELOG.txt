@@ -43,6 +43,7 @@ Bugfixes:
 * Tweaked the sound effect damage of Auto Turret
 	* should hopefully change nothing, but be more consistent
 * Clarified wording of Envenomate
+* Mortice Lock no longer gives you obscene amounts of dice
 
 =====================================================================
 
