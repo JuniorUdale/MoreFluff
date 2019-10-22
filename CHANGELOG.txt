@@ -1,5 +1,7 @@
-v2.2.0 - completely unsuspicious changes
+v2.2.0 - now on github!
 
+Hello! Yes, More Fluff is now being uploaded to Github. My reasoning behind this is onefold:
+* using a command line to upload my mod to places makes me feel like a leet h4cker
 
 Changes:
 * Twinkle+ now changed
@@ -10,7 +12,7 @@ Changes:
 	* She could go infinite with them!
 * Echo renamed to Reverb for no apparent reason
 	* very slight hearthstone joke also removed from the item
-
+	* you don't appreciate Real Humour™
 
 Bugfixes:
 * Helium Balloon now no longer breaks with re-equip next and Fury
@@ -23,9 +25,6 @@ Bugfixes:
 * Battle Sax+ description fixed
 * Echo? now applies the weaken first, then attacks, instead of the other way around
 * Echo?+ also now deals 2 damage instead of 1
-
-
-
 	
 =====================================================================
 

@@ -23,7 +23,8 @@ pogo stick? water gun? fidget spinner? yoyo? marbles? lasso? glowstick?
 * Balisong doesn't work (changeslots spits out the dice)
 	* consider a dummy "balisong" item which is swapped out for the real item on start, which then has its slots changed from NORMAL to REQUIRE1
 	* would technically work?
-	* dunno how it would react  to having multiple dice in it though
+	* dunno how it would react to having multiple dice in it though
+	* 99% sure it just... Wouldn't
 * Binding Spell doesn't work (eq.getslots() doesn't work on enemy items on your turn)
 	* make it "set an enemy dice to []", boring but works
 	
@@ -52,38 +53,6 @@ Yoinked ideas:
 	* ughghhghghhhhhhhhghghhghgghhgghhghhghghgghhhh
 	* inconsistent, so nah
 * recheck animation times for burn/freeze/shock/weaken, you can set a delay
-
-Paintbrush
-Overheat
-Stun Blast
-Scorch/Hailstorm
-Fire Siphon
-Magic Firewall/Magic Frostbolt
-Immolate
-Heckfire
-Cat O' Six Tails
-Cauterize
-Frozen Flute/Fireflash
-Thorium Hammer
-Overblaster (?)
-Firey Firesword of Fire
-Shrapnel (?)
-Magma Storm
-Thermalily
-
-Underclock
-Deep Freeze
-Decay (?)
-Hockey Stick/Matchstick
-Redundant Coolant
-Icicle (name change too)
-Permafrost
-Frost Nova (?)
-Snowdrop
-
-
-
-
 
 
 
