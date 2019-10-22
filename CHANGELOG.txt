@@ -13,6 +13,12 @@ Changes:
 * Echo renamed to Reverb for absolutely zero reason
 	* very slight hearthstone joke also removed from the item
 	* no-one appreciates Real Humour™
+* Heat Vent reduced to reducing CPU by 2 when unupgraded
+	* no more infinites with Junkblaster
+* Added PU variants to:
+	* Sonic Blast
+	* Sonic Boom
+	* Resonator
 
 Bugfixes:
 * Helium Balloon now no longer breaks with re-equip next or Fury
@@ -26,6 +32,8 @@ Bugfixes:
 	* Recharge-
 	* Battle Sax+
 	* Jail Bat-
+	* Chimney Fire+
+	* Sonic Boom+
 * Echo? now applies the weaken first, then attacks, instead of the other way around
 * Echo?+ also now deals 2 damage instead of 1
 * Canesword? is no longer... weird
@@ -34,6 +42,7 @@ Bugfixes:
 	* Consistent with the wording, and Rotten Core
 * Tweaked the sound effect damage of Auto Turret
 	* should hopefully change nothing, but be more consistent
+* Clarified wording of Envenomate
 
 =====================================================================
 
