@@ -19,6 +19,7 @@ Changes:
 	* Sonic Blast
 	* Sonic Boom
 	* Resonator
+* Starshine+ now gives you 2 random statuses instead of 2x a random status
 
 Bugfixes:
 * Helium Balloon now no longer breaks with re-equip next or Fury
@@ -44,6 +45,8 @@ Bugfixes:
 	* should hopefully change nothing, but be more consistent
 * Clarified wording of Envenomate
 * Mortice Lock no longer gives you obscene amounts of dice
+
+And a myriad of other various slight minor tiny tweaks
 
 =====================================================================
 
