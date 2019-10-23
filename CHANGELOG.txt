@@ -22,9 +22,10 @@ Changes:
 * Starshine+ now gives you 2 random statuses instead of 2x a random status
 * Pod Shooter+ is no longer Six Shooter+ but better
 * Camellia no longer goes infinite
+* Magic Armor+ now has 2 uses, instead of being twice as powerful
 
 Bugfixes:
-* Helium Balloon now no longer breaks with re-equip next or Fury
+* Helium Balloon now no longer breaks with re-equip next, Fury, or the Sneezy rule
 * Inventor now features price gouging
 * Thief no longer encounters enemies he shouldn't in BR
 * Canesword- fixed
@@ -38,6 +39,8 @@ Bugfixes:
 	* Chimney Fire+
 	* Sonic Boom+
 	* Sapping Spores
+	* Ferrosynthesis+
+	* Garbage Collection-
 * Echo? now applies the weaken first, then attacks, instead of the other way around
 * Echo?+ also now deals 2 damage instead of 1
 * Canesword? is no longer... weird
