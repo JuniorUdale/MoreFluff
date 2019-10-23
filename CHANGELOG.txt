@@ -1,7 +1,6 @@
-v2.2.0 - now on github!
+v2.2.0 - update name
 
-Hello! Yes, More Fluff is now being uploaded to Github. My reasoning behind this is onefold:
-* using a command line to upload my mod to places makes me feel like a leet h4cker
+Nothing really to say... just a buttload of bug fixes, tweaks and other assorted changes.
 
 Changes:
 * Twinkle+ now changed
@@ -22,6 +21,7 @@ Changes:
 	* Resonator
 * Starshine+ now gives you 2 random statuses instead of 2x a random status
 * Pod Shooter+ is no longer Six Shooter+ but better
+* Camellia no longer goes infinite
 
 Bugfixes:
 * Helium Balloon now no longer breaks with re-equip next or Fury
