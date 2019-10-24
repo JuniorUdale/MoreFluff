@@ -68,7 +68,7 @@ Nail Gun_downgraded,Deal [sword]4 damage|[gray](Reusable),2,attack(4); sfxdamage
 Pike,Deal [sword]<d6> damage|,2,attack(d); sfxdamage(target|d);,Plasma Gun,MIN4,,WEAPON,RED,change_power,change_power,,none,2,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Pike_upgraded,Deal [sword]<d6> damage|[gray](5 uses this turn),2,attack(d); sfxdamage(target|d);,Plasma Gun,MIN4,,WEAPON,RED,,,,none,4,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Pike_downgraded,Deal [sword]<d6> damage|,2,attack(d); sfxdamage(target|d);,Plasma Gun,MIN5,,WEAPON,RED,,,,none,2,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
-Zweihander,Deal [sword]<double> damage,2,attack(d*2); sfxdamage(target|d*2);,Plasma Gun,DOUBLES|DOUBLES,,WEAPON,RED,change_power,change_power,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Zweihander,Deal [sword]2x<slotdoubles> damage,2,attack(d*2); sfxdamage(target|d*2);,Plasma Gun,DOUBLES|DOUBLES,,WEAPON,RED,change_power,change_power,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Zweihander_upgraded,Deal [sword]<d6> damage,2,attack(d); sfxdamage(target|d);,Plasma Gun,NORMAL|NORMAL,,WEAPON,RED,,,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Zweihander_downgraded,Deal [sword]<d6> damage,2,attack(d); sfxdamage(target|d);,Plasma Gun,REQUIRE3|REQUIRE3,,WEAPON,RED,,,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Halberd,Deal [sword]<d6> damage,2,attack(d); sfxdamage(target|d);,Plasma Gun,MAX4|MIN3,,WEAPON,RED,change_power,change_power,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
