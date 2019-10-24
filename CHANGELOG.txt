@@ -1,4 +1,4 @@
-v2.2.0 - update name
+v2.2.0 - Cleanup time
 
 Nothing really to say... just a buttload of bug fixes, tweaks and other assorted changes. This patch kind of focuses on balance - there's a few tweaks here or there (mainly to remove Witch infinites)
 
@@ -25,11 +25,13 @@ Changes:
 * Magic Armor+ now has 2 uses, instead of being twice as powerful
 * Cauldron Crafter+ now just adds a random Cauldron into your deck, instead of a random upgraded one
 * 5 new Cauldrons added!
+	* Currently unattainable except via Cauldron Cauldron/Cauldron Crafter, but they are:
 	* Mossy (heal 1, reroll with lower value)
 	* Hat (gain 1 reduce)
 	* Ash (burn 1 dice, reroll a burning dice with higher value)
 	* Stash (get an extra dice next turn)
 	* Trash (inflict 1 poison, lose 1 health)
+	
 
 Bugfixes:
 * Helium Balloon now no longer breaks with re-equip next, Fury, or the Sneezy rule
@@ -61,6 +63,8 @@ Bugfixes:
 * Flashlight+ and Flashlight- both give you the correct amount of Illuminated
 	* They still gave you the normal amount of dice, but this should fix the status being off
 * Garbage Collection+ now works as expected
+* Crescent Pendant now works
+* Pursuit now works properly
 
 And a myriad of other various slight minor tiny tweaks
 
