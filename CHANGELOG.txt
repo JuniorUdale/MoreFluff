@@ -1,4 +1,4 @@
-v2.2.0 - Cleanup time
+v2.2.1 - Cleanup time
 
 Nothing really to say... just a buttload of bug fixes, tweaks and other assorted changes. This patch kind of focuses on balance - there's a few tweaks here or there (mainly to remove Witch infinites)
 
