@@ -1,6 +1,6 @@
 v2.2.0 - update name
 
-Nothing really to say... just a buttload of bug fixes, tweaks and other assorted changes.
+Nothing really to say... just a buttload of bug fixes, tweaks and other assorted changes. This patch kind of focuses on balance - there's a few tweaks here or there (mainly to remove Witch infinites)
 
 Changes:
 * Twinkle+ now changed
@@ -18,11 +18,18 @@ Changes:
 * Added PU variants to:
 	* Sonic Blast
 	* Sonic Boom
-	* Resonator
-* Starshine+ now gives you 2 random statuses instead of 2x a random status
+	* Spade
+* Starshine+ now inflicts 2 random statuses instead of 2x a random status
 * Pod Shooter+ is no longer Six Shooter+ but better
 * Camellia no longer goes infinite
 * Magic Armor+ now has 2 uses, instead of being twice as powerful
+* Cauldron Crafter+ now just adds a random Cauldron into your deck, instead of a random upgraded one
+* 5 new Cauldrons added!
+	* Mossy (heal 1, reroll with lower value)
+	* Hat (gain 1 reduce)
+	* Ash (burn 1 dice, reroll a burning dice with higher value)
+	* Stash (get an extra dice next turn)
+	* Trash (inflict 1 poison, lose 1 health)
 
 Bugfixes:
 * Helium Balloon now no longer breaks with re-equip next, Fury, or the Sneezy rule
