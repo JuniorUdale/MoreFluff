@@ -8,7 +8,7 @@ var goodotherstuff = [];
 
 var uselessthings = shuffle(["Swedge","Plurale Tantrum", "Dainsleif", "Thorium Hammer", "Binding Spell", "Super Spatula", "Backlash", "Helium Balloon", "Magma Storm", "Super Lockpick", "Blood To Dice", "Crystal Rock", "Cauldron Cauldron", "Starshine", "Drill Bit"]);
 var scrap = shuffle(["Scrap Nettle", "Scrap Bump", "Scrap Club", "Scrap Book", "Scrap Spear", "Scrap Kettle","Scrap Cauldron"]);
-var weapons = shuffle(["Double Edge", "Blast Chiller", "Tetraphobia", "Fulcrum Blade" ,"Nunchucks", "Big Stick", "Rubber Mallet",  "Jail Bat", "Crystal Skull","Starsword", "Blunt Sword", "Blunt Dagger", "Slice and Dice", "Starspike","Primal Slash", "Scythe", "Sticky Sword", "Lancestave", "Sundew", "Baseball Bat"]);
+var weapons = shuffle(["Double Edge", "Blast Chiller", "Tetraphobia", "Fulcrum Blade" ,"Nunchucks", "Big Stick", "Rubber Mallet",  "Jail Bat", "Crystal Skull","Starsword", "Blunt Sword", "Blunt Dagger", "Slice and Dice", "Starspike","Primal Slash", "Spiked Hilt", "Sticky Sword", "Lancestave", "Sundew", "Baseball Bat"]);
 var dicemanip = shuffle(["Giant Spatula", "Sine Wave", "Saw Wave", "Square Wave","Triangle Wave", "Solder","Tin Snips","Crescent Pendant","Bowsaw","Belt Sander","Velcro", "Sprinkler", "Ballerina Charm", "Triplicate", "Radical Wrench", "Berserker Rage"]);
 
 var shopideas = [

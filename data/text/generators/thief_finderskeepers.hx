@@ -74,7 +74,7 @@ addfloor("normal")
   
 //Floor 4:
 
-commonlist1 = commonlist1.concat(["Snippers", "Catastrophe", "Allen Key", "Budge", "Stun Blast", "Backstab", "Nudgeknife", "Turtle"]);
+commonlist1 = commonlist1.concat(["Snippers", "Catastrophe", "Pry Bar", "Budge", "Stun Blast", "Backstab", "Nudgeknife", "Turtle"]);
 
 commonlist1 = shuffle(commonlist1);
 items = [];
@@ -108,7 +108,7 @@ otherstuff = [
 
 goodotherstuff = [
 	health(),
-	shop([commonlist1.pop(),"upgrade",pick(["Stun Blast","Decay","Allen Key","Cauterize"])],[2,3,2]),
+	shop([commonlist1.pop(),"upgrade",pick(["Stun Blast","Decay","Pry Bar","Cauterize"])],[2,3,2]),
 	upgrade()
 ];
 

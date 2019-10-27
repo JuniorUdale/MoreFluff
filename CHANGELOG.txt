@@ -1,3 +1,24 @@
+v3.0.0 - spooped
+
+
+New items:
+	* Dice Storage - storage, for dice
+		* Countdown of 4
+		* Returns all the dice you used to activate it
+		* that's it
+
+
+
+Bugfixes:
+* Expect the Unexpected now has an actual level 6 reward
+* One Weird Tip now works correctly
+	* 100% guarantee to work as expected, or your money back!
+* Focus Beam no longer a Witch spell
+	* it gets funky after battle
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
 v2.2.1 - Cleanup time
 
 Nothing really to say... just a buttload of bug fixes, tweaks and other assorted changes. This patch kind of focuses on balance - there's a few tweaks here or there (mainly to remove Witch infinites)

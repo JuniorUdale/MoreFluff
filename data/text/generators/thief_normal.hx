@@ -127,7 +127,7 @@ otherstuff = [
 
 goodotherstuff = [
 	health(),
-	shop([commonlist1.pop(),"upgrade",pick(["Stun Blast","Decay","Allen Key","Cauterize"])],[2,3,2]),
+	shop([commonlist1.pop(),"upgrade",pick(["Stun Blast","Decay","Pry Bar","Cauterize"])],[2,3,2]),
 	upgrade()
 ];
 

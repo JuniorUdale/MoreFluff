@@ -126,7 +126,7 @@ otherstuff = [
 	health()
 ];
 goodotherstuff = [
-  trade(["weapon"], ["Shredder", "Spatula", "Juggling Ball", "Headbutt","Free Spin", "Spatulasword", "Slingshot", "Flaming Sword", "Mechanicalantern"])
+  trade(["weapon"], ["Rake Pick", "Spatula", "Juggling Ball", "Headbutt","Free Spin", "Spatulasword", "Slingshot", "Flaming Sword", "Mechanicalantern"])
 ];
 
 addfloor("normal")
