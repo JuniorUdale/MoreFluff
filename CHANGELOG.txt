@@ -5,6 +5,7 @@ Changes:
 	* Before, it used to add a Cauldron to your deck, and add a random cauldron when upgraded
 	* Now, it always adds a random cauldron, but upgraded it can be used every turn
 	* This is to stop it from clogging your deck with Snap fodder!
+* Allen Key and Scythe renamed, to Pry Bar and Spiked Hilt
 
 Bugfixes:
 * Expect the Unexpected now has an actual level 6 reward
@@ -12,6 +13,7 @@ Bugfixes:
 	* 100% guarantee to work as expected, or your money back!
 * Focus Beam no longer a Witch spell
 	* it gets funky after battle
+* Ragnarok is no longer the worst thing ever
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
