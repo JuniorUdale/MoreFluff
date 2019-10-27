@@ -1,13 +1,10 @@
-v3.0.0 - spooped
+v2.3.0 - spoopy
 
-
-New items:
-	* Dice Storage - storage, for dice
-		* Countdown of 4
-		* Returns all the dice you used to activate it
-		* that's it
-
-
+Changes:
+* Cauldron Crafter has gotten another slight rework
+	* Before, it used to add a Cauldron to your deck, and add a random cauldron when upgraded
+	* Now, it always adds a random cauldron, but upgraded it can be used every turn
+	* This is to stop it from clogging your deck with Snap fodder!
 
 Bugfixes:
 * Expect the Unexpected now has an actual level 6 reward
