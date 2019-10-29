@@ -1,3 +1,9 @@
+Bugfixes:
+	* Description fixes for:
+		* Antifreeze-
+
+=====================================================================
+
 v2.3.0 - spoopy
 
 Welcome to the halloween update! Since I'm not festive at all, all you're getting are some standard bugfixes and balance changes.
