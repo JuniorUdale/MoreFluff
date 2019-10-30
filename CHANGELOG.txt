@@ -1,6 +1,7 @@
 Bugfixes:
 	* Description fixes for:
 		* Antifreeze-
+	* Witch BR no longer gets offered Rockfall as a starting item
 
 =====================================================================
 
