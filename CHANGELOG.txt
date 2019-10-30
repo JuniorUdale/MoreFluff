@@ -1,6 +1,30 @@
+
+
+
+Changes:
+	* Witch and Jester now get offered Binding Spell
+	* Belt Sander nerfed:
+		* Now MIN4 instead of MIN3
+	* Blood to Dice reworked:
+		* Before, it was lose 4 health, roll 2 extra dice, reuseable
+		* Now, it's lose 5 health, but gain +1 dice this fight.
+	
+New items:
+	* Warrior:
+		* 
+	* Witch:
+		* Flip Flop - you guys desperately want this
+			* Takes 2 dice and returns them
+			* Also swaps the spells in those two slots!
+			* So, put a 2 and a 4 into it, and it'll swap the spells in slots 2 and 4.
+	* Jester:
+		* 2 new packs: Extra Turns and 
+
+
 Bugfixes:
 	* Description fixes for:
 		* Antifreeze-
+		* Binding Spell-
 	* Witch BR no longer gets offered Rockfall as a starting item
 
 =====================================================================

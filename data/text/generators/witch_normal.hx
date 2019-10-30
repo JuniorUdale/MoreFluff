@@ -41,7 +41,8 @@ var commonlist_dicemanipulation = [
   "Unnatural Charm",
   "Iron Cauldron",
   "Copper Cauldron",
-  "Doppliduplicateinate"
+  "Doppliduplicateinate",
+  "Binding Spell"
 ];
 
 
