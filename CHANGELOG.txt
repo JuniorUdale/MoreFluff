@@ -18,7 +18,8 @@ New items:
 			* Also swaps the spells in those two slots!
 			* So, put a 2 and a 4 into it, and it'll swap the spells in slots 2 and 4.
 	* Jester:
-		* 2 new packs: Extra Turns and 
+		* 2 new packs: Extra Turns and Combos!
+			* Extra turns are hard to come by. Losing
 
 
 Bugfixes:

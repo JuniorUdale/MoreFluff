@@ -25,12 +25,12 @@ bleed11,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts 
 bleed12,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 12 turns.,NO,YES,NO,NO,NO
 pursuit,Pursuit,sword,Increases damage dealt by Pursuit by 3 this turn.,NO,NO,NO,YES,NO
 pursuitnext,Pursuing,sword,Pursuit deals 3 more damage next turn.,NO,NO,NO,YES,NO
-bound1,Bound 1,lock,One of your dice is set to a 1.,NO,NO,YES,NO,NO
-bound2,Bound 2,lock,One of your dice is set to a 2.,NO,NO,YES,NO,NO
-bound3,Bound 3,lock,One of your dice is set to a 3.,NO,NO,YES,NO,NO
-bound4,Bound 4,lock,One of your dice is set to a 4.,NO,NO,YES,NO,NO
-bound5,Bound 5,lock,One of your dice is set to a 5.,NO,NO,YES,NO,NO
-bound6,Bound 6,lock,One of your dice is set to a 6.,NO,NO,YES,NO,NO
+bound1,Bound 1 x,lock,Next turn[;] at least <amount> of your|dice will be ones.,NO,NO,YES,NO,NO
+bound2,Bound 2 x,lock,Next turn[;] at least <amount> of your|dice will be twos.,NO,NO,YES,NO,NO
+bound3,Bound 3 x,lock,Next turn[;] at least <amount> of your|dice will be threes.,NO,NO,YES,NO,NO
+bound4,Bound 4 x,lock,Next turn[;] at least <amount> of your|dice will be fours.,NO,NO,YES,NO,NO
+bound5,Bound 5 x,lock,Next turn[;] at least <amount> of your|dice will be fives.,NO,NO,YES,NO,NO
+bound6,Bound 6 x,lock,Next turn[;] at least <amount> of your|dice will be sixes.,NO,NO,YES,NO,NO
 cache,Cached,dice,Store <value> dice for next turn.,NO,YES,NO,YES,NO
 lightstatus,Enlightened,dice,Get [yellow]<value>[] extra dice next turn.,NO,YES,NO,YES,NO
 blessing,Blessing,heal,(Blessed Bat of Bashing)|Restore [heal]<value> health at the end of your turn.,NO,YES,NO,NO,NO
