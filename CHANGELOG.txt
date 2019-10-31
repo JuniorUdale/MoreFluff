@@ -7,7 +7,7 @@ Changes:
 		* Now MIN4 instead of MIN3
 	* Blood to Dice reworked:
 		* Before, it was lose 4 health, roll 2 extra dice, reuseable
-		* Now, it's lose 5 health, but gain +1 dice this fight.
+		* Now, it's lose 6 health, but gain +1 dice this fight.
 	
 New items:
 	* Warrior:
