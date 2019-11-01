@@ -11,8 +11,11 @@ New items:
 		* Needs doubles to open though...
 		* ...and on evens, it just randomizes the contents of it.
 		* So feel free to pick and choose, it'll just take a while!
-	* Precipitation - get filled with this at your save points
-		* Locks an enemy item behind a countdown of 6, like Crystallize.
+	* Precipitation and Heavy Crystal - get filled with this at your save points
+		* Locks an enemy item behind a countdown of 6.
+			* Replaces one of their items with a Heavy Crystal.
+			* Heavy Crystal has a countdown of 6; when reduced to 0, it reverts back to the original item.
+			* If you get your hands on one of these... shenanigans may ensue!
 		* A mediocre disruption tool!
 	* Flip Flop - you guys desperately want this
 		* Witch-only item
@@ -24,9 +27,9 @@ New items:
 		* Deal 12 damage, countdown of 20
 		* Even dice have 2x an effect on this countdown
 		* So if you only use even dice, it's a 10 countdown for 12 damage!
-	* Nether Portal - don't dabble in the dicey d'arts
-		* Duplicates a dice, max4
-		* Reuseable
+	* Nether Portal - don't dabble in da demonic dicey d'arts
+		* Duplicates a dice, max 4
+		* Reuseable.
 		* The catch?
 		* It curses you each time you use it!
 	* Booster Pack - contents not randomized
@@ -87,7 +90,7 @@ New items:
 		* Lose 1 health whenever you reduce its countdown
 		
 		
-*[1] N.B.: starpocalypse does not actually randomize all statuses. statuses with no effect on the enemy such as vanish or extra turn; special remix statuses like Rose or Bear Transform; statuses from other mods such as Wet (Backstage Reunion) or Asleep (Cosmic Variations); jinxes, regens, bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
+*[1] N.B.: starpocalypse does not actually randomize all statuses. statuses with: no effect on the enemy such as Vanish or Extra Turn; special remix statuses like Extra or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Wet (Backstage Reunion), or Asleep (Cosmic Variations); Jinxes, Regens, Bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
 	
 
 Changes:
