@@ -1514,3 +1514,6 @@ Heavy Crystal@smallup_downgraded,Contains <evar:itemname>,1,giveequipment(e.getv
 Heavy Crystal,Contents empty!|(How did you even get this?),1,sfx(~_thinghappens~);,,COUNTDOWN,420,MAGIC,GRAY,change_power,change_power,,,0,YES,NO,NO,YES,NO,NO,NO,NO,,,,,,,,,,,
 Heavy Crystal_upgraded,Contents empty!|(How did you even get this?),1,sfx(~_thinghappens~);,,COUNTDOWN,69,MAGIC,GRAY,,,,,0,YES,NO,NO,YES,NO,NO,NO,NO,,,,,,,,,,,
 Heavy Crystal_downgraded,Contents even emptier!|(How did you even get this?),1,,,COUNTDOWN,420,MAGIC,GRAY,,,,,0,YES,NO,NO,YES,NO,NO,NO,NO,,,,,,,,,,,
+Crass Knuckles,Deal [sword]<d6> damage[;] on|doubles[;] gain [fury] fury,2,attack(d); sfxdamage(target|d); if(actualdice[0].basevalue == actualdice[1].basevalue){inflictself(FURY); sfx(~_fury~|~~|0.2);};,,MAX4|MAX4,,WEAPON,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Crass Knuckles_upgraded,Deal [sword]<d6> damage[;] on|doubles[;] gain [fury] fury,2,attack(d); sfxdamage(target|d); if(actualdice[0].basevalue == actualdice[1].basevalue){inflictself(FURY); sfx(~_fury~|~~|0.2);};,,MAX5|MAX5,,WEAPON,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Crass Knuckles_downgraded,Deal [sword]<d6> damage,2,attack(d); sfxdamage(target|d);,,MAX4|MAX4,,WEAPON,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,

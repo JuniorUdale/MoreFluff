@@ -8,6 +8,10 @@ Changes:
 	* Blood to Dice reworked:
 		* Before, it was lose 4 health, roll 2 extra dice, reuseable
 		* Now, it's lose 6 health, but gain +1 dice this fight.
+	* Canesword nerfed:
+		* Was unrestricted, now it's evens only
+		* Upgrade now removes this restriction
+		* It was just too strong an item!
 	
 New items:
 	* Warrior:
