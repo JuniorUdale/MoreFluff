@@ -85,7 +85,7 @@ New items:
 		* 6 damage
 		* once per battle
 		* it's fun
-	* Sharpened Gun - supposed to make your bullets more hurtier
+	* Sharpened Gun - get learned how to make your bullets more hurtier
 		* Countdown of 5, deal 6 damage
 		* Lose 1 health whenever you reduce its countdown
 		
