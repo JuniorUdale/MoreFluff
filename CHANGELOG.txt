@@ -88,6 +88,12 @@ New items:
 	* Sharpened Gun - get learned how to make your bullets more hurtier
 		* Countdown of 5, deal 6 damage
 		* Lose 1 health whenever you reduce its countdown
+	* Primal Crash - get your quantum computers out
+		* Countdown of 31, deal 31 damage.
+		* 31 is a special number...
+		* ...because this item errors and resets if, at any point, its countdown is NOT a prime number.
+		* So, whenever you put a dice into it, its countdown must end up as a prime number. If you don't, it resets back to 31!
+			* not 8*10^32, but 31, just with emphasis
 		
 		
 *[1] N.B.: starpocalypse does not actually randomize all statuses. statuses with: no effect on the enemy such as Vanish or Extra Turn; special remix statuses like Extra or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Wet (Backstage Reunion), or Asleep (Cosmic Variations); Jinxes, Regens, Bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
