@@ -77,9 +77,8 @@ New items:
 		* Takes 2 dice that're 2 or more
 		* Divide the bigger dice by the smaller dice, then deal 3x that much damage.
 	* Heavy Gatling - we need more dakka
-		* Countdown of 20
-		* Deals 2 damage
-		* whenever the countdown is reduced.
+		* Countdown of 20, deals 2 damage.
+		* However, it deals this damage whenever the countdown is reduced!
 		* Make sure to reload it when necessary!
 	* Brick - brick brick brick
 		* 6 damage
