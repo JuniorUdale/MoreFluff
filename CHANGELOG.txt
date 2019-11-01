@@ -1,18 +1,7 @@
+v2.4.0 - actual content!
 
+I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy!
 
-
-Changes:
-	* Witch and Jester now get offered Binding Spell
-	* Belt Sander nerfed:
-		* Now MIN4 instead of MIN3
-	* Blood to Dice reworked:
-		* Before, it was lose 4 health, roll 2 extra dice, reuseable
-		* Now, it's lose 6 health, but gain +1 dice this fight.
-	* Canesword nerfed:
-		* Was unrestricted, now it's evens only
-		* Upgrade now removes this restriction
-		* It was just too strong an item!
-	
 New items:
 	* Crass Knuckles - couldn't resist the pun
 		* A regular, two-slot weapon with a restriction of MAX4.
@@ -31,6 +20,10 @@ New items:
 		* Also swaps the spells in those two slots!
 		* So, put a 2 and a 4 into it, and it'll swap the spells in slots 2 and 4, and give you the dice back.
 		* Useful? Probably not!
+	* Speedometer - nyoom
+		* Deal 12 damage, countdown of 20
+		* Even dice have 2x an effect on this countdown
+		* So if you only use even dice, it's a 10 countdown for 12 damage!
 	* Nether Portal - don't dabble in the dicey d'arts
 		* Duplicates a dice, max4
 		* Reuseable
@@ -43,6 +36,9 @@ New items:
 			* Broadsword now deals +3 damage.
 			* Bump now gives you a [] + 2.
 			* Candle is now the most OP item in the entire game
+	* Min Night Charm - i laughed for a solid 18 hours after making this pun
+		* Countdown of 12
+		* Gives you 3 copies of the smallest dice used in it
 	* Segfault - muh efficiency
 		* Countdown of 5 for 3 damage.
 		* Returns the value of any excess dice you put into it.
@@ -59,6 +55,54 @@ New items:
 		* Useable every turn!
 		* The catch?
 		* It's two MAX3 slots, and gives you an extra turn on 8...
+	* Dagger Shooter, Really Sharp Spike - precision engineering
+		* Both are countdown items with restrictions
+		* How does that work?
+		* Well, if you put a dice into them that doesn't work, they immediately error out for the turn and have their countdowns reset!
+	* Synchrotron - countdowns are fun to manipulate
+		* Countdown of 12, deal 6 damage
+		* Deals double damage if all of the dice placed into it were the same!
+		* So 2 sixes, 3 fives, 3 fours, 4 threes...
+	* Starpocalypse - this won't break anything
+		* Needs 2 fives
+		* Randomize ALL*[1] statuses on enemy!!!!!!
+	* Coin Flip - didn't make a dent in the economy
+		* Rerolls ALL of your dice...
+		* ...into either 6s or 1s.
+		* Have fun!
+	* Secateurs - mathematical thingies
+		* Takes 2 dice that're 2 or more
+		* Divide the bigger dice by the smaller dice, then deal 3x that much damage.
+	* Heavy Gatling - we need more dakka
+		* Countdown of 20
+		* Deals 2 damage
+		* whenever the countdown is reduced.
+		* Make sure to reload it when necessary!
+	* Brick - brick brick brick
+		* 6 damage
+		* once per battle
+		* it's fun
+	* Sharpened Gun - supposed to make your bullets more hurtier
+		* Countdown of 5, deal 6 damage
+		* Lose 1 health whenever you reduce its countdown
+		
+		
+*[1] N.B.: starpocalypse does not actually randomize all statuses. statuses with no effect on the enemy such as vanish or extra turn; special remix statuses like Rose or Bear Transform; statuses from other mods such as Wet (Backstage Reunion) or Asleep (Cosmic Variations); jinxes, regens, bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
+	
+
+Changes:
+	* Witch and Jester now get offered Binding Spell
+		* finally found a way to unjankify it slightly!
+	* Belt Sander nerfed:
+		* Now MIN4 instead of MIN3
+	* Blood to Dice reworked:
+		* Before, it was lose 4 health, roll 2 extra dice, reuseable
+		* Now, it's lose 6 health, but gain +1 dice this fight.
+	* Canesword nerfed:
+		* Was unrestricted, now it's evens only
+		* Upgrade now removes this restriction
+		* It was just too strong an item!
+	
 
 Bugfixes:
 	* Description fixes for:
