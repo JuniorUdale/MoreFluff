@@ -15,14 +15,24 @@ Changes:
 	
 New items:
 	* Warrior:
-		* Crass Knuckles!
+		* Crass Knuckles - couldn't resist the pun
 			* A regular, two-slot weapon with a restriction of MAX4.
-			* That also gives you fury!
+			* That also gives you fury on doubles
+	* Thief:
+		* Gift Box - actually it's pronounced Jift
+			* Contains a random item!
+			* Needs doubles to open though...
+			* ...and on evens, it just randomizes the contents of it.
+	* Inventor:
+		* Precipitation - get filled with this at your save points
+			* Locks an enemy item behind a countdown of 6, like Crystallize.
+			* A mediocre disruption tool!
 	* Witch:
 		* Flip Flop - you guys desperately want this
 			* Takes 2 dice and returns them
 			* Also swaps the spells in those two slots!
-			* So, put a 2 and a 4 into it, and it'll swap the spells in slots 2 and 4.
+			* So, put a 2 and a 4 into it, and it'll swap the spells in slots 2 and 4, and give you the dice back.
+			* Useful? Probably not!
 	* Jester:
 		* 2 new packs: Extra Turns and Combos!
 			* Extra turns are hard to come by. Losing
