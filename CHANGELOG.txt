@@ -15,7 +15,9 @@ Changes:
 	
 New items:
 	* Warrior:
-		* 
+		* Crass Knuckles!
+			* A regular, two-slot weapon with a restriction of MAX4.
+			* That also gives you fury!
 	* Witch:
 		* Flip Flop - you guys desperately want this
 			* Takes 2 dice and returns them
