@@ -17,7 +17,7 @@ New items:
 	* Crass Knuckles - couldn't resist the pun
 		* A regular, two-slot weapon with a restriction of MAX4.
 		* That also gives you fury on doubles
-	* Gift Box - actually it's pronounced Jift
+	* Gift Box - contains a sense of pride and accomplishment
 		* Contains a random item!
 		* Needs doubles to open though...
 		* ...and on evens, it just randomizes the contents of it.
@@ -31,13 +31,40 @@ New items:
 		* Also swaps the spells in those two slots!
 		* So, put a 2 and a 4 into it, and it'll swap the spells in slots 2 and 4, and give you the dice back.
 		* Useful? Probably not!
-
+	* Nether Portal - don't dabble in the dicey d'arts
+		* Duplicates a dice, max4
+		* Reuseable
+		* The catch?
+		* It curses you each time you use it!
+	* Booster Pack - contents not randomized
+		* Adds a free 1 to each of your non-countdown, non-needs-doubles items, until they get weakened.
+		* This only affects items which do stuff with the dice value:
+			* So Healing Crystal will now heal 1 more health.
+			* Broadsword now deals +3 damage.
+			* Bump now gives you a [] + 2.
+			* Candle is now the most OP item in the entire game
+	* Segfault - muh efficiency
+		* Countdown of 5 for 3 damage.
+		* Returns the value of any excess dice you put into it.
+		* So if you use a 6 to activate it, you'll get a 1 back.
+		* If you used a 4 then a 3 to activate it, you'll get a 2 back.
+		* If you put a 6 into Crowbar, which activated this, you'll get a 1 back.
+		* The VALUE!!!!
+	* Dice Storage - a rubber duck for the more discerning diceketeer
+		* Countdown of 4
+		* Returns the dice you put into it
+		* Somewhat useless, but at least it becomes scrap!
+	* Perpetual Motor - the holy grail
+		* Deals damage, grants you AN EXTRA TURN!
+		* Useable every turn!
+		* The catch?
+		* It's two MAX3 slots, and gives you an extra turn on 8...
 
 Bugfixes:
 	* Description fixes for:
 		* Antifreeze-
 		* Binding Spell-
-	* Witch BR no longer gets offered Rockfall as a starting item
+	* Witch BR no longer gets offered Rockfall as a starting item, since Rockfall isn't an actual spell
 
 =====================================================================
 
