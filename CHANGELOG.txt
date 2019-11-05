@@ -104,6 +104,13 @@ Changes:
 		* Was unrestricted, now it's evens only
 		* Upgrade now removes this restriction
 		* It was just too strong an item!
+	* Chronomancy tweaked:
+		* No longer heals you when you take an extra turn
+		* This allowed for an infinite with Amplify and the Crystalina remix rule
+		* Now you can still pull off this infinite, but it'll cost you!
+	* Junkblaster reworked:
+		* Now throws a dice; if you threw one, it also deals 4 damage
+		* More efficient than Pea Shooter, but can backfire!
 	
 
 Bugfixes:
