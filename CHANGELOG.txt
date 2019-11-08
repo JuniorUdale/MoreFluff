@@ -111,6 +111,9 @@ Changes:
 	* Junkblaster reworked:
 		* Now throws a dice; if you threw one, it also deals 4 damage
 		* More efficient than Pea Shooter, but can backfire!
+	* Lifesteal+ slightly changed:
+		* Used to drain 1 health whenever you attacked
+		* Now instead heals 1 hp whenever you attack, or inflict a status effect
 	
 
 Bugfixes:
