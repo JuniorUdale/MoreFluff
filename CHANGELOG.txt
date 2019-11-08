@@ -58,14 +58,13 @@ New items:
 		* Useable every turn!
 		* The catch?
 		* It's two MAX3 slots, and gives you an extra turn on 8...
-	* Dagger Shooter, Really Sharp Spike - precision engineering
-		* Both are countdown items with restrictions
-		* How does that work?
-		* Well, if you put a dice into them that doesn't work, they immediately error out for the turn and have their countdowns reset!
+	* Really Sharp Spike - precision engineering
+		* Deal 10 damage, for a countdown of 4
+		* The catch? It self-destructs if you put anything that isn't a 1 into it!
 	* Synchrotron - countdowns are fun to manipulate
 		* Countdown of 12, deal 6 damage
 		* Deals double damage if all of the dice placed into it were the same!
-		* So 2 sixes, 3 fives, 3 fours, 4 threes...
+		* So 2 sixes, 3 fives, 3 fours, 4 threes, 6 twos, or 12 ones if you're absolutely insane
 	* Starpocalypse - this won't break anything
 		* Needs 2 fives
 		* Randomize ALL*[1] statuses on enemy!!!!!!
@@ -89,12 +88,12 @@ New items:
 		* Lose 1 health whenever you reduce its countdown
 		
 		
-*[1] N.B.: starpocalypse does not actually randomize all statuses. statuses with: no effect on the enemy such as Vanish or Extra Turn; special remix statuses like Extra or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Wet (Backstage Reunion), or Asleep (Cosmic Variations); Jinxes, Regens, Bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
+*[1] starpocalypse does not actually randomize all statuses. ones with no currently implemented effect on the enemy such as Vanish, Extra Turn or Silence; special remix statuses like Extra, Crystalina or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Asleep (Cosmic Variations), or Wet (Backstage Reunion); Jinxes, Regens, Bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage, insomnia, deletion of your hard drive, or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
 	
 
 Changes:
 	* Witch and Jester now get offered Binding Spell
-		* finally found a way to unjankify it slightly!
+		* finally found a way to slightly unjankify it!
 	* Belt Sander nerfed:
 		* Now MIN4 instead of MIN3
 	* Blood to Dice reworked:
@@ -111,6 +110,9 @@ Changes:
 	* Junkblaster reworked:
 		* Now throws a dice; if you threw one, it also deals 4 damage
 		* More efficient than Pea Shooter, but can backfire!
+	* Lifesteal+ slightly changed:
+		* Used to drain 1 health whenever you attacked
+		* Now instead heals 1 hp whenever you attack, or inflict a status effect
 	
 
 Bugfixes:
