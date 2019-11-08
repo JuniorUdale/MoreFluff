@@ -89,7 +89,7 @@ New items:
 		* Lose 1 health whenever you reduce its countdown
 		
 		
-*[1] N.B.: starpocalypse does not actually randomize all statuses. statuses with: no effect on the enemy such as Vanish or Extra Turn; special remix statuses like Extra or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Wet (Backstage Reunion), or Asleep (Cosmic Variations); Jinxes, Regens, Bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
+*[1] N.B.: starpocalypse does not actually randomize all statuses. ones with no currently implemented effect on the enemy such as Vanish, Extra Turn or Silence; special remix statuses like Extra or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Wet (Backstage Reunion), or Asleep (Cosmic Variations); Jinxes, Regens, Bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
 	
 
 Changes:
