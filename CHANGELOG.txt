@@ -120,6 +120,7 @@ Bugfixes:
 	* Witch BR no longer gets offered Rockfall as a starting item, since Rockfall isn't an actual spell
 	* Drake no longer appears in Finders Keepers
 	* Hoplon+ now works correctly
+	* Magic Smoke now works, definitely
 
 =====================================================================
 
