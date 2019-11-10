@@ -27,9 +27,11 @@ New items:
 		* Deal 12 damage, countdown of 20
 		* Even dice have 2x an effect on this countdown
 		* So if you only use even dice, it's a 10 countdown for 12 damage!
+	* Leeching Spell - give them the s u c c
+		* Needs doubles, drain health equal to the value of one dice
+		* However, you also lose 3 health each turn it's out!
 	* Nether Portal - don't dabble in da demonic dicey d'arts
-		* Duplicates a dice, max 4
-		* Reuseable.
+		* Duplicates a dice, max 4, reuseable.
 		* The catch?
 		* It curses you each time you use it!
 	* Booster Pack - contents not randomized
@@ -42,6 +44,7 @@ New items:
 	* Min Night Charm - i laughed for a solid 18 hours after making this pun
 		* Countdown of 12
 		* Gives you 3 copies of the smallest dice used in it
+		* So, put two 6s into it and you'll get 3 sixes out!
 	* Segfault - muh efficiency
 		* Countdown of 5 for 3 damage.
 		* Returns the value of any excess dice you put into it.
@@ -113,6 +116,10 @@ Changes:
 	* Lifesteal+ slightly changed:
 		* Used to drain 1 health whenever you attacked
 		* Now instead heals 1 hp whenever you attack, or inflict a status effect
+	* Twotool's upgrade changed:
+		* Now does all the usual stuff, but has 2 uses per turn
+		* This has necessitated increasing its size to 2
+		* Though this all seems a bit too much...
 	
 
 Bugfixes:
@@ -123,6 +130,7 @@ Bugfixes:
 	* Drake no longer appears in Finders Keepers
 	* Hoplon+ now works correctly
 	* Magic Smoke now works, definitely
+	* Belt Sander now "works" on identical dice
 
 =====================================================================
 

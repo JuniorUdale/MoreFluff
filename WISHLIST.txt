@@ -1,0 +1,19 @@
+* Make other types available for evars (currently only ints work; strings and arrays would be ideal)
+
+* Make "on any equipment use" trigger for Jester's Snap/Discard
+
+* Anything which references `e` doesn't work for reuseable items - `e.dicehistory`, `e.getvar` etc - none of these work for reuseables
+
+* Reuseable items' slots revert back to normal if changed with `eq.changeslots()`. This causes a few issues:
+	* If you have a reuseable item, changing the slots to ones which accept different dice can cause the dice to be spat out. For example, calling `eq.changeslots([~MAX4~]);` on Dagger, will spit a 4 out after you put it in, letting you deal unlimited damage.
+	* Similarly, on fury, reuseable items with changed slots don't respect that. If you change Dagger's slots to [~MAX3~|~FREE1~], and use Fury on it, only the first attack takes the FREE1 into consideration. The first attack will deal []+1 damage, the second one will deal [] damage (though visually, neither of them animate with the FREE1)
+	
+* A "on re-equip" script hook
+
+* Maybe an "on update" script hook? Something that constantly updates each frame - this would let you do things like track the player's health better
+
+* Some way to expose the "excess damage" done by an item - currently the Cactus remix is hardcoded
+
+* Let enemies equip @ items - currently if you try to give them e.g. `Precious Egg@6`, it will throw an error with "Precious Egg is not an equipment"
+
+* Get a reference to the equipment used in the "On any equipment use" and "On any countdown reduce" script fields
