@@ -133,6 +133,7 @@ Bugfixes:
 	* Hoplon+ now works correctly
 	* Magic Smoke now works, definitely
 	* Belt Sander now "works" on identical dice
+	* Shadow Stick+ now correctly inflicts 2 blind on even, instead of always inflicting 1 blind
 
 =====================================================================
 
