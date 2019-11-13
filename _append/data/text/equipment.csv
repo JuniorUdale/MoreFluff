@@ -1559,3 +1559,6 @@ Nanoleech_downgraded,Deal [sword]<d6> damage|Drain [heart]1 health,1,attack(d); 
 Megaleech,Deal [sword]<d6> damage|Drain [heart]1 health,1,attack(d); sfxdamage(target|d); drain(1); sfx(~_drain~);,Life Leech,NORMAL|NORMAL,,WEAPON,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,1,,,,,,,,,,
 Megaleech_upgraded,Deal [sword]<d6> damage|Drain [heart]2 health,1,attack(d); sfxdamage(target|d); drain(1); sfx(~_drain~);,Life Leech,NORMAL|NORMAL,,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Megaleech_downgraded,Deal [sword]<d6> damage|Drain [heart]1 health,1,attack(d); sfxdamage(target|d); drain(1); sfx(~_drain~);,Life Leech,MAX3|MAX3,,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Scrap Turret,Take [sword]1 damage each turn|(Always offered as scrap),1,,,,,WEAPON,GREY,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,1,,,,attackself(1); e.animate(~flashandshake~); sfxdamage(self|1);,,,,,,
+Scrap Turret_upgraded,Take [sword]2 damage each turn|(Always offered as scrap),1,,,,,WEAPON,GREY,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,attackself(2); e.animate(~flashandshake~); sfxdamage(self|2);,,,,,,
+Scrap Turret_downgraded,Take [sword]1 damage each turn|(Always offered as scrap),1,,,,,WEAPON,GREY,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,attackself(1); e.animate(~flashandshake~); sfxdamage(self|1);,,,,,,
