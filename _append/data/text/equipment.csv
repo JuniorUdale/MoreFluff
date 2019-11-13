@@ -766,7 +766,7 @@ Mechanicalantern_upgraded,Get a <d6> next turn for|each <d6> you rolled this tur
 Mechanicalantern_downgraded,Get a <d6> next turn,1,inflictself(~stash~+d[;]1); inflictself(~mechanical_lantern~); sfx(~magic_gaindice~);,,NORMAL,,ITEM,YELLOW,,,,,0,YES,NO,YES,YES,NO,NO,NO,NO,,,,,,,,,,,
 Ballerina Charm,Roll 2 twos,1,givedice([2[;]2]);,Ballerina,COUNTDOWN,4,ITEM,GREEN,change_power,change_power,,,0,YES,NO,YES,NO,NO,NO,NO,NO,,,,,,,,,,,
 Ballerina Charm_upgraded,Roll 2 twos|,1,givedice([2[;]2]);,Ballerina,COUNTDOWN,4,ITEM,GREEN,,,,,2,YES,NO,YES,NO,NO,NO,NO,NO,,,,,,,,,,,
-Ballerina Charm_downgraded,Roll a 2,1,givedice(2);,Ballerina,COUNTDOWN,4,ITEM,GREEN,,,,,0,YES,NO,YES,NO,NO,NO,NO,NO,,,,,,,,,,,
+Ballerina Charm_downgraded,Roll a two,1,givedice(2);,Ballerina,COUNTDOWN,4,ITEM,GREEN,,,,,0,YES,NO,YES,NO,NO,NO,NO,NO,,,,,,,,,,,
 Backlash,Deal [sword]10 damage,1,attack(10); sfxdamage(target|10);,Shuriken,MAX3|MAX4,7,WEAPON,RED,change_power,change_power,,none,0,NO,NO,YES,NO,NO,NO,NO,NO,,,,,,,,,,,
 Backlash_upgraded,Deal [sword]13 damage,1,attack(13); sfxdamage(target|13);,Shuriken,MAX3|MAX4,7,WEAPON,RED,,,,none,0,NO,NO,YES,NO,NO,NO,NO,NO,,,,,,,,,,,
 Backlash_downgraded,Deal [sword]7 damage,1,attack(7); sfxdamage(target|7);,Shuriken,MAX3|MAX4,7,WEAPON,RED,,,,none,0,NO,NO,YES,NO,NO,NO,NO,NO,,,,,,,,,,,
