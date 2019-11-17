@@ -11,12 +11,6 @@ New items:
 		* Needs doubles to open though...
 		* ...and on evens, it just randomizes the contents of it.
 		* So feel free to pick and choose, it'll just take a while!
-	* Precipitation and Heavy Crystal - get filled with this at your save points
-		* Locks an enemy item behind a countdown of 6.
-			* Replaces one of their items with a Heavy Crystal.
-			* Heavy Crystal has a countdown of 6; when reduced to 0, it reverts back to the original item.
-			* If you get your hands on one of these... shenanigans may ensue!
-		* A mediocre disruption tool!
 	* Flip Flop - you guys desperately want this
 		* Witch-only item
 		* Takes 2 dice and returns them
@@ -136,6 +130,7 @@ Bugfixes:
 	* Belt Sander now "works" on identical dice
 	* Shadow Stick+ now correctly inflicts 2 blind on even, instead of always inflicting 1 blind
 	* Megaclone now has an actual downgrade
+	* One Weird Tip hopefully definitely doesn't crash now
 
 =====================================================================
 
