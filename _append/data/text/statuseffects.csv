@@ -56,7 +56,6 @@ dynamo,Dynamo,cog,[red]Focus Beam[][;] [yellow]Solar Beam[][;] [blue]Lunar Beam[
 gemstoneboost,Boosted,gold,Gem Generators create upgraded gems this turn.,NO,NO,YES,NO,NO
 gemstoneamount,Crystallized,gold,Gem Generators create <value> more gems this turn.,NO,YES,YES,NO,NO
 batted,Battered,dice,Enemy caught the dice you batted!|They get <value> more dice next turn.,NO,YES,YES,NO,NO
-newlifesteal,Lifesteal,heal,Your next attack heals you|for the damage done.,NO,YES,YES,NO,NO
 lego,Lego,cog,Gain [thorns]999 thorns at the end of this turn.,NO,NO,NO,NO,NO
 lego2,Lego,cog,Gain [thorns]999999 thorns at the end of this turn.,NO,NO,NO,NO,NO
 helium,Inflated,jinx,Your dice are... floaty!,NO,NO,YES,NO,NO
@@ -70,3 +69,4 @@ petrified6,Petrified,lock,A random item can only be|activated with a 6 next turn
 polymorph,Polymorph,potion,A random item has been replaced|with another random item.,NO,YES,NO,NO,NO
 polymorphall,Polymorph_All,potion,ALL items have been replaced|with random items.,NO,NO,NO,NO,NO
 nerfed,Nerfed,jinx,Items are harder to play.|Weakening an item resets it.,NO,YES,NO,NO,NO
+reaper,Reaper,heal,Your next attack heals you|for the damage done.,NO,YES,YES,NO,NO
