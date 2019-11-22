@@ -27,9 +27,9 @@ pogo stick? water gun? fidget spinner? yoyo? marbles? lasso? glowstick?
 	* 99% sure it just... Wouldn't
 * Binding Spell doesn't work (eq.getslots() doesn't work on enemy items on your turn)
 	* make it "set an enemy dice to []", boring but works
-	
 	* renamed to Petrification Spell
 	* works now!!!!
+
 * A way to find out which item was used on "On any equipment use"
 * "On any dice use" hook, which could let us make our own descriptions like Mechanical Leg
 	* kind of fixed with on any countdown reduce?
