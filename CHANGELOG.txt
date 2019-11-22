@@ -1,16 +1,8 @@
 v2.4.0 - actual content!
 
-I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy!
+I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy! This has warranted an icon change though...
 
 New items:
-	* Crass Knuckles - couldn't resist the pun
-		* A regular, two-slot weapon with a restriction of MAX4.
-		* That also gives you fury on doubles
-	* Gift Box - contains a sense of pride and accomplishment
-		* Contains a random item!
-		* Needs doubles to open though...
-		* ...and on evens, it just randomizes the contents of it.
-		* So feel free to pick and choose, it'll just take a while!
 	* Flip Flop - you guys desperately want this
 		* Witch-only item
 		* Takes 2 dice and returns them
@@ -76,16 +68,40 @@ New items:
 		* Countdown of 20, deals 2 damage.
 		* However, it deals this damage whenever the countdown is reduced!
 		* Make sure to reload it when necessary!
-	* Brick - brick brick brick
-		* 6 damage
-		* once per battle
-		* it's fun
+	* Reconstructor - i can show you the world
+		* Takes your scrap items and repurposes them into new stuff!
+		* Takes any broken items/gadgets and repurposes them into new stuff!
+		* It might not be good new stuff, but at least it's new stuff!
 	* Sharpened Gun - get learned how to make your bullets more hurtier
 		* Countdown of 5, deal 6 damage
 		* Lose 1 health whenever you reduce its countdown
+	* Panic Button - AAAAAAAAAAAAAAAAAAAAAA
+		* Lose 1 dice this fight
+		* But get a buttload (2x[max5]) of shield
+	* Dodgy Chronometer - cheers love
+		* Take an extra turn, countdown of 24
+		* Errors on every turn after the first one
+		* Good luck finding a very obvious infinite that I've missed with this!
+	* Frostfire - like chewing mints after eating a pepper
+		* Deal [even] damage
+		* On 6, burn a dice and change to ice form!
+		* What's ice form? Well...
+	* Frostfire - like eating a pepper after chewing mints
+		* Deal [odd] damage
+		* On 1, freeze a dice and change to fire form!
+	* Vampire Blades - this item sucks
+		* Max3, drain 1 health
+		* Reuseable
+		* Also lose 1 max health whenever you use it
+		* So it's great for sustain, but you tend to die quite a bit whilst using it
+	* Fairy In A Bottle - free heals!
+		* Passive item
+		* Heal for 15...
+		* ...if you started your turn on 1 health
 		
 		
-*[1] starpocalypse does not actually randomize all statuses. ones with no currently implemented effect on the enemy such as Vanish, Extra Turn or Silence; special remix statuses like Extra, Crystalina or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Asleep (Cosmic Variations), or Wet (Backstage Reunion); Jinxes, Regens, Bleeds or other non-stacking statuses; dummy statuses such as Lantern or Illuminate; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage, insomnia, deletion of your hard drive, or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
+		
+*[1] starpocalypse does not actually randomize all statuses. ones with no currently implemented effect on the enemy such as Vanish, Extra Turn or Silence; special remix statuses like Extra, Crystalina or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Asleep (Cosmic Variations), or Wet (Backstage Reunion); Jinxes, Regens, Bleeds or other non-stacking pseudostatuses; dummy statuses such as Lantern, Illuminate or Reaper; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage, insomnia, deletion of your hard drive, or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
 	
 
 Changes:
@@ -126,6 +142,7 @@ Bugfixes:
 	* Witch BR no longer gets offered Rockfall as a starting item, since Rockfall isn't an actual spell
 	* Drake no longer appears in Finders Keepers
 	* Hoplon+ now works correctly
+		* and has had a description change to better reflect that
 	* Magic Smoke now works, definitely
 	* Belt Sander now "works" on identical dice
 	* Shadow Stick+ now correctly inflicts 2 blind on even, instead of always inflicting 1 blind
