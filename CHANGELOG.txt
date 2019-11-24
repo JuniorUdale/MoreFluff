@@ -130,6 +130,8 @@ Changes:
 		* Now does all the usual stuff, but has 2 uses per turn
 		* This has necessitated increasing its size to 2
 		* Though this all seems a bit too much...
+	* Divine Blade nerfed:
+		* Now size 1, but range reduce to MAX4/MAX5 on upgrade
 	
 
 Bugfixes:
@@ -148,6 +150,9 @@ Bugfixes:
 	* Shadow Stick+ now correctly inflicts 2 blind on even, instead of always inflicting 1 blind
 	* Megaclone now has an actual downgrade
 	* One Weird Tip hopefully definitely doesn't crash now
+	* Precision Blade now works if it dips below 0
+		* solved by capping it at 2
+	* Dainsleif no longer breaks vs Drake
 
 =====================================================================
 

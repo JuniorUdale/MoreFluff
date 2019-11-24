@@ -24,7 +24,7 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 var jester_dice_pool = ["Vise Grip", "Spatulasword", "Lollipop", "Table Slam", "Lollipop", "Bowsaw", "Locktrick", "Tin Snips", "Ballerina Charm", "Gumball Machine", "Lucky Roll", "Pandora's Box", pick(["Amber Cauldron","Quartz Cauldron","Electrum Cauldron"]),"Rockfall"];
-var jester_damage_pool = ["Boxing Gloves", "Rusty Sword", "Telephone", "Elastic Heart", "Bayonet", "Pursuit", "Meteor Hammer","Backlash", "Limbo", "Kerfuffle"];
+var jester_damage_pool = ["Boxing Gloves", "Rusty Sword", "Telephone", "Elastic Heart", "Bayonet", "Pursuit", "Meteor Hammer","Backlash", "Yoyo", "Kerfuffle"];
 
 jester_dice_pool = shuffle(jester_dice_pool);
 jester_damage_pool = shuffle(jester_damage_pool);
