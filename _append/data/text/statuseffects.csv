@@ -70,3 +70,12 @@ polymorph,Polymorph,potion,A random item has been replaced|with another random i
 polymorphall,Polymorph_All,potion,ALL items have been replaced|with random items.,NO,NO,NO,NO,NO
 nerfed,Nerfed,jinx,Items are harder to play.|Weakening an item resets it.,NO,YES,NO,NO,NO
 reaper,Reaper,heal,Your next attack heals you|for the damage done.,NO,YES,YES,NO,NO
+essence_base,Base_Essence,sword,Does nothing. When invoked:|Take [sword]3 damage for each Base Essence.,NO,YES,NO,NO,NO
+essence_fire,Flame_Essence,fire,Does nothing. When invoked:|Receive [fire]1 burn for each Flame Essence.,NO,YES,NO,NO,NO
+essence_ice,Frost_Essence,ice,Does nothing. When invoked:|Receive [ice]1 freeze for each Frost Essence.,NO,YES,NO,NO,NO
+essence_shock,Air_Essence,shock,Does nothing. When invoked:|Receive [shock]1 shock for each Shock Essence.,NO,YES,NO,NO,NO
+essence_weaken,Earth_Essence,weaken,Does nothing. When invoked:|Receive [weaken]1 weaken for each Earth Essence.,NO,YES,NO,NO,NO
+essence_poison,Toxic_Essence,poison,Does nothing. When invoked:|Receive [poison]2 poison for each Toxic Essence.,NO,YES,NO,NO,NO
+essence_dark,Dark_Essence,curse,Does nothing. When invoked:|Receive a bad status ([curse]Curse[;] [lock]Lock[;] [shock]Stun),NO,YES,NO,NO,NO
+mf_stun,Stun,shock,Random equipment is disabled for the turn.,NO,YES,YES,NO,NO
+alternate_mf_stun,Stun?,shock,Lose a dice next turn.,NO,YES,YES,NO,NO
