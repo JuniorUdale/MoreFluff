@@ -132,6 +132,9 @@ Changes:
 		* Though this all seems a bit too much...
 	* Divine Blade nerfed:
 		* Now size 1, but range reduce to MAX4/MAX5 on upgrade
+	* Swordstave+ nerfed:
+		* Used to inflict 2x status when upgraded
+		* Now just has a flat +2 damage
 	
 
 Bugfixes:
