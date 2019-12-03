@@ -102,8 +102,8 @@ gooditems = [commonlist_dicemanipulation.pop(), commonlist_offensive.pop()];
 		
 shuffle(commonlist_dicemanipulation);
 shuffle(commonlist_offensive);
-
-var shopstuff = [pick(["Blizzard","Inferno"]),pick(["Sonic Boom","Lightning Bolt"]),pick(["Sunshower","Plague Wave"])];
+var twoslots = shuffle([pick(["Blizzard","Inferno"]),pick(["Sonic Boom","Lightning Bolt"]),pick(["Sunshower","Plague Wave"]),pick(["Magnum Opus","Conjurate"])]);
+var shopstuff = [twoslots.pop(),"Health",twoslots.pop()];
 		
 otherstuff = [
   health(),
@@ -123,8 +123,6 @@ addfloor("small")
 items = [];
 gooditems = [];
 otherstuff = [health(), health(), health()];
-
-trace(shopstuff);trace(gooditems);
 
 goodotherstuff = [
   shop([

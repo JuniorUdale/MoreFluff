@@ -90,14 +90,10 @@ New items:
 		* Deal [odd] damage
 		* On 1, freeze a dice and change to fire form!
 	* Vampire Blades - this item sucks
-		* Max3, drain 1 health
+		* Max4, drain 1 health
 		* Reuseable
 		* Also lose 1 max health whenever you use it
 		* So it's great for sustain, but you tend to die quite a bit whilst using it
-	* Fairy In A Bottle - free heals!
-		* Passive item
-		* Heal for 15...
-		* ...if you started your turn on 1 health
 		
 		
 		
@@ -131,10 +127,18 @@ Changes:
 		* This has necessitated increasing its size to 2
 		* Though this all seems a bit too much...
 	* Divine Blade nerfed:
-		* Now size 1, but range reduce to MAX4/MAX5 on upgrade
+		* Now size 1, but range reduced to MAX4/MAX5 on upgrade
 	* Swordstave+ nerfed:
 		* Used to inflict 2x status when upgraded
 		* Now just has a flat +2 damage
+	* Toxify nerfed:
+		* Was MAX5, upgrading to unrestricted
+		* Now MAX4, upgrading to MAX5
+	* Pea Pod nerfed:
+		* Went from 2/3 mana to 1/2 mana
+	* Coffee Bean reworked:
+		* Now a countdown of 4 that grants you 2 mana and 2 health
+		* But, you lose 1 mana each turn while it's equipped!
 	
 
 Bugfixes:
@@ -145,6 +149,7 @@ Bugfixes:
 		* Twoplicate-
 		* Ballerina Charm-
 		* Pavise+
+		* Cup Of Tea
 	* Witch BR no longer gets offered Rockfall as a starting item, since Rockfall isn't an actual spell
 	* Drake no longer appears in Finders Keepers
 	* Hoplon+ now works correctly
@@ -157,6 +162,8 @@ Bugfixes:
 	* Precision Blade now works if it dips below 0
 		* solved by capping it at 2
 	* Dainsleif no longer breaks vs Drake
+	* Witch level up spells are more streamlined and consistent
+	* Magic Frostbolt+ now works
 
 =====================================================================
 
