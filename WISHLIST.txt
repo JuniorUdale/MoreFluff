@@ -14,6 +14,8 @@
 
 * Some way to expose the "excess damage" done by an item - currently the Cactus remix is hardcoded
 
-* Let enemies equip @ items - currently if you try to give them e.g. `Precious Egg@6`, it will throw an error with "Precious Egg is not an equipment"
-
 * Get a reference to the equipment used in the "On any equipment use" and "On any countdown reduce" script fields
+
+* Let `eq.doequipmentaction()` work for Jester
+
+* A "global script" csv, which holds common hooks (start turn, end turn, on any equipment use) which load scripts to be active constantly. Would make status effects

@@ -1,5 +1,7 @@
 v2.4.0 - actual content!
 
+ONE MORE ROLL
+
 I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy! This has warranted an icon change though...
 
 New items:
@@ -139,6 +141,9 @@ Changes:
 	* Coffee Bean reworked:
 		* Now a countdown of 4 that grants you 2 mana and 2 health
 		* But, you lose 1 mana each turn while it's equipped!
+	* Bloodroot reworked:
+		* Now gains 1 mana if you're above half health
+		* Upgrades to always granting 1 mana
 	
 
 Bugfixes:
@@ -164,6 +169,7 @@ Bugfixes:
 	* Dainsleif no longer breaks vs Drake
 	* Witch level up spells are more streamlined and consistent
 	* Magic Frostbolt+ now works
+	* Magnolia now only consumes 1 mana on evens
 
 =====================================================================
 
