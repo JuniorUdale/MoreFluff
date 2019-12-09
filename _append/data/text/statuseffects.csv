@@ -79,3 +79,4 @@ essence_poison,Toxic_Essence,poison,Does nothing. When invoked:|Receive [poison]
 essence_dark,Dark_Essence,curse,Does nothing. When invoked:|Receive a bad status ([curse]Curse[;] [lock]Lock[;] [shock]Stun),NO,YES,NO,NO,NO
 mf_stun,Stun,shock,Random equipment is disabled for the turn.,NO,YES,YES,NO,NO
 alternate_mf_stun,Stun?,shock,Lose a dice next turn.,NO,YES,YES,NO,NO
+nothing,Nothing,,Does absolutely nothing.,NO,YES,YES,NO,NO
