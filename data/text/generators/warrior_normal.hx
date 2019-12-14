@@ -7,7 +7,7 @@ var goodotherstuff = [];
 
 var warriorshops = ["Broadsword", "Iron Shield", "Dagger", "Buckler", "Target Shield", "Nightstick", "Snake Eye Charm", "Midnight Charm", "Healing Crystal", "Claw", "Snowball", "Boomerang", "Tazer", "First Aid Kit"];
 
-warriorshops = warriorshops.concat( ["Pike", "Zweihander", "Halberd", "Chakram", "Paintbrush", "Mace", "Pavise", "Natural Charm", "Loaded Dice", "Shotgun","Boomstick", "Blooplicate", "Trowel", "Mallet", "Frosted Dirk", "Spiked Sword", "Electroplating", "Trishula", "Tomahawk","Cat O' Six Tails", "Divine Blade", "Healing Shiv", "Venomous Goop", "Really Spiky Shield"]); //modded items
+warriorshops = warriorshops.concat( ["Pike", "Zweihander", "Halberd", "Chakram", "Paintbrush", "Mace", "Pavise", "Natural Charm", "Loaded Dice", "Shotgun","Boomstick", "Blooplicate", "Trowel", "Mallet", "Frosted Dirk", "Spiked Sword", "Electroplating", "Trishula", "Tomahawk","Cat O' Six Tails", "Divine Blade", "Healing Shiv", "Venomous Goop", "Really Spiky Shield", "Nether Portal"]); //modded items
 
 shuffle(warriorshops);
 

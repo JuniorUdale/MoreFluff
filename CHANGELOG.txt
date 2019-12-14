@@ -1,7 +1,5 @@
 v2.4.0 - actual content!
 
-ONE MORE ROLL
-
 I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy! This has warranted an icon change though...
 
 New items:
@@ -96,6 +94,23 @@ New items:
 		* Reuseable
 		* Also lose 1 max health whenever you use it
 		* So it's great for sustain, but you tend to die quite a bit whilst using it
+	* Insult To Injury - bbut you can go infinite!
+		* Take an extra turn, countdown of 12
+		* Only works if you've dealt 40 or more damage this turn!
+	* Overconfidence, Backup Drive, CPU Shooter - remind yourself that failing to back up your work is a slow and insidious killer
+		* Overconfidence deals 5 damage if you jackpot
+		* Backup Drive gives you 2 shield if you error
+		* CPU Shooter deals 2 damage every 3rd time you calculate
+		* Passive items are fun!
+	* Panic Button - oh no!!!1!
+		* Gain 2x[max5] shield
+		* But, you lose a dice this fight!
+	* Dodgy Chronometer - extra turns are fair and balanced
+		* Take an extra turn, countdown of 24
+		* Errors on every turn after the first!
+	* Snail Bat - i'm just rhyming at this point
+		* Deal 2x[] damage
+		* Only becomes available after turn 4 though!
 		
 		
 		
