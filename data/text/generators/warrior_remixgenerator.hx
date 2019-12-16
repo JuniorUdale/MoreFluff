@@ -5,10 +5,10 @@ var gooditems = [];
 var otherstuff = [];
 var goodotherstuff = [];
 
-var warriorshops = ["Broadsword", "Iron Shield", "Dagger", "Buckler", "Target Shield", "Nightstick", "Blight", "Snake Eye Charm", "Midnight Charm", rand(["Healing Crystal", "Thick Skin", "Elastic Heart"]), "Claw", "Snowball", "Boomerang", "Tazer", rand(["First Aid Kit", "Kite Shield"]), "Parrying Dagger", "Boxing Gloves", "Last Stand", "Singularity", "Half Moon Charm", "Dramatic Exit", "Hookshot", "Capacitor", "Trowel", "Mallet", "Frosted Dirk", "Spiked Sword", "Lamppost", "Firey Firesword of Fire", "Blessed Bat of Bashing", "Trident", "Gemstone Staff", "Sledgehammer", "Tesla Cannon", "Rodela", "Baseball Bat","Katana"];
+var warriorshops = ["Broadsword", "Iron Shield", "Dagger", "Buckler", "Target Shield", "Nightstick", "Blight", "Snake Eye Charm", "Midnight Charm", rand(["Healing Crystal", "Thick Skin", "Elastic Heart"]), "Claw", "Snowball", "Boomerang", "Tazer", rand(["First Aid Kit", "Kite Shield"]), "Parrying Dagger", "Boxing Gloves", "Last Stand", "Singularity", "Half Moon Charm", "Dramatic Exit", "Hookshot", "Capacitor", "Trowel", "Mallet", "Frosted Dirk", "Spiked Sword", "Lamppost", "Firey Firesword of Fire", "Blessed Bat of Bashing", "Trident", "Gemstone Staff", "Sledgehammer", "Tesla Cannon", "Rodela", "Baseball Bat","Katana","Urumi","Crass Knuckles","Blood Transfer","Generous Sword","Ornamental Shield","Spikemail","Hairdryer","Mirrorblade","Panic Button","Snail Bat","Jade Blade","Black Hole","Reaper","Shielding Potion","Stock Up","Field Dressing","Incapacitate","Plague Stave","Asklepios","Starstaff"];
 shuffle(warriorshops);
 
-var strangeshop = ["Spatula", "Lightning Rod", "Shriek", "Hammer", "Juggling Ball", "Toxic Ooze", "Candle", "Particle Accelerator", "Flying Skull", "Sledgehammer", "Slingshot", "Fishing Net", "Scissors","Heckle", "Ferrosynthesis", "Really Spiky Shield", "Sunder"];
+var strangeshop = ["Spatula", "Lightning Rod", "Shriek", "Hammer", "Juggling Ball", "Toxic Ooze", "Candle", "Particle Accelerator", "Flying Skull", "Sledgehammer", "Slingshot", "Fishing Net", "Scissors","Heckle", "Ferrosynthesis", "Really Spiky Shield", "Sunder","Malediction","Evil Eye"];
 strangeshop = shuffle(strangeshop);
 
 //Floor 1:

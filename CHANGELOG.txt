@@ -1,8 +1,13 @@
 v2.4.0 - actual content!
 
-I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy! This has warranted an icon change though...
+I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy a free update of over 150 new items! This has warranted an icon change though...
 
-New items:
+A new status effect - Stun!
+	* Completely disables an enemy item next turn
+	* The PU version of it makes the enemy lose a dice next turn
+	* Both are pretty potent; it's a rare effect!
+
+Some noteworthy new items:
 	* Flip Flop - you guys desperately want this
 		* Witch-only item
 		* Takes 2 dice and returns them
@@ -11,15 +16,11 @@ New items:
 		* Useful? Probably not!
 	* Speedometer - nyoom
 		* Deal 12 damage, countdown of 20
-		* Even dice have 2x an effect on this countdown
+		* Even dice have twice the effect on this countdown
 		* So if you only use even dice, it's a 10 countdown for 12 damage!
 	* Leeching Spell - give them the s u c c
 		* Needs doubles, drain health equal to the value of one dice
 		* However, you also lose 3 health each turn it's out!
-	* Nether Portal - don't dabble in da demonic dicey d'arts
-		* Duplicates a dice, max 4, reuseable.
-		* The catch?
-		* It curses you each time you use it!
 	* Booster Pack - contents not randomized
 		* Adds a free 1 to each of your non-countdown, non-needs-doubles items, until they get weakened.
 		* This only affects items which do stuff with the dice value:
@@ -27,29 +28,11 @@ New items:
 			* Broadsword now deals +3 damage.
 			* Bump now gives you a [] + 2.
 			* Candle is now the most OP item in the entire game
-	* Min Night Charm - i laughed for a solid 18 hours after making this pun
-		* Countdown of 12
-		* Gives you 3 copies of the smallest dice used in it
-		* So, put two 6s into it and you'll get 3 sixes out!
-	* Segfault - muh efficiency
-		* Countdown of 5 for 3 damage.
-		* Returns the value of any excess dice you put into it.
-		* So if you use a 6 to activate it, you'll get a 1 back.
-		* If you used a 4 then a 3 to activate it, you'll get a 2 back.
-		* If you put a 6 into Crowbar, which activated this, you'll get a 1 back.
-		* The VALUE!!!!
-	* Dice Storage - a rubber duck for the more discerning diceketeer
-		* Countdown of 4
-		* Returns the dice you put into it
-		* Somewhat useless, but at least it becomes scrap!
 	* Perpetual Motor - the holy grail
 		* Deals damage, grants you AN EXTRA TURN!
 		* Useable every turn!
 		* The catch?
 		* It's two MAX3 slots, and gives you an extra turn on 8...
-	* Really Sharp Spike - precision engineering
-		* Deal 10 damage, for a countdown of 4
-		* The catch? It self-destructs if you put anything that isn't a 1 into it!
 	* Synchrotron - countdowns are fun to manipulate
 		* Countdown of 12, deal 6 damage
 		* Deals double damage if all of the dice placed into it were the same!
@@ -57,13 +40,6 @@ New items:
 	* Starpocalypse - this won't break anything
 		* Needs 2 fives
 		* Randomize ALL*[1] statuses on enemy!!!!!!
-	* Coin Flip - didn't make a dent in the economy
-		* Rerolls ALL of your dice...
-		* ...into either 6s or 1s.
-		* Have fun!
-	* Secateurs - mathematical thingies
-		* Takes 2 dice that're 2 or more
-		* Divide the bigger dice by the smaller dice, then deal 3x that much damage.
 	* Heavy Gatling - we need more dakka
 		* Countdown of 20, deals 2 damage.
 		* However, it deals this damage whenever the countdown is reduced!
@@ -72,9 +48,6 @@ New items:
 		* Takes your scrap items and repurposes them into new stuff!
 		* Takes any broken items/gadgets and repurposes them into new stuff!
 		* It might not be good new stuff, but at least it's new stuff!
-	* Sharpened Gun - get learned how to make your bullets more hurtier
-		* Countdown of 5, deal 6 damage
-		* Lose 1 health whenever you reduce its countdown
 	* Panic Button - AAAAAAAAAAAAAAAAAAAAAA
 		* Lose 1 dice this fight
 		* But get a buttload (2x[max5]) of shield
@@ -89,11 +62,6 @@ New items:
 	* Frostfire - like eating a pepper after chewing mints
 		* Deal [odd] damage
 		* On 1, freeze a dice and change to fire form!
-	* Vampire Blades - this item sucks
-		* Max4, drain 1 health
-		* Reuseable
-		* Also lose 1 max health whenever you use it
-		* So it's great for sustain, but you tend to die quite a bit whilst using it
 	* Insult To Injury - bbut you can go infinite!
 		* Take an extra turn, countdown of 12
 		* Only works if you've dealt 40 or more damage this turn!
@@ -151,14 +119,15 @@ Changes:
 	* Toxify nerfed:
 		* Was MAX5, upgrading to unrestricted
 		* Now MAX4, upgrading to MAX5
-	* Pea Pod nerfed:
-		* Went from 2/3 mana to 1/2 mana
 	* Coffee Bean reworked:
 		* Now a countdown of 4 that grants you 2 mana and 2 health
 		* But, you lose 1 mana each turn while it's equipped!
 	* Bloodroot reworked:
 		* Now gains 1 mana if you're above half health
 		* Upgrades to always granting 1 mana
+	* And an assortment of small tweaks:
+		* Metalmorph is now a countdown of 4 instead of 5
+		* Pea Pod is now 1/2 mana instead of 2/3 mana
 	
 
 Bugfixes:
@@ -175,6 +144,7 @@ Bugfixes:
 	* Hoplon+ now works correctly
 		* and has had a description change to better reflect that
 	* Magic Smoke now works, definitely
+	* Gadget.pdf.exe has been IMPROVED working DICE DUNGEON HACK 2019 APPROVED improved UPDATE 100% FREE
 	* Belt Sander now "works" on identical dice
 	* Shadow Stick+ now correctly inflicts 2 blind on even, instead of always inflicting 1 blind
 	* Megaclone now has an actual downgrade
@@ -185,6 +155,9 @@ Bugfixes:
 	* Witch level up spells are more streamlined and consistent
 	* Magic Frostbolt+ now works
 	* Magnolia now only consumes 1 mana on evens
+	* Reboot now no longer rerolls locked dice
+	* Critical Hit! now works with passives like Auto Turret
+
 
 =====================================================================
 

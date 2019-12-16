@@ -1,7 +1,7 @@
 Name,Description,Requirements,Script
 Life Leech,Drain [heart]2 health,,drain(2); sfx(~_drain~);
 Padlock,Lock all dice (once),,inflict(LOCK|ALL); sfx(~_lock~); Gadget.changegadget(self| ~Padlock~| ~Broken Gadget~);
-Ice Burn,Burn [fire]3 dice[;] [ice]freeze the rest,,inflict(FIRE[;]3); inflict(ICE[;]ALL); sfx(~_fire~); sfx(~_ice~);
+Ice Burn,Burn [fire]1[;] freeze [ice]1,,inflict(FIRE[;]1); inflict(ICE[;]1); sfx(~_fire~); sfx(~_ice~);
 Goop Gun,Inflict [poison]2 poison,,inflict(POISON[;]2); sfx(~_poison~);
 JOAT Smash,[sword]1[;] [heal]1[;] [shield]1[;] [poison]1,,attack(1); attackself(-1); inflict(POISON); inflictself(SHIELD); sfxdamage(target|1); sfx(~_heal~); sfx(~_shield~|~~|0.6); sfx(~_poison~|~~|0.2);
 Zapthwack,[shock]1 item + [weaken]1 item,,inflict(SHOCK); inflict(WEAKEN); sfx(~_weaken~); sfx(~_shock~);
@@ -18,7 +18,7 @@ Phoenix Down,[curse]Survive a fatal blow (once),,inflictself(SURVIVE); sfx(~_sur
 Phoenix Down?,[curse]Survive for 3 turns (once),,inflictself(SURVIVE); sfx(~_curse~); Gadget.changegadget(self| ~Phoenix Down?~| ~Broken Gadget~);
 Coin Clippers,[]+[shield]1 per dice you have,,var s = 0; for(d in self.dicepool){if(d.available()){s+=1;};}; if(s > 0){sfx(~_shield~); inflictself(SHIELD|s);};
 Mechanical Kneecap,[sword]1 dmg per dice you have,,var s = 0; for(d in self.dicepool){if(d.available()){s+=1;};}; if(s > 0){sfxdamage(target|s); attack(s);};
-GADGET.PDF.EXE,Roll [red]3[] new dice!,,givedice([1|1|1]);
+GADGET.PDF.EXE,Roll [red]3[] new dice!,,givedice([1|1|1]); for(x in [1|2|3]){self.dicepool[self.dicepool.length-x].animate(~lock~|(3-x)*0.3); self.dicepool[self.dicepool.length-x].animate(~fire~|(3-x)*0.3);}
 Smoke Cloud,Blind [blind]all dice,,inflict(BLIND|ALL); sfx(~_blind~);
 Whelm,[sword]1 dmg[;] +1 each use,,attack(1 + getstatusself(~whelm~)); inflictself(~whelm~); sfxdamage(target|1+getstatusself(~whelm~));
 Two Handed Knife,[sword]5 dmg to both,,attack(5); attackself(5); sfxdamage(target|5);

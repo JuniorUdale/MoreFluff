@@ -25,7 +25,12 @@ var commonlist_offensive = [
   "Pansy",
   "Thermalily",
   "Dogwood",
-  "Starspike"
+  "Starspike",
+  "Glistening Bauble",
+  "Leeching Spell",
+  "Cherry Bomb",
+  "Silhouette",
+  "Mana Cannon"
 ];
 shuffle(commonlist_offensive);
 var commonlist_dicemanipulation = [
@@ -42,7 +47,9 @@ var commonlist_dicemanipulation = [
   "Magic Mirror",
   "Magic Spatula",
   "Magic Sneeze",
-  "Marigold"
+  "Marigold",
+  "Mirror Calling",
+  "Dark Bargain"
 ];
 shuffle(commonlist_dicemanipulation);
 var commonlist_spring = [
@@ -119,7 +126,7 @@ addfloor("normal")
 items = [];
 gooditems = [rand(["Moon Beam", "Gladioli", "Enchanted Bolt"])];
 
-var addons = shuffle(["Rannuncarpus","Sunflower","Iris"]);
+var addons = shuffle(["Rannuncarpus","Sunflower","Iris","Flip Flop"]);
 var thorns = [pick(["Rosebud", "Blackberry", "Magic Mistletoe", "Magic Thistle"]),pick(["Stinging Nettle","Dock Leaf"])];
 
 var shopstuff = [];
@@ -161,7 +168,7 @@ items = [commonlist_dicemanipulation.pop()];
 gooditems = [];
 otherstuff = [health(), health(), health()];
 goodotherstuff = [
-  shop(shuffle([rand(["Summer Solstice", "Winter Solstice"]), commonlist_offensive.pop(), pick(["Harvest Scythe","Begonia"])]), [3, 4, 5])
+  shop(shuffle([rand(["Summer Solstice", "Winter Solstice","Mass Grimoire"]), commonlist_offensive.pop(), pick(["Harvest Scythe","Begonia","Autumn Equinox"])]), [3, 4, 5])
 ];
 		
 addfloor("big")

@@ -6,9 +6,9 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens", pick(["Counterfeit","Forgery","Snapshot","Photocopy","Booplicate","Duplicate"])]);
+var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens", pick(["Counterfeit","Forgery","Snapshot","Photocopy","Booplicate","Duplicate"]), "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack"]);
 
-var countdowns = ["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter"];
+var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter", "Chain Dagger","Plague Stave","Asklepios"]);
 
 
 var items = [];	
@@ -46,7 +46,7 @@ addfloor("normal")
 
 
 commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); //get it down to 7 items to make these show up more often
-commonlist1 = commonlist1.concat(["Poison Needle", "Crowbar", "Magic Spear", "Teleport Spell", "Flak Cannon", "Antifreeze", "Scraps", "Metalmorph"]);
+commonlist1 = commonlist1.concat(["Poison Needle", "Crowbar", "Magic Spear", "Teleport Spell", "Antifreeze", "Scraps", "Metalmorph"]);
 
 var rarelist1 = ["Dodge", "Hookshot", "Midnight Charm","Natural Charm", "Gooplicate"];
 commonlist1 = shuffle(commonlist1);
@@ -95,13 +95,13 @@ otherstuff = [
 var armortrade;
 if(armor){
 	armortrade = pick([
-	trade(["Dagger"],["Boomstick","Shotgun","Peppergun"]),
+	trade(["Dagger"],["Boomstick","Shotgun","Peppergun","Power Creeper"]),
 	trade(["Lockpick"],["Snippers","Locklance","Origami"]),
 	trade(["Leather Armor"], ["Chain Mail", "Iron Armor", "Mirror Coating"])
 ]);
 }else{
 	armortrade = pick([
-	trade(["Dagger"],["Boomstick","Shotgun","Peppergun"]),
+	trade(["Dagger"],["Boomstick","Shotgun","Peppergun","Power Creeper"]),
 	trade(["Lockpick"],["Snippers","Locklance","Origami"])
 ]);
 };

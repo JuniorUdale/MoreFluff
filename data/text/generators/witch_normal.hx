@@ -25,7 +25,9 @@ var commonlist_offensive = [
   "Hailstorm",
   "Metallicize",
   "Immolate",
-  "Fire Siphon"
+  "Fire Siphon",
+  "Bolas",
+  "Blood Pact"
 ];
 var commonlist_dicemanipulation = [
   "Illuminate", 
@@ -42,7 +44,8 @@ var commonlist_dicemanipulation = [
   "Iron Cauldron",
   "Copper Cauldron",
   "Doppliduplicateinate",
-  "Binding Spell"
+  "Binding Spell",
+  "Recycling Spell"
 ];
 
 

@@ -6,8 +6,8 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist_basic = shuffle(["Regen", "Dodge Roll", "Cache Stash", "Trishula", "Tomahawk", "Hand Lens",rand(["Iron Armor","Leather Armor","Magic Armor"]), "Saw Wave", "Safe Bet","Tin Snips","Critical Hit", "Electric Fence", "Meteor Hammer", "Auto Turret"]);
-var commonlist_advanced = shuffle(["Juggling Ball", "Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Promote", "Superbolt", "Scraps","Antifreeze",  "Chain Whip","Slingshot", "Vise Grip", (chance(30)?"Starspear":"Sword Hilt"), "Ungeradedice", "Four Leaf Clover","Belt Sander","Fulcrum Blade", "Cleaver", "Heat Vent", "Mechanical Charm","Star Shooter","Virtual Machine", "Amplify","Reboot"]);
+var commonlist_basic = shuffle(["Regen", "Dodge Roll", "Cache Stash", "Trishula", "Tomahawk", "Hand Lens",rand(["Iron Armor","Leather Armor","Magic Armor"]), "Saw Wave", "Safe Bet","Tin Snips","Critical Hit", "Electric Fence", "Meteor Hammer", "Auto Turret","Segfault","Ornamental Shield","CPU Shooter","Minigun"]);
+var commonlist_advanced = shuffle(["Juggling Ball", "Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Promote", "Superbolt", "Scraps","Antifreeze",  "Chain Whip","Slingshot", "Vise Grip", (chance(30)?"Starspear":"Sword Hilt"), "Ungeradedice", "Four Leaf Clover","Belt Sander","Fulcrum Blade", "Cleaver", "Heat Vent", "Mechanical Charm","Star Shooter","Virtual Machine", "Amplify","Reboot","Backup Drive","Overconfidence","Duplihate","One With Everything","Rosary","Plug Socket"]);
 
 items = [commonlist_basic.pop()];
 gooditems = [];

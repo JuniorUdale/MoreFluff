@@ -9,9 +9,9 @@ var goodotherstuff = [];
 var dicemanip = ["Chisel", "Candle", "Jerk", "Swizzle", "Sprinkler"];
 dicemanip = shuffle(dicemanip);
 
-var commonlist1 = shuffle(["Cloak", dicemanip.pop(), "Plaster", "Dramatic Exit", pick(["Square Pair", "Ballerina Charm"]), pick(["Twotool", "Crowpick"]), "Lifesteal", "Thistle Tea", "Illumineight", "Rope Dart", "Blunt Dagger", "Starspike","Rockfall", "Slice And Dice", "Blunt Dagger"]);
+var commonlist1 = shuffle(["Cloak", dicemanip.pop(), "Plaster", "Dramatic Exit", pick(["Square Pair", "Ballerina Charm"]), pick(["Twotool", "Crowpick"]), "Lifesteal", "Thistle Tea", "Illumineight", "Rope Dart", "Blunt Dagger", "Starspike","Rockfall", "Slice And Dice", "Blunt Dagger","Secateurs", "Heavy Gatling", "Vampire Blade", "Duoplicate", "Juice Box", "Ignite", "Umbrella"]);
 
-var countdowns = shuffle([pick(["Ballerina Charm", "Square Pair"]), "Cleaver", "Magma Storm", "Plaster", "Blast Chiller", "Splat", "Cup Of Tea"]);
+var countdowns = shuffle([pick(["Ballerina Charm", "Square Pair"]), "Cleaver", "Magma Storm", "Plaster", "Blast Chiller", "Splat", "Cup Of Tea", "Trianguleight", "Coin Flip", "Dodgy Chronometer", "Starstaff"]);
 var cowbell = shuffle(["Kalis","Splutter", "Twoplicate", "Stinging Nettle", "Crown and Anchor", "Knitting Needle"]);	
 
 items = [countdowns.pop()];
@@ -32,7 +32,7 @@ gooditems = [];
 
 otherstuff = [health(), health()];
 var shopstuff = shuffle([countdowns.pop(),cowbell.pop()]);
-goodotherstuff = [shop([shopstuff[0], "Befuddle", shopstuff[1]],[2,3,2])];
+goodotherstuff = [shop([shopstuff[0], pick(["Befuddle","Duoplicate"]), shopstuff[1]],[2,3,2])];
 
 addfloor("normal")
   .additems(items, gooditems)
@@ -40,8 +40,8 @@ addfloor("normal")
   .generate();
   
 //Floor 3:
-commonlist1 = commonlist1.concat(["Paper Lantern", pick(["Last Stand","Surfive"]), "Kite Shield", "Tetraphobia", "Chisel", "Lucky 7", "Kalis", "Toxic Trebuchet", "Rope Dart", "Scorpion", "Threeken", "Full House"]);
-var rarelist1 = ["Dramatic Entrance", "Raw Ambition", "Hookshot", "Signal Jammer", "Determination", "Precision Blade", "Scales of Justdice", "Meteor Hammer", "Megaclone", "Curseven", "Quadrahedron"];
+commonlist1 = commonlist1.concat(["Paper Lantern", pick(["Last Stand","Surfive"]), "Kite Shield", "Tetraphobia", "Chisel", "Lucky 7", "Kalis", "Toxic Trebuchet", "Rope Dart", "Scorpion", "Threeken", "Full House", "Gem Of Healing", "Insult To Injury"]);
+var rarelist1 = ["Dramatic Entrance", "Raw Ambition", "Hookshot", "Signal Jammer", "Determination", "Precision Blade", "Scales of Justdice", "Meteor Hammer", "Megaclone", "Curseven", "Quadrahedron", "Imperishability", "Fairy In A Bottle", "Blightmare"];
 
 commonlist1 = shuffle(commonlist1);
 rarelist1 = shuffle(rarelist1);
@@ -86,9 +86,9 @@ if(chance(5)){
 	thieftrade = trade(["master key"], ["Ungeradedice"]);
 }else{
 	if(chance(50)){
-		thieftrade = trade(["nunchucks"], ["Tesseract", "Weapons Hot", "Fourns"]);
+		thieftrade = trade(["nunchucks"], ["Tesseract", "Weapons Hot", "Fourns", "Trebuchet", "Three Shooter"]);
 	}else{
-		thieftrade = trade(["master key"], ["Magic Sneeze", "Locktrick", "Broken Mirror"]);
+		thieftrade = trade(["master key"], ["Magic Sneeze", "Locktrick", "Broken Mirror", "Blunderbuss", "Aqua Fortis"]);
 	}
 }
 

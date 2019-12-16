@@ -6,8 +6,8 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist_basic = shuffle(["Regen", "Dodge Roll", "Cache Stash", "Trishula", "Tomahawk", "Hand Lens"]);
-var commonlist_advanced = shuffle(["Juggling Ball", "Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Promote", "Superbolt", "Scraps","Antifreeze",  "Chain Whip", "Reboot"]);
+var commonlist_basic = shuffle(["Regen", "Dodge Roll", "Cache Stash", "Trishula", "Tomahawk", "Hand Lens","Segfault"]);
+var commonlist_advanced = shuffle(["Juggling Ball", "Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Promote", "Superbolt", "Scraps","Antifreeze",  "Chain Whip", "Reboot","Ornamental Shield","Minigun","One With Everything"]);
 
 items = [commonlist_basic.pop()];
 gooditems = [];
@@ -55,6 +55,8 @@ commonlist_basic.push("Spirit Level");
 commonlist_basic.push("Coolant Shooter");
 commonlist_basic.push("Pliers");
 commonlist_basic.push("Custard Cream");
+commonlist_basic.push("Superconductor");
+commonlist_basic.push("Vortex");
 shuffle(commonlist_basic);
 
 commonlist_advanced.push("Counter Spell");
@@ -63,6 +65,7 @@ commonlist_advanced.push("Metallicize");
 commonlist_advanced.push("Electroplating");
 commonlist_advanced.push("Overheat");
 commonlist_advanced.push("Underclock");
+commonlist_advanced.push("Mass Counterspell");
 shuffle(commonlist_advanced);
 
 items = [];

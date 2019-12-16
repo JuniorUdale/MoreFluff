@@ -25,18 +25,15 @@ bleed11,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts 
 bleed12,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 12 turns.,NO,YES,NO,NO,NO
 pursuit,Pursuit,sword,Increases damage dealt by Pursuit by 3 this turn.,NO,NO,NO,YES,NO
 pursuitnext,Pursuing,sword,Pursuit deals 3 more damage next turn.,NO,NO,NO,YES,NO
-bound1,Bound 1 x,lock,Next turn[;] at least <amount> of your|dice will be ones.,NO,NO,YES,NO,NO
-bound2,Bound 2 x,lock,Next turn[;] at least <amount> of your|dice will be twos.,NO,NO,YES,NO,NO
-bound3,Bound 3 x,lock,Next turn[;] at least <amount> of your|dice will be threes.,NO,NO,YES,NO,NO
-bound4,Bound 4 x,lock,Next turn[;] at least <amount> of your|dice will be fours.,NO,NO,YES,NO,NO
-bound5,Bound 5 x,lock,Next turn[;] at least <amount> of your|dice will be fives.,NO,NO,YES,NO,NO
-bound6,Bound 6 x,lock,Next turn[;] at least <amount> of your|dice will be sixes.,NO,NO,YES,NO,NO
+bound1,Bound 1,lock,Next turn[;] at least <value> of your|dice will have a value of one.,NO,NO,YES,NO,NO
+bound2,Bound 2,lock,Next turn[;] at least <value> of your|dice will have a value of two.,NO,NO,YES,NO,NO
+bound3,Bound 3,lock,Next turn[;] at least <value> of your|dice will have a value of three.,NO,NO,YES,NO,NO
+bound4,Bound 4,lock,Next turn[;] at least <value> of your|dice will have a value of four.,NO,NO,YES,NO,NO
+bound5,Bound 5,lock,Next turn[;] at least <value> of your|dice will have a value of five.,NO,NO,YES,NO,NO
+bound6,Bound 6,lock,Next turn[;] at least <value> of your|dice will have a value of six.,NO,NO,YES,NO,NO
 cache,Cached,dice,Store <value> dice for next turn.,NO,YES,NO,YES,NO
 lightstatus,Enlightened,dice,Get [yellow]<value>[] extra dice next turn.,NO,YES,NO,YES,NO
-blessing,Blessing,heal,(Blessed Bat of Bashing)|Restore [heal]<value> health at the end of your turn.,NO,YES,NO,NO,NO
-firesword,Permaflame,fire,(Firey Firesword of Fire)|[red]ALL[] of your dice are set on fire.,NO,NO,NO,NO,NO
 permafrost,Permafrost,ice,Receive [ice]<value> freeze next turn.,NO,YES,NO,NO,NO
-blender,Blender,sword,Deal [sword]<value> more damage with Blender this turn.,NO,YES,YES,NO,NO
 lamppost1,Lamppost,dice,Get a free [yellow]1[] next turn.,NO,NO,NO,YES,NO
 lamppost2,Lamppost,dice,Get a free [yellow]2[] next turn.,NO,NO,NO,YES,NO
 lamppost3,Lamppost,dice,Get a free [yellow]3[] next turn.,NO,NO,NO,YES,NO
@@ -70,7 +67,7 @@ polymorph,Polymorph,potion,A random item has been replaced|with another random i
 polymorphall,Polymorph_All,potion,ALL items have been replaced|with random items.,NO,NO,NO,NO,NO
 nerfed,Nerfed,jinx,Items are harder to play.|Weakening an item resets it.,NO,YES,NO,NO,NO
 reaper,Reaper,heal,Your next attack heals you|for the damage done.,NO,YES,YES,NO,NO
-essence_base,Base_Essence,sword,Does nothing. When invoked:|Take [sword]3 damage for each Base Essence.,NO,YES,NO,NO,NO
+essence_base,Base_Essence,sword,Does nothing. When invoked:|Take [sword]4 damage for each Base Essence.,NO,YES,NO,NO,NO
 essence_fire,Flame_Essence,fire,Does nothing. When invoked:|Receive [fire]1 burn for each Flame Essence.,NO,YES,NO,NO,NO
 essence_ice,Frost_Essence,ice,Does nothing. When invoked:|Receive [ice]1 freeze for each Frost Essence.,NO,YES,NO,NO,NO
 essence_shock,Air_Essence,shock,Does nothing. When invoked:|Receive [shock]1 shock for each Shock Essence.,NO,YES,NO,NO,NO

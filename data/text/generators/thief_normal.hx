@@ -6,9 +6,9 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens","Rend", "Shichishito"]);
+var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens","Rend", "Shichishito", "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack"]);
 
-var countdowns = ["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter"];
+var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter","Chain Dagger", "Plague Stave","Asklepios"]);
 
 
 var items = [];	
@@ -93,13 +93,13 @@ otherstuff = [
 var armortrade;
 if(armor){
 	armortrade = pick([
-		trade(["Dagger"],["Boomstick","Xiphos","Peppergun"]),
+		trade(["Dagger"],["Boomstick","Xiphos","Peppergun","Power Creeper"]),
 		trade(["Lockpick"],["Snippers","Locklance","Origami"]),
 		trade(["Leather Armor"], ["Chain Mail", "Iron Armor", "Mirror Coating"])
 	]);
 }else{
 	armortrade = pick([
-		trade(["Dagger"],["Boomstick","Xiphos","Peppergun"]),
+		trade(["Dagger"],["Boomstick","Xiphos","Peppergun","Power Creeper"]),
 		trade(["Lockpick"],["Snippers","Locklance","Origami"])
 	]);
 };

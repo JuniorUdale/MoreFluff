@@ -8,11 +8,11 @@ var goodotherstuff = [];
 var poison = chance(50);
 trace(poison);
 
-var warriorshops = ["Katana", "Copper Shield", "Parrying Dagger", "Kite Shield", "Thick Skin", "Boxing Gloves", "Last Stand", "Singularity", "Half Moon Charm", "Dramatic Exit", "Hookshot", "Ignite", "Capacitor", "Elastic Heart", "Overblaster", "Soul Stealer","Nanobots", "Pursuit", "Gavel", "Sledgehammer", "Lamppost", "Firey Firesword of Fire", "Frozen Whip","Claymore","Blessed Bat of Bashing","Gunkblade", "Tesla Cannon", "Rodela", "Baseball Bat"];
+var warriorshops = ["Katana", "Copper Shield", "Parrying Dagger", "Kite Shield", "Thick Skin", "Boxing Gloves", "Last Stand", "Singularity", "Half Moon Charm", "Dramatic Exit", "Hookshot", "Ignite", "Capacitor", "Elastic Heart", "Overblaster", "Soul Stealer","Nanobots", "Pursuit", "Gavel", "Sledgehammer", "Lamppost", "Firey Firesword of Fire", "Frozen Whip","Claymore","Blessed Bat of Bashing","Gunkblade", "Tesla Cannon", "Rodela", "Baseball Bat", "Min Night Charm", "Heavy Gatling", "Snail Bat", "Black Hole","Reaper", "Stock Up", "Starstaff"];
 
 shuffle(warriorshops);
 
-var strangeshop = ["Candle", "Particle Accelerator", "Flying Skull", "Sledgehammer", "Slingshot", "Fishing Net", "Scissors" "Flourish", "Mitosis", "Sapping Spores", "Ferrosynthesis", "Sunder"];
+var strangeshop = ["Candle", "Particle Accelerator", "Flying Skull", "Sledgehammer", "Slingshot", "Fishing Net", "Scissors" "Flourish", "Mitosis", "Sapping Spores", "Ferrosynthesis", "Sunder", "Blood Transfer", "Mirrorblade"];
 strangeshop = shuffle(strangeshop);
 
 //Floor 1:

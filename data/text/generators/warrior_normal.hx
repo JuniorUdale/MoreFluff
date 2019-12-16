@@ -7,15 +7,15 @@ var goodotherstuff = [];
 
 var warriorshops = ["Broadsword", "Iron Shield", "Dagger", "Buckler", "Target Shield", "Nightstick", "Snake Eye Charm", "Midnight Charm", "Healing Crystal", "Claw", "Snowball", "Boomerang", "Tazer", "First Aid Kit"];
 
-warriorshops = warriorshops.concat( ["Pike", "Zweihander", "Halberd", "Chakram", "Paintbrush", "Mace", "Pavise", "Natural Charm", "Loaded Dice", "Shotgun","Boomstick", "Blooplicate", "Trowel", "Mallet", "Frosted Dirk", "Spiked Sword", "Electroplating", "Trishula", "Tomahawk","Cat O' Six Tails", "Divine Blade", "Healing Shiv", "Venomous Goop", "Really Spiky Shield", "Nether Portal"]); //modded items
+warriorshops = warriorshops.concat( ["Pike", "Zweihander", "Halberd", "Chakram", "Paintbrush", "Mace", "Pavise", "Natural Charm", "Loaded Dice", "Shotgun","Boomstick", "Blooplicate", "Trowel", "Mallet", "Frosted Dirk", "Spiked Sword", "Electroplating", "Trishula", "Tomahawk","Cat O' Six Tails", "Divine Blade", "Healing Shiv", "Venomous Goop", "Really Spiky Shield", "Nether Portal", "Ornamental Shield", "Execute", "Spikemail", "Hairdryer", "Shielding Potion", "Field Dressing", "Staff", "Plague Stave", "Asklepios"]); //modded items
 
 shuffle(warriorshops);
 
-var strangeshop = ["Spatula", "Lightning Rod", pick(["Shriek","Heckle"]), "Power Through", "drowS", "Expose Weakness", "Budge", "Metallicize", "Resonator",  "Leech Seed"];
+var strangeshop = ["Spatula", "Lightning Rod", pick(["Shriek","Heckle"]), "Power Through", "drowS", "Expose Weakness", "Budge", "Metallicize", "Resonator",  "Leech Seed", "Panic Button", "Jade Blade", "Malediction", "Evil Eye", "Incapacitate"];
 strangeshop = shuffle(strangeshop);
 
 //Floor 1:
-var awesomelist = ["Whip", "Hammer", "Nine Iron", "Shovel", "Talons", "Labrys", "Targe Charge", "Canesword"]; 
+var awesomelist = ["Whip", "Hammer", "Nine Iron", "Shovel", "Talons", "Labrys", "Targe Charge", "Canesword", "Urumi", "Crass Knuckles"]; 
 
 awesomelist = shuffle(awesomelist);
 

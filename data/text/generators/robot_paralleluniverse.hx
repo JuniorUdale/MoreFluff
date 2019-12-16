@@ -9,8 +9,8 @@ var goodotherstuff = [];
 var commonlist_basic = shuffle([rand(["Iron Armor","Leather Armor","Magic Armor"]), "Saw Wave", "Safe Bet"]);
 var commonlist_advanced = shuffle(["Slingshot", "Vise Grip", (chance(30)?"Starspear":"Sword Hilt"), "Ungeradedice", "Four Leaf Clover"]);
 
-commonlist_basic = commonlist_basic.concat(["Tin Snips","Critical Hit", "Electric Fence", "Meteor Hammer", "Auto Turret"]); //modded stuff
-commonlist_advanced = commonlist_advanced.concat(["Belt Sander","Fulcrum Blade", "Cleaver", "Heat Vent", "Mechanical Charm","Star Shooter","Virtual Machine", "Amplify"]); //modded stuff
+commonlist_basic = commonlist_basic.concat(["Tin Snips","Critical Hit", "Electric Fence", "Meteor Hammer", "Auto Turret","Backup Drive","Overconfidence","Rosary"]); //modded stuff
+commonlist_advanced = commonlist_advanced.concat(["Belt Sander","Fulcrum Blade", "Cleaver", "Heat Vent", "Mechanical Charm","Star Shooter","Virtual Machine", "Amplify","Duplihate","Plug Socket"]); //modded stuff
 
 shuffle(commonlist_basic);
 shuffle(commonlist_advanced);
@@ -115,7 +115,7 @@ otherstuff = [
 	shop([commonlist_basic.pop(), "health", commonlist_advanced.pop()],[2,2,3]),
 ];
 goodotherstuff = [
-	trade(["Cooling Fan", "Concatenate", "Bucket of Water"], ["Free Spin", "Spatulasword", "Slingshot", "Flaming Sword", "Mechanicalantern"])
+	trade(["Cooling Fan", "Concatenate", "Bucket of Water"], ["Free Spin", "Spatulasword", "Slingshot", "Flaming Sword", "Mechanicalantern","Normality Charm"])
 ];
 
 addfloor("normal")
