@@ -1,6 +1,6 @@
 v2.4.0 - actual content!
 
-I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy a free update of over 150 new items! This has warranted an icon change though...
+I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy a free update of over 200 new items! This has warranted an icon change though...
 
 A new status effect - Stun!
 	* Completely disables an enemy item next turn
@@ -8,6 +8,16 @@ A new status effect - Stun!
 	* Both are pretty potent; it's a rare effect!
 
 Some noteworthy new items:
+	* 4 new Jester paths!
+		* Essences - cast spells which lay dormant traps on your foes
+		* Refund, Reject, Refresh - dice manipulation with tons of potential value
+		* Star Statuses - batter your foes with an array of random status effects
+		* Precognitions - predict the future, get buffed, plan accordingly!
+	* New Witch level up rewards
+		* Philosopher's Stone/Magnum Opus - surely some shielding should suffice?
+		* Prestidigitate/Conjurate - definitely real words which give you dice in later turns
+		* Arcane Missiles - dump your dice, but get bonus damage if you synergize
+		* Turnstile - because there's definitely no infinites with countdown reduction for her
 	* Flip Flop - you guys desperately want this
 		* Witch-only item
 		* Takes 2 dice and returns them
@@ -70,6 +80,10 @@ Some noteworthy new items:
 		* Backup Drive gives you 2 shield if you error
 		* CPU Shooter deals 2 damage every 3rd time you calculate
 		* Passive items are fun!
+	* Mass Grimoire - definitely 100% not an infinite
+		* Witch spell, needs 2 dice to get out, takes doubles
+		* Activates all of your currently equipped spells that can be activated with a single []
+		* Time to amplify your dice!
 	* Panic Button - oh no!!!1!
 		* Gain 2x[max5] shield
 		* But, you lose a dice this fight!
@@ -79,8 +93,6 @@ Some noteworthy new items:
 	* Snail Bat - i'm just rhyming at this point
 		* Deal 2x[] damage
 		* Only becomes available after turn 4 though!
-		
-		
 		
 *[1] starpocalypse does not actually randomize all statuses. ones with no currently implemented effect on the enemy such as Vanish, Extra Turn or Silence; special remix statuses like Extra, Crystalina or Bear Transform; statuses from other mods such as Haunt (Halloween Special), Asleep (Cosmic Variations), or Wet (Backstage Reunion); Jinxes, Regens, Bleeds or other non-stacking pseudostatuses; dummy statuses such as Lantern, Illuminate or Reaper; or statuses which if randomized would make the fight trivial such as Vampire; all of these are exempt from randomization or being randomizationified into. jackeea is not responsible for any harm, loss of life, brain damage, insomnia, deletion of your hard drive, or disappointment caused through this item. if your fluff lasts for more than 4 hours please consult a doctor
 	
@@ -128,6 +140,7 @@ Changes:
 	* And an assortment of small tweaks:
 		* Metalmorph is now a countdown of 4 instead of 5
 		* Pea Pod is now 1/2 mana instead of 2/3 mana
+		* Jester doesn't get Pursuit anymore due to it being buggy
 	
 
 Bugfixes:
