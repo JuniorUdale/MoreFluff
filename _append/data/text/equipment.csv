@@ -1824,3 +1824,6 @@ Reject_downgraded,Do [sword] equal to lower dice,1,var x = actualdice[0].baseval
 Refresh,Reroll both dice[;] resulting|values will be different,1,var x = rand([1|2|3|4|5|6]); var y = x; while(y == x){y = rand([1|2|3|4|5|6]);}; givedice([x|y]);,,NORMAL|NORMAL,,ITEM,GREEN,change_power,change_power,,,0,YES,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Refresh_upgraded,Reroll both dice[;] resulting|values will be the same,1,var x = rand([1|2|3|4|5|6]); givedice([x|x]);,,NORMAL|NORMAL,,ITEM,GREEN,,,,,0,YES,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Refresh_downgraded,Reroll one of the dice,1,givedice();,,NORMAL|NORMAL,,ITEM,GREEN,,,,,0,YES,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Maul,Deal [sword]<d6> damage[;]|double on 3 or less,1,if(d <= 3){attack(d*2); sfxdamage(target|d*2);}else{attack(d); sfxdamage(target|d);};,,NORMAL,,WEAPON,RED,change_power,change_power,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Maul_upgraded,Deal [sword]<d6> damage[;]|double on 4 or less,1,if(d <= 4){attack(d*2); sfxdamage(target|d*2);}else{attack(d); sfxdamage(target|d);};,,NORMAL,,WEAPON,RED,,,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Maul_downgraded,Deal [sword]<d6> damage,1,attack(d); sfxdamage(target|d);,,NORMAL,,WEAPON,RED,,,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
