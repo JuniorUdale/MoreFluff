@@ -1,3 +1,16 @@
+v2.4.1 - day 1 patch
+
+Who'd have thought that adding 200 new items would result in some bugs?!
+
+Some notable bug fixes:
+	* Swordstave now doesn't change its orientation when weakened
+	* Necrosis now works when you have more than 10 health
+	* Necrosis now works as the description states
+	* Removed the unnecessary PU variants of Superbolt/Electric Fence (they weren't necessary)
+	* Added the SPECIAL status to some items that break if you get them from random events
+
+=====================================================================
+
 v2.4.0 - actual content!
 
 I've been slowly but surely working on more items, and I feel like I've got enough to bundle them into the mod - enjoy a free update of over 200 new items! This has warranted an icon change though...
