@@ -1,3 +1,10 @@
+
+Bugfixes:
+	* Urumi+ now works on odds, instead of evens
+	* Added a sword icon to Meteor Hammer
+
+=====================================================================
+
 v2.4.1 - day 1 patch
 
 Who'd have thought that adding 200 new items would result in some bugs?!
