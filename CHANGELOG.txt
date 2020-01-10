@@ -1,17 +1,35 @@
-v2.4.2 - day 2 patch
+v2.4.2 - bugfixes and whatnot
 
 The bugfixes will continue until morale improves
 
 Changes:
 	* Chain Dagger now has a countdown of 12 (up from 9)
 	* Minigun is now size 2 and MAX5, and upgrades to start at 2 uses/turn
-
+	* Stun Blast+ (and therefore Freezing Trap+) have been slightly reworked!
+		* Before, they increased in damage and burn (or freeze)
+		* Now, they increase in burn/freeze, and also stun instead of shock!
+	* Heavy Gatling nerfed to a countdown of 15 instead of 20
+	* Shatter reworked:
+		* Now size 2
+		* Also splits a dice into 2s instead of 3s
+	* Targe Charge changed from 3 shield to 2 shield
+	
 Bugfixes:
 	* Urumi+ now works on odds, instead of evens
 	* Added a sword icon to Meteor Hammer
 	* Hat and Stash Cauldron now correctly fire backwards
 	* Momentum now no longer causes Supreme Jankiness to occur when furied
 	* Dainsleif no longer crashes
+	* Re-added the necessary PU variants of Superbolt/Electric Fence (they were very necessary)
+	* Megaleech+ now drains 2 health
+	* Angelfrost is now the right colour
+	* Tweaked how Starsear works
+	* Stun Blast- description fixed
+	* Execute now plays the correct damage sound type
+	* Refund now works with countdowns
+	
+Tweaks:
+	* Changed the wording on Panic Button to make it clearer how it works
 
 =====================================================================
 

@@ -21,3 +21,5 @@
 * Let `eq.doequipmentaction()` work for Jester - currently you have to set `equipdelay` to -0.3 in order for it to work, otherwise the activated item just snaps back into place
 
 * A "global script" csv, which holds common hooks (start turn, end turn, on any equipment use) which load scripts to be active constantly. Would make status effects easier to code (unless there's already framework in place for custom statuses)
+
+* Being able to merge certain cells - for example, a mod which changes everything to size 2 could merge everything using only the name and size field in equipment.csv.
