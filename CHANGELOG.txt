@@ -1,3 +1,19 @@
+v2.5 - patch name
+
+
+
+Bugfixes:
+	* Daydream- now heals the correct amount
+	* Sunder now uses the correct sound effects
+	* Green Dragon's Blade now only plays 1 sound effect
+	* Icy Iceblade- now plays ice sound effects
+	* Frost Fling- is now not reuseable
+	* Essence Detonator? now works with Dark Essence
+
+
+=====================================================================
+
+
 v2.4.2 - bugfixes and whatnot
 
 The bugfixes will continue until morale improves
