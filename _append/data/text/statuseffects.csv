@@ -77,3 +77,4 @@ essence_dark,Dark_Essence,curse,Does nothing. When invoked:|Receive a bad status
 mf_stun,Stun,shock,Random equipment is disabled for the turn.,NO,YES,YES,NO,NO
 alternate_mf_stun,Stun?,shock,Lose a dice next turn.,NO,YES,YES,NO,NO
 nothing,Nothing,,Does absolutely nothing.,NO,YES,YES,NO,NO
+grace,Grace,heart,At the start of your turn[;] if your health is below [heart]<amount>[;] restore health|until you reach [heart]<amount>[;] and lose that much Grace.,NO,YES,NO,NO,NO
