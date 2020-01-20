@@ -1,6 +1,10 @@
 v2.5 - patch name
 
 
+Changes:
+	* Critical Hit changed slightly:
+		* Upgrade now
+		* Downgrade now is "25% chance to do 1 more damage with each attack" instead of no effect
 
 Bugfixes:
 	* Daydream- now heals the correct amount
