@@ -14,7 +14,7 @@ warriorshops = warriorshops.concat( ["Zweihander", "Halberd", "Chakram", "Paintb
 
 shuffle(warriorshops);
 
-var strangeshop = ["Spatula", "Lightning Rod", "Shriek", "Power Through", "drowS", "Expose Weakness", "Budge", "Metallicize", "Divine Blade"];
+var strangeshop = ["Spatula", "Lightning Rod", "Shriek", "Power Through", "drowS", "Budge", "Metallicize", "Divine Blade"];
 strangeshop = shuffle(strangeshop);
 
 //Floor 1:

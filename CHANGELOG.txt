@@ -12,6 +12,8 @@ Bugfixes:
 	* Icy Iceblade- now plays ice sound effects
 	* Frost Fling- is now not reuseable
 	* Essence Detonator? now works with Dark Essence
+	* Expose Weakness no longer appears for Jester
+	* Starsear now works
 
 
 =====================================================================
