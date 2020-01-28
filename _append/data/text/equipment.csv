@@ -2051,3 +2051,6 @@ Snakelops_downgraded,Roll <timesused> one(s)[;] +1 each use,1,var arr = []; for(
 Bloodclaw,Deal [sword]<d6> damage|(Start of combat: lose [heart]5 hp),2,attack(d); sfxdamage(target|d);,,NORMAL|FREE3,,WEAPON,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,if(turn == 1){pierceattackself(5); sfx(~_drain~); e.animate(~flashandshake~);};,,,,,,
 Bloodclaw_upgraded,Deal [sword]<d6> damage|(Start of combat: lose [heart]5 hp),2,attack(d); sfxdamage(target|d);,,NORMAL|FREE5,,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,if(turn == 1){pierceattackself(5); sfx(~_drain~); e.animate(~flashandshake~);};,,,,,,
 Bloodclaw_downgraded,Deal [sword]<d6> damage|(Start of combat: lose [heart]5 hp),2,attack(d); sfxdamage(target|d);,,MAX4|FREE3,,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,if(turn == 1){pierceattackself(5); sfx(~_drain~); e.animate(~flashandshake~);};,,,,,,
+Claw Paw,Deal [sword]<d6> damage,2,attack(d); sfxdamage(target|d); sfx(~_magic~);,,REQUIRE5|FREE5,,WEAPON,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Claw Paw_upgraded,Deal [sword]<d6> damage,2,attack(d); sfxdamage(target|d); sfx(~_magic~);,,MIN5|REQUIRE5,,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Claw Paw_downgraded,Deal [sword]<d6> damage,2,attack(d); sfxdamage(target|d); sfx(~_magic~);,,REQUIRE5|FREE1,,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
