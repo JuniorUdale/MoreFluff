@@ -4,6 +4,20 @@ v2.5 - patch name
 Changes:
 	* Critical Hit changed slightly:
 		* Downgrade now is "25% chance to do 1 more damage with each attack" instead of no effect
+	* Fulcrum Blade reworked
+		* Now it's two slots that must total 7
+		* One slot needs a dice, the other slot is a FREE slot, like Broadsword
+		* The requirement and the slot change each turn!
+	* Pristine Sword changed
+		* Instead of doing 2x[] damage, it now does 3x[max5] damage
+		* Upgrades to unrestricted
+		* This is mainly because the first thing you do when you take the Pristine Sword pack is to delete it... can y'all don't
+	* Maintenance removed and replaced with Maintenance?
+		* This is to stop an odd edge case or two where upgrading Maintenance? would give you Maintenance+; they have different effects
+	* Lifesteal and Expose Weakness changed:
+		* Wording changed to "whenever you use a damaging item"
+		* Lifesteal is now size 2, and upgrades to healing 2 health per attack
+	
 
 Bugfixes:
 	* Daydream- now heals the correct amount
