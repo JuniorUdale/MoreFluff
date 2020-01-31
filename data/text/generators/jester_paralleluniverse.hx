@@ -48,7 +48,7 @@ otherstuff = [
   health()
 ];
 goodotherstuff = [
-  shop(["Delete", "Flaming Sword", "Delete"], [2, 3, 2]),
+  shop(["Delete", "Backfire", "Delete"], [2, 3, 2]),
   upgrade()
 ];
 
