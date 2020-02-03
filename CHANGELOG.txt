@@ -31,8 +31,11 @@ Changes:
 		* This is to stop it being so darned strong, and to give it an actual upgrade!
 	* Talons+ nerfed to 3 uses
 		* Too strong!
-	* Dice Magnet now takes 2 5s
-		* i forgot to do a balance
+	* Dice Magnet reworked:
+		* Now steals a dice from the enemy for the whole fight, if they have more than 1 dice
+		* Also is now a countdown of 20 and once per battle
+		* Upgrades to being able to be used every turn
+		* i forgot to balance this item help
 	
 
 Bugfixes:
