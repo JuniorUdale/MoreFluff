@@ -1,5 +1,8 @@
-v2.5 - patch name
+v2.4.2 - 1.7 hype!
 
+Dicey Dungeons 1.7 is now out! https://steamcommunity.com/games/861540/announcements/detail/1719747967603929827
+
+As for Fluff, there's not that much needed to be changed. But, there's a few much-needed changes and bugfixes to push out! Oh, and another 100 new items for you to knock yourself out with!
 
 Changes:
 	* Critical Hit changed slightly:
@@ -14,9 +17,22 @@ Changes:
 		* This is mainly because the first thing you do when you take the Pristine Sword pack is to delete it... can y'all don't
 	* Maintenance removed and replaced with Maintenance?
 		* This is to stop an odd edge case or two where upgrading Maintenance? would give you Maintenance+; they have different effects
+	* All passives have been reworked, tweaked, and otherwise changed!
+		* Now, they actually activate like items, moving up and down the screen and whatnot.
 	* Lifesteal and Expose Weakness changed:
-		* Wording changed to "whenever you use a damaging item"
-		* Lifesteal is now size 2, and upgrades to healing 2 health per attack
+		* Expose Weakness is now "For every 5 damage you do, deal 1 damage"
+			* Upgrades to "For every 4 damage you do, deal 1 damage"
+		* Lifesteal is now "Whenever you use a damaging item, heal 1 hp (4 uses this turn)
+			* Upgrades to reuseable
+		* These are just to make the items a bit different, and to make them less brokenly OP!
+	* Flak Cannon changed:
+		* Now starts at MIN5 instead of MIN4
+		* Upgrades to MIN4
+		* This is to stop it being so darned strong, and to give it an actual upgrade!
+	* Talons+ nerfed to 3 uses
+		* Too strong!
+	* Dice Magnet now takes 2 5s
+		* i forgot to do a balance
 	
 
 Bugfixes:
@@ -28,6 +44,7 @@ Bugfixes:
 	* Essence Detonator? now works with Dark Essence
 	* Expose Weakness no longer appears for Jester
 	* Starsear now works
+	* Dodgy Chronometer is now no longer so dodgy
 
 
 =====================================================================
