@@ -5,12 +5,12 @@ Dicey Dungeons 1.7 is now out! https://steamcommunity.com/games/861540/announcem
 As for Fluff, there's not that much needed to be changed. But, there's a few much-needed changes and bugfixes to push out! Oh, and another 100 new items for you to knock yourself out with!
 
 Changes:
-	* Critical Hit changed slightly:
-		* Downgrade now is "25% chance to do 1 more damage with each attack" instead of no effect
 	* Fulcrum Blade reworked
 		* Now it's two slots that must total 7
 		* One slot needs a dice, the other slot is a FREE slot, like Broadsword
 		* The requirement and the slot change each turn!
+	* Junkblaster reverted somewhat:
+		* Now gives you a 1, and deals 1 damage
 	* Pristine Sword changed
 		* Instead of doing 2x[] damage, it now does 3x[max5] damage
 		* Upgrades to unrestricted
@@ -25,6 +25,8 @@ Changes:
 		* Lifesteal is now "Whenever you use a damaging item, heal 1 hp (4 uses this turn)
 			* Upgrades to reuseable
 		* These are just to make the items a bit different, and to make them less brokenly OP!
+	* Critical Hit changed slightly:
+		* Downgrade now is "25% chance to do 1 more damage with each attack" instead of no effect
 	* Flak Cannon changed:
 		* Now starts at MIN5 instead of MIN4
 		* Upgrades to MIN4
@@ -40,6 +42,7 @@ Changes:
 
 Bugfixes:
 	* Daydream- now heals the correct amount
+	* Passives no longer proc if you're a speedy boy and use equipment before your turn officially starts
 	* Sunder now uses the correct sound effects
 	* Green Dragon's Blade now only plays 1 sound effect
 	* Icy Iceblade- now plays ice sound effects
