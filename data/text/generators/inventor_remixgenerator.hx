@@ -5,11 +5,11 @@ var gooditems = [];
 var otherstuff = [];
 var goodotherstuff = [];
 
-var elemweps = shuffle(["Spark","Snowflake","Buzzer","Whisper","Knitting Needle", "Mosquito Bite","Starshine", "Bramble", "Starshine"]);
+var elemweps = shuffle(["Spark","Snowflake","Buzzer","Whisper","Knitting Needle", "Mosquito Bite","Starshine", "Bramble", "Starshine","Jianzi"]);
 var sticks =rand([["Matchstick","Nightstick","Wooden Stick","Hockey Stick"],["Scorch","Hailstorm","Gust","Reverb"]]);
 var crapstuff = shuffle(["Life Rip","Slime Ball","Stealth","Mini Missile","Blade of JOAT", "Fireflash", "Frostbitten", "Frozen Flute","Knitting Needle", "Mosquito Bite", "Magma Storm", "Cauldron Cauldron", "Drill Bit"]);
 var scrap = shuffle(["Scrap Nettle", "Scrap Bump", "Scrap Club", "Scrap Book", "Scrap Spear", "Scrap Kettle","Scrap Cauldron","Scrap Metal","Scrap Turret"]);
-var dicemanip = shuffle(["Change Machine", "Giant Spatula", "Saw Wave", "Solder","Tin Snips","Crescent Pendant","Bowsaw","Belt Sander","Velcro", "Sprinkler", "Ballerina Charm", "Triplicate", "Radical Wrench", "Snippers","Natural Charm", "Pockets","Ratula","Budge","Spirit Level","Tape Measure", "Cable Tie", "Rake Pick", "Hand Lens","Flashlight","Twinkle","Bite","Nether Portal","Booster Pack","Trianguleight","Coin Flip"]);
+var dicemanip = shuffle(["Change Machine", "Giant Spatula", "Saw Wave", "Solder","Tin Snips","Crescent Pendant","Bowsaw","Belt Sander","Velcro", "Sprinkler", "Ballerina Charm", "Triplicate", "Radical Wrench", "Snippers","Natural Charm", "Pockets","Ratula","Budge","Spirit Level","Tape Measure", "Cable Tie", "Rake Pick", "Hand Lens","Flashlight","Twinkle","Bite","Nether Portal","Booster Pack","Trianguleight","Coin Flip","Saxophone","Nitro Bump","Electrophoresis","Glueplicate","Rift Stabilizer"]);
 
 //Floor 1:
 items = [pick(["Staff", "Crossbow","Sword","Gemstone Staff", "Wrecking Ball", "Rosebud", "Pursuit","Plague Stave","Asklepios","Starstaff"])];
@@ -23,20 +23,21 @@ addfloor("small")
   .generate();
   
 //Floor 2:
-var commonlist1 = ["Chain Mail", "Bump", "Regen", "Blood Regen", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", pick(["Pavise","Mace"]), "Focus Beam", "Solar Beam", "Terra Beam","Lunar Beam", "Scorch", "Hailstorm","Quicklime","Quicksilver","Leech Seed", "Mystic Stave", "Steamball", "Gust",  "Trishula", "Labrys", "Pee Shooter", "Medigun","Hi Vis Jacket",  "Elastic Heart", "Berlin Key", "Kalis", "Surfive", "Illumineight", "Threeken", "Nanobots","Caltrops", "Blutsauger","Star Shooter","Magma Storm", "Berserker Rage","Lifesteal", "Preparation","Defibrilator", "Pandora's Box", "Primal Slash", "Primal Punch", "Shadow Stick", "Spiked Hilt", "Sticky Sword", "Lancestave", "Sundew", "Baseball Bat", "Helmet Headbutt",dicemanip.pop(),dicemanip.pop(),dicemanip.pop(),"Generous Sword","Ravage","Glowstick",pick(["Frostfire","Firefrost"]),"Bureaucratic Blade"];
-var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap", "Pry Bar", "Demote", "Pockets","Six Shooter", "Focus Beam", "Solar Beam", "Terra Beam","Lunar Beam","Resonator", "Kaboomerang", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop","Screwdriver",  pick(["Gold Dagger", "Silver Dagger"]), "Lunar Beam", "Terra Beam", "Firey Firesword of Fire", "Lamppost", "Flourish", "Chromatic Cutlass", pick(["Hexatomb","Blind Rage"]),"Sledgehammer", "Magma Storm", "Flamecrower", "Kerfuffle", "Blunt Dagger", "Blunt Sword", "Slice and Dice", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Electrolysis", "Doppelice", "King Rat", "Spade","Starpocalypse","Blood Transfer","Ornamental Shield","Mirrorblade","Snail Bat"];
+var commonlist1 = ["Chain Mail", "Bump", "Regen", "Blood Regen", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", pick(["Pavise","Mace"]), "Focus Beam", "Solar Beam", "Terra Beam","Lunar Beam", "Scorch", "Hailstorm","Quicklime","Quicksilver","Leech Seed", "Mystic Stave", "Steamball", "Gust",  "Trishula", "Labrys", "Pee Shooter", "Medigun","Hi Vis Jacket",  "Elastic Heart", "Berlin Key", "Kalis", "Surfive", "Illumineight", "Threeken", "Nanobots","Caltrops", "Blutsauger","Star Shooter","Magma Storm", "Berserker Rage","Lifesteal", "Preparation","Defibrilator", "Pandora's Box", "Primal Slash", "Primal Punch", "Shadow Stick", "Spiked Hilt", "Sticky Sword", "Lancestave", "Sundew", "Baseball Bat", "Helmet Headbutt",dicemanip.pop(),dicemanip.pop(),dicemanip.pop(),"Generous Sword","Ravage","Glowstick",pick(["Frostfire","Firefrost"]),"Bureaucratic Blade","Maul","Shield Toss","Chronoblade","Come On And Slam","Diamond Wall","Recoil Recover","Diffraction Spike","Popcount","Explosive Shield","Diabolo","Karambit","Spear Of Justfire","War Axe","Swordbroad","Molten Staff","Molten Blast","Offering","Flying Venus Trap","Paw Claw","Warcry","Nice Sword"];
+var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap", "Pry Bar", "Demote", "Pockets","Six Shooter", "Focus Beam", "Solar Beam", "Terra Beam","Lunar Beam","Resonator", "Kaboomerang", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop","Screwdriver",  pick(["Gold Dagger", "Silver Dagger"]), "Lunar Beam", "Terra Beam", "Firey Firesword of Fire", "Lamppost", "Flourish", "Chromatic Cutlass", pick(["Hexatomb","Blind Rage"]),"Sledgehammer", "Magma Storm", "Flamecrower", "Kerfuffle", "Blunt Dagger", "Blunt Sword", "Slice and Dice", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Electrolysis", "Doppelice", "King Rat", "Spade","Starpocalypse","Blood Transfer","Ornamental Shield","Mirrorblade","Snail Bat","Furious Spell","Stony Armour","Channel Rage","Blood Blessing","Indicetructable","Arbitrage","Fortnight","Joke Answer","Wildcard","Sawmill","Inflation","Juggernaut"];
 commonlist1 = shuffle(commonlist1);
 shoplist1 = shuffle(shoplist1);
 
 var shopideas;
 var uselessthings = shuffle(["Swedge","Plurale Tantrum", "Dainsleif", "Thorium Hammer", "Binding Spell", "Super Spatula", "Backlash", "Helium Balloon", "One Weird Tip"]);
-if(chance(50)){
+var graceitems = shuffle(["Graceful Gash","Fourth Hour","Grace Spell"]);
+if(chance(75)){
 	shopideas = rand([
 		[rand(["Radar","Dazzling Light"]), rand(shoplist1), rand(["Flashlight","Twinkle"])],
 		[rand(["Stinging Nettle","Dock Leaf"]),rand(shoplist1),rand(["Rosebud","Crown and Anchor"])],
-		["Candy Cane",rand(dicemanip),"Bite"],
 		["Lunar Beam",rand(shoplist1),"Terra Beam"],
 		["Focus Beam",rand(shoplist1),"Focus Beam"],
+		["Saving Grace",rand(graceitems),rand(graceitems)],
 		[rand(shoplist1),uselessthings.pop(),rand(shoplist1)]
 	]);
 }else{

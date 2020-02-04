@@ -30,7 +30,9 @@ var commonlist_offensive = [
   "Leeching Spell",
   "Cherry Bomb",
   "Silhouette",
-  "Mana Cannon"
+  "Mana Cannon",
+  "Starfall",
+  "Lava Burst"
 ];
 shuffle(commonlist_offensive);
 var commonlist_dicemanipulation = [

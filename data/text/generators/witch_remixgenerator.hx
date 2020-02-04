@@ -39,7 +39,12 @@ var commonlist_offensive = [
   "Scorch",
   "Hailstorm",
   "Metallicize",
-  "Immolate"
+  "Immolate",
+  "Furious Spell",
+  "Indicetructable",
+  "Diamond Wall",
+  "Starfall",
+  "Lava Burst"
 ];
 shuffle(commonlist_offensive);
 var commonlist_dicemanipulation = [
@@ -71,7 +76,11 @@ var commonlist_dicemanipulation = [
   "Iron Cauldron",
   "Copper Cauldron",
   "Doppliduplicateinate",
-  "Binding Spell"
+  "Binding Spell",
+  "Draining Crystal",
+  "Glueplicate",
+  "Sacridice",
+  "Slow Cooker"
 ];
 shuffle(commonlist_dicemanipulation);
 var commonlist_spring = [
@@ -153,8 +162,9 @@ gooditems = [rand(["Moon Beam", "Gladioli", "Enchanted Bolt"])];
 var addons = pick(["Rannuncarpus","Sunflower","Iris"]);
 var thorns = pick(["Rosebud", "Blackberry", "Magic Mistletoe", "Magic Thistle"]);
 var dualweps = pick(["Blizzard","Inferno","Sonic Boom","Lightning Bolt","Sunshower","Plague Wave"]);
+var rejectedspells = pick(["Spiky Spell","Armour Spell","Acid Spell"]);
 
-var shopitems = shuffle([addons,thorns,dualweps]);
+var shopitems = shuffle([addons,thorns,dualweps,rejectedspells]);
 
 var shopstuff = [];
 if(chance(50)){
