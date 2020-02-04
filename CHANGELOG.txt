@@ -82,6 +82,9 @@ Changes:
 	* Some slight tweaks to generators
 		* Now some items are more common, and Inventor is slightly more likely to get "themed" shops instead of ones full of random trash!
 		* (they're still mostly trash though)
+	* Beams changed!
+		* Focus, Solar, Terra and Lunar Beam now all increase the damage of **all** of them.
+		* Dynamo now boosts them all up by 2!
 	
 
 Bugfixes:
@@ -95,6 +98,8 @@ Bugfixes:
 	* Expose Weakness no longer appears for Jester
 	* Starsear now works
 	* Dodgy Chronometer is now no longer so dodgy
+	* Even Buster Sword now works
+	* Pea Pod+ no longer randomly gives you mana
 
 
 =====================================================================
