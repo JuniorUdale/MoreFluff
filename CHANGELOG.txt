@@ -1,8 +1,49 @@
-v2.4.2 - 1.7 hype!
+v2.5 - modgeons hype!
 
 Dicey Dungeons 1.7 is now out! https://steamcommunity.com/games/861540/announcements/detail/1719747967603929827
 
-As for Fluff, there's not that much needed to be changed. But, there's a few much-needed changes and bugfixes to push out! Oh, and another 100 new items for you to knock yourself out with!
+As for Fluff, there's not that much needed to be changed. But, there's a few much-needed changes and bugfixes to push. Oh, and another 100 new items for you to knock yourself out with!
+
+New items!
+	* A new status effect - Grace!
+		* Grace is a stacking status effect that doesn't go away at the end of your turn.
+		* If at the start of your turn, your health is ever lower than your Grace, they're swapped.
+		* So, if you're at 5 health and have 10 Grace, when your turn starts you'll be at 10 health and 5 Grace.
+		* Should bring forth a couple of really tanky builds!
+	* Furious Spell - no talk me i angy
+		* Requires an even, gives you Fury
+		* ...but also gives the enemy Fury too
+	* Indicetructable - far too dramatic
+		* Max5, increases your max health by DOUBLE the value of the dice you put into it
+		* Permanently!
+		* However, when you use it, you also lose a dice.
+		* Permanently!
+	* Glueplicate - this mod is built on a foundation of puns
+		* Locks your highest dice, but gives you 3 copies of it next turn
+	* Fortnight - hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+		* Inflicts 2 weaken
+		* i'm so, so sorry
+	* Evocation and Revoke - not enough "oak" words to make an archetype
+		* Evocation gives you a random dice you rolled at the start of your turn
+		* Revoke deals 2x[] damage, if you didn't roll a [] at the start of your turn
+		* Time to get memorising!
+	* Explosive Shield - no refunds
+		* Gives you 2x[] shield!
+		* However, you also take 2x[] damage in 2 turns
+	* Molten Staff and Molten Blast - some pretty hot items
+		* Both deal damage, and give you shield equal to the damage dealt
+		* Thanks Rose!
+	* Precious Pendant - can't heal what isn't there
+		* Passively heal 3 health per turn
+		* ...until you take damage
+	* Juggernaut - ORIGINAL IDEA
+		* Whenever you gain shield, deal 2 damage (3 uses per turn)
+		* Completely original idea here
+		* definitely not running out of ideas
+		* haha
+	* Quarantine - too soon?
+		* Deal 1 damage, MAX3, reuseable
+		* Also activates whenever you inflict poison!
 
 Changes:
 	* Fulcrum Blade reworked
@@ -38,6 +79,9 @@ Changes:
 		* Also is now a countdown of 20 and once per battle
 		* Upgrades to being able to be used every turn
 		* i forgot to balance this item help
+	* Some slight tweaks to generators
+		* Now some items are more common, and Inventor is slightly more likely to get "themed" shops instead of ones full of random trash!
+		* (they're still mostly trash though)
 	
 
 Bugfixes:
