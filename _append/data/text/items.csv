@@ -33,3 +33,5 @@ Lava Drop,[sword]2 dmg[;] gain [shield]2 shield,,attack(2); sfxdamage(target|2);
 Mutagen,Gain [heart]3 max hp (once),,self.maxhp+=3; sfx(~_cure~); Gadget.changegadget(self| ~Mutagen~| ~Broken Gadget~);
 Megacurse,Inflict curse to both,,inflict(CURSE); inflictself(CURSE); sfx(~_curse~);
 Magic Counterspell,Lock a random dice value,,inflict(~counter_~+rand([1|2|3|4|5|6])); sfx(~_lock~);
+Whacksies,Deal [sword]10 dmg in [jinx]2 turns,,jinx(~Whacksies~|~take [sword]10 damage~|~take [sword]10 damage~|~attack(10); sfxdamage(null|10);~|self|target|2|2); sfx(~_thinghappens~);
+Double Tap,Deal [sword]2 dmg[;] twice,,attack(2); attack(2); sfxdamage(target|2); sfx(~_magic~|~~|0.2);
