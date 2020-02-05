@@ -12,7 +12,7 @@ dicemanip = shuffle(dicemanip);
 var commonlist1 = shuffle(["Cloak", dicemanip.pop(), "Plaster", "Dramatic Exit", pick(["Square Pair", "Ballerina Charm"]), pick(["Twotool", "Crowpick"]), "Lifesteal", "Thistle Tea", "Illumineight", "Rope Dart", "Blunt Dagger", "Starspike","Rockfall", "Slice And Dice", "Blunt Dagger","Secateurs", "Heavy Gatling", "Vampire Blade", "Duoplicate", "Juice Box", "Ignite", "Umbrella","Rock Crusher","Arbitrage","Rift Stabilizer","Sawmill","Inflation","Flying Venus Trap"]);
 
 var countdowns = shuffle([pick(["Ballerina Charm", "Square Pair"]), "Cleaver", "Magma Storm", "Plaster", "Blast Chiller", "Splat", "Cup Of Tea", "Trianguleight", "Coin Flip", "Dodgy Chronometer", "Starstaff","Warcry","Fortnight"]);
-var cowbell = shuffle(["Kalis","Splutter", "Twoplicate", "Stinging Nettle", "Crown and Anchor", "Knitting Needle","Warcry","Fortnight"]);	
+var cowbell = shuffle(["Kalis","Splutter", "Twoplicate", "Stinging Nettle", "Crown and Anchor", "Knitting Needle","Warcry","Fortnight","Molten Blast"]);	
 
 items = [countdowns.pop()];
 

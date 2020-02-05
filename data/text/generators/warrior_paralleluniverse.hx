@@ -12,7 +12,7 @@ var warriorshops = ["Katana", "Copper Shield", "Parrying Dagger", "Kite Shield",
 
 shuffle(warriorshops);
 
-var strangeshop = ["Candle", "Particle Accelerator", "Flying Skull", "Slingshot", "Fishing Net", "Scissors" "Flourish", "Mitosis", "Sapping Spores", "Ferrosynthesis", "Sunder", "Blood Transfer", "Mirrorblade", "Come On And Slam","Pandemonium", "Swordbroad","Nice Sword"];
+var strangeshop = ["Candle", "Particle Accelerator", "Flying Skull", "Slingshot", "Fishing Net", "Scissors" "Flourish", "Mitosis", "Sapping Spores", "Ferrosynthesis", "Sunder", "Blood Transfer", "Mirrorblade", "Come On And Slam","Pandemonium", "Swordbroad","Nice Sword","Molten Blast"];
 strangeshop = shuffle(strangeshop);
 
 //Floor 1:

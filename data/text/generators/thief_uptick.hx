@@ -6,9 +6,9 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens", pick(["Counterfeit","Forgery","Snapshot","Photocopy","Booplicate","Duplicate"]), "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack"]);
+var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens", pick(["Counterfeit","Forgery","Snapshot","Photocopy","Booplicate","Duplicate"]), "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack","Draining Crystal","Diabolo","Iron Swan","Quarantine","Taunting Sword"]);
 
-var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter", "Chain Dagger","Plague Stave","Asklepios"]);
+var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter", "Chain Dagger","Plague Stave","Asklepios","Saxophone","Karambit"]);
 
 
 var items = [];	
@@ -46,18 +46,18 @@ addfloor("normal")
 
 
 commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); commonlist1.pop(); //get it down to 7 items to make these show up more often
-commonlist1 = commonlist1.concat(["Poison Needle", "Crowbar", "Magic Spear", "Teleport Spell", "Antifreeze", "Scraps", "Metalmorph"]);
+commonlist1 = commonlist1.concat(["Poison Needle", "Crowbar", "Magic Spear", "Teleport Spell", "Antifreeze", "Scraps", "Metalmorph", "Envenomate","Bottled Dragonbreath","Fruit Shooter"]);
 
-var rarelist1 = ["Dodge", "Hookshot", "Midnight Charm","Natural Charm", "Gooplicate"];
+var rarelist1 = ["Dodge", "Hookshot", "Midnight Charm","Natural Charm", "Gooplicate","Wing Bash"];
 commonlist1 = shuffle(commonlist1);
 
 
 rarelist1 = shuffle(rarelist1);
 var armor = chance(25);
 if(armor){
-	items = [commonlist1.pop()];
-}else{
 	items = ["Leather Armor"];
+}else{
+	items = [commonlist1.pop()];
 };
 gooditems = [];
 
@@ -66,7 +66,14 @@ otherstuff = [
   health()
 ];
 
-var shopstuff = pick([["Snake Eye Charm","Ekans Charm"],["Natural Charm","Unnatural Charm"],[commonlist1.pop(),commonlist1.pop()]]);
+var spells=shuffle(["Teleport Spell","Thunder Spell","Spiky Spell","Armour Spell","Acid Spell"]);
+
+var shopstuff = pick([
+	["Snake Eye Charm","Ekans Charm"],
+	["Natural Charm","Unnatural Charm"],
+	[spells.pop(),spells.pop()],
+	[commonlist1.pop(),commonlist1.pop()]
+]);
 shopstuff = shop([shopstuff[0], rarelist1.pop(), shopstuff[1]],[2,3,2]);
 
 goodotherstuff = [
@@ -81,7 +88,7 @@ addfloor("normal")
   
 //Floor 4:
 
-commonlist1 = commonlist1.concat(["Snippers", "Catastrophe", "Budge", "Stun Blast","Nudgeknife"]);
+commonlist1 = commonlist1.concat(["Snippers", "Catastrophe", "Budge", "Stun Blast","Nudgeknife","Turtle"]);
 
 commonlist1 = shuffle(commonlist1);
 items = [commonlist1.pop()];

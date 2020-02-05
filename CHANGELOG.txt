@@ -98,8 +98,10 @@ Bugfixes:
 	* Expose Weakness no longer appears for Jester
 	* Starsear now works
 	* Dodgy Chronometer is now no longer so dodgy
-	* Even Buster Sword now works
+	* Even Buster Sword now works, and has an actual downgrade
 	* Pea Pod+ no longer randomly gives you mana
+	* Necrosis description slightly fixed
+	* Leather Armor doesn't show up so often on Uptick
 
 
 =====================================================================
