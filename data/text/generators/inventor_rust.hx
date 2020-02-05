@@ -21,8 +21,8 @@ addfloor("small")
   .generate();
   
 //Floor 2:
-var commonlist1 = ["Chain Mail", "Bump", "Snippers", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", "Natural Charm", "Pockets", "Mace", "Focus Beam", "Solar Beam", "Scorch", "Hailstorm", "Gust", "Reverb" ,"Quicklime","Quicksilver", "Mystic Stave", "Steamball", "Pavise", "Trishula", "Labrys", "Pee Shooter", "Medigun","Ratula","Canesword", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Breakthrough", "Helmet Headbutt","Generous Sword","Ornamental Shield","Ravage","Glowstick","Plague Stave","Asklepios", "Pry Bar", "Demote", "Pockets","Budge","Spirit Level","Tape Measure", "Cable Tie"];
-var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap","Six Shooter", "Focus Beam","Resonator", "Rake Pick", "Kaboomerang", "Hand Lens", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Shadow Stick", "King Rat", "Really Spiky Shield"]; //moved a lot of dice manip out of here into commonlist so there's more stuff to buy
+var commonlist1 = ["Chain Mail", "Bump", "Snippers", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", "Natural Charm", "Pockets", "Mace", "Focus Beam", "Solar Beam", "Scorch", "Hailstorm", "Gust", "Reverb" ,"Quicklime","Quicksilver", "Mystic Stave", "Steamball", "Pavise", "Trishula", "Labrys", "Pee Shooter", "Medigun","Ratula","Canesword", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Breakthrough", "Helmet Headbutt","Generous Sword","Ornamental Shield","Ravage","Glowstick","Plague Stave","Asklepios", "Pry Bar", "Demote", "Pockets","Budge","Spirit Level","Tape Measure", "Cable Tie","Chronoblade","Saxophone","Nitro Bump","Glueplicate","Molten Staff","Lockdown","Juggernaut"];
+var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap","Six Shooter", "Focus Beam","Resonator", "Rake Pick", "Kaboomerang", "Hand Lens", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Shadow Stick", "King Rat", "Really Spiky Shield","Shield Toss","Diamond Wall","Recoil Recover","Taunting Sword"]; //moved a lot of dice manip out of here into commonlist so there's more stuff to buy
 commonlist1 = shuffle(commonlist1);
 shoplist1 = shuffle(shoplist1);
 
@@ -44,10 +44,10 @@ addfloor("small")
   .generate();
 
 //Floor 3:
-var midtierdrops = shuffle(["Deep Freeze","Snapshot","Rend","Leech Soul","Cauterize", "Booplicate", "Clerical Error"]);
+var midtierdrops = shuffle(["Deep Freeze","Snapshot","Rend","Leech Soul","Cauterize", "Booplicate", "Clerical Error","Furious Spell","Channel Rage","Indicetructable","Explosive Shield","Diabolo"]);
 var s = shuffle(crapstuff.concat(sticks));
 items = [s.pop()];
-commonlist1 = shuffle(commonlist1.concat(["Broadsword", "Bump", "Chocolate Cookie", "Custard Cream", "Hall of Mirrors", "Midnight Charm", "Heckfire", "Nine Iron", "Zap Cannon", "Glaive", "Hoplon"]));
+commonlist1 = shuffle(commonlist1.concat(["Broadsword", "Bump", "Chocolate Cookie", "Custard Cream", "Hall of Mirrors", "Midnight Charm", "Heckfire", "Nine Iron", "Zap Cannon", "Glaive", "Hoplon","Karambit"]));
 gooditems = [];
 	
 otherstuff = [

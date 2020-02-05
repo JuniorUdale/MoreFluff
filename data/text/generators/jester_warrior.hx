@@ -10,7 +10,7 @@ trace(poison);
 
 var warriorshops = ["Broadsword", "Iron Shield", "Buckler", "Snake Eye Charm", "Midnight Charm", "Healing Crystal", "Claw", "Snowball", "Boomerang", "Tazer", "First Aid Kit"];
 
-warriorshops = warriorshops.concat( ["Zweihander", "Halberd", "Chakram", "Paintbrush", "Flail", "Iron Fist", "Natural Charm", "Loaded Dice", "Blooplicate",  "Spiked Sword"]); //modded items
+warriorshops = warriorshops.concat( ["Zweihander", "Halberd", "Chakram", "Paintbrush", "Flail", "Iron Fist", "Natural Charm", "Loaded Dice", "Blooplicate",  "Spiked Sword","Shield Toss","Chronoblade","Saxophone","Diamond Wall","Explosive Shield","Molten Staff","Iron Swan","Vine Whip"]); //modded items
 
 shuffle(warriorshops);
 

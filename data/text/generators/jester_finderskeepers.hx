@@ -6,7 +6,7 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 var jester_dice_pool = ["Nudge", "Spatula", "Bump", pick(["Cauldron","Gold Cauldron","Silver Cauldron","Copper Cauldron","Iron Cauldron"]), "Bump", "Bumpblade", "Doppliduplicateinate"];
-var jester_damage_pool = ["Juggling Ball", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck", "Swordstave", "Iron Fist", "Blade of JOAT", "Mini Missile", "Divine Blade","Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop"];
+var jester_damage_pool = ["Juggling Ball", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck", "Swordstave", "Iron Fist", "Blade of JOAT", "Mini Missile", "Divine Blade","Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop","Recoil Recover"];
 
 jester_dice_pool = shuffle(jester_dice_pool);
 jester_damage_pool = shuffle(jester_damage_pool);

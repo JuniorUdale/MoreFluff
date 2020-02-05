@@ -6,8 +6,8 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist_basic = shuffle(["Regen", "Dodge Roll", "Cache Stash", "Trishula", "Tomahawk", "Hand Lens","Segfault"]);
-var commonlist_advanced = shuffle(["Juggling Ball", "Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Promote", "Superbolt", "Scraps","Antifreeze",  "Chain Whip", "Reboot","Ornamental Shield","Minigun","One With Everything"]);
+var commonlist_basic = shuffle(["Regen", "Dodge Roll", "Cache Stash", "Trishula", "Tomahawk", "Hand Lens","Segfault","Draining Crystal"]);
+var commonlist_advanced = shuffle(["Juggling Ball", "Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Promote", "Superbolt", "Scraps","Antifreeze",  "Chain Whip", "Reboot","Ornamental Shield","Minigun","One With Everything","Iron Swan","Vine Whip"]);
 
 items = [commonlist_basic.pop()];
 gooditems = [];
@@ -25,12 +25,14 @@ commonlist_basic.push("Bumpblade");
 commonlist_basic.push("Nudge");
 commonlist_basic.push("Mechanical Arm");
 commonlist_basic.push("Nudgeknife");
+commonlist_basic.push("Nitro Bump");
 shuffle(commonlist_basic);
 
 commonlist_advanced.push("Ray Gun");
 commonlist_advanced.push("Forcefield");
 commonlist_advanced.push("Cheat Code");
 commonlist_advanced.push("Medigun");
+commonlist_advanced.push("Lockdown");
 shuffle(commonlist_advanced);
 
 items = [];

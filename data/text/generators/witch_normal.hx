@@ -27,7 +27,10 @@ var commonlist_offensive = [
   "Immolate",
   "Fire Siphon",
   "Bolas",
-  "Blood Pact"
+  "Blood Pact",
+  "Draining Crystal",
+  "Furious Spell",
+  "Wing Bash"
 ];
 var commonlist_dicemanipulation = [
   "Illuminate", 
@@ -45,7 +48,12 @@ var commonlist_dicemanipulation = [
   "Copper Cauldron",
   "Doppliduplicateinate",
   "Binding Spell",
-  "Recycling Spell"
+  "Recycling Spell",
+  "Indicetructable",
+  "Glueplicate",
+  "Diamond Wall",
+  "Sacridice",
+  "Slow Cooker"
 ];
 
 
@@ -107,10 +115,18 @@ shuffle(commonlist_dicemanipulation);
 shuffle(commonlist_offensive);
 var twoslots = shuffle([pick(["Blizzard","Inferno"]),pick(["Sonic Boom","Lightning Bolt"]),pick(["Sunshower","Plague Wave"]),pick(["Magnum Opus","Conjurate"])]);
 var shopstuff = [twoslots.pop(),"Health",twoslots.pop()];
-		
+
+var shopstuff2;
+var rejectedspells = shuffle(["Armour Spell","Spiky Spell","Acid Spell"]);
+if(chance(25)){
+	shopstuff2 = [rejectespells.pop(),rejectedspells.pop()];
+}else{
+	shopstuff2 = [commonlist_offensive.pop(),commonlist_dicemanipulation.pop()];
+}
+
 otherstuff = [
   health(),
-  health(),
+  shop([shopstuff2[0],"Health",shopstuff2[1]],[2,3,2]);
   shop(shopstuff, [3, 3, 3])
 ];
 goodotherstuff = [

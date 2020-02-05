@@ -24,7 +24,7 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 var jester_dice_pool = ["Nudge", "Spatula", "Bump", "Cauldron", pick(["Gold Cauldron","Silver Cauldron","Iron Cauldron","Copper Cauldron"]), "Bumpblade", "Doppliduplicateinate","Binding Spell"];
-var jester_damage_pool = ["Juggling Ball", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck", "Swordstave", "Iron Fist", "Blade of JOAT", "Mini Missile","Mallet","Trowel","Frosted Dirk","Healing Shiv","Venomous Goop", "Poisonous Apple"];
+var jester_damage_pool = ["Juggling Ball", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck", "Swordstave", "Iron Fist", "Blade of JOAT", "Mini Missile","Mallet","Trowel","Frosted Dirk","Healing Shiv","Venomous Goop", "Poisonous Apple","Furious Spell","Recoil Recover"];
 
 
 jester_dice_pool = shuffle(jester_dice_pool);
@@ -32,7 +32,7 @@ jester_damage_pool = shuffle(jester_damage_pool);
 
 //Floor 1:
 addfloor("tiny")
-  .additems(["Juggling Ball"], [])
+  .additems([rand(["Juggling Ball","Toffee","Risley"])], [])
   .generate();
   
 //Floor 2:
