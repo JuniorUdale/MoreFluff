@@ -126,7 +126,7 @@ if(chance(25)){
 
 otherstuff = [
   health(),
-  shop([shopstuff2[0],"Health",shopstuff2[1]],[2,3,2]);
+  shop([shopstuff2[0],"Health",shopstuff2[1]],[2,3,2]),
   shop(shopstuff, [3, 3, 3])
 ];
 goodotherstuff = [

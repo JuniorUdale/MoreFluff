@@ -117,7 +117,7 @@ otherstuff = [
 	shop([commonlist_basic.pop(), "health", commonlist_advanced.pop()],[2,2,3]),
 ];
 goodotherstuff = [
-	trade(["Cooling Fan", "Concatenate", "Bucket of Water"], ["Free Spin", "Spatulasword", "Slingshot", "Flaming Sword", "Mechanicalantern","Normality Charm","Glamour"])
+	shop(["health", commonlist_advanced.pop(), "upgrade"],[3,3,3])
 ];
 
 addfloor("normal")
@@ -134,7 +134,7 @@ otherstuff = [
 	health()
 ];
 goodotherstuff = [
-  shop(["health", commonlist_advanced.pop(), "upgrade"],[3,3,3]), 
+	trade(["Cooling Fan", "Concatenate", "Bucket of Water"], ["Free Spin", "Spatulasword", "Slingshot", "Flaming Sword", "Mechanicalantern","Normality Charm","Glamour"])
 ];
 
 addfloor("big")

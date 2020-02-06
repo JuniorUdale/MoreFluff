@@ -60,7 +60,7 @@ var gracethings = shuffle(["Graceful Gash","Saving Grace","Grace Spell","Fourth 
 if(chance(25)){
 	shopstuff = [gracethings.pop(),midtierdrops.pop(),gracethings.pop()];
 }else{
-	shopstuff = [shoplist1.pop(), midtierdrops.pop(), shoplist1.pop()]
+	shopstuff = [shoplist1.pop(), midtierdrops.pop(), shoplist1.pop()];
 }
 goodotherstuff = [
   shop(shopstuff, [2, 3, 2]),
