@@ -102,6 +102,7 @@ Bugfixes:
 	* Pea Pod+ no longer randomly gives you mana
 	* Necrosis description slightly fixed
 	* Leather Armor doesn't show up so often on Uptick
+	* Changed a lot of "change_poison" upgrades to "change_power"
 
 
 =====================================================================
