@@ -84,6 +84,7 @@ Changes:
 		* (they're still mostly trash though)
 	* Beams changed!
 		* Focus, Solar, Terra and Lunar Beam now all increase the damage of **all** of them.
+		* Took this as an opportunity to tweak the wording for them too
 		* Dynamo now boosts them all up by 2, and is reuseable - this should hopefully stop it being hot trash
 	* Added a proper downgrade to Giga Discharge
 		* Now deals 10 damage and shocks 1 equipment
