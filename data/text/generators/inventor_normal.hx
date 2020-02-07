@@ -21,7 +21,7 @@ addfloor("small")
   .generate();
   
 //Floor 2:
-var commonlist1 = ["Chain Mail", "Bump", "Regen", "Blood Regen", "Snippers", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", "Natural Charm", "Pockets", "Mace", "Focus Beam", "Solar Beam", "Scorch", "Hailstorm","Quicklime","Quicksilver","Leech Seed", "Mystic Stave", "Steamball", "Gust", "Reverb", "Pavise", "Trishula", "Labrys", "Pee Shooter", "Medigun","Ratula","Canesword", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Breakthrough", "Helmet Headbutt","Generous Sword","Ornamental Shield","Ravage","Glowstick","Plague Stave","Asklepios","Chronoblade","Saxophone","Nitro Bump","Glueplicate","Molten Staff","Precious Pendant","Lockdown","Juggernaut"];
+var commonlist1 = ["Chain Mail", "Bump", "Regen", "Blood Regen", "Snippers", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", "Natural Charm", "Pockets", "Mace", "Focus Beam", "Solar Beam", "Scorch", "Hailstorm","Quicklime","Quicksilver","Leech Seed", "Mystic Stave", "Steamball", "Gust", "Reverb", "Pavise", "Trishula", "Labrys", "Pee Shooter", "Medigun","Ratula","Canesword", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Breakthrough", "Helmet Headbutt","Generous Sword","Ornamental Shield","Ravage","Glowstick","Plague Stave","Asklepios","Chronoblade","Saxophone","Nitro Bump","Glueplicate","Molten Staff","Precious Pendant","Lockdown","Juggernaut","Differing Thorns"];
 var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap", "Pry Bar", "Demote", "Pockets","Budge","Spirit Level","Six Shooter","Tape Measure", "Cable Tie", "Focus Beam","Resonator", "Rake Pick", "Kaboomerang", "Hand Lens", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Shadow Stick", "King Rat", "Really Spiky Shield","Nether Portal","Starpocalypse","Shield Toss","Diamond Wall","Recoil Recover","Taunting Sword"];
 commonlist1 = shuffle(commonlist1);
 shoplist1 = shuffle(shoplist1);
@@ -46,7 +46,7 @@ addfloor("small")
 //Floor 3:
 var midtierdrops = shuffle(["Deep Freeze","Snapshot","Rend","Leech Soul","Cauterize", "Booplicate", "Clerical Error","Furious Spell","Channel Rage","Indicetructable","Explosive Shield","Diabolo"]);
 var s = shuffle(crapstuff.concat(sticks));
-items = [s.pop()];
+items = [];
 commonlist1 = shuffle(commonlist1.concat(["Broadsword", "Bump", "Chocolate Cookie", "Custard Cream", "Hall of Mirrors", "Midnight Charm", "Heckfire", "Nine Iron", "Zap Cannon", "Glaive", "Hoplon","Karambit"]));
 gooditems = [];
 	
@@ -59,8 +59,10 @@ var shopstuff;
 var gracethings = shuffle(["Graceful Gash","Saving Grace","Grace Spell","Fourth Hour"]);
 if(chance(25)){
 	shopstuff = [gracethings.pop(),midtierdrops.pop(),gracethings.pop()];
+	items.push("Grace Spell");
 }else{
 	shopstuff = [shoplist1.pop(), midtierdrops.pop(), shoplist1.pop()];
+	items.push(s.pop());
 }
 goodotherstuff = [
   shop(shopstuff, [2, 3, 2]),

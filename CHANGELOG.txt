@@ -58,7 +58,7 @@ Changes:
 		* This is mainly because the first thing you do when you take the Pristine Sword pack is to delete it... can y'all don't
 	* Maintenance removed and replaced with Maintenance?
 		* This is to stop an odd edge case or two where upgrading Maintenance? would give you Maintenance+; they have different effects
-	* All passives have been reworked, tweaked, and otherwise changed!
+	* Most passives have been reworked, tweaked, and otherwise changed!
 		* Now, they actually activate like items, moving up and down the screen and whatnot.
 	* Lifesteal and Expose Weakness changed:
 		* Expose Weakness is now "For every 5 damage you do, deal 1 damage"
@@ -84,7 +84,9 @@ Changes:
 		* (they're still mostly trash though)
 	* Beams changed!
 		* Focus, Solar, Terra and Lunar Beam now all increase the damage of **all** of them.
-		* Dynamo now boosts them all up by 2!
+		* Dynamo now boosts them all up by 2, and is reuseable - this should hopefully stop it being hot trash
+	* Added a proper downgrade to Giga Discharge
+		* Now deals 10 damage and shocks 1 equipment
 	
 
 Bugfixes:
@@ -103,6 +105,8 @@ Bugfixes:
 	* Necrosis description slightly fixed
 	* Leather Armor doesn't show up so often on Uptick
 	* Changed a lot of "change_poison" upgrades to "change_power"
+		* Shouldn't change much, but should make things a bit better for Jester
+	* Fixed description of Leech Soul-
 
 
 =====================================================================

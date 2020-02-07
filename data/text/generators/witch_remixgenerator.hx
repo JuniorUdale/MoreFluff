@@ -44,7 +44,8 @@ var commonlist_offensive = [
   "Indicetructable",
   "Diamond Wall",
   "Starfall",
-  "Lava Burst"
+  "Lava Burst",
+  "Differing Thorns"
 ];
 shuffle(commonlist_offensive);
 var commonlist_dicemanipulation = [
