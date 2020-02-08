@@ -52,7 +52,7 @@ gooditems = [];
 	
 otherstuff = [
 	health(),
-	shop([sticks.pop(),s.pop(),sticks.pop()],[1,1,1])
+	shop([sticks.pop(),"Grindstone",sticks.pop()],[1,3,1])
 ];
 goodotherstuff = [
   shop([shoplist1.pop(), midtierdrops.pop(), shoplist1.pop()], [1, 2, 1]),

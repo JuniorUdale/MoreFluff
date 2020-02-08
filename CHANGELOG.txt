@@ -1,3 +1,14 @@
+v2.6 - The Update That Adds Grindstone
+
+
+
+Bugfixes!
+	* Inventor now gets Grindstone in Inevitability of Rust
+
+
+
+=====================================================================
+
 v2.5 - modgeons hype!
 
 Dicey Dungeons 1.7 is now out! https://steamcommunity.com/games/861540/announcements/detail/1719747967603929827
