@@ -1,11 +1,9 @@
-v2.6 - The Update That Adds Grindstone
+v2.5.1 - The Update That Adds Grindstone And Stops Thief BR From Breaking
 
+ghggggggggggggggggggggghhhhhhhhhhhhhhh
 
-
-Bugfixes!
-	* Inventor now gets Grindstone in Inevitability of Rust
-
-
+* Inventor now gets Grindstone in Inevitability of Rust
+* Thief BR no longer breaks occasionally
 
 =====================================================================
 
