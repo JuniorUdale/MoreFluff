@@ -23,7 +23,7 @@ var tempfloor = addfloor("tiny")
 
 //Floor 2:
 commonlist1.push("Thick Skin");
-commonlist1.push("Stony Armor");
+commonlist1.push("stony armour");
 commonlist1 = shuffle(commonlist1);
 
 
