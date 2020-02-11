@@ -1,3 +1,11 @@
+
+
+
+Bugfixes:
+	* Focus Beam- now works as intended
+
+=====================================================================
+
 v2.5.1 - The Update That Adds Grindstone And Stops Thief BR From Breaking
 
 ghggggggggggggggggggggghhhhhhhhhhhhhhh
