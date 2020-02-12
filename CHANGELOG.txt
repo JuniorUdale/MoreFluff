@@ -1,5 +1,10 @@
 
 
+Changes:
+	* "Reuseable If X" equipment has been tweaked slightly!
+		* Let me know if anything breaks with them.
+	* Inspiring Tune changed from EVEN to COUNTDOWN 8
+		* Just to make it a little different to Punchline
 
 Bugfixes:
 	* Focus Beam- now works as intended
