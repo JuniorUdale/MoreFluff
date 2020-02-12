@@ -8,6 +8,7 @@ Changes:
 
 Bugfixes:
 	* Focus Beam- now works as intended
+	* Added a ) to Crocus
 
 =====================================================================
 
