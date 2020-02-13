@@ -5,6 +5,7 @@ Changes:
 		* Let me know if anything breaks with them.
 	* Inspiring Tune changed from EVEN to COUNTDOWN 8
 		* Just to make it a little different to Punchline
+	* Sacridice+ changed to MIN2, to make its upgrade useable
 
 Bugfixes:
 	* Focus Beam- now works as intended
@@ -14,7 +15,7 @@ Bugfixes:
 
 v2.5.1 - The Update That Adds Grindstone And Stops Thief BR From Breaking
 
-ghggggggggggggggggggggghhhhhhhhhhhhhhh
+uggggggggggggggggggggghhhhhhhhhhhhhhh
 
 * Inventor now gets Grindstone in Inevitability of Rust
 * Thief BR no longer breaks occasionally
