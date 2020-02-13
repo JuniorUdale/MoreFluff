@@ -197,7 +197,7 @@ items = [commonlist_dicemanipulation.pop()];
 gooditems = [];
 otherstuff = [health(), health(), health()];
 goodotherstuff = [
-  shop(shuffle([rand(["Summer Solstice", "Winter Solstice"]), rand(["Meteor","Absolute Zero","Giga Discharge"]), rand(["Harvest Scythe","Begonia"])]), [3, 3, 3])
+  shop(shuffle([rand(["Summer Solstice", "Winter Solstice"]), rand(["Meteor","Absolute Zero","Giga Discharge"]), rand(["Harvest Scythe","Lunasa"])]), [3, 3, 3])
 ];
 		
 addfloor("big")

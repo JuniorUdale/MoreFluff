@@ -5,10 +5,12 @@ Changes:
 		* Let me know if anything breaks with them.
 	* Inspiring Tune changed from EVEN to COUNTDOWN 8
 		* Just to make it a little different to Punchline
+	* Joke Answer buffed to MAX5
 
 Bugfixes:
 	* Focus Beam- now works as intended
 	* Added a ) to Crocus
+	* Begonia no longer appears in BR
 
 =====================================================================
 
