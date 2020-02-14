@@ -12,6 +12,7 @@ Bugfixes:
 	* Focus Beam- now works as intended
 	* Added a ) to Crocus
 	* Begonia no longer appears in BR
+	* Caramel no longer hard crashes the game
 
 =====================================================================
 
