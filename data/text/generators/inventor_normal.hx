@@ -22,7 +22,7 @@ addfloor("small")
   
 //Floor 2:
 var commonlist1 = ["Chain Mail", "Bump", "Regen", "Blood Regen", "Snippers", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", "Natural Charm", "Pockets", "Mace", "Focus Beam", "Solar Beam", "Scorch", "Hailstorm","Quicklime","Quicksilver","Leech Seed", "Mystic Stave", "Steamball", "Gust", "Reverb", "Pavise", "Trishula", "Labrys", "Pee Shooter", "Medigun","Ratula","Canesword", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Breakthrough", "Helmet Headbutt","Generous Sword","Ornamental Shield","Ravage","Glowstick","Plague Stave","Asklepios","Chronoblade","Saxophone","Nitro Bump","Glueplicate","Molten Staff","Precious Pendant","Lockdown","Juggernaut","Differing Thorns"];
-var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap", "Pry Bar", "Demote", "Pockets","Budge","Spirit Level","Six Shooter","Tape Measure", "Cable Tie", "Focus Beam","Resonator", "Rake Pick", "Kaboomerang", "Hand Lens", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Shadow Stick", "King Rat", "Really Spiky Shield","Nether Portal","Starpocalypse","Shield Toss","Diamond Wall","Recoil Recover","Taunting Sword"];
+var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap", "Pry Bar", "Demote", "Pockets","Budge","Spirit Level","Six Shooter","Tape Measure", "Cable Tie", "Focus Beam","Resonator", "Rake Pick", "Kaboomerang", "Hand Lens", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Shadow Stick", "King Rat", "Really Spiky Shield","Nether Portal","Starpocalypse","Shield Toss","Diamond Wall","Recoil Recover","Taunting Sword","Mirror Coating"];
 commonlist1 = shuffle(commonlist1);
 shoplist1 = shuffle(shoplist1);
 

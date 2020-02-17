@@ -10,9 +10,9 @@ var goodotherstuff = [];
 var chiselorcandle = ["Chisel", "Candle"];
 chiselorcandle = shuffle(chiselorcandle);
 
-var commonlist1 = shuffle(["Cloak", chiselorcandle.pop(), "Plaster", "Dramatic Exit", "Blast Chiller", "Square Pair", pick(["Leather Armor","Stony Armour"]), "Bump", "Bandage", "Pickpocket", "Pea Shooter", "Snake Eye Charm", "Lifesteal", "Thistle Tea", "Poison Thread", "Hand Lens", "Starspike","Rockfall",pick(["Rend","Toxify"]),"Shichishito","Secateurs","Chain Dagger","Gem of Healing","Execute","Necrosis","Minigun","Dice Magnet","Headcrack","Juice Box","Ignite","Umbrella","Plague Stave","Asklepios","Starstaff","Draining Crystal","Rock Crusher","Arbitrage","Rift Stabilizer","Push Knife","Diabolo","Jianzi","Starfall","Lava Burst","Inflation","Iron Swan","Flying Venus Trap","Snakelops","Fruit Shooter","Taunting Sword","Wing Bash","Molten Blast"]);
+var commonlist1 = shuffle(["Cloak", chiselorcandle.pop(), "Plaster", "Dramatic Exit", "Blast Chiller", "Square Pair", pick(["Leather Armor","Stony Armour"]), "Bump", "Bandage", "Pickpocket", "Pea Shooter", "Snake Eye Charm", "Lifesteal", "Thistle Tea", "Poison Thread", "Hand Lens", "Starspike","Rockfall",pick(["Rend","Toxify"]),"Shichishito","Secateurs","Chain Dagger","Gem of Healing","Execute","Necrosis","Minigun","Dice Magnet","Headcrack","Juice Box","Ignite","Umbrella","Plague Stave","Asklepios","Starstaff","Draining Crystal","Rock Crusher","Arbitrage","Rift Stabilizer","Push Knife","Diabolo","Jianzi","Starfall","Lava Burst","Inflation","Iron Swan","Flying Venus Trap","Snakelops","Fruit Shooter","Taunting Sword","Wing Bash","Molten Blast","Mirror Coating"]);
 
-var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter",pick(["Ballerina Charm", "Square Pair"]), "Cleaver", "Splat","Trianguleight","Coin Flip","Saxophone","Glitter","Karambit","Socket Wrench"]);
+var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter",pick(["Ballerina Charm", "Square Pair"]), "Cleaver", "Splat","Trianguleight","Coin Flip","Saxophone","Glitter","Karambit","Socket Wrench","Mirror Coating"]);
 
 		
 items = [commonlist1.pop()];

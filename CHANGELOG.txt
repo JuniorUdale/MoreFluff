@@ -7,12 +7,19 @@ Changes:
 		* Just to make it a little different to Punchline
 	* Joke Answer buffed to MAX5
 	* Sacridice+ changed to MIN2, to make its upgrade useable
+	* Shifting Sword changed!
+		* First, the shield option is nerfed - now it's only 2 shield instead of 3.
+		* Also, it has a chance to gain a bad effect too!
 
 Bugfixes:
 	* Focus Beam- now works as intended
 	* Added a ) to Crocus
 	* Begonia no longer appears in BR
 	* Caramel no longer hard crashes the game
+	* Frozen Whip+ description made more gooderer
+	* Sapping Spores+ now works
+	* Added more equipment into the Bonus Round generators
+		* Not sure if it was an oversight on my part or what, but a lot of fun equipment like Mirror Coating wasn't generating as often as it should. Fixed now!
 
 =====================================================================
 
