@@ -4,9 +4,6 @@
 
 New equipment:
 	* 2 new Jester level up packs!
-		* Decision Paralysis - so much damage! And for only 0 dice?
-			* Unavailable equipment! You can't use it, only discard it. Not even Snapping helps.
-			* Luckily, you have an equipment which can activate those unavailable cards...
 		* Beams - totally not OP
 			* Start with a Broken Beam - it deals 0 damage.
 			* Luckily, you start with a couple of Monocles which boost its damage.
@@ -41,6 +38,7 @@ Bugfixes:
 	* Added more equipment into the Bonus Round generators
 		* Not sure if it was an oversight on my part or what, but a lot of fun equipment like Mirror Coating wasn't generating as often as it should. Fixed now
 	* Jester no longer crashes upon picking up booster packs
+	* Magic Frostbolt now deals the correct amount of damage
 
 =====================================================================
 

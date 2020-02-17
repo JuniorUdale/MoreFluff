@@ -31,7 +31,8 @@ var commonlist_offensive = [
   "Draining Crystal",
   "Furious Spell",
   "Wing Bash",
-  "Differing Thorns"
+  "Differing Thorns",
+  "Mirror Coating"
 ];
 var commonlist_dicemanipulation = [
   "Illuminate", 
