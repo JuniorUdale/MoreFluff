@@ -1,0 +1,13 @@
+[1mdiff --git a/_append/data/text/equipment.csv b/_append/data/text/equipment.csv[m
+[1mindex e847adb..374d4a3 100644[m
+[1m--- a/_append/data/text/equipment.csv[m
+[1m+++ b/_append/data/text/equipment.csv[m
+[36m@@ -1612,7 +1612,7 @@[m [mGlowstick_upgraded,Deal [sword]<d6> damage|Get an extra dice next turn,1,attack([m
+ Glowstick_downgraded,Deal [sword]<d6> damage,1,attack(d); sfxdamage(target|d); ,Magic Lantern,EVEN,,WEAPON,YELLOW,,,,none,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,[m
+ Dice Magnet,If enemy has more than 1|dice[;] steal a dice this fight|[gray](once per battle),1,if(target.dice + target.extradice + target.bonusdice > 1){target.extradice-=1; givedice(); self.extradice+=1; sfx(~magic_gaindice~);};,Infinity Mirror,COUNTDOWN,20,ITEM,YELLOW,change_power,change_power,,,0,NO,YES,NO,NO,NO,NO,NO,NO,,,,,,,,,,,[m
+ Dice Magnet_upgraded,If enemy has more than 1|dice[;] steal a dice this fight,1,if(target.dice + target.extradice + target.bonusdice > 1){target.extradice-=1; givedice(); self.extradice+=1; sfx(~magic_gaindice~);};,Infinity Mirror,COUNTDOWN,20,ITEM,YELLOW,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,[m
+[31m-Dice Magnet_downgraded,If enemy has more than 1|dice[;] steal a dice this turn|[gray](once per battle),1,if(target.dice + target.extradice + target.bonusdice > 1){target.bonusdice-=1; givedice(); sfx(~magic_gaindice~);};,Infinity Mirror,COUNTDOWN,20,ITEM,YELLOW,,,,,0,NO,YES,NO,NO,NO,NO,NO,NO,,,,,,,,,,,[m
+[32m+[m[32mDice Magnet_downgraded,If enemy has more than 1|dice[;] steal a dice this turn,1,if(target.dice + target.extradice + target.bonusdice > 1){target.bonusdice-=1; givedice(); sfx(~magic_gaindice~);};,Infinity Mirror,COUNTDOWN,20,ITEM,YELLOW,,,,,0,NO,YES,NO,NO,NO,NO,NO,NO,,,,,,,,,,,[m
+ Duoplicate,Duplicate both dice,2,var a = actualdice[0].basevalue; var b = actualdice[1].basevalue; givedice([a|a|b|b]);,Clone Device,MIN4|MIN4,,ITEM,GREEN,change_power,change_power,,,0,YES,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,[m
+ Duoplicate_upgraded,Duplicate both dice,2,var a = actualdice[0].basevalue; var b = actualdice[1].basevalue; givedice([a|a|b|b]);,Clone Device,NORMAL|NORMAL,,ITEM,GREEN,,,,,0,YES,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,[m
+ Duoplicate_downgraded,Duplicate a dice,2,givedice([d|d]);,Clone Device,MIN4,,ITEM,GREEN,,,,,0,YES,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,[m
