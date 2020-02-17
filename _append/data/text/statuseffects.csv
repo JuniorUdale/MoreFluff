@@ -49,7 +49,7 @@ focusbeam,Focused,sword,[red]Focus Beam[] deals <value> more damage.,NO,YES,NO,N
 solarbeam,Solar_Powered,sword,[yellow]Solar Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
 lunarbeam,Lunar_Powered,sword,[blue]Lunar Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
 terrabeam,Terra_Charged,sword,[orange]Terra Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
-dynamo,Beam_Power,cog,Beam weapons[;] such as [red]Focus Beam[][;] [yellow]Solar Beam[][;]|[blue]Lunar Beam[] and [orange]Terra Beam[][;] all deal <value> damage.,NO,YES,NO,NO,NO
+dynamo,Beam_Power,cog,Beam weapons[;] such as [red]Focus Beam[][;] [yellow]Solar Beam[][;]|[blue]Lunar Beam[] and [orange]Terra Beam[][;] all deal [cog]<value> damage.,NO,YES,NO,NO,NO
 gemstoneboost,Boosted,gold,Gem Generators create upgraded gems this turn.,NO,NO,YES,NO,NO
 gemstoneamount,Crystallized,gold,Gem Generators create <value> more gems this turn.,NO,YES,YES,NO,NO
 batted,Battered,dice,Enemy caught the dice you batted!|They get <value> more dice next turn.,NO,YES,YES,NO,NO
@@ -76,5 +76,6 @@ essence_poison,Toxic_Essence,poison,Does nothing. When invoked:|Receive [poison]
 essence_dark,Dark_Essence,curse,Does nothing. When invoked:|Receive a bad status ([curse]Curse[;] [lock]Lock[;] [shock]Stun),NO,YES,NO,NO,NO
 mf_stun,Stun,shock,Random equipment is disabled for the turn.,NO,YES,YES,NO,NO
 alternate_mf_stun,Stun?,shock,Lose a dice next turn.,NO,YES,YES,NO,NO
-nothing,Nothing,,Does absolutely nothing.,NO,YES,YES,NO,NO
+nothing,Nothing,curse,Does absolutely nothing.,NO,NO,YES,NO,NO
+alternate_nothing,Nothing?,curse,Doesn't do something.,NO,NO,YES,NO,NO
 grace,Grace,heart,At the start of your turn[;] if your health is less than|your Grace ([heart]<value>[])[;] swap your health and your Grace.,NO,YES,NO,NO,NO

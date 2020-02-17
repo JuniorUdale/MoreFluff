@@ -1,5 +1,24 @@
 
 
+
+
+New equipment:
+	* 2 new Jester level up packs!
+		* Decision Paralysis - so much damage! And for only 0 dice?
+			* Unavailable equipment! You can't use it, only discard it. Not even Snapping helps.
+			* Luckily, you have an equipment which can activate those unavailable cards...
+		* Beams - totally not OP
+			* Start with a Broken Beam - it deals 0 damage.
+			* Luckily, you start with a couple of Monocles which boost its damage.
+
+
+
+
+
+
+
+
+
 Changes:
 	* "Reuseable If X" equipment has been tweaked slightly!
 		* Let me know if anything breaks with them.
@@ -9,7 +28,8 @@ Changes:
 	* Sacridice+ changed to MIN2, to make its upgrade useable
 	* Shifting Sword changed!
 		* First, the shield option is nerfed - now it's only 2 shield instead of 3.
-		* Also, it has a chance to gain a bad effect too!
+		* Also, it has a chance to gain a bad effect too
+	* Jester now can encounter 2 Fluff level up packs, on account of them outnumbering the vanilla ones by now
 
 Bugfixes:
 	* Focus Beam- now works as intended
