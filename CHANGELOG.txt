@@ -19,7 +19,8 @@ Bugfixes:
 	* Frozen Whip+ description made more gooderer
 	* Sapping Spores+ now works
 	* Added more equipment into the Bonus Round generators
-		* Not sure if it was an oversight on my part or what, but a lot of fun equipment like Mirror Coating wasn't generating as often as it should. Fixed now!
+		* Not sure if it was an oversight on my part or what, but a lot of fun equipment like Mirror Coating wasn't generating as often as it should. Fixed now
+	* Jester no longer crashes upon picking up booster packs
 
 =====================================================================
 

@@ -53,6 +53,24 @@ addfloor("normal")
   .addotherstuff(otherstuff, goodotherstuff)
   .generate();
 
+var crappacks = [
+	"Focus Beam,Focus Beam,Focus Beam",
+	"Bite,Sweets,Bite",
+	"Deflect,Boop,Deflect",
+	"Spanner,Nudge,Spanner",
+	"Snake Eye Charm,Snake Eye Charm,Snake Eye Charm"
+
+
+
+
+]
+
+
+
+
+
+
+
 //Floor 3:
 items = [jester_dice_pool.pop()];
 gooditems = [];
