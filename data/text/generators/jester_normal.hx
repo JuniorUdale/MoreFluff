@@ -53,27 +53,18 @@ addfloor("normal")
   .addotherstuff(otherstuff, goodotherstuff)
   .generate();
 
-var crappacks = [
-	"Focus Beam,Focus Beam,Focus Beam",
+var crappacks = shuffle([
 	"Bite,Sweets,Bite",
 	"Deflect,Boop,Deflect",
 	"Spanner,Nudge,Spanner",
-	"Snake Eye Charm,Snake Eye Charm,Snake Eye Charm"
-
-
-
-
-]
-
-
-
-
-
-
+	"Snake Eye Charm,Snake Eye Charm,Snake Eye Charm",
+	"Duplicate,Plasma Cannon,Duplicate",
+	"Juggling Ball,Juggling Ball,Juggling Ball"
+]);
 
 //Floor 3:
 items = [jester_dice_pool.pop()];
-gooditems = [];
+gooditems = [crappacks.pop()];
 otherstuff = [
   trade([chosen],finale), 
   health()

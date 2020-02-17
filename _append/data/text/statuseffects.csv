@@ -49,7 +49,7 @@ focusbeam,Focused,sword,[red]Focus Beam[] deals <value> more damage.,NO,YES,NO,N
 solarbeam,Solar_Powered,sword,[yellow]Solar Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
 lunarbeam,Lunar_Powered,sword,[blue]Lunar Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
 terrabeam,Terra_Charged,sword,[orange]Terra Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
-dynamo,Beam_Power,cog,[red]Focus Beam[][;] [yellow]Solar Beam[][;] [blue]Lunar Beam[] and [orange]Terra Beam[]|all deal <value> more damage.,NO,YES,NO,NO,NO
+dynamo,Beam_Power,cog,Beam weapons[;] such as [red]Focus Beam[][;] [yellow]Solar Beam[][;]|[blue]Lunar Beam[] and [orange]Terra Beam[][;] all deal <value> damage.,NO,YES,NO,NO,NO
 gemstoneboost,Boosted,gold,Gem Generators create upgraded gems this turn.,NO,NO,YES,NO,NO
 gemstoneamount,Crystallized,gold,Gem Generators create <value> more gems this turn.,NO,YES,YES,NO,NO
 batted,Battered,dice,Enemy caught the dice you batted!|They get <value> more dice next turn.,NO,YES,YES,NO,NO
