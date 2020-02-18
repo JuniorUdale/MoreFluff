@@ -27,6 +27,7 @@ Changes:
 		* First, the shield option is nerfed - now it's only 2 shield instead of 3.
 		* Also, it has a chance to gain a bad effect too
 	* Jester now can encounter 2 Fluff level up packs, on account of them outnumbering the vanilla ones by now
+	* Jester also encounters more loot in general - maybe a thick deck could work?
 
 Bugfixes:
 	* Focus Beam- now works as intended
