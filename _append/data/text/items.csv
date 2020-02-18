@@ -38,3 +38,4 @@ Double Tap,Deal [sword]2 dmg[;] twice,,attack(2); attack(2); sfxdamage(target[;]
 Helium Script,(should not appear),,for(mydice in self.dicepool){ if(mydice.available()){ mydice.kick(-90[;]10); }; }; self.setvar(~h~[;]self.getvar(~h~)+1); if(self.getvar(~h~) < 5){ var t = new elements.Skill(~Helium Script~); t.execute(self[;]target); };
 Grace Checks,(should not appear),,var grace = getstatusself(~grace~); var diff = grace - self.hp; if(diff > 0){ pierceattackself(-diff); sfx(~_heal~); sfx(~_survive~); removestatusself(~grace~[;]diff); };
 Unlimited Limit,Gain [confuse]5 limit break charge,,self.limitvalue+=5; if(self.limitvalue > self.limitmax){self.limitvalue = self.limitmax;}; sfx(~_thinghappens~);
+Beam Dream,Gain [cog]2 Beam Power,,inflictself(~dynamo~|2); self.setvar(~dynamo~|getstatusself(~dynamo~)); sfx(~_magic~);

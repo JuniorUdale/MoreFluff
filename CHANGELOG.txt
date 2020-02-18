@@ -28,6 +28,31 @@ Changes:
 		* Also, it has a chance to gain a bad effect too
 	* Jester now can encounter 2 Fluff level up packs, on account of them outnumbering the vanilla ones by now
 	* Jester also encounters more loot in general - maybe a thick deck could work?
+	* Insult to Injury buffed to take any dice, instead of being a countdown of 12
+		* Having there be a countdown restriction on such a hard to use equipment was adding... well, you know
+	* Changed the "No effect" downgrade for:
+		* Magic Mirror
+	* Heckle changed to two MAX3 slots
+	* Talons nerfed to MAX3
+		* Now it's more obviously 2 Claws stacked on top of each other
+	* Chain Whip- now deals 2 damage instead of no damage
+		* Weaken is quite a nerf to this item!
+	* Blade of JOAT+ buffed to 3 uses
+		* The upgrade wasn't worth it most of the time; this should help it become more of a dice dump/general-purpose tool
+		* Note that 3 damage/poison/heal/shield isn't worth it for 18+ pips!
+		* 18+ pips... brb making another mod
+	* Piercing Scroll buffed:
+		* Now unrestricted
+		* Returns the dice when upgraded
+	* Healing Shiv+ buffed to unrestricted, was MAX5
+	* Mirrorblade nerfed to size 2
+	* Imperishability+ buffed to "turn 5 and after"
+	* Tweaked the wording of:
+		* Talons-
+		* Hockey Stick
+		* Hailstorm
+		* 
+		* The Beam Power status
 
 Bugfixes:
 	* Focus Beam- now works as intended
@@ -40,6 +65,8 @@ Bugfixes:
 		* Not sure if it was an oversight on my part or what, but a lot of fun equipment like Mirror Coating wasn't generating as often as it should. Fixed now
 	* Jester no longer crashes upon picking up booster packs
 	* Magic Frostbolt now deals the correct amount of damage
+	* Decay- now inflicts 2 poison instead of 1
+	* Fixed a crash issue because of a Simplified English translation issue
 
 =====================================================================
 
