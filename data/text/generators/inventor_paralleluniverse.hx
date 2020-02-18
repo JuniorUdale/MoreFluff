@@ -30,7 +30,7 @@ addfloor("small")
   .generate();
   
 //Floor 2:
-var commonlist1 = ["Hi Vis Jacket",  "Elastic Heart", "Berlin Key", "Kalis", "Surfive", "Illumineight", "Threeken", "Nanobots","Caltrops","Lifesteal", "Preparation", "Defibrilator", "Pandora's Box", dicemanip.pop(),dicemanip.pop(),"stony armour"];
+var commonlist1 = ["Hi Vis Jacket",  "Elastic Heart", "Berlin Key", "Kalis", "Surfive", "Illumineight", "Threeken", "Nanobots","Caltrops","Lifesteal", "Preparation", "Defibrilator", "Pandora's Box", dicemanip.pop(),dicemanip.pop(),"Stony Armour"];
 var shoplist1 = ["Screwdriver",  pick(["Gold Dagger", "Silver Dagger"]), "Lunar Beam", "Terra Beam", "Firey Firesword of Fire", "Lamppost", "Flourish", "Chromatic Cutlass", pick(["Hexatomb","Blind Rage"]),"Sledgehammer", "Magma Storm", "Flamecrower", "Kerfuffle",weapons.pop(),weapons.pop(), "Electrolysis", "Doppelice", "Gavel","Spade"];
 commonlist1 = shuffle(commonlist1);
 shoplist1 = shuffle(shoplist1);

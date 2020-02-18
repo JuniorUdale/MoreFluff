@@ -27,6 +27,12 @@ Changes:
 		* First, the shield option is nerfed - now it's only 2 shield instead of 3.
 		* Also, it has a chance to gain a bad effect too
 	* Jester now can encounter 2 Fluff level up packs, on account of them outnumbering the vanilla ones by now
+	* Insult to Injury buffed to take any dice, instead of being a countdown of 12
+		* Having there be a countdown restriction on such a hard to use equipment was adding... well, you know
+	* Changed the "No effect" downgrade for:
+		* Magic Mirror
+	* Tweaked the wording of:
+		* Talons-
 
 Bugfixes:
 	* Focus Beam- now works as intended
@@ -39,6 +45,8 @@ Bugfixes:
 		* Not sure if it was an oversight on my part or what, but a lot of fun equipment like Mirror Coating wasn't generating as often as it should. Fixed now
 	* Jester no longer crashes upon picking up booster packs
 	* Magic Frostbolt now deals the correct amount of damage
+	* Decay- now inflicts 2 poison instead of 1
+	* Fixed a crash issue because of a Simplified English translation issue
 
 =====================================================================
 
