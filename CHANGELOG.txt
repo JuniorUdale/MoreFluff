@@ -50,6 +50,8 @@ Changes:
 	* Scorch nerfed to a countdown of 3
 	* Iron Swan is now a PU equipment
 		* literally zero idea why it wasn't in the first place, the whole point is for it to work with PU stuff
+	* Critical Hit nerfed to 15% chance
+		* It's just too strong!
 	* Tweaked the wording of:
 		* Talons-
 		* Hockey Stick
