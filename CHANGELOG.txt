@@ -1,5 +1,4 @@
-
-
+v2.6.0 - actual balance? in my mod?
 
 
 New equipment:
@@ -47,10 +46,13 @@ Changes:
 	* Healing Shiv+ buffed to unrestricted, was MAX5
 	* Mirrorblade nerfed to size 2
 	* Imperishability+ buffed to "turn 5 and after"
+	* Ferrosynthesis nerfed to size 2 and a countdown of 12 (was size 1 with a countdown of 6)
+	* Scorch nerfed to a countdown of 3
 	* Tweaked the wording of:
 		* Talons-
 		* Hockey Stick
 		* Hailstorm
+		* Frozen Whip
 		* 
 		* The Beam Power status
 
@@ -67,6 +69,7 @@ Bugfixes:
 	* Magic Frostbolt now deals the correct amount of damage
 	* Decay- now inflicts 2 poison instead of 1
 	* Fixed a crash issue because of a Simplified English translation issue
+	* Bottleneck- now isn't quite as strong
 
 =====================================================================
 
