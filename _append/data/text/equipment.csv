@@ -2246,3 +2246,6 @@ Caduceus_downgraded,Deal [sword]3 damage|Drain [heart]3 health,2,attack(3); sfxd
 Catula,Roll 2 sixes,2,givedice([6|6]);,,REQUIRE1|REQUIRE1,,ITEM,GREEN,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Catula_upgraded,Roll 2 sixes|,2,givedice([6|6]);,,REQUIRE1|REQUIRE1,,ITEM,GREEN,,,,,2,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Catula_downgraded,Roll 1 six,2,givedice([6]);,,REQUIRE1|REQUIRE1,,ITEM,GREEN,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+CPU Cup,Recover [heal]<d6> health[;] double if|CPU is <triple> or more,2,if(self.roll_total >= d*3){attackself(-d*2);}else{attackself(-d);}; sfx(~_heal~);,,MAX4,,SHIELD,GREEN,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+CPU Cup_upgraded,Recover [heal]<d6> health[;] double if|CPU is <double> or more,2,if(self.roll_total >= d*2){attackself(-d*2);}else{attackself(-d);}; sfx(~_heal~);,,MAX4,,SHIELD,GREEN,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+CPU Cup_downgraded,Recover [heal]<d6> health,2,attackself(-d); sfx(~_heal~);,,MAX4,,SHIELD,GREEN,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
