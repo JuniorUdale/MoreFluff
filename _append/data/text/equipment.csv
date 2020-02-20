@@ -2231,6 +2231,6 @@ Burning Stick_downgraded,Deal [fire]1 damage,1,attack(1|FIRE); sfx(~_fire~);,,CO
 Flame Lance,Burn [fire]all dice,2,inflict(FIRE|ALL); sfx(~_fire~);,,COUNTDOWN,9,WEAPON,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Flame Lance_upgraded,Burn [fire]all dice[;] deal [fire]1|damage per dice burned,2,inflict(FIRE|ALL); sfx(~_fire~); var s = target.dice+target.extradice+target.bonusdice; attack(s|FIRE); sfxdamage(target|s);,,COUNTDOWN,9,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Flame Lance,Burn [fire]2 dice,2,inflict(FIRE|2); sfx(~_fire~);,,COUNTDOWN,9,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
-Dice Synthesis,Lose [heart]10 maximum health|Permanently gain 1 dice,1,self.maxhp-=10; sfx(~_drain~); self.dice+=1; sfx(~magic_gaindice~);,,COUNTDOWN,15,ITEM,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
-Dice Synthesis_upgraded,Lose [heart]8 maximum health|Permanently gain 1 dice,1,self.maxhp-=8; sfx(~_drain~); self.dice+=1; sfx(~magic_gaindice~);,,COUNTDOWN,15,ITEM,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Dice Synthesis,Lose [heart]12 maximum health|Permanently gain 1 dice,1,self.maxhp-=12; sfx(~_drain~); self.dice+=1; sfx(~magic_gaindice~);,,COUNTDOWN,15,ITEM,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Dice Synthesis_upgraded,Lose [heart]10 maximum health|Permanently gain 1 dice,1,self.maxhp-=10; sfx(~_drain~); self.dice+=1; sfx(~magic_gaindice~);,,COUNTDOWN,15,ITEM,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Dice Synthesis_downgraded,Lose [heart]15 maximum health|Permanently gain 1 dice,1,self.maxhp-=15; sfx(~_drain~); self.dice+=1; sfx(~magic_gaindice~);,,COUNTDOWN,15,ITEM,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
