@@ -15,7 +15,7 @@ var strangeshop = ["Spatula", "Lightning Rod", pick(["Shriek","Heckle"]), "Power
 strangeshop = shuffle(strangeshop);
 
 //Floor 1:
-var awesomelist = ["Whip", "Hammer", "Nine Iron", "Shovel", "Talons", "Labrys", "Targe Charge", "Canesword", "Urumi", "Crass Knuckles","Iron Swan"]; 
+var awesomelist = ["Whip", "Hammer", "Nine Iron", "Shovel", "Talons", "Labrys", "Targe Charge", "Canesword", "Urumi", "Crass Knuckles"]; 
 
 awesomelist = shuffle(awesomelist);
 

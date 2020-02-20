@@ -48,6 +48,8 @@ Changes:
 	* Imperishability+ buffed to "turn 5 and after"
 	* Ferrosynthesis nerfed to size 2 and a countdown of 12 (was size 1 with a countdown of 6)
 	* Scorch nerfed to a countdown of 3
+	* Iron Swan is now a PU equipment
+		* literally zero idea why it wasn't in the first place, the whole point is for it to work with PU stuff
 	* Tweaked the wording of:
 		* Talons-
 		* Hockey Stick
@@ -70,6 +72,8 @@ Bugfixes:
 	* Decay- now inflicts 2 poison instead of 1
 	* Fixed a crash issue because of a Simplified English translation issue
 	* Bottleneck- now isn't quite as strong
+	* Really Sharp Spike now plays the correct sound effect
+	* Reaper now doesn't reactivate after being weakened
 
 =====================================================================
 
