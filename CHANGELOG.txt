@@ -52,6 +52,7 @@ Changes:
 		* literally zero idea why it wasn't in the first place, the whole point is for it to work with PU stuff
 	* Critical Hit nerfed to 15% chance
 		* It's just too strong!
+	* Chronomancy now heals on jackpot too
 	* Tweaked the wording of:
 		* Talons-
 		* Hockey Stick
