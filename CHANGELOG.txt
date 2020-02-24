@@ -77,6 +77,8 @@ Bugfixes:
 	* Bottleneck- now isn't quite as strong
 	* Really Sharp Spike now plays the correct sound effect
 	* Reaper now doesn't reactivate after being weakened
+	* Shifting Sword + Resonator no longer crashes the game
+	* Resonator now works for Thief, and also weakens their stolen equipment
 
 =====================================================================
 
