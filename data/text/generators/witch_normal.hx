@@ -96,6 +96,7 @@ items = [commonlist_dicemanipulation.pop()];
 gooditems = [commonlist_offensive.pop()];
 		
 otherstuff = [
+  health(),
   health()
 ];
 
@@ -132,6 +133,7 @@ otherstuff = [
   shop(shopstuff, [3, 3, 3])
 ];
 goodotherstuff = [
+  health(),
   health()
 ];
 		

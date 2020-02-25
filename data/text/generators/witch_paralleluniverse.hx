@@ -153,6 +153,7 @@ shuffle(commonlist_offensive);
 		
 otherstuff = [
   health(),
+  health(),
   health()
 ];
 

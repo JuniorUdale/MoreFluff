@@ -53,6 +53,7 @@ Changes:
 	* Critical Hit nerfed to 15% chance
 		* It's just too strong!
 	* Chronomancy now heals on jackpot too
+	* Snowdrop/Pyrodrop buffed to 2 freeze/burn
 	* Tweaked the wording of:
 		* Talons-
 		* Hockey Stick
@@ -79,6 +80,8 @@ Bugfixes:
 	* Reaper now doesn't reactivate after being weakened
 	* Shifting Sword + Resonator no longer crashes the game
 	* Resonator now works for Thief, and also weakens their stolen equipment
+	* Helium Balloon no longer lags the game like Overwatch
+	* Blunt Dagger- now works as intended
 
 =====================================================================
 
