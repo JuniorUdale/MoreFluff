@@ -7,7 +7,7 @@ var goodotherstuff = [];
 
 //Floor 1:
 var commonlist_basic = shuffle(["Regen", "Cache Stash", "Buckler", "Spare 4", "Plasma Cannon", "Trishula", "Tomahawk", "Hand Lens","Segfault"]);
-var commonlist_advanced = shuffle(["Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Superbolt", "Scraps","Antifreeze", "Pea Shooter", "Chain Whip","Ornamental Shield","Minigun","One With Everything","Iron Swan","Vine Whip"]);
+var commonlist_advanced = shuffle(["Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Superbolt", "Scraps","Antifreeze", "Pea Shooter", "Chain Whip","Ornamental Shield","Minigun","One With Everything","Vine Whip"]);
 
 items = [commonlist_basic.pop()];
 gooditems = [];

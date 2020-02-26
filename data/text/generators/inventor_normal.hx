@@ -7,7 +7,7 @@ var goodotherstuff = [];
 
 var elemweps = shuffle(["Spark","Snowflake","Buzzer","Whisper"]);
 var sticks =rand([["Matchstick","Nightstick","Wooden Stick","Hockey Stick"],["Scorch","Hailstorm","Gust","Reverb"]]);
-var crapstuff = shuffle(["Spark","Snowflake","Life Rip","Slime Ball","Stealth","Mini Missile","Blade of JOAT", "Fireflash", "Frostbitten", "Frozen Flute", "Oven Gloves"]);
+var crapstuff = shuffle(["Spark","Snowflake","Life Rip","Slime Ball","Stealth","Mini Missile","Blade of JOAT", "Fireflash", "Frostbitten", "Frozen Flute", "Oven Gloves","Box of Nails","Oil Barrel","Aftershock","Frost Shield","Portavortex"]);
 
 //Floor 1:
 items = [pick(["Staff", "Crossbow","Sword","Plague Stave","Asklepios"])];
@@ -21,7 +21,7 @@ addfloor("small")
   .generate();
   
 //Floor 2:
-var commonlist1 = ["Chain Mail", "Bump", "Regen", "Blood Regen", "Snippers", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", "Natural Charm", "Pockets", "Mace", "Focus Beam", "Solar Beam", "Scorch", "Hailstorm","Quicklime","Quicksilver","Leech Seed", "Mystic Stave", "Steamball", "Gust", "Reverb", "Pavise", "Trishula", "Labrys", "Pee Shooter", "Medigun","Ratula","Canesword", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Breakthrough", "Helmet Headbutt","Generous Sword","Ornamental Shield","Ravage","Glowstick","Plague Stave","Asklepios","Chronoblade","Saxophone","Nitro Bump","Glueplicate","Molten Staff","Precious Pendant","Lockdown","Juggernaut","Differing Thorns"];
+var commonlist1 = ["Chain Mail", "Bump", "Regen", "Blood Regen", "Snippers", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", "Natural Charm", "Pockets", "Mace", "Focus Beam", "Solar Beam", "Scorch", "Hailstorm","Quicklime","Quicksilver","Leech Seed", "Mystic Stave", "Steamball", "Gust", "Reverb", "Pavise", "Trishula", "Labrys", "Pee Shooter", "Medigun","Ratula","Canesword", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Breakthrough", "Helmet Headbutt","Generous Sword","Ornamental Shield","Ravage","Glowstick","Plague Stave","Asklepios","Chronoblade","Saxophone","Nitro Bump","Glueplicate","Molten Staff","Precious Pendant","Lockdown","Juggernaut","Differing Thorns","Extremely Unwieldy Sword"];
 var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap", "Pry Bar", "Demote", "Pockets","Budge","Spirit Level","Six Shooter","Tape Measure", "Cable Tie", "Focus Beam","Resonator", "Rake Pick", "Kaboomerang", "Hand Lens", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Shadow Stick", "King Rat", "Really Spiky Shield","Nether Portal","Starpocalypse","Shield Toss","Diamond Wall","Recoil Recover","Taunting Sword","Mirror Coating"];
 commonlist1 = shuffle(commonlist1);
 shoplist1 = shuffle(shoplist1);
@@ -96,7 +96,7 @@ addfloor("normal")
   .generate();
   
 //Floor 5:
-items = [pick(["Talons", "Hookshot", "Lightning Rod", "Shammer", "Primal Punch","Daydream"])];
+items = [pick(["Blade of September", "Hookshot", "Lightning Rod", "Shammer", "Primal Punch","Daydream"])];
 gooditems = [midtierdrops.pop()];
 otherstuff = [
 	shop(["health","health","health"],[1,2,1]),

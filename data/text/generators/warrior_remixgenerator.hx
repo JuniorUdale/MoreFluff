@@ -5,7 +5,7 @@ var gooditems = [];
 var otherstuff = [];
 var goodotherstuff = [];
 
-var warriorshops = ["Broadsword", "Iron Shield", "Dagger", "Buckler", "Target Shield", "Nightstick", "Blight", "Snake Eye Charm", "Midnight Charm", rand(["Healing Crystal", "Thick Skin", "Elastic Heart"]), "Claw", "Snowball", "Boomerang", "Tazer", rand(["First Aid Kit", "Kite Shield"]), "Parrying Dagger", "Boxing Gloves", "Last Stand", "Singularity", "Half Moon Charm", "Dramatic Exit", "Hookshot", "Capacitor", "Trowel", "Mallet", "Frosted Dirk", "Spiked Sword", "Lamppost", "Firey Firesword of Fire", "Blessed Bat of Bashing", "Trident", "Gemstone Staff", "Sledgehammer", "Tesla Cannon", "Rodela", "Baseball Bat","Katana","Urumi","Crass Knuckles","Blood Transfer","Generous Sword","Ornamental Shield","Spikemail","Hairdryer","Mirrorblade","Panic Button","Snail Bat","Jade Blade","Black Hole","Reaper","Shielding Potion","Stock Up","Field Dressing","Incapacitate","Plague Stave","Asklepios","Starstaff","Maul","Shield Toss","Chronoblade","Come On And Slam","Saxophone","Diamond Wall","Evocation","Revoke","Explosive Shield","Karambit","War Axe","Molten Staff","Molten Blast","Parasol","Iron Swan","Bloodclaw","Fruit Loot","Fruit Shooter","Warcry","Juggernaut","Burst Laser","Taunting Sword","Nice Sword","Vine Whip","Differing Thorns","Mirror Coating"];
+var warriorshops = ["Broadsword", "Iron Shield", "Dagger", "Buckler", "Target Shield", "Nightstick", "Blight", "Snake Eye Charm", "Midnight Charm", rand(["Healing Crystal", "Thick Skin", "Elastic Heart"]), "Claw", "Snowball", "Boomerang", "Tazer", rand(["First Aid Kit", "Kite Shield"]), "Parrying Dagger", "Boxing Gloves", "Last Stand", "Singularity", "Half Moon Charm", "Dramatic Exit", "Hookshot", "Capacitor", "Trowel", "Mallet", "Frosted Dirk", "Spiked Sword", "Lamppost", "Firey Firesword of Fire", "Blessed Bat of Bashing", "Trident", "Gemstone Staff", "Sledgehammer", "Tesla Cannon", "Rodela", "Baseball Bat","Katana","Urumi","Crass Knuckles","Blood Transfer","Generous Sword","Ornamental Shield","Spikemail","Hairdryer","Mirrorblade","Panic Button","Snail Bat","Jade Blade","Black Hole","Reaper","Shielding Potion","Stock Up","Field Dressing","Incapacitate","Plague Stave","Asklepios","Starstaff","Maul","Shield Toss","Chronoblade","Come On And Slam","Saxophone","Diamond Wall","Evocation","Revoke","Explosive Shield","Karambit","War Axe","Molten Staff","Molten Blast","Parasol","Iron Swan","Bloodclaw","Fruit Loot","Fruit Shooter","Warcry","Juggernaut","Burst Laser","Taunting Sword","Nice Sword","Vine Whip","Differing Thorns","Mirror Coating","Dicepenser","Shrug"];
 shuffle(warriorshops);
 
 var strangeshop = ["Spatula", "Lightning Rod", "Shriek", "Juggling Ball", "Candle", "Particle Accelerator", "Flying Skull", "Sledgehammer", "Slingshot", "Fishing Net", "Scissors","Heckle", "Ferrosynthesis", "Really Spiky Shield", "Sunder","Malediction","Evil Eye","Pandemonium","Swordbroad","Third Eye","Lockdown","Flying Venus Trap","Paw Claw"];
@@ -70,7 +70,7 @@ addfloor("normal")
   
 //Floor 5:
 items = [];
-items.push(pick(["Counter Spell", "Pea Shooter", "Chocolate Cookie", "Toxic Ooze", "Blight", "Detonator", "Disco Ball", "Parrying Dagger", "Sine Wave", "Fishing Net", "Last Stand", "Fireworks", "Custard Cream", "Doppliduplicateinate"]));
+items.push(pick(["Counter Spell", "Chocolate Cookie", "Disco Ball", "Parrying Dagger", "Sine Wave", "Fishing Net", "Last Stand", "Fireworks", "Custard Cream", "Doppliduplicateinate","Shield Scrap"]));
 gooditems = [];
 
 otherstuff = [health(), health(),health()];

@@ -1,17 +1,32 @@
-v2.6.0 - actual balance? in my mod?
+v2.6.0 - Cleanup time
+
+There's a lot of legacy code, poorly coded equipment, bugs, crashes, errors, oversights and all that stuff buried deep inside More Fluff. So, let's ignore all that and put a lick of paint on the fixable things!
 
 
 New equipment:
-	* 2 new Jester level up packs!
-		* Beams - totally not OP
-			* Start with a Broken Beam - it deals 0 damage.
-			* Luckily, you start with a couple of Monocles which boost its damage.
-
-
-
-
-
-
+	* Extremely Unwieldy Sword - CAW
+		* Deal 4x[max5] damage!!!!!!!!!!
+		* ...but the enemy will dodge it
+	* More passives!
+	* Box of Nails - there's probably a better name but strained puns are nice
+		* Whenever you shock the enemy, deal 3 damage (reuseable)
+	* Oil Barrel - attack its weak point for massive damage
+		* If the enemy gets 4 or more burn on them in a single turn, deal 10 fire damage
+	* Frost Shield - it's a shield, for your frost
+		* Whenever you inflict freeze, gain 2 shield
+	* Blade of September - the twenty first night of remember
+		* 4 MIN4 slots, deal [] damage
+		* On 21, inflict weaken, shock and burn
+		* i hate this pun. i genuinely feel like making this joke has negatively impacted the world
+	* Dark Matter - too confusing for new players
+		* Deal 3x[max5] damage
+		* ...but give the enemy [max5] more dice next turn
+		* Yeah it's about as bad as it sounds
+	* Shrug - ¯\_(ツ)_/¯
+		* Gain 4 shield
+		* Roll a new dice
+		* ORIGINAL EQUIPMENT
+	
 
 
 

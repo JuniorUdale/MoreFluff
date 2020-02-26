@@ -23,7 +23,7 @@ var gooditems = [];
 var otherstuff = [];
 var goodotherstuff = [];
 
-var jester_dice_pool = ["Nudge", "Spatula", "Bump", "Cauldron", pick(["Gold Cauldron","Silver Cauldron","Iron Cauldron","Copper Cauldron","Amber Cauldron","Quartz Cauldron","Electrum Cauldron"]), "Bumpblade", "Doppliduplicateinate", "Vise Grip", "Spatulasword", "Lollipop", "Table Slam", "Lollipop", "Bowsaw", "Locktrick", "Tin Snips", "Ballerina Charm", "Gumball Machine", "Lucky Roll", "Pandora's Box","Rockfall","Binding Spell"];
+var jester_dice_pool = ["Nudge", "Spatula", "Bump", "Cauldron", pick(["Gold Cauldron","Silver Cauldron","Iron Cauldron","Copper Cauldron","Amber Cauldron","Quartz Cauldron","Electrum Cauldron"]), "Bumpblade", "Doppliduplicateinate", "Vise Grip", "Spatulasword", "Lollipop", "Table Slam", "Lollipop", "Bowsaw", "Locktrick", "Tin Snips", "Ballerina Charm", "Gumball Machine", "Lucky Roll", "Pandora's Box","Rockfall","Binding Spell","Shrug"];
 var jester_damage_pool = ["Juggling Ball", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck", "Swordstave", "Iron Fist", "Blade of JOAT", "Mini Missile", "Divine Blade","Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Boxing Gloves", "Rusty Sword", "Telephone", "Elastic Heart", "Bayonet", "Meteor Hammer","Backlash", "Yoyo", "Kerfuffle", "Poisonous Apple","Furious Spell","Recoil Recover"];
 
 jester_dice_pool = shuffle(jester_dice_pool);

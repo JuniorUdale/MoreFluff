@@ -23,7 +23,7 @@ var gooditems = [];
 var otherstuff = [];
 var goodotherstuff = [];
 
-var jester_dice_pool = ["Nudge", "Spatula", "Bump", "Cauldron", pick(["Gold Cauldron","Silver Cauldron","Iron Cauldron","Copper Cauldron"]), "Bumpblade", "Doppliduplicateinate","Binding Spell"];
+var jester_dice_pool = ["Nudge", "Spatula", "Bump", "Cauldron", pick(["Gold Cauldron","Silver Cauldron","Iron Cauldron","Copper Cauldron"]), "Bumpblade", "Doppliduplicateinate","Binding Spell","Shrug"];
 var jester_damage_pool = ["Juggling Ball", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck", "Swordstave", "Iron Fist", "Blade of JOAT", "Mini Missile","Mallet","Trowel","Frosted Dirk","Healing Shiv","Venomous Goop", "Poisonous Apple","Furious Spell","Recoil Recover"];
 
 

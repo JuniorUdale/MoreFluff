@@ -6,9 +6,9 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens", pick(["Counterfeit","Forgery","Snapshot","Photocopy","Booplicate","Duplicate"]), "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack","Draining Crystal","Diabolo","Iron Swan","Quarantine","Taunting Sword"]);
+var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens", pick(["Counterfeit","Forgery","Snapshot","Photocopy","Booplicate","Duplicate"]), "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack","Draining Crystal","Diabolo","Quarantine","Taunting Sword"]);
 
-var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter", "Chain Dagger","Plague Stave","Asklepios","Saxophone","Karambit"]);
+var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter", "Chain Dagger","Plague Stave","Asklepios","Saxophone","Karambit","Sewage Pipe","Watermelon Trebuchet"]);
 
 
 var items = [];	

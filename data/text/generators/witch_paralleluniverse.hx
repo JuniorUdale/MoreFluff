@@ -10,8 +10,7 @@ shuffle(commonlist_basic);
 
 var commonlist_offensive = [
   rand(["Gumball Machine", "Thick Skin"]), 
-  "Dice Detonator", 
-  "Teleport Spell", 
+  "Dice Detonator",
   "Moonlight Spear",
   "Sunburn",
   "Winds of Winter",

@@ -8,7 +8,7 @@ var goodotherstuff = [];
 //Floor 1:
 var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Origami", "Venom Catapult", "Poison Thread", "Hand Lens","Rend", "Shichishito", "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack","Draining Crystal","Diabolo","Quarantine","Taunting Sword"]);
 
-var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter","Chain Dagger", "Plague Stave","Asklepios","Saxophone","Karambit","Socket Wrench","Mirror Coating"]);
+var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter","Chain Dagger", "Plague Stave","Asklepios","Saxophone","Karambit","Socket Wrench","Mirror Coating","Sewage Pipe","Watermelon Trebuchet"]);
 
 
 var items = [];	
@@ -46,7 +46,7 @@ addfloor("normal")
 commonlist1 = commonlist1.slice(0,8); //get it down to 8 items to make these show up more
 commonlist1 = commonlist1.concat(["First Aid Kit", "Staff", "Poison Slingshot", "Flak Cannon", "Antifreeze", "Scraps", "Metalmorph", "Envenomate","Bottled Dragonbreath","Fruit Shooter"]);
 
-var rarelist1 = ["Dodge", "Hookshot", "Midnight Charm","Natural Charm", "Gooplicate","Wing Bash"];
+var rarelist1 = ["Dodge", "Hookshot", "Midnight Charm","Natural Charm", "Gooplicate","Wing Bash","Mortice Lock"];
 commonlist1 = shuffle(commonlist1);
 
 

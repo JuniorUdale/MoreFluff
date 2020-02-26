@@ -122,7 +122,7 @@ var shopstuff = [twoslots.pop(),"Health",twoslots.pop()];
 var shopstuff2;
 var rejectedspells = shuffle(["Armour Spell","Spiky Spell","Acid Spell"]);
 if(chance(25)){
-	shopstuff2 = [rejectespells.pop(),rejectedspells.pop()];
+	shopstuff2 = [rejectedspells.pop(),rejectedspells.pop()];
 }else{
 	shopstuff2 = [commonlist_offensive.pop(),commonlist_dicemanipulation.pop()];
 }
