@@ -22,7 +22,7 @@ addfloor("small")
   
 //Floor 2:
 var commonlist1 = ["Chain Mail", "Bump", "Snippers", "Spike", "Keyblade", "Shotgun", "Peppergun", "Boomstick", "Sonic Blast", "Natural Charm", "Pockets", "Mace", "Focus Beam", "Solar Beam", "Scorch", "Hailstorm", "Gust", "Reverb" ,"Quicklime","Quicksilver", "Mystic Stave", "Steamball", "Pavise", "Trishula", "Labrys", "Pee Shooter", "Medigun","Ratula","Canesword", rand(["Blutsauger","Syringe Gun"]), "Fire Siphon", "Breakthrough", "Helmet Headbutt","Generous Sword","Ornamental Shield","Ravage","Glowstick","Plague Stave","Asklepios", "Pry Bar", "Demote", "Pockets","Budge","Spirit Level","Tape Measure", "Cable Tie","Chronoblade","Saxophone","Nitro Bump","Glueplicate","Molten Staff","Lockdown","Juggernaut"];
-var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap","Six Shooter", "Focus Beam","Resonator", "Rake Pick", "Kaboomerang", "Hand Lens", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Shadow Stick", "King Rat", "Really Spiky Shield","Shield Toss","Diamond Wall","Recoil Recover","Taunting Sword","Mirror Coating"]; //moved a lot of dice manip out of here into commonlist so there's more stuff to buy
+var shoplist1 = ["Dagger", "Boomerang", "Crystal Sword", "Venus Fly Trap","Six Shooter", "Focus Beam","Resonator", "Rake Pick", "Kaboomerang", "Hand Lens", "Mallet","Trowel","Cat O' Six Tails","Frosted Dirk","Healing Shiv","Venomous Goop", "Shadow Stick", "King Rat", "Really Spiky Shield","Shield Toss","Diamond Wall","Recoil Recover","Taunting Sword","Mirror Coating","Little Prick","Energy Drink"]; //moved a lot of dice manip out of here into commonlist so there's more stuff to buy
 commonlist1 = shuffle(commonlist1);
 shoplist1 = shuffle(shoplist1);
 

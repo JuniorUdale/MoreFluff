@@ -10,7 +10,7 @@ var commonlist_basic = shuffle([rand(["Iron Armor","Leather Armor","Magic Armor"
 var commonlist_advanced = shuffle(["Slingshot", "Vise Grip", (chance(30)?"Starspear":"Sword Hilt"), "Ungeradedice", "Four Leaf Clover"]);
 
 commonlist_basic = commonlist_basic.concat(["Tin Snips","Critical Hit", "Electric Fence", "Meteor Hammer", "Auto Turret","Backup Drive","Overconfidence","Rosary","Maul","Rift Stabilizer","Starfall","Speedometer"]); //modded stuff
-commonlist_advanced = commonlist_advanced.concat(["Belt Sander","Fulcrum Blade", "Cleaver", "Heat Vent", "Mechanical Charm","Star Shooter","Virtual Machine", "CPU Shooter","Amplify","Duplihate","Plug Socket","Electrophoresis","Fruit Loot","Bottled Thunder","Regedit"]); //modded stuff
+commonlist_advanced = commonlist_advanced.concat(["Belt Sander","Fulcrum Blade", "Cleaver", "Heat Vent", "Mechanical Charm","Star Shooter","Virtual Machine", "CPU Shooter","Amplify","Duplihate","Plug Socket","Electrophoresis","Fruit Loot","Adaptaxe","Regedit"]); //modded stuff
 
 shuffle(commonlist_basic);
 shuffle(commonlist_advanced);
