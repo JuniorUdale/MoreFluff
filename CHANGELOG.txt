@@ -64,8 +64,7 @@ Changes:
 		* Having there be a countdown restriction on such a hard to use equipment was adding... well, you know
 	* Regen+ changed to unrestricted
 		* It's not a powerful enough effect to warrant having a single range increase for the upgrade
-	* Changed the "No effect" downgrade for:
-		* Magic Mirror
+	* Changed the "No effect" downgrade for Magic Mirror
 	* Heckle changed to two MAX3 slots
 	* Talons nerfed to MAX3
 		* Now it's more obviously 2 Claws stacked on top of each other
