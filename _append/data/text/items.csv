@@ -39,3 +39,4 @@ Helium Script,(should not appear),,for(mydice in self.dicepool){ if(mydice.avail
 Grace Checks,(should not appear),,var grace = getstatusself(~grace~); var diff = grace - self.hp; if(diff > 0){ pierceattackself(-diff); sfx(~_heal~); sfx(~_survive~); removestatusself(~grace~[;]diff); };
 Unlimited Limit,Gain [confuse]5 limit break charge,,self.limitvalue+=5; if(self.limitvalue > self.limitmax){self.limitvalue = self.limitmax;}; sfx(~_thinghappens~);
 Beam Dream,Gain [cog]2 Beam Power,,inflictself(~dynamo~|2); self.setvar(~dynamo~|getstatusself(~dynamo~)); sfx(~_magic~);
+Stupendously Unlucky Roll,Roll a 1,,givedice(1);

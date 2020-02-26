@@ -1,9 +1,8 @@
-v2.6.0 - Cleanup time
+v2.6.0 - A lick of paint
 
-There's a lot of legacy code, poorly coded equipment, bugs, crashes, errors, oversights and all that stuff buried deep inside More Fluff. So, let's ignore all that and put a lick of paint on the fixable things!
+There's a lot of legacy code, poorly coded equipment, bugs, crashes, errors, balance issues, oversights and all that stuff buried deep inside More Fluff. So, let's ignore all that and put a lick of paint on the fixable things!
 
-
-New equipment:
+Not much new equipment this time, but there's still a couple of fun items:
 	* Extremely Unwieldy Sword - CAW
 		* Deal 4x[max5] damage!!!!!!!!!!
 		* ...but the enemy will dodge it
@@ -26,17 +25,36 @@ New equipment:
 		* Gain 4 shield
 		* Roll a new dice
 		* ORIGINAL EQUIPMENT
-	
-
-
+	* Regedit - useful for completely useful things that won't break your PC
+		* Saves the CPU counter, then sets the CPU to the previously saved counter
+		* ...which defaults to zero!
+	* Spare RAM - bash with CPU
+		* Deal [] damage, double if your CPU counter is less than 6
+	* Overcharge - don't focus too hard
+		* Sets all your dice to 6!
+		* ...but you roll 1 fewer dice next turn
+	* Adaptaxe - 100% of the time, it's useful all the time
+		* Deal 2x[max3] damage
+		* However! If you have a 5, it becomes MAX5 instead!
 
 Changes:
 	* "Reuseable If X" equipment has been tweaked slightly!
 		* Let me know if anything breaks with them.
+	* Shield Synthesis buffed:
+		* Now gives 3 shield, and 2 more on a 6
+		* Should incentivize it being picked up as a "put in any dice, gain 3 shield" equipment, as well as it helping you tank up.
 	* Inspiring Tune changed from EVEN to COUNTDOWN 8
 		* Just to make it a little different to Punchline
+	* Underclock nerfed to MIN2
+		* Won't affect its usability that much, but it makes the upgrade less of a downgrade by comparison
 	* Joke Answer buffed to MAX5
+	* Finisher- buffed to heal [max3] if it's the final blow
+		* It stops the downgrade from being totally useless
+	* Pike- changed to always deal 4 damage
+	* Loaded Dice+ changed to 2 uses, to keep the flavour
 	* Sacridice+ changed to MIN2, to make its upgrade useable
+	* Power Through changed to a countdown of 3
+		* Being able to get 3 dice from a 1 is... arguably too much
 	* Shifting Sword changed!
 		* First, the shield option is nerfed - now it's only 2 shield instead of 3.
 		* Also, it has a chance to gain a bad effect too
@@ -44,6 +62,8 @@ Changes:
 	* Jester also encounters more loot in general - maybe a thick deck could work?
 	* Insult to Injury buffed to take any dice, instead of being a countdown of 12
 		* Having there be a countdown restriction on such a hard to use equipment was adding... well, you know
+	* Regen+ changed to unrestricted
+		* It's not a powerful enough effect to warrant having a single range increase for the upgrade
 	* Changed the "No effect" downgrade for:
 		* Magic Mirror
 	* Heckle changed to two MAX3 slots
@@ -74,7 +94,8 @@ Changes:
 		* Hockey Stick
 		* Hailstorm
 		* Frozen Whip
-		* 
+		* Promote+/Demote+
+		* Iron/Copper Cauldron
 		* The Beam Power status
 
 Bugfixes:
@@ -85,11 +106,13 @@ Bugfixes:
 	* Frozen Whip+ description made more gooderer
 	* Sapping Spores+ now works
 	* Added more equipment into the Bonus Round generators
-		* Not sure if it was an oversight on my part or what, but a lot of fun equipment like Mirror Coating wasn't generating as often as it should. Fixed now
+		* Not sure if it was an oversight on my part or what, but a lot of fun equipment like Mirror Coating wasn't generating as often as it should. Fixed now!
 	* Jester no longer crashes upon picking up booster packs
 	* Magic Frostbolt now deals the correct amount of damage
 	* Decay- now inflicts 2 poison instead of 1
+	* Unnatural Charm and Ekans Charm+ now give the dice the correct way, instead of angrily vomiting them at you
 	* Fixed a crash issue because of a Simplified English translation issue
+	* Iron Fist+ now uses the correct damage type of SHIELD
 	* Bottleneck- now isn't quite as strong
 	* Really Sharp Spike now plays the correct sound effect
 	* Reaper now doesn't reactivate after being weakened
