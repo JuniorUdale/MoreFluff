@@ -5,9 +5,9 @@ var gooditems = [];
 var otherstuff = [];
 var goodotherstuff = [];
 
-var elemweps = shuffle(["Spark","Snowflake","Buzzer","Whisper"]);
+var elemweps = shuffle(["Spark","Snowflake","Buzzer","Whisper","Gemstone","Burning Stick"]);
 var sticks =rand([["Matchstick","Nightstick","Wooden Stick","Hockey Stick"],["Scorch","Hailstorm","Gust","Reverb"]]);
-var crapstuff = shuffle(["Spark","Snowflake","Life Rip","Slime Ball","Stealth","Mini Missile","Blade of JOAT", "Fireflash", "Frostbitten", "Frozen Flute", "Oven Gloves","Box of Nails","Oil Barrel","Aftershock","Frost Shield","Portavortex"]);
+var crapstuff = shuffle(["Spark","Snowflake","Life Rip","Slime Ball","Stealth","Mini Missile","Blade of JOAT", "Fireflash", "Frostbitten", "Frozen Flute", "Oven Gloves","Box of Nails","Oil Barrel","Aftershock","Frost Shield","Portavortex","Flame Lance"]);
 
 //Floor 1:
 items = [pick(["Staff", "Crossbow","Sword","Plague Stave","Asklepios"])];
