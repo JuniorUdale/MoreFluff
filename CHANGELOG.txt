@@ -1,3 +1,12 @@
+
+
+
+Changes:
+	* Thorium Hammer+ now burns for each damage over 4, instead of 5
+
+
+=====================================================================
+
 v2.6.0 - A lick of paint
 
 There's a lot of legacy code, poorly coded equipment, bugs, crashes, errors, balance issues, oversights and all that stuff buried deep inside More Fluff. So, let's ignore all that and put a lick of paint on the fixable things!
