@@ -1,5 +1,7 @@
 
 
+Bugfixes:
+	* Ratchet no longer unupgrades some slot upgrades for equipment
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
