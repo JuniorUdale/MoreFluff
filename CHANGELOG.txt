@@ -1,6 +1,12 @@
 
+<<<<<<< HEAD
 Bugfixes:
 	* Wording on Imperishability+ fixed
+=======
+
+Bugfixes:
+	* Ratchet no longer unupgrades some slot upgrades for equipment
+>>>>>>> 2a1210f87ef182de33fd1896d0fb2a5f8e4d36d2
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
