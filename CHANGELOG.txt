@@ -1,8 +1,12 @@
 
-
+Bugfixes:
+	* Wording on Imperishability+ fixed
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
+	* Reaper changed:
+		* Now heals you for half of the damage dealt by your first attack each battle
+		* The upgrade now heals you for its full amount
 
 
 =====================================================================
