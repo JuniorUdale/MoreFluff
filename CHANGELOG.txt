@@ -1,15 +1,11 @@
 
-<<<<<<< HEAD
 Bugfixes:
 	* Wording on Imperishability+ fixed
-=======
-
-Bugfixes:
 	* Ratchet no longer unupgrades some slot upgrades for equipment
->>>>>>> 2a1210f87ef182de33fd1896d0fb2a5f8e4d36d2
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
+	* Adaptaxe wording tweaked to "increase range by 2 while you have a 5"
 	* Reaper changed:
 		* Now heals you for half of the damage dealt by your first attack each battle
 		* The upgrade now heals you for its full amount
