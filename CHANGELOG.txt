@@ -2,6 +2,8 @@
 Bugfixes:
 	* Wording on Imperishability+ fixed
 	* Ratchet no longer unupgrades some slot upgrades for equipment
+	* Jester now actually gets level up rewards
+	* Whacksies now damages the enemy
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
@@ -9,6 +11,9 @@ Changes:
 	* Reaper changed:
 		* Now heals you for half of the damage dealt by your first attack each battle
 		* The upgrade now heals you for its full amount
+	* Stealth Stealth buff:
+		* Now returns the dice by default
+		* Downgraded, it doesn't
 
 
 =====================================================================
