@@ -7,6 +7,11 @@ Bugfixes:
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
+	* Short Staff/Gemstaff tweaked:
+		* Now a countdown of 6 (was 10)
+		* Now deals 3 damage (was 6), 5 when upgraded (was 8)
+		* This is to make them a bit more distinct from "staff, but size 1, and a +2 countdown"
+		* I'm not THAT desperate for equipment ideas, promise!
 	* Adaptaxe wording tweaked to "increase range by 2 while you have a 5"
 	* Reaper changed:
 		* Now heals you for half of the damage dealt by your first attack each battle
