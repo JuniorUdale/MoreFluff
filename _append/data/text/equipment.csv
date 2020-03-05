@@ -2327,3 +2327,6 @@ Entangle_downgraded,Inflict [weaken]1 weaken or [lock]1 lock,1,if(rand([0|1]) ==
 Blastdice Potion,Deal [fire]10 dmg + [fire]1 burn|Lose a dice this fight,1,attack(10|FIRE); sfxdamage(target|10); inflict(FIRE); sfx(~_fire~); self.extradice-=1;,,COUNTDOWN,3,WEAPON,RED,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Blastdice Potion_upgraded,Deal [fire]13 dmg + [fire]1 burn|Lose a dice this fight,1,attack(13|FIRE); sfxdamage(target|13); inflict(FIRE); sfx(~_fire~); self.extradice-=1;,,COUNTDOWN,3,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
 Blastdice Potion_downgraded,Deal [fire]7 dmg + [fire]1 burn|Lose a dice this fight,1,attack(7|FIRE); sfxdamage(target|7); inflict(FIRE); sfx(~_fire~); self.extradice-=1;,,COUNTDOWN,3,WEAPON,RED,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Doppeldagger,Deal [sword]<d6> damage[;] get|a new dice (value x2),1,attack(d); sfxdamage(target|d); givedice(d*2);,,MAX3,,WEAPON,PINK,change_power,change_power,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Doppeldagger_upgraded,Deal [sword]<d6> damage[;] get|a new dice (value x2),1,attack(d); sfxdamage(target|d); givedice(d*2);,,MAX5,,WEAPON,PINK,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
+Doppeldagger_downgraded,Deal [sword]<d6> damage[;] get|a new dice (value x2),1,attack(d); sfxdamage(target|d); givedice(d*2);,,MAX2,,WEAPON,PINK,,,,,0,NO,NO,NO,NO,NO,NO,NO,NO,,,,,,,,,,,
