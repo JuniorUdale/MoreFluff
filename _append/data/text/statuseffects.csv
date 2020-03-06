@@ -1,16 +1,16 @@
 Name,Displayed As,Symbol,Description,External Scripts?,Stacks?,Remove at End Turn?,Remove at Start Turn?,Invisible?
-regen1,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 1 turn.,NO,YES,NO,NO,NO
-regen2,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 2 turns.,NO,YES,NO,NO,NO
-regen3,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 3 turns.,NO,YES,NO,NO,NO
-regen4,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 4 turns.,NO,YES,NO,NO,NO
-regen5,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 5 turns.,NO,YES,NO,NO,NO
-regen6,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 6 turns.,NO,YES,NO,NO,NO
-regen7,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 7 turns.,NO,YES,NO,NO,NO
-regen8,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 8 turns.,NO,YES,NO,NO,NO
-regen9,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 9 turns.,NO,YES,NO,NO,NO
-regen10,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 10 turns.,NO,YES,NO,NO,NO
-regen11,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 11 turns.,NO,YES,NO,NO,NO
-regen12,Regen,heal,Restore <value> health at the end of your turn.|Lasts for 12 turns.,NO,YES,NO,NO,NO
+regen1,Regen,heal,Restore <value> health at the end of your turn. Lasts for 1 turn.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen2,Regen,heal,Restore <value> health at the end of your turn. Lasts for 2 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen3,Regen,heal,Restore <value> health at the end of your turn. Lasts for 3 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen4,Regen,heal,Restore <value> health at the end of your turn. Lasts for 4 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen5,Regen,heal,Restore <value> health at the end of your turn. Lasts for 5 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen6,Regen,heal,Restore <value> health at the end of your turn. Lasts for 6 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen7,Regen,heal,Restore <value> health at the end of your turn. Lasts for 7 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen8,Regen,heal,Restore <value> health at the end of your turn. Lasts for 8 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen9,Regen,heal,Restore <value> health at the end of your turn. Lasts for 9 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen10,Regen,heal,Restore <value> health at the end of your turn. Lasts for 10 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen11,Regen,heal,Restore <value> health at the end of your turn. Lasts for 11 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen12,Regen,heal,Restore <value> health at the end of your turn. Lasts for 12 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
 bleed1,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 1 turn.,NO,YES,NO,NO,NO
 bleed2,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 2 turns.,NO,YES,NO,NO,NO
 bleed3,[red]Bleed[],sword,Lose <value> health at the start of your turn.|Lasts for 3 turns.,NO,YES,NO,NO,NO
@@ -79,3 +79,5 @@ alternate_mf_stun,Stun?,shock,Lose a dice next turn.,NO,YES,YES,NO,NO
 nothing,Nothing,curse,Does absolutely nothing.,NO,NO,YES,NO,NO
 alternate_nothing,Nothing?,curse,Doesn't do something.,NO,NO,YES,NO,NO
 grace,Grace,heart,At the start of your turn[;] if your health is less than|your Grace ([heart]<value>[])[;] swap your health and your Grace.,NO,YES,NO,NO,NO
+healaftercombat,Regeneration,heal,After combat[;] recover [heal]<value> health.|Doesn't trigger if you flee.,NO,YES,NO,NO,NO
+poisonovertime,Toxins,poison,At the start of your turn[;] inflict [poison]1 poison.|Lasts for <value> turns.,NO,YES,NO,NO,NO
