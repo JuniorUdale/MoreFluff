@@ -4,6 +4,8 @@ Bugfixes:
 	* Ratchet no longer unupgrades some slot upgrades for equipment
 	* Jester now actually gets level up rewards
 	* Whacksies now damages the enemy
+	* Primal Punch/Slash now work on 2s
+		* even if 2 is only a semiprime
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
