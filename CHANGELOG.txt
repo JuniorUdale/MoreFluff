@@ -19,9 +19,9 @@ Changes:
 		* Now heals you for half of the damage dealt by your first attack each battle
 		* The upgrade now heals you for its full amount
 	* Stealth Stealth buff:
-		* Now returns the dice by default
-		* Downgraded, it doesn't
-
+		* Now returns the dice by default, upgrades to 2 blind
+	* Evil Eye buffed:
+		* Now returns the dice by default, upgrades to ODD
 
 =====================================================================
 
