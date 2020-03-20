@@ -82,3 +82,4 @@ grace,Grace,heart,At the start of your turn[;] if your health is less than|your 
 healaftercombat,Regeneration,heal,After combat[;] recover [heal]<value> health.|Doesn't trigger if you flee.,NO,YES,NO,NO,NO
 poisonovertime,Toxins,poison,At the end of your turn[;] receive [poison]1 poison.|Lasts for <value> turns.,NO,YES,NO,NO,NO
 revolver,Ammunition,sword,After this reaches 6[;] reduce this by 6|and deal [sword]18 damage.,NO,YES,NO,NO,NO
+shielddown,Shield_Down,potion,At the start of your turn[;] lose [shield]<value> shield.,NO,YES,NO,NO,NO

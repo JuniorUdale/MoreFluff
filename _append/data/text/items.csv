@@ -40,3 +40,5 @@ Grace Checks,(should not appear),,var grace = getstatusself(~grace~); var diff =
 Unlimited Limit,Gain [confuse]5 limit break charge,,self.limitvalue+=5; if(self.limitvalue > self.limitmax){self.limitvalue = self.limitmax;}; sfx(~_thinghappens~);
 Beam Dream,Gain [cog]2 Beam Power,,inflictself(~dynamo~|2); self.setvar(~dynamo~|getstatusself(~dynamo~)); sfx(~_magic~);
 Stupendously Unlucky Roll,Roll a 1,,givedice(1);
+mf_beforestart,(should not appear),,
+mf_endturn,(should not appear),,var h = 0; var m = 0; for (i in 1...13) { h -= getstatusself(~regen~+i); if (self.getvar(~regen~+i) > 0) { m = i; }; removestatusself(~regen~+i[;]ALL); if(getstatusself(~regen~+(i+1)) > 0){ inflictself(~regen~+i[;]getstatusself(~regen~+(i+1))); } }; if (h < 0) { sfx(~_heal~); attackself(h); }; var h = 0; var m = 0; for (i in 1...13) { h += getstatus(~bleed~+i); if (self.getvar(~bleed~+i) > 0) { m = i; }; removestatus(~bleed~+i[;]ALL); if(getstatus(~bleed~+(i+1)) > 0){ inflict(~bleed~+i[;]getstatus(~bleed~+(i+1))); } }; if (h > 0) { sfxdamage(target[;]h); pierceattack(h); }; 

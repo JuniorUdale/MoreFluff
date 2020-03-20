@@ -1,4 +1,12 @@
 
+
+New equipment:
+	* 2 new paths for Jester: Blind and Polymorph!
+		
+
+
+
+
 Bugfixes:
 	* Wording on Imperishability+ fixed
 	* Ratchet no longer unupgrades some slot upgrades for equipment
@@ -6,6 +14,9 @@ Bugfixes:
 	* Whacksies now damages the enemy
 	* Primal Punch/Slash now work on 2s
 		* even if 2 is only a semiprime
+	* Added the visual "get a dice next turn" status to Glowstick
+	* Dice Synthesis now reduces your health too
+	* Oven Gloves+ now removes all reduce after your turn
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
@@ -22,6 +33,8 @@ Changes:
 		* Now returns the dice by default, upgrades to 2 blind
 	* Evil Eye buffed:
 		* Now returns the dice by default, upgrades to ODD
+	* Gooplicate+ nerfed:
+		* Now only gives 3 copies if the enemy has more than [] poison
 
 =====================================================================
 
