@@ -1,8 +1,84 @@
 
 
 New equipment:
-	* 2 new paths for Jester: Blind and Polymorph!
-		
+	* 4 new paths for Jester: Blind, Regen, Bleed and Polymorph!
+		* Apply nefarious jinxes and obscure those dice by blinding them! Which totally $100% helps against the AI!
+		* Recover health, very slowly!
+		* Deal damage, very slowly!
+		* Ruin your deck by adding random cards to it!
+	* Flip Me Right Round - like a dice, baby
+		* Two slots, both MAX4
+		* On 8, flips all your dice upside down, which is usually good?
+	* Broken Blender - maya didn't crash like this
+		* Splits a dice in two, then splits the lower dice into 1s
+		* It's like Blender, but not *completely* overpowered!
+	* Steamstaff - parity check
+		* On even turns, deals 6 damage and burns a dice
+		* On odd turns, deals 6 damage and inflicts 1 freeze
+	* Blastdice Potion - please don't sue me blizzard
+		* Deals 10 damage, burns a dice, for a countdown of 6
+		* However, you lose a dice for the fight!
+	* Doppeldagger - how hasn't someone made this yet. this is one of the original jokes, come on
+		* Deal [max3] damage, then double the dice value
+	* Solar Panel - made this just for the pun
+		* Deal [max5] damage, and inflicts 1 burn at the start of your turn
+		* Marshmallow version is "Snowlar Panel"... yeah that's the only reason this equipment exists
+	* Repast Rapier - farm heals off this, I dare you
+		* Deal [] damage
+		* On 6, heal 2 health after combat if you win
+	* Toxins - part of a balanced diet
+		* Inflict 1 poison at the start of your turn, for [max4] turns
+		* Useful for maintaining the enemy's poison, or just dealing up to 4 damage over 4 turns!
+	* Convergence - needs quadruples
+		* 4 MIN2 slots, deal 10 damage
+		* Deal double if all the dice are the same!
+	* Revolver - ocelot
+		* Countdown of 4, 2 uses per turn
+		* After playing 6 Revolvers in one combat, deal 18 damage
+	* Shieldsplosion - oof owie my health
+		* Deal 5 fire damage to everyone
+		* Then, gain 10 shield
+	* Turnip - at least you can't be weakened
+		* Countdown of 5, heal 4 health
+		* ...but receive 2 poison
+		* turnips are disgusting don't @ me
+	* Follow Up - oh wait they're dead
+		* Deal [max5] damage
+		* Gains +1 damage for each turn used in a row
+	* Stop Sign - oh look, we found an octagon
+		* Two slots, must equal 8
+		* Deal 6 damage, lock a dice
+		* very unique design
+	* Fifteen Squirrels - time to take on a god
+		* 3 slots, must total 15, take an extra turn
+		* Upgrades to 4 slots
+	* Twin Slam - looks kinda cool
+		* Deal 10 damage in 2 turns, but...
+		* ...if you're already dealing 10 damage next turn, deal the damage immediately
+		* makes more sense when you use it
+	* Sludge - shuffle a void into your deck
+		* Deal 2x[max3+2] damage
+		* But, receive 2 poison
+	* Penance of Fire/Frost - so dramatic
+		* Passive, gain 2 max hp if you win
+		* But, you receive 1 burn/freeze each turn!
+	* Doot - doot
+		* Needs a 3, inflict 1 weaken, return the dice
+		* doot
+	* Induction Blade - but can you PROVE it
+		* Deal [max4] damage
+		* Deals triple if you have all the dice values from 1 to []
+	* Toilet Paper - bold of you to assume I'm not going to shitpost about a global pandemic
+		* Witch spell, heal 1 health, gain 1 shield
+		* If you have 4 of these out at once, also cure 1 poison
+	* Metronome - gnot a gnelf
+		* Deal [max5] damage
+		* Inflict 1 weaken on even turns
+	* Icicle Fall - pretty easy design
+		* Deal 3x[max4] damage, inflict 1 freeze
+		* But, the enemy gets 1 dodge each turn
+	* Plaster Blaster - bash with healing,
+		* Deal damage equal to the amount of healing received this turn
 
 
 
@@ -17,6 +93,12 @@ Bugfixes:
 	* Added the visual "get a dice next turn" status to Glowstick
 	* Dice Synthesis now reduces your health too
 	* Oven Gloves+ now removes all reduce after your turn
+	* Updated the tooltip for Nothing?
+	* Changed Leech Seed's wording to be more consistent (round -> turn)
+	* Changed the description of some Bleed related equipment (Blunt Sword, Slice and Dice) to be more consistent
+	* Lockdown no longer crashes the game
+	* Rope Dart+ no longer softlocks the game if you put a 6 into it
+		* More technically, dice values above 8 no longer softlock the game with Rope Dart in general
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
@@ -29,12 +111,14 @@ Changes:
 	* Reaper changed:
 		* Now heals you for half of the damage dealt by your first attack each battle
 		* The upgrade now heals you for its full amount
-	* Stealth Stealth buff:
+	* Stealth buff:
 		* Now returns the dice by default, upgrades to 2 blind
 	* Evil Eye buffed:
 		* Now returns the dice by default, upgrades to ODD
 	* Gooplicate+ nerfed:
 		* Now only gives 3 copies if the enemy has more than [] poison
+	* Paintbrush buffed to a countdown of 4
+	* Removed emphasis from Origami
 
 =====================================================================
 

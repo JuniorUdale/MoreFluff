@@ -10,7 +10,7 @@ regen8,Regen,heal,Restore <value> health at the end of your turn. Lasts for 8 tu
 regen9,Regen,heal,Restore <value> health at the end of your turn. Lasts for 9 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
 regen10,Regen,heal,Restore <value> health at the end of your turn. Lasts for 10 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
 regen11,Regen,heal,Restore <value> health at the end of your turn. Lasts for 11 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen12,Regen,heal,Restore <value> health at the end of your turn. Lasts for 12 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
+regen12,Regen,heal,Restore <value> health at the end of your turn. Lasts for 12 turns.|Stacking this increases the healing[;] not duration.  (Maximum duration!),NO,YES,NO,NO,NO
 bleed1,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 1 turn.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
 bleed2,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 2 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
 bleed3,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 3 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
@@ -22,7 +22,7 @@ bleed8,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts f
 bleed9,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 9 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
 bleed10,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 10 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
 bleed11,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 11 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed12,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 12 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
+bleed12,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 12 turns.|Stacking this increases the damage[;] not duration. (Maximum duration!),NO,YES,NO,NO,NO
 pursuit,Pursuit,sword,Increases damage dealt by Pursuit by 3 this turn.,NO,NO,NO,YES,NO
 pursuitnext,Pursuing,sword,Pursuit deals 3 more damage next turn.,NO,NO,NO,YES,NO
 bound1,Bound 1,lock,Next turn[;] at least <value> of your|dice will have a value of one.,NO,NO,YES,NO,NO
@@ -77,7 +77,7 @@ essence_dark,Dark_Essence,curse,Does nothing. When invoked:|Receive a bad status
 mf_stun,Stun,shock,Random equipment is disabled for the turn.,NO,YES,YES,NO,NO
 alternate_mf_stun,Stun?,shock,Lose a dice next turn.,NO,YES,YES,NO,NO
 nothing,Nothing,curse,Does absolutely nothing.,NO,NO,YES,NO,NO
-alternate_nothing,Nothing?,curse,Doesn't do something.,NO,NO,YES,NO,NO
+alternate_nothing,Nothing?,curse,Does absolutely nothing[;] but with a question mark.,NO,NO,YES,NO,NO
 grace,Grace,heart,At the start of your turn[;] if your health is less than|your Grace ([heart]<value>[])[;] swap your health and your Grace.,NO,YES,NO,NO,NO
 healaftercombat,Regeneration,heal,After combat[;] recover [heal]<value> health.|Doesn't trigger if you flee.,NO,YES,NO,NO,NO
 poisonovertime,Toxins,poison,At the end of your turn[;] receive [poison]1 poison.|Lasts for <value> turns.,NO,YES,NO,NO,NO
