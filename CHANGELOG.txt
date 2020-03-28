@@ -119,6 +119,7 @@ Changes:
 		* Now only gives 3 copies if the enemy has more than [] poison
 	* Paintbrush buffed to a countdown of 4
 	* Removed emphasis from Origami
+	* Nerf Hammer now increases countdowns by old countdown * 1.1 + 2 instead of *1.1 + 1
 
 =====================================================================
 
