@@ -127,6 +127,8 @@ Changes:
 	* Nerf Hammer now increases countdowns by old countdown * 1.1 + 2 instead of *1.1 + 1
 	* Superconductor buffed to []+2 to []+3
 	* Increased odds of finding weirder equipment for Inventor
+	* Certain statuses shunted to episodes.csv - this means that now more characters can get them!
+		* sorry matz, I know this is going to be fiddly :P
 
 =====================================================================
 
