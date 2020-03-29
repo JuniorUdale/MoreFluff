@@ -87,9 +87,6 @@ New equipment:
 	* Plaster Blaster - bash with healing,
 		* Deal damage equal to the amount of healing received this turn
 
-
-
-
 Bugfixes:
 	* Wording on Imperishability+ fixed
 	* Ratchet no longer unupgrades some slot upgrades for equipment
@@ -106,6 +103,7 @@ Bugfixes:
 	* Lockdown no longer crashes the game
 	* Rope Dart+ no longer softlocks the game if you put a 6 into it
 		* More technically, dice values above 8 no longer softlock the game with Rope Dart in general
+	* Superconductor now works with Bingo
 
 Changes:
 	* Thorium Hammer+ now burns for each damage over 4, instead of 5
