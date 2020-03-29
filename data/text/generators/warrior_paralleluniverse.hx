@@ -8,11 +8,11 @@ var goodotherstuff = [];
 var poison = chance(50);
 trace(poison);
 
-var warriorshops = ["Katana", "Copper Shield", "Parrying Dagger", "Kite Shield", "Thick Skin", "Boxing Gloves", "Last Stand", "Singularity", "Half Moon Charm", "Dramatic Exit", "Hookshot", "Ignite", "Capacitor", "Elastic Heart", "Overblaster", "Soul Stealer","Nanobots", "Pursuit", "Gavel", "Sledgehammer", "Lamppost", "Firey Firesword of Fire", "Frozen Whip","Claymore","Blessed Bat of Bashing","Gunkblade", "Tesla Cannon", "Rodela", "Baseball Bat", "Min Night Charm", "Heavy Gatling", "Snail Bat", "Black Hole","Reaper", "Stock Up", "Starstaff","Maul","Third Eye","Inflation","Flying Venus Trap","Paw Claw","Warcry","Fruit Loot","Burst Laser","Iron Swan","Dicepenser","Adaptaxe"];
+var warriorshops = ["Katana", "Copper Shield", "Parrying Dagger", "Kite Shield", "Thick Skin", "Boxing Gloves", "Last Stand", "Singularity", "Half Moon Charm", "Dramatic Exit", "Hookshot", "Ignite", "Capacitor", "Elastic Heart", "Overblaster", "Soul Stealer","Nanobots", "Pursuit", "Gavel", "Sledgehammer", "Lamppost", "Firey Firesword of Fire", "Frozen Whip","Claymore","Blessed Bat of Bashing","Gunkblade", "Tesla Cannon", "Rodela", "Baseball Bat", "Min Night Charm", "Heavy Gatling", "Snail Bat", "Black Hole","Reaper", "Stock Up", "Starstaff","Maul","Third Eye","Inflation","Flying Venus Trap","Paw Claw","Warcry","Fruit Loot","Burst Laser","Iron Swan","Dicepenser","Adaptaxe","Tail Bap","Flip Me Right Round","Steamstaff","Repast Rapier","Sunshine Ray","Stop Sign","Hydraulic Press","Red Skies","Induction Blade","Spear Strike","Mirror Madness","Spelksword","Dropkick"];
 
 shuffle(warriorshops);
 
-var strangeshop = ["Candle", "Particle Accelerator", "Flying Skull", "Slingshot", "Fishing Net", "Scissors" "Flourish", "Mitosis", "Sapping Spores", "Ferrosynthesis", "Sunder", "Blood Transfer", "Mirrorblade", "Come On And Slam","Pandemonium", "Swordbroad","Nice Sword","Molten Blast"];
+var strangeshop = ["Candle", "Particle Accelerator", "Flying Skull", "Slingshot", "Fishing Net", "Scissors" "Flourish", "Mitosis", "Sapping Spores", "Ferrosynthesis", "Sunder", "Blood Transfer", "Mirrorblade", "Come On And Slam","Pandemonium", "Swordbroad","Nice Sword","Molten Blast","Bludgeon","Twin Slam"];
 strangeshop = shuffle(strangeshop);
 
 //Floor 1:
@@ -30,7 +30,7 @@ addfloor("tiny")
 
 //Floor 2:
 items = ["Katana"];
-var newdicemanipulator = shuffle(["Lucky Roll", "Candle", "Permafrost", "Jolt"]);
+var newdicemanipulator = shuffle(["Lucky Roll", "Candle", "Permafrost", "Jolt","Spatulargh"]);
 gooditems = [newdicemanipulator.pop()];
 otherstuff = [health()];
 goodotherstuff = [shop([warriorshops.pop(), warriorshops.pop(), warriorshops.pop()],[2,2,2])];

@@ -50,7 +50,11 @@ var commonlist_dicemanipulation = [
   "Magic Sneeze",
   "Marigold",
   "Mirror Calling",
-  "Dark Bargain"
+  "Dark Bargain",
+  "Flip Me Right Round",
+  "Fruit Juice",
+  "Hand Sanitiser",
+  "Spatulargh"
 ];
 shuffle(commonlist_dicemanipulation);
 var commonlist_spring = [

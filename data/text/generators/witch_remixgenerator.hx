@@ -47,7 +47,8 @@ var commonlist_offensive = [
   "Lava Burst",
   "Differing Thorns",
   "Mirror Coating",
-  "Little Prick"
+  "Little Prick",
+  "Entangle"
 ];
 shuffle(commonlist_offensive);
 var commonlist_dicemanipulation = [
@@ -83,7 +84,12 @@ var commonlist_dicemanipulation = [
   "Draining Crystal",
   "Glueplicate",
   "Sacridice",
-  "Slow Cooker"
+  "Slow Cooker",
+  "Toilet Paper",
+  "Flip Me Right Round",
+  "Fruit Juice",
+  "Hand Sanitiser",
+  "Spatulargh"
 ];
 shuffle(commonlist_dicemanipulation);
 var commonlist_spring = [

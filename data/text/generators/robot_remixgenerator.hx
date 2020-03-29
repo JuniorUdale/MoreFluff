@@ -6,8 +6,8 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist_basic = shuffle(["Regen", "Dodge Roll", "Cache Stash", "Trishula", "Tomahawk", "Hand Lens",rand(["Iron Armor","Leather Armor","Magic Armor"]), "Saw Wave", "Safe Bet","Tin Snips","Critical Hit", "Electric Fence", "Meteor Hammer", "Auto Turret","Segfault","Ornamental Shield","CPU Shooter","Minigun","Maul","Draining Crystal","Nitro Bump","Starfall","Hosepipe","Iron Swan","Fruit Loot","Vine Whip","Speedometer"]);
-var commonlist_advanced = shuffle(["Juggling Ball", "Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Promote", "Superbolt", "Scraps","Antifreeze",  "Chain Whip","Slingshot", "Vise Grip", (chance(30)?"Starspear":"Sword Hilt"), "Ungeradedice", "Four Leaf Clover","Belt Sander","Fulcrum Blade", "Cleaver", "Heat Vent", "Mechanical Charm","Star Shooter","Virtual Machine", "Amplify","Reboot","Backup Drive","Overconfidence","Duplihate","One With Everything","Rosary","Plug Socket","Electrophoresis","Rift Stabilizer","Adaptaxe"]);
+var commonlist_basic = shuffle(["Regen", "Dodge Roll", "Cache Stash", "Trishula", "Tomahawk", "Hand Lens",rand(["Iron Armor","Leather Armor","Magic Armor"]), "Saw Wave", "Safe Bet","Tin Snips","Critical Hit", "Electric Fence", "Meteor Hammer", "Auto Turret","Segfault","Ornamental Shield","CPU Shooter","Minigun","Maul","Draining Crystal","Nitro Bump","Starfall","Hosepipe","Iron Swan","Fruit Loot","Vine Whip","Speedometer","Metal Slam","Spearslinger","Reverberate","Reinforce","Chitin Helmet"]);
+var commonlist_advanced = shuffle(["Juggling Ball", "Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Promote", "Superbolt", "Scraps","Antifreeze",  "Chain Whip","Slingshot", "Vise Grip", (chance(30)?"Starspear":"Sword Hilt"), "Ungeradedice", "Four Leaf Clover","Belt Sander","Fulcrum Blade", "Cleaver", "Heat Vent", "Mechanical Charm","Star Shooter","Virtual Machine", "Amplify","Reboot","Backup Drive","Overconfidence","Duplihate","One With Everything","Rosary","Plug Socket","Electrophoresis","Rift Stabilizer","Adaptaxe","Petal to the Metal"]);
 
 items = [commonlist_basic.pop()];
 gooditems = [];
@@ -31,6 +31,8 @@ commonlist_basic.push("Bayonet");
 commonlist_basic.push("Junkblaster");
 commonlist_basic.push("Intended Gameplay");
 commonlist_basic.push("Captured Flag");
+commonlist_basic.push("Shieldsplosion");
+commonlist_basic.push("Solar Flair");
 shuffle(commonlist_basic);
 
 commonlist_advanced.push("Ray Gun");
@@ -46,6 +48,8 @@ commonlist_advanced.push("Helium Balloon"); //maybe, just maybe, consider making
 commonlist_advanced.push("Boost Panel"); 
 commonlist_advanced.push("Floppy Disk"); 
 commonlist_advanced.push("Regedit"); 
+commonlist_advanced.push("Convergence");
+commonlist_advanced.push("Twin Slam");
 shuffle(commonlist_advanced);
 
 items = [];

@@ -10,9 +10,9 @@ var goodotherstuff = [];
 var chiselorcandle = ["Chisel", "Candle"];
 chiselorcandle = shuffle(chiselorcandle);
 
-var commonlist1 = shuffle(["Cloak", chiselorcandle.pop(), "Plaster", "Dramatic Exit", "Blast Chiller", "Square Pair", pick(["Leather Armor","Stony Armour"]), "Bump", "Bandage", "Pickpocket", "Pea Shooter", "Snake Eye Charm", "Lifesteal", "Thistle Tea", "Poison Thread", "Hand Lens", "Starspike","Rockfall",pick(["Rend","Toxify"]),"Shichishito","Secateurs","Chain Dagger","Gem of Healing","Execute","Necrosis","Minigun","Dice Magnet","Headcrack","Juice Box","Ignite","Umbrella","Plague Stave","Asklepios","Starstaff","Draining Crystal","Rock Crusher","Arbitrage","Rift Stabilizer","Push Knife","Diabolo","Jianzi","Starfall","Lava Burst","Inflation","Iron Swan","Flying Venus Trap","Snakelops","Fruit Shooter","Taunting Sword","Wing Bash","Molten Blast","Mirror Coating","Bottled Thunder"]);
+var commonlist1 = shuffle(["Cloak", chiselorcandle.pop(), "Plaster", "Dramatic Exit", "Blast Chiller", "Square Pair", pick(["Leather Armor","Stony Armour"]), "Bump", "Bandage", "Pickpocket", "Pea Shooter", "Snake Eye Charm", "Lifesteal", "Thistle Tea", "Poison Thread", "Hand Lens", "Starspike","Rockfall",pick(["Rend","Toxify"]),"Shichishito","Secateurs","Chain Dagger","Gem of Healing","Execute","Necrosis","Minigun","Dice Magnet","Headcrack","Juice Box","Ignite","Umbrella","Plague Stave","Asklepios","Starstaff","Draining Crystal","Rock Crusher","Arbitrage","Rift Stabilizer","Push Knife","Diabolo","Jianzi","Starfall","Lava Burst","Inflation","Iron Swan","Flying Venus Trap","Snakelops","Fruit Shooter","Taunting Sword","Wing Bash","Molten Blast","Mirror Coating","Bottled Thunder","Tail Bap","Broken Blender","Blenderblade","Bludgeon","Revolver","Popcorn","Stop Sign","Hand Sanitiser","Twin Slam","Sky Lantern","Doot","Toxins","Coalescence"]);
 
-var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter",pick(["Ballerina Charm", "Square Pair"]), "Cleaver", "Splat","Trianguleight","Coin Flip","Saxophone","Glitter","Karambit","Socket Wrench","Mirror Coating","Cup of Tea","Sewage Pipe","Watermelon Trebuchet","Gluestick","Caduceus","Terminal Velocity","Drumkit","Fan the Flames","Huge Fan"]);
+var countdowns = shuffle(["Scorch","Gust","Medigun","Metalmorph","Shrapnel","Paintbrush","Pee Shooter","Pea Shooter",pick(["Ballerina Charm", "Square Pair"]), "Cleaver", "Splat","Trianguleight","Coin Flip","Saxophone","Glitter","Karambit","Socket Wrench","Mirror Coating","Cup of Tea","Sewage Pipe","Watermelon Trebuchet","Gluestick","Caduceus","Terminal Velocity","Drumkit","Fan the Flames","Huge Fan","Steamstaff","Pinball Machine","Sweep the Legs","Entangle"]);
 
 		
 items = [commonlist1.pop()];
@@ -40,7 +40,7 @@ addfloor("normal")
   
 //Floor 3:
 var commonlist2 = [rand(["Paper Lantern", "Lantern"]), "Last Stand", "Kite Shield", "Tetraphobia", "Chisel", "Lucky 7", "First Aid Kit", rand(["Staff", "Gemstone Staff"]), "Lockpick", "Poison Slingshot", pick(["Last Stand","Surfive"]), "Flak Cannon", "Antifreeze", "Scraps", "Metalmorph","Blightmare","Magma Storm","Dodgy Chronometer","Grandfather Clock","Fairy In A Bottle","Blood Blessing"];
-var rarelist1 = ["Dramatic Entrance", "Raw Ambition", "Hookshot", "Signal Jammer", "Determination", "Dodge", "Snake Eye Charm", "Midnight Charm", "Scales of Justdice", "Meteor Hammer", "Megaclone", "Curseven","Vampire Blade","Insult to Injury","Caps Lock","Power Creeper","Sawmill","Bottled Dragonbreath","Corrosion","Quarantine"];
+var rarelist1 = ["Dramatic Entrance", "Raw Ambition", "Hookshot", "Signal Jammer", "Determination", "Dodge", "Snake Eye Charm", "Midnight Charm", "Scales of Justdice", "Meteor Hammer", "Megaclone", "Curseven","Vampire Blade","Insult to Injury","Caps Lock","Power Creeper","Sawmill","Bottled Dragonbreath","Corrosion","Quarantine","Burner Phone","Prescience","Copyrat"];
 
 commonlist2 = shuffle(commonlist2);
 rarelist1 = shuffle(rarelist1);
@@ -62,7 +62,7 @@ addfloor("normal")
   .generate();
   
 //Floor 4:
-var commonlist3 = [chiselorcandle.pop(), "Secret Weapon", rand(["Splitula", "Spatula", "Spatuplicate"]), "Broken Mirror", "Iron Armor", "Blight", "Detonator", "Unsettling Dream", "Momentum", "Tesseract", "Envenomate","Imperishability","Mortice Lock"];
+var commonlist3 = [chiselorcandle.pop(), "Secret Weapon", rand(["Splitula", "Spatula", "Spatuplicate"]), "Broken Mirror", "Iron Armor", "Blight", "Detonator", "Unsettling Dream", "Momentum", "Tesseract", "Envenomate","Imperishability","Mortice Lock","Hydraulic Press","Key Change"];
 commonlist3 = shuffle(commonlist3);
 items = [commonlist3.pop()];
 gooditems = [];

@@ -33,7 +33,8 @@ var commonlist_offensive = [
   "Wing Bash",
   "Differing Thorns",
   "Mirror Coating",
-  "Little Prick"
+  "Little Prick",
+  "Entangle"
 ];
 var commonlist_dicemanipulation = [
   "Illuminate", 
@@ -56,7 +57,8 @@ var commonlist_dicemanipulation = [
   "Glueplicate",
   "Diamond Wall",
   "Sacridice",
-  "Slow Cooker"
+  "Slow Cooker",
+  "Toilet Paper"
 ];
 
 

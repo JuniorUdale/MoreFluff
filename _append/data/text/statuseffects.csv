@@ -83,3 +83,6 @@ healaftercombat,Regeneration,heal,After combat[;] recover [heal]<value> health.|
 poisonovertime,Toxins,poison,At the end of your turn[;] receive [poison]1 poison.|Lasts for <value> turns.,NO,YES,NO,NO,NO
 revolver,Ammunition,sword,After this reaches 6[;] reduce this by 6|and deal [sword]18 damage.,NO,YES,NO,NO,NO
 shielddown,Shield_Down,potion,At the start of your turn[;] lose [shield]<value> shield.,NO,YES,NO,NO,NO
+hallucinate,Hallucinate,confuse,Equipment slots are randomised.,NO,NO,YES,NO,NO
+hallucinate_upgraded,Hallucinate+,confuse,Equipment slots are randomised. No [quote]Needs X[quote] slots will appear.,NO,NO,YES,NO,NO
+hallucinate_downgraded,Hallucinate-,confuse,Equipment slots are randomised to random [quote]Needs X[quote] slots.,NO,NO,YES,NO,NO

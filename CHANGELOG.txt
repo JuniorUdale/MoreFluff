@@ -1,4 +1,8 @@
+v2.7.0 - happy fluffiversary!
 
+So it's officially been 1 year since I first released More Fluff into the world! The support I've received along the way has been phenomenal, for what the mod is (just a bunch of equipment ideas splattered onto paper). So, enjoy another 100 or so janky items!
+
+This brings the total up to 850 exactly... which works out at 2.32 items per day on average, jeez
 
 New equipment:
 	* 4 new paths for Jester: Blind, Regen, Bleed and Polymorph!
@@ -68,6 +72,9 @@ New equipment:
 	* Induction Blade - but can you PROVE it
 		* Deal [max4] damage
 		* Deals triple if you have all the dice values from 1 to []
+	* Coalescence - moira mains rise up
+		* Deal 2 damage, heal 2 health, reuseable, needs doubles
+		* Upgrades to 3 of each - a good place to dump your 1s
 	* Toilet Paper - bold of you to assume I'm not going to shitpost about a global pandemic
 		* Witch spell, heal 1 health, gain 1 shield
 		* If you have 4 of these out at once, also cure 1 poison
@@ -120,6 +127,8 @@ Changes:
 	* Paintbrush buffed to a countdown of 4
 	* Removed emphasis from Origami
 	* Nerf Hammer now increases countdowns by old countdown * 1.1 + 2 instead of *1.1 + 1
+	* Superconductor buffed to []+2 to []+3
+	* Increased odds of finding weirder equipment for Inventor
 
 =====================================================================
 

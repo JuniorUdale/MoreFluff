@@ -6,7 +6,7 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Medigun", "Origami", "Pee Shooter", "Venom Catapult","Scorch","Gust", "Poison Thread", "Hand Lens", "Poisoned Axe","Rend", "Shichishito", "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack","Draining Crystal","Diabolo","Quarantine","Taunting Sword","Asklepios","Saxophone","Karambit"]);
+var commonlist1 = shuffle(["Bandage", "Snake Eye Charm", "Finisher", "Regen", "Nail Gun", "Medigun", "Origami", "Pee Shooter", "Venom Catapult","Scorch","Gust", "Poison Thread", "Hand Lens", "Poisoned Axe","Rend", "Shichishito", "Execute", "Necrosis", "Grandfather Clock", "Minigun", "Dice Magnet", "Caps Lock", "Headcrack","Draining Crystal","Diabolo","Quarantine","Taunting Sword","Asklepios","Saxophone","Karambit""Toxins","Coalescence","Burner Phone","Prescience","Copyrat","Sweep the Legs","Entangle"]);
 
 var items = [];	
 
@@ -79,7 +79,7 @@ otherstuff = [
 	upgrade()
 ];
 
-var armortrade = pick([trade(["Dagger"],["Boomstick","Xiphos","Peppergun"]),trade(["Lockpick"],["Snippers","Locklance","Origami"])]);
+var armortrade = pick([trade(["Dagger"],["Boomstick","Xiphos","Peppergun","Power Creeper"]),trade(["Lockpick"],["Snippers","Locklance","Origami"])]);
 goodotherstuff = [
   shop([rarelist1.pop(), commonlist1.pop(), rarelist1.pop()],[2,1,2]),
   armortrade  

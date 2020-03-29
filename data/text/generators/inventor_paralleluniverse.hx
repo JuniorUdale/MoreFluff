@@ -6,10 +6,10 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 
-var uselessthings = shuffle(["Swedge","Plurale Tantrum", "Dainsleif", "Thorium Hammer", "Super Spatula", "Backlash", "Helium Balloon", "Magma Storm", "Super Lockpick", "Blood To Dice", "Crystal Rock", "Cauldron Cauldron", "Starshine", "Drill Bit","Booster Pack","Perpetual Motor","Reconstructificate","Blood Blessing","Joke Answer","Wildcard"]);
+var uselessthings = shuffle(["Swedge","Plurale Tantrum", "Dainsleif", "Thorium Hammer", "Super Spatula", "Backlash", "Helium Balloon", "Magma Storm", "Super Lockpick", "Blood To Dice", "Crystal Rock", "Cauldron Cauldron", "Starshine", "Drill Bit","Booster Pack","Perpetual Motor","Reconstructificate","Blood Blessing","Joke Answer"]);
 var scrap = shuffle(["Scrap Nettle", "Scrap Bump", "Scrap Club", "Scrap Book", "Scrap Spear", "Scrap Kettle","Scrap Cauldron","Scrap Turret","Scrap Remote"]);
-var weapons = shuffle(["Double Edge", "Blast Chiller", "Tetraphobia", "Fulcrum Blade" ,"Nunchucks", "Big Stick", "Rubber Mallet",  "Jail Bat", "Crystal Skull","Starsword", "Blunt Sword", "Blunt Dagger", "Slice and Dice", "Starspike","Primal Slash", "Spiked Hilt", "Sticky Sword", "Lancestave", "Sundew", "Baseball Bat","Heavy Gatling","Blood Transfer","Mirrorblade","Snail Bat",pick(["Frostfire","Firefrost"]),"Bureaucratic Blade","Starstaff","Maul","Come On And Slam","Diffraction Spike","Fortnight","Popcount","Jianzi","Spear of Justfire","War Axe","Swordbroad","Offering","Flying Venus Trap","Paw Claw","Warcry","Burst Laser","Nice Sword","Molten Blast","Iron Swan","Dark Matter"]);
-var dicemanip = shuffle(["Giant Spatula", "Sine Wave", "Saw Wave", "Square Wave","Triangle Wave", "Solder","Tin Snips","Crescent Pendant","Bowsaw","Belt Sander","Velcro", "Sprinkler", "Ballerina Charm", "Triplicate", "Radical Wrench", "Berserker Rage","Trianguleight","Min Night Charm","Staple Gun","Stock Up","Electrophoresis","Arbitrage","Rift Stabilizer","Sawmill","Inflation","Overcharge"]);
+var weapons = shuffle(["Double Edge", "Blast Chiller", "Tetraphobia", "Fulcrum Blade" ,"Nunchucks", "Big Stick", "Rubber Mallet",  "Jail Bat", "Crystal Skull","Starsword", "Blunt Sword", "Blunt Dagger", "Slice and Dice", "Starspike","Primal Slash", "Spiked Hilt", "Sticky Sword", "Lancestave", "Sundew", "Baseball Bat","Heavy Gatling","Blood Transfer","Mirrorblade","Snail Bat",pick(["Frostfire","Firefrost"]),"Bureaucratic Blade","Starstaff","Maul","Come On And Slam","Diffraction Spike","Fortnight","Popcount","Jianzi","Spear of Justfire","War Axe","Swordbroad","Offering","Flying Venus Trap","Paw Claw","Warcry","Burst Laser","Nice Sword","Molten Blast","Iron Swan","Dark Matter","Tail Bap","Flip Me Right Round","Steamstaff","Sunshine Ray","Blood Breath","Swipe","Revolver","Stop Sign","Solar Flair","Red Skies","Twin Slam","Doot","Induction Blade","Positivity","Spear Strike","Plaster Blaster","Spelksword","Dropkick"]);
+var dicemanip = shuffle(["Giant Spatula", "Sine Wave", "Saw Wave", "Square Wave","Triangle Wave", "Solder","Tin Snips","Crescent Pendant","Bowsaw","Belt Sander","Velcro", "Sprinkler", "Ballerina Charm", "Triplicate", "Radical Wrench", "Berserker Rage","Trianguleight","Min Night Charm","Staple Gun","Stock Up","Electrophoresis","Arbitrage","Rift Stabilizer","Sawmill","Inflation","Overcharge","Janky Spanner","Doppeldagger","Pinball Machine","Popcorn","Sour Note","Metal Crusher","Mirror Madness"]);
 
 var shopideas = [
 	[rand(["Radar","Dazzling Light"]), rand(weapons), rand(["Flashlight","Twinkle"])],
@@ -19,7 +19,7 @@ var shopideas = [
 ];
 
 //Floor 1:
-items = ["Spannersword", pick(["Gemstone Staff", "Wrecking Ball", "Rosebud", "Pursuit"])];
+items = ["Spannersword", pick(["Gemstone Staff", "Wrecking Ball", "Rosebud", "Pursuit", "Lucky Sword"])];
 gooditems = [pick(["Knitting Needle", "Mosquito Bite", "Bramble"])];
 otherstuff = [];
 goodotherstuff = [];
@@ -30,7 +30,7 @@ addfloor("small")
   .generate();
   
 //Floor 2:
-var commonlist1 = ["Hi Vis Jacket",  "Elastic Heart", "Berlin Key", "Kalis", "Surfive", "Illumineight", "Threeken", "Nanobots","Caltrops","Lifesteal", "Preparation", "Defibrilator", "Pandora's Box", dicemanip.pop(),dicemanip.pop(),"Stony Armour","Cup of Tea"];
+var commonlist1 = ["Hi Vis Jacket",  "Elastic Heart", "Berlin Key", "Kalis", "Surfive", "Illumineight", "Threeken", "Nanobots","Caltrops","Lifesteal", "Preparation", "Defibrilator", "Pandora's Box", dicemanip.pop(),dicemanip.pop(),"Stony Armour","Cup of Tea","Message in a Bottle","Sunday Sundae"];
 var shoplist1 = ["Screwdriver",  pick(["Gold Dagger", "Silver Dagger"]), "Lunar Beam", "Terra Beam", "Firey Firesword of Fire", "Lamppost", "Flourish", "Chromatic Cutlass", pick(["Hexatomb","Blind Rage"]),"Sledgehammer", "Magma Storm", "Flamecrower", "Kerfuffle",weapons.pop(),weapons.pop(), "Electrolysis", "Doppelice", "Gavel","Spade","Dice Synthesis"];
 commonlist1 = shuffle(commonlist1);
 shoplist1 = shuffle(shoplist1);
@@ -53,7 +53,7 @@ addfloor("small")
   .generate();
 
 //Floor 3:
-var midtierdrops = shuffle(["Befuddle", "Lighter", "Triskaidekaphobia", "Polymorph"]);
+var midtierdrops = shuffle(["Fifteen Squirrels", "Hallucinogen", "Triskaidekaphobia", "Polymorph"]);
 if(getfinalboss() == "Scathach"){
 	midtierdrops.remove("Polymorph");
 	//she's just too trivial with Polymorph, sorry :(
