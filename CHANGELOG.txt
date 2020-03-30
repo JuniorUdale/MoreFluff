@@ -1,3 +1,19 @@
+v2.7.1 - aaaaaaaaaaaah
+
+Would it really be a big update if it didn't come with breaking basically everything? :P
+
+Bugfixes:
+	* Ratchet now works
+	* Ratchet now correctly fixes the slots if used multiple times in one turn; thank you stacks
+	* Ratchet now has an animation
+	* Ratchet was just a mess, but now it's less of a mess
+	* Wording tweaked on a few items
+	* Lucky Sword now has a gadget
+
+
+
+=====================================================================
+
 v2.7.0 - happy fluffiversary!
 
 So it's officially been 1 year since I first released More Fluff into the world! The support I've received along the way has been phenomenal, for what the mod is (just a bunch of equipment ideas splattered onto paper). So, enjoy another 100 or so janky items!
