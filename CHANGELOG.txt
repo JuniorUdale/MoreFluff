@@ -7,10 +7,11 @@ Bugfixes:
 	* Ratchet now correctly fixes the slots if used multiple times in one turn; thank you stacks
 	* Ratchet now has an animation
 	* Ratchet was just a mess, but now it's less of a mess
+	* Booster Pack has been clarified as to how it works
+	* Booster Pack now works with Ratchet
+	* (are you starting to see a theme here)
 	* Wording tweaked on a few items
 	* Lucky Sword now has a gadget
-
-
 
 =====================================================================
 
