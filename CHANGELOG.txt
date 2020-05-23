@@ -1,3 +1,77 @@
+v2.8.0 - bold of me to assume I'm not going to have to hotfix stuff later
+
+New equipment:
+
+	* Sp4tula - t1m3 4 l33t 5p34k
+		* Min3, roll a 4
+		* Upgrades to take any dice
+	* 
+	* Top Serum - time to nag a ram
+		* Skip your next turn
+		* Then, after the opponent has taken their 2 turns, take an extra turn
+
+Changes:
+	* The ordering of Grace, Bleed and Regen have been swapped
+		* Before it was Regen -> Bleed -> Grace, with Grace happening after your equipment loaded in
+		* Now it's Grace -> Regen -> Bleed, all happening at the very start of your turn.
+		* Also, Grace now works for enemies!
+	* Lucky Sword+ now makes you luckier
+	* Incapacitate reworked:
+		* Now two slots, must equal 8
+		* Deals 4 damage as well as inflicting 1 stun
+	* Transmogrify now works for other classes (but not Witch)
+	* Explosive Shield nerfed to MAX5
+	* Full House+ buffed to Reuseable, instead of just 2 uses/turn
+	* Entangle nerfed:
+		* Now a countdown of 9
+		* Upgrade inflicts 2 weaken instead of 2 uses
+	* Power Creeper nerfed:
+		* Bumped up to a countdown of 10
+		* Upgrade now does +4 damage instead of +3
+	* Shieldsplosion reworked:
+		* Now grants everyone [max4] shield
+		* Then deals 2x[] damage in 2 turns
+	* Leech Seed tweaked:
+		* Now regens health you over 3 turns
+		* Upgrade now activates regen on evens
+	* Box of Nails tweaked:
+		* Now deals 3 damage per shock
+	* Crass Knuckles- now is two MAX3 slots, instead of just blocking you out of using Fury
+	* Removed the PU version of Super Lockpick
+	* Mortice Lock no longer yeets multiple dice everywhere
+	* Oil Barrel/Nuclear Fridge buffed to only requiring 3+ of the status
+	* Superconductor buffed to []+4 damage
+	* Divine Blade now procs based on YOUR health
+	* Spearslinger is now size 1
+	
+Bugfixes:
+	* Order of some events has been clarified to be more consistent.
+		* For example, with Lantern Shield (deal 2 damage, gain 2 shield), you now gain the shield after doing the damage.
+	* If an enemy gets Regen, it's no longer transferred to you after their turn
+	* Fixed some crashes with Resonator and other equipment
+	* Stacking Resonators now works as well as you'd think
+	* Pinball Machine+ now doesn't upgrade to 2 uses, and has a fixed description
+	* Frozen Whip's description is fixed
+	* Polymorph- now works
+	* Floppy Disk is now SPECIAL - it shouldn't show up from random events
+	* Copycat now doesn't break the game with Push Knife
+	* Imperishability+ description fixed
+	* Phaser now works for ALL jackpots
+	* Bottled Frostbreath is now blue
+	* Bottled Thunder now deals damage
+	* Wording of Binding Spell tweaked
+	* Box Of Nails now deals the correct amount of damage when upgraded
+	* Hoplon is now actually reusable on 1
+	* Burner Phone is now once per battle
+	* Starpocalypse no longer inflicts Silence
+	* Superconductor no longer appears in YCYL
+	* Pliers' slots are now in the Good Order
+	* Pry Bar- now reduces countdowns by 2, as expected
+	* Dash Slash now ends your turn at the right time
+
+
+=====================================================================
+
 v2.7.1 - aaaaaaaaaaaah
 
 Would it really be a big update if it didn't come with breaking basically everything? :P

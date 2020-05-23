@@ -41,6 +41,10 @@ if(chance(75)){
 		["Lunar Beam",rand(shoplist1),"Terra Beam"],
 		["Focus Beam",rand(shoplist1),"Focus Beam"],
 		["Saving Grace",rand(graceitems),rand(graceitems)],
+		["Oil Barrel",rand(shoplist1),"Matchstick"],
+		["Frost Shield",rand(shoplist1),"Blast Chiller"],
+		["Aftershock",rand(shoplist1),"Saxophone"],
+		["Box of Nails",rand(shoplist1),"Hammer"],
 		[rand(shoplist1),uselessthings.pop(),rand(shoplist1)]
 	]);
 }else{
@@ -66,10 +70,6 @@ addfloor("small")
 
 //Floor 3:
 var midtierdrops = shuffle(["Quicksilver", "Encyclopedia", "Chainsaw", "Polymorph","Petrification Spell","Fifteen Squirrels","Hallucinogen"]);
-if(getfinalboss() == "Scathach"){
-	midtierdrops.remove("Polymorph");
-	//she's just too trivial with Polymorph, sorry :(
-};
 var s = shuffle(crapstuff.concat(sticks));
 items = [s.pop()];
 commonlist1 = shuffle(commonlist1.concat(["Broadsword", "Bump", "Chocolate Cookie", "Custard Cream", "Hall of Mirrors", "Midnight Charm", "Heckfire", "Nine Iron"]));

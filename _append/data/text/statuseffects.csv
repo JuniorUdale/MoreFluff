@@ -31,6 +31,12 @@ bound3,Bound 3,lock,Next turn[;] at least <value> of your|dice will have a value
 bound4,Bound 4,lock,Next turn[;] at least <value> of your|dice will have a value of four.,NO,NO,YES,NO,NO
 bound5,Bound 5,lock,Next turn[;] at least <value> of your|dice will have a value of five.,NO,NO,YES,NO,NO
 bound6,Bound 6,lock,Next turn[;] at least <value> of your|dice will have a value of six.,NO,NO,YES,NO,NO
+petrified1,Petrified,lock,A random item can only be|activated with a 1 next turn.,NO,NO,YES,NO,NO
+petrified2,Petrified,lock,A random item can only be|activated with a 2 next turn.,NO,NO,YES,NO,NO
+petrified3,Petrified,lock,A random item can only be|activated with a 3 next turn.,NO,NO,YES,NO,NO
+petrified4,Petrified,lock,A random item can only be|activated with a 4 next turn.,NO,NO,YES,NO,NO
+petrified5,Petrified,lock,A random item can only be|activated with a 5 next turn.,NO,NO,YES,NO,NO
+petrified6,Petrified,lock,A random item can only be|activated with a 6 next turn.,NO,NO,YES,NO,NO
 cache,Cached,dice,Store <value> dice for next turn.,NO,YES,NO,YES,NO
 lightstatus,Enlightened,dice,Get [yellow]<value>[] extra dice next turn.,NO,YES,NO,YES,NO
 permafrost,Permafrost,ice,Receive [ice]<value> freeze next turn.,NO,YES,NO,NO,NO
@@ -57,12 +63,6 @@ lego,Lego,cog,Gain [thorns]999 thorns at the end of this turn.,NO,NO,NO,NO,NO
 lego2,Lego,cog,Gain [thorns]999999 thorns at the end of this turn.,NO,NO,NO,NO,NO
 helium,Inflated,jinx,Your dice are... floaty!,NO,NO,YES,NO,NO
 whelm,Whelmed,sword,Whelm deals <value> more damage.,NO,YES,NO,NO,NO
-petrified1,Petrified,lock,A random item can only be|activated with a 1 next turn.,NO,NO,YES,NO,NO
-petrified2,Petrified,lock,A random item can only be|activated with a 2 next turn.,NO,NO,YES,NO,NO
-petrified3,Petrified,lock,A random item can only be|activated with a 3 next turn.,NO,NO,YES,NO,NO
-petrified4,Petrified,lock,A random item can only be|activated with a 4 next turn.,NO,NO,YES,NO,NO
-petrified5,Petrified,lock,A random item can only be|activated with a 5 next turn.,NO,NO,YES,NO,NO
-petrified6,Petrified,lock,A random item can only be|activated with a 6 next turn.,NO,NO,YES,NO,NO
 polymorph,Polymorph,potion,A random item has been replaced|with another random item.,NO,YES,NO,NO,NO
 polymorphall,Polymorph_All,potion,ALL items have been replaced|with random items.,NO,NO,NO,NO,NO
 nerfed,Nerfed,jinx,Items are harder to play.|Weakening an item resets it.,NO,YES,NO,NO,NO
@@ -86,3 +86,13 @@ shielddown,Shield_Down,potion,At the start of your turn[;] lose [shield]<value> 
 hallucinate,Hallucinate,confuse,Equipment slots are randomised.,NO,NO,YES,NO,NO
 hallucinate_upgraded,Hallucinate+,confuse,Equipment slots are randomised. No [quote]Needs X[quote] slots will appear.,NO,NO,YES,NO,NO
 hallucinate_downgraded,Hallucinate-,confuse,Equipment slots are randomised to random [quote]Needs X[quote] slots.,NO,NO,YES,NO,NO
+mf_skipturn,Skip_Turn,confuse,Skips your next turn.,NO,YES,NO,NO,NO
+mf_bonusturn,Time_Loop,potion,At the start of your next turn[;] gain an extra turn.,NO,NO,NO,NO,YES
+mf_suffocate,Suffocate,lock,At the start of your turn[;] lock any blinded dice.,NO,NO,NO,YES,NO
+mf_healnextturn,Heal_Next_Turn,heart,At the start of next turn[;] recover [heart]<value> health.,NO,YES,NO,NO,NO
+mf_cursecarryover,Curse_Next_Turn,curse,At the start of next turn[;] convert this into [curse]<value> curse.,NO,YES,NO,NO,NO
+mf_magma,Magma,fire,At the start of your turn[;] take [fire]<value> damage.|Doesn't disappear after your turn.,NO,YES,NO,NO,NO
+mf_drowning,Drowning,ice,At the start of your turn[;] take [ice]<value> damage.|Doesn't disappear after your turn.,NO,YES,NO,NO,NO
+alternate_mf_magma,Magma?,fire,At the start of your turn[;] take [ice]2x<value> damage[;]|then reduce how much [ice]Drowning? you have by half.,NO,YES,NO,NO,NO
+alternate_mf_drowning,Drowning?,ice,At the start of your turn[;] take [fire]2x<value> damage[;]|then reduce how much [fire]Magma? you have by half.,NO,YES,NO,NO,NO
+pierce,Pierce,shield,This turn[;] your attacks bypass [shield] Shield and [reduce] Reduce.,NO,NO,YES,NO,NO

@@ -1,0 +1,2 @@
+﻿Name,Displayed As,Symbol,Description,External Scripts?,Stacks?,Remove at End Turn?,Remove at Start Turn?,Invisible?
+pierce,Pierce,shield,This turn[;] your attacks bypass [shield] shield and [reduce] reduce.,NO,NO,YES,NO,NO

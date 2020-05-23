@@ -24,7 +24,6 @@ addfloor("tiny")
 commonlist_basic.push("Locklance");
 commonlist_basic.push("Flame Spell");
 commonlist_basic.push("Mechanical Arm");
-commonlist_basic.push("Superconductor");
 commonlist_basic.push("Vortex");
 shuffle(commonlist_basic);
 
