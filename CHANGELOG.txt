@@ -1,3 +1,11 @@
+v2.9.0 - bounughashdkghkjasdg
+
+* Bounty Hunter is now available in Robot 5
+
+
+
+=====================================================================
+
 v2.8.0 - totally not rushed update
 With DD 1.8 comes another Fluff update. Nothing too huge, just adds some YCYL support! And another 50 or so items, but that's par for the course.
 
