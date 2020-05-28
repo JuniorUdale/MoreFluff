@@ -170,8 +170,8 @@ gooditems = [rand(["Moon Beam", "Gladioli", "Enchanted Bolt"])];
 
 var addons = pick(["Rannuncarpus","Sunflower","Iris"]);
 var thorns = pick(["Rosebud", "Blackberry", "Magic Mistletoe", "Magic Thistle"]);
-var dualweps = pick(["Blizzard","Inferno","Sonic Boom","Lightning Bolt","Sunshower","Plague Wave"]);
-var rejectedspells = pick(["Spiky Spell","Armour Spell","Acid Spell"]);
+var dualweps = pick(["Blizzard","Inferno","Sonic Boom","Lightning Bolt","Sunshower","Plague Wave","Magnum Opus","Conjurate"]);
+var rejectedspells = pick(["Spiky Spell","Armour Spell","Acid Spell","Heal Spell"]);
 
 var shopitems = shuffle([addons,thorns,dualweps,rejectedspells]);
 
@@ -206,7 +206,7 @@ items = [commonlist_dicemanipulation.pop()];
 gooditems = [];
 otherstuff = [health(), health(), health()];
 goodotherstuff = [
-  shop(shuffle([rand(["Summer Solstice", "Winter Solstice"]), rand(["Meteor","Absolute Zero","Giga Discharge"]), rand(["Harvest Scythe","Lunasa"])]), [3, 3, 3])
+  shop(shuffle([rand(["Summer Solstice", "Winter Solstice"]), rand(["Meteor","Absolute Zero","Giga Discharge","Molten Core","Solar Eclipse","Enlightenment"]), rand(["Harvest Scythe","Lunasa"])]), [3, 3, 3])
 ];
 		
 addfloor("big")

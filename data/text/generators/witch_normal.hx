@@ -152,7 +152,7 @@ otherstuff = [health(), health(), health()];
 
 goodotherstuff = [
   shop([
-      rand(["Meteor","Absolute Zero","Giga Discharge"]), 
+      rand(["Meteor","Absolute Zero","Giga Discharge","Molten Core","Solar Eclipse","Enlightenment"]), 
       commonlist_offensive.pop(), 
       "Health"
     ],[2,2,2]),

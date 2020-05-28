@@ -32,6 +32,7 @@ commonlist_basic.push("Bayonet");
 commonlist_basic.push("Junkblaster");
 commonlist_basic.push("Intended Gameplay");
 commonlist_basic.push("Solar Flair");
+commonlist_basic.push("Sp4tula");
 shuffle(commonlist_basic);
 
 commonlist_advanced.push("Elastic Heart");
@@ -40,6 +41,7 @@ commonlist_advanced.push("Crystal Skull");
 commonlist_advanced.push("Helium Balloon");
 commonlist_advanced.push("Boost Panel");
 commonlist_advanced.push("Twin Slam");
+commonlist_advanced.push("Thunder Buster");
 shuffle(commonlist_advanced);
 
 var temp = shuffle(rand([["Virus","Memory Leak"],["Overclock","Garbage Collection"]]));

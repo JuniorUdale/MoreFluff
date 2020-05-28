@@ -33,6 +33,8 @@ commonlist_basic.push("Intended Gameplay");
 commonlist_basic.push("Captured Flag");
 commonlist_basic.push("Shieldsplosion");
 commonlist_basic.push("Solar Flair");
+commonlist_basic.push("Freegen");
+commonlist_basic.push("Sp4tula");
 shuffle(commonlist_basic);
 
 commonlist_advanced.push("Ray Gun");
@@ -50,6 +52,8 @@ commonlist_advanced.push("Floppy Disk");
 commonlist_advanced.push("Regedit"); 
 commonlist_advanced.push("Convergence");
 commonlist_advanced.push("Twin Slam");
+commonlist_advanced.push("Thunder Buster");
+commonlist_advanced.push("First Sit");
 shuffle(commonlist_advanced);
 
 items = [];

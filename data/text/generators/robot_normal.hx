@@ -63,6 +63,7 @@ commonlist_basic.push("Pliers");
 commonlist_basic.push("Custard Cream");
 commonlist_basic.push("Superconductor");
 commonlist_basic.push("Vortex");
+commonlist_basic.push("Freegen");
 shuffle(commonlist_basic);
 
 commonlist_advanced.push("Counter Spell");
@@ -72,6 +73,7 @@ commonlist_advanced.push("Electroplating");
 commonlist_advanced.push("Overheat");
 commonlist_advanced.push("Underclock");
 commonlist_advanced.push("Mass Counterspell");
+commonlist_advanced.push("First Sit");
 shuffle(commonlist_advanced);
 
 items = [];

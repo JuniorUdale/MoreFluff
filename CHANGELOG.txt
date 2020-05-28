@@ -1,24 +1,12 @@
-v2.8.0 - titley title
-TODO:
-* chance mechanics!!!!!
-* YCYL:
-	* 1 spat/doppel
-	* 4 wizardnt
-	* 5 cookie/arm
-	* NO BLIND
-stick twist
-balance! upgrades!!!!
+v2.8.0 - totally not rushed update
+With DD 1.8 comes another Fluff update. Nothing too huge, just adds some YCYL support! And another 50 or so items, but that's par for the course.
 
+Anyway, GO PLAY MEGAQUEST IT'S AMAZING
 
-New equipment:
-
-	* Sp4tula - t1m3 4 l33t 5p34k
-		* Min3, roll a 4
-		* Upgrades to take any dice
-	* 
-	* Top Serum - time to nag a ram
-		* Skip your next turn
-		* Then, after the opponent has taken their 2 turns, take an extra turn
+New status effect - Magma!
+	* At the end of your turn, take 1 fire damage for each stack of Magma.
+	* However, this doesn't decay!
+	* Has a Marshmallow equivalent - Shiver.
 
 Changes:
 	* YCYL rewards have been reworked, along with the base episode!
