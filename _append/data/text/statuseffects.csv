@@ -92,7 +92,7 @@ mf_suffocate,Suffocate,lock,At the start of your turn[;] lock any blinded dice.,
 mf_healnextturn,Heal_Next_Turn,heart,At the start of next turn[;] recover [heart]<value> health.,NO,YES,NO,NO,NO
 mf_cursecarryover,Curse_Next_Turn,curse,At the start of next turn[;] convert this into [curse]<value> curse.,NO,YES,NO,NO,NO
 mf_magma,Magma,fire,At the start of your turn[;] take [fire]<value> damage.|Doesn't disappear after your turn.,NO,YES,NO,NO,NO
-mf_drowning,Drowning,ice,At the start of your turn[;] take [ice]<value> damage.|Doesn't disappear after your turn.,NO,YES,NO,NO,NO
+mf_shiver,Shiver,ice,At the start of your turn[;] take [ice]<value> damage.|Doesn't disappear after your turn.,NO,YES,NO,NO,NO
 alternate_mf_magma,Magma?,fire,At the start of your turn[;] take [ice]2x<value> damage[;]|then reduce how much [ice]Drowning? you have by half.,NO,YES,NO,NO,NO
-alternate_mf_drowning,Drowning?,ice,At the start of your turn[;] take [fire]2x<value> damage[;]|then reduce how much [fire]Magma? you have by half.,NO,YES,NO,NO,NO
+alternate_mf_shiver,Shiver?,ice,At the start of your turn[;] take 2x [ice]<value> damage[;]|then reduce how much [ice]Shiver? you have by half.,NO,YES,NO,NO,NO
 pierce,Pierce,shield,This turn[;] your attacks bypass [shield] Shield and [reduce] Reduce.,NO,NO,YES,NO,NO

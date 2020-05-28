@@ -6,8 +6,8 @@ var otherstuff = [];
 var goodotherstuff = [];
 
 //Floor 1:
-var commonlist_basic = shuffle(["Regen", "Cache Stash", "Buckler", "Spare 4", "Plasma Cannon", "Trishula", "Tomahawk", "Hand Lens","Segfault","Metal Slam","Spearslinger","Reverberate","Reinforce","Chitin Helmet"]);
-var commonlist_advanced = shuffle(["Recharge", "Doppeldice", "Short Circuit", "Cable Tie", "Superbolt", "Scraps","Antifreeze", "Pea Shooter", "Chain Whip","Ornamental Shield","Minigun","One With Everything","Vine Whip","Petal to the Metal","Shieldsplosion","Convergence"]);
+var commonlist_basic = shuffle(["Regen", "Cache Stash", "Buckler", "Spare 4", "Plasma Cannon", "Trishula", "Tomahawk", "Hand Lens","Segfault","Metal Slam","Spearslinger","Reverberate","Reinforce"]);
+var commonlist_advanced = shuffle(["Recharge", "Short Circuit", "Cable Tie", "Superbolt", "Scraps","Antifreeze", "Pea Shooter", "Chain Whip","Ornamental Shield","Minigun","One With Everything","Vine Whip","Petal to the Metal","Shieldsplosion"]);
 
 items = [commonlist_basic.pop()];
 gooditems = [];
@@ -22,14 +22,11 @@ addfloor("tiny")
 //Floor 2:
 
 commonlist_basic.push("Locklance");
-commonlist_basic.push("Flame Spell");
-commonlist_basic.push("Mechanical Arm");
-commonlist_basic.push("Vortex");
+commonlist_basic.push("Forcefield");
+commonlist_advanced.push("Backstab");
 shuffle(commonlist_basic);
 
 commonlist_advanced.push("Ray Gun");
-commonlist_advanced.push("Forcefield");
-commonlist_advanced.push("Backstab");
 commonlist_advanced.push("Mass Counterspell");
 commonlist_advanced.push("Nitro Bump");
 shuffle(commonlist_advanced);
@@ -60,7 +57,6 @@ shuffle(commonlist_basic);
 commonlist_advanced.push("Redundant Coolant");
 commonlist_advanced.push("Chocolate Cookie");
 commonlist_advanced.push("Metallicize");
-commonlist_advanced.push("Meteor");
 commonlist_advanced.push("Lament");
 shuffle(commonlist_advanced);
 
@@ -90,7 +86,7 @@ otherstuff = [
 	health()
 ];
 goodotherstuff = [
-  trade(["Heat Sink", "Increment", "Ray Gun", "Pea Shooter"], ["Rake Pick", "Spatula", "Juggling Ball", "Headbutt"])
+  trade(["Spatula", "Doppeldice", "Autoscroll","weapon"], ["Glare","Rake Pick", "Spatula", "Juggling Ball", "Headbutt"])
 ];
 
 addfloor("normal")

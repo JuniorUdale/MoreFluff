@@ -1,4 +1,14 @@
-v2.8.0 - bold of me to assume I'm not going to have to hotfix stuff later
+v2.8.0 - titley title
+TODO:
+* chance mechanics!!!!!
+* YCYL:
+	* 1 spat/doppel
+	* 4 wizardnt
+	* 5 cookie/arm
+	* NO BLIND
+stick twist
+balance! upgrades!!!!
+
 
 New equipment:
 
@@ -11,6 +21,16 @@ New equipment:
 		* Then, after the opponent has taken their 2 turns, take an extra turn
 
 Changes:
+	* YCYL rewards have been reworked, along with the base episode!
+		* Autoscroll is now offered at level 1
+			* Also been buffed to take any Even dice
+		* Jack's Pot is now offered at level 5
+			* Also been reworked: now lets you choose the rewards!
+			* But you lose your ability to select dice for the turn...
+		* Lute Bocks is now offered at level 6
+			* Also been reworked: now unlocks all of your locked dice!
+			* The effect of "kinda duplicate a dice" has been moved to another item, Drooplicate
+	* Witch now gets offered Doppliduplicateinate alongside her Doppeldice/Duplicate options
 	* The ordering of Grace, Bleed and Regen have been swapped
 		* Before it was Regen -> Bleed -> Grace, with Grace happening after your equipment loaded in
 		* Now it's Grace -> Regen -> Bleed, all happening at the very start of your turn.
@@ -43,6 +63,8 @@ Changes:
 	* Superconductor buffed to []+4 damage
 	* Divine Blade now procs based on YOUR health
 	* Spearslinger is now size 1
+	* Reverberate nerfed to 4 uses
+	* Reinforced nerfed to only grants 6 shield
 	
 Bugfixes:
 	* Order of some events has been clarified to be more consistent.
