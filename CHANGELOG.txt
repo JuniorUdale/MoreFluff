@@ -1,8 +1,6 @@
 v2.8.0 - totally not rushed update
 With DD 1.8 comes another Fluff update. Nothing too huge, just adds some YCYL support! And another 50 or so items, but that's par for the course.
 
-Anyway, GO PLAY MEGAQUEST IT'S AMAZING
-
 New status effect - Magma!
 	* At the end of your turn, take 1 fire damage for each stack of Magma.
 	* However, this doesn't decay!
