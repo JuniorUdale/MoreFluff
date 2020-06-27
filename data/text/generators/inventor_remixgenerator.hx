@@ -16,7 +16,12 @@ var dicemanip = shuffle(["Change Machine", "Giant Spatula", "Saw Wave", "Solder"
 var justswords = shuffle(["Sword","Blade of Null","Mysterious Blade","Super Duper Sword","Bureaucratic Blade","Lucky Sword"]);
 
 items = [pick(["Staff", "Crossbow","Gemstone Staff", "Wrecking Ball", "Rosebud", "Pursuit","Plague Stave","Asklepios","Starstaff"],justswords.pop())];
-gooditems = [pick(elemweps),pick(crapstuff)];
+gooditems = [pick(elemweps)];
+if(items.indexOf("Lucky Sword") > 0){
+	gooditems.push(pick("Swedge","One Weird Tip"));
+}else{
+	gooditems.push(pick(crapstuff));
+}
 otherstuff = [];
 goodotherstuff = [];
 

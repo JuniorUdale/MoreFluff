@@ -61,7 +61,7 @@ gemstoneamount,Crystallized,gold,Gem Generators create <value> more gems this tu
 batted,Battered,dice,Enemy caught the dice you batted!|They get <value> more dice next turn.,NO,YES,YES,NO,NO
 lego,Lego,cog,Gain [thorns]999 thorns at the end of this turn.,NO,NO,NO,NO,NO
 lego2,Lego,cog,Gain [thorns]999999 thorns at the end of this turn.,NO,NO,NO,NO,NO
-helium,Inflated,jinx,Your dice are... floaty!,NO,NO,YES,NO,NO
+helium,Inflated,jinx,Your dice are... floaty!|More helium means faster floatiness.,NO,YES,YES,NO,NO
 whelm,Whelmed,sword,Whelm deals <value> more damage.,NO,YES,NO,NO,NO
 polymorph,Polymorph,potion,A random item has been replaced|with another random item.,NO,YES,NO,NO,NO
 polymorphall,Polymorph_All,potion,ALL items have been replaced|with random items.,NO,NO,NO,NO,NO
@@ -70,7 +70,7 @@ reaper,Reaper,heal,Your next attack heals you|for the damage done.,NO,YES,YES,NO
 essence_base,Base_Essence,sword,Does nothing. When invoked:|Take [sword]4 damage for each Base Essence.,NO,YES,NO,NO,NO
 essence_fire,Flame_Essence,fire,Does nothing. When invoked:|Receive [fire]1 burn for each Flame Essence.,NO,YES,NO,NO,NO
 essence_ice,Frost_Essence,ice,Does nothing. When invoked:|Receive [ice]1 freeze for each Frost Essence.,NO,YES,NO,NO,NO
-essence_shock,Air_Essence,shock,Does nothing. When invoked:|Receive [shock]1 shock for each Shock Essence.,NO,YES,NO,NO,NO
+essence_shock,Air_Essence,shock,Does nothing. When invoked:|Receive [shock]1 shock for each Air Essence.,NO,YES,NO,NO,NO
 essence_weaken,Earth_Essence,weaken,Does nothing. When invoked:|Receive [weaken]1 weaken for each Earth Essence.,NO,YES,NO,NO,NO
 essence_poison,Toxic_Essence,poison,Does nothing. When invoked:|Receive [poison]2 poison for each Toxic Essence.,NO,YES,NO,NO,NO
 essence_dark,Dark_Essence,curse,Does nothing. When invoked:|Receive a bad status ([curse]Curse[;] [lock]Lock[;] [shock]Stun),NO,YES,NO,NO,NO
@@ -96,3 +96,4 @@ mf_shiver,Shiver,ice,At the start of your turn[;] take [ice]<value> damage.|Does
 alternate_mf_magma,Magma?,fire,At the start of your turn[;] take [ice]2x<value> damage[;]|then reduce how much [ice]Drowning? you have by half.,NO,YES,NO,NO,NO
 alternate_mf_shiver,Shiver?,ice,At the start of your turn[;] take 2x [ice]<value> damage[;]|then reduce how much [ice]Shiver? you have by half.,NO,YES,NO,NO,NO
 pierce,Pierce,shield,This turn[;] your attacks bypass [shield] Shield and [reduce] Reduce.,NO,NO,YES,NO,NO
+slowregen,Rejuvenation,heal,Restore [heal]1 health every 2 seconds[;] for <value> seconds.,NO,YES,NO,NO,NO
