@@ -97,3 +97,4 @@ alternate_mf_magma,Magma?,fire,At the start of your turn[;] take [ice]2x<value> 
 alternate_mf_shiver,Shiver?,ice,At the start of your turn[;] take 2x [ice]<value> damage[;]|then reduce how much [ice]Shiver? you have by half.,NO,YES,NO,NO,NO
 pierce,Pierce,shield,This turn[;] your attacks bypass [shield] Shield and [reduce] Reduce.,NO,NO,YES,NO,NO
 slowregen,Rejuvenation,heal,Restore [heal]1 health every 2 seconds[;] for <value> seconds.,NO,YES,NO,NO,NO
+mf_nospellbook,No_Spellbook,curse,Spellbook is disabled for the rest of this battle.|Rely on your remaining spells!,NO,NO,NO,NO,NO

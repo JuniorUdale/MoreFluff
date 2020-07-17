@@ -58,6 +58,8 @@ if(chance(75)){
 	shopideas = [rand(shoplist1),rand(dicemanip),rand(shoplist1)];
 };
 
+shopideas = ["Dramatic Exit","Health","Exit"];
+
 items = [uselessthings.pop()];
 gooditems = [dicemanip.pop()];
 
