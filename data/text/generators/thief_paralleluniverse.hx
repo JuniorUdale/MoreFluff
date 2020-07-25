@@ -121,7 +121,7 @@ otherstuff = [
 	health()
 ];
 goodotherstuff = [
-  trade(["Wrecking Ball","Seesaw","Cowbell"],["Momentum","Ballerina Charm","Bramble"]),
+  trade(["Wrecking Ball","Kleptolovania","Cowbell"],["Momentum","Ballerina Charm","Bramble"]),
   shop(shopstuff,[2,3,2])
 ];
 

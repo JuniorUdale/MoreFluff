@@ -1,100 +1,100 @@
-Name,Displayed As,Symbol,Description,External Scripts?,Stacks?,Remove at End Turn?,Remove at Start Turn?,Invisible?
-regen1,Regen,heal,Restore <value> health at the end of your turn. Lasts for 1 turn.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen2,Regen,heal,Restore <value> health at the end of your turn. Lasts for 2 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen3,Regen,heal,Restore <value> health at the end of your turn. Lasts for 3 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen4,Regen,heal,Restore <value> health at the end of your turn. Lasts for 4 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen5,Regen,heal,Restore <value> health at the end of your turn. Lasts for 5 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen6,Regen,heal,Restore <value> health at the end of your turn. Lasts for 6 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen7,Regen,heal,Restore <value> health at the end of your turn. Lasts for 7 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen8,Regen,heal,Restore <value> health at the end of your turn. Lasts for 8 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen9,Regen,heal,Restore <value> health at the end of your turn. Lasts for 9 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen10,Regen,heal,Restore <value> health at the end of your turn. Lasts for 10 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen11,Regen,heal,Restore <value> health at the end of your turn. Lasts for 11 turns.|Stacking this increases the healing[;] not duration.,NO,YES,NO,NO,NO
-regen12,Regen,heal,Restore <value> health at the end of your turn. Lasts for 12 turns.|Stacking this increases the healing[;] not duration.  (Maximum duration!),NO,YES,NO,NO,NO
-bleed1,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 1 turn.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed2,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 2 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed3,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 3 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed4,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 4 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed5,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 5 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed6,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 6 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed7,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 7 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed8,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 8 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed9,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 9 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed10,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 10 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed11,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 11 turns.|Stacking this increases the damage[;] not duration.,NO,YES,NO,NO,NO
-bleed12,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 12 turns.|Stacking this increases the damage[;] not duration. (Maximum duration!),NO,YES,NO,NO,NO
-pursuit,Pursuit,sword,Increases damage dealt by Pursuit by 3 this turn.,NO,NO,NO,YES,NO
-pursuitnext,Pursuing,sword,Pursuit deals 3 more damage next turn.,NO,NO,NO,YES,NO
-bound1,Bound 1,lock,Next turn[;] at least <value> of your|dice will have a value of one.,NO,NO,YES,NO,NO
-bound2,Bound 2,lock,Next turn[;] at least <value> of your|dice will have a value of two.,NO,NO,YES,NO,NO
-bound3,Bound 3,lock,Next turn[;] at least <value> of your|dice will have a value of three.,NO,NO,YES,NO,NO
-bound4,Bound 4,lock,Next turn[;] at least <value> of your|dice will have a value of four.,NO,NO,YES,NO,NO
-bound5,Bound 5,lock,Next turn[;] at least <value> of your|dice will have a value of five.,NO,NO,YES,NO,NO
-bound6,Bound 6,lock,Next turn[;] at least <value> of your|dice will have a value of six.,NO,NO,YES,NO,NO
-petrified1,Petrified,lock,A random item can only be|activated with a 1 next turn.,NO,NO,YES,NO,NO
-petrified2,Petrified,lock,A random item can only be|activated with a 2 next turn.,NO,NO,YES,NO,NO
-petrified3,Petrified,lock,A random item can only be|activated with a 3 next turn.,NO,NO,YES,NO,NO
-petrified4,Petrified,lock,A random item can only be|activated with a 4 next turn.,NO,NO,YES,NO,NO
-petrified5,Petrified,lock,A random item can only be|activated with a 5 next turn.,NO,NO,YES,NO,NO
-petrified6,Petrified,lock,A random item can only be|activated with a 6 next turn.,NO,NO,YES,NO,NO
-cache,Cached,dice,Store <value> dice for next turn.,NO,YES,NO,YES,NO
-lightstatus,Enlightened,dice,Get [yellow]<value>[] extra dice next turn.,NO,YES,NO,YES,NO
-permafrost,Permafrost,ice,Receive [ice]<value> freeze next turn.,NO,YES,NO,NO,NO
-lamppost1,Lamppost,dice,Get a free [yellow]1[] next turn.,NO,NO,NO,YES,NO
-lamppost2,Lamppost,dice,Get a free [yellow]2[] next turn.,NO,NO,NO,YES,NO
-lamppost3,Lamppost,dice,Get a free [yellow]3[] next turn.,NO,NO,NO,YES,NO
-lamppost4,Lamppost,dice,Get a free [yellow]4[] next turn.,NO,NO,NO,YES,NO
-lamppost5,Lamppost,dice,Get a free [yellow]5[] next turn.,NO,NO,NO,YES,NO
-lamppost6,Lamppost,dice,Get a free [yellow]6[] next turn.,NO,NO,NO,YES,NO
-tickly,Tickled,dice,Get <value> free [yellow]1[]s next turn.,NO,YES,NO,YES,NO
-lifesteal,Lifesteal,heal,Whenever your attacks deal damage[;] heal yourself for [heal]<value> health.,NO,YES,YES,NO,NO
-mechanical_lantern,Mechanicalantern,dice,Get <value> free dice next turn.,NO,YES,NO,YES,NO
-ratchet,Ratchet,cog,Increases the range on MAX or MIN|equipment by <value> this turn.,NO,YES,YES,NO,NO
-widget,Widgeted,cog,ODD items take EVEN dice this turn[;]|and EVEN items take ODD dice this turn.,NO,NO,YES,NO,NO
-focusbeam,Focused,sword,[red]Focus Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
-solarbeam,Solar_Powered,sword,[yellow]Solar Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
-lunarbeam,Lunar_Powered,sword,[blue]Lunar Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
-terrabeam,Terra_Charged,sword,[orange]Terra Beam[] deals <value> more damage.,NO,YES,NO,NO,NO
-dynamo,Beam_Power,cog,Beam weapons[;] such as [red]Focus Beam[][;] [yellow]Solar Beam[][;]|[blue]Lunar Beam[] and [orange]Terra Beam[][;] all deal [cog]<value> damage.,NO,YES,NO,NO,NO
-gemstoneboost,Boosted,gold,Gem Generators create upgraded gems this turn.,NO,NO,YES,NO,NO
-gemstoneamount,Crystallized,gold,Gem Generators create <value> more gems this turn.,NO,YES,YES,NO,NO
-batted,Battered,dice,Enemy caught the dice you batted!|They get <value> more dice next turn.,NO,YES,YES,NO,NO
-lego,Lego,cog,Gain [thorns]999 thorns at the end of this turn.,NO,NO,NO,NO,NO
-lego2,Lego,cog,Gain [thorns]999999 thorns at the end of this turn.,NO,NO,NO,NO,NO
-helium,Inflated,jinx,Your dice are... floaty!|More helium means faster floatiness.,NO,YES,YES,NO,NO
-whelm,Whelmed,sword,Whelm deals <value> more damage.,NO,YES,NO,NO,NO
-polymorph,Polymorph,potion,A random item has been replaced|with another random item.,NO,YES,NO,NO,NO
-polymorphall,Polymorph_All,potion,ALL items have been replaced|with random items.,NO,NO,NO,NO,NO
-nerfed,Nerfed,jinx,Items are harder to play.|Weakening an item resets it.,NO,YES,NO,NO,NO
-reaper,Reaper,heal,Your next attack heals you|for the damage done.,NO,YES,YES,NO,NO
-essence_base,Base_Essence,sword,Does nothing. When invoked:|Take [sword]4 damage for each Base Essence.,NO,YES,NO,NO,NO
-essence_fire,Flame_Essence,fire,Does nothing. When invoked:|Receive [fire]1 burn for each Flame Essence.,NO,YES,NO,NO,NO
-essence_ice,Frost_Essence,ice,Does nothing. When invoked:|Receive [ice]1 freeze for each Frost Essence.,NO,YES,NO,NO,NO
-essence_shock,Air_Essence,shock,Does nothing. When invoked:|Receive [shock]1 shock for each Air Essence.,NO,YES,NO,NO,NO
-essence_weaken,Earth_Essence,weaken,Does nothing. When invoked:|Receive [weaken]1 weaken for each Earth Essence.,NO,YES,NO,NO,NO
-essence_poison,Toxic_Essence,poison,Does nothing. When invoked:|Receive [poison]2 poison for each Toxic Essence.,NO,YES,NO,NO,NO
-essence_dark,Dark_Essence,curse,Does nothing. When invoked:|Receive a bad status ([curse]Curse[;] [lock]Lock[;] [shock]Stun),NO,YES,NO,NO,NO
-mf_stun,Stun,shock,Random equipment is disabled for the turn.,NO,YES,YES,NO,NO
-alternate_mf_stun,Stun?,shock,Lose a dice next turn.,NO,YES,YES,NO,NO
-nothing,Nothing,curse,Does absolutely nothing.,NO,NO,YES,NO,NO
-alternate_nothing,Nothing?,curse,Does absolutely nothing[;] but with a question mark.,NO,NO,YES,NO,NO
-grace,Grace,heart,At the start of your turn[;] if your health is less than|your Grace ([heart]<value>[])[;] swap your health and your Grace.,NO,YES,NO,NO,NO
-healaftercombat,Regeneration,heal,After combat[;] recover [heal]<value> health.|Doesn't trigger if you flee.,NO,YES,NO,NO,NO
-poisonovertime,Toxins,poison,At the end of your turn[;] receive [poison]1 poison.|Lasts for <value> turns.,NO,YES,NO,NO,NO
-revolver,Ammunition,sword,After this reaches 6[;] reduce this by 6|and deal [sword]18 damage.,NO,YES,NO,NO,NO
-shielddown,Shield_Down,potion,At the start of your turn[;] lose [shield]<value> shield.,NO,YES,NO,NO,NO
-hallucinate,Hallucinate,confuse,Equipment slots are randomised.,NO,NO,YES,NO,NO
-hallucinate_upgraded,Hallucinate+,confuse,Equipment slots are randomised. No [quote]Needs X[quote] slots will appear.,NO,NO,YES,NO,NO
-hallucinate_downgraded,Hallucinate-,confuse,Equipment slots are randomised to random [quote]Needs X[quote] slots.,NO,NO,YES,NO,NO
-mf_skipturn,Skip_Turn,confuse,Skips your next turn.,NO,YES,NO,NO,NO
-mf_bonusturn,Time_Loop,potion,At the start of your next turn[;] gain an extra turn.,NO,NO,NO,NO,YES
-mf_suffocate,Suffocate,lock,At the start of your turn[;] lock any blinded dice.,NO,NO,NO,YES,NO
-mf_healnextturn,Heal_Next_Turn,heart,At the start of next turn[;] recover [heart]<value> health.,NO,YES,NO,NO,NO
-mf_cursecarryover,Curse_Next_Turn,curse,At the start of next turn[;] convert this into [curse]<value> curse.,NO,YES,NO,NO,NO
-mf_magma,Magma,fire,At the start of your turn[;] take [fire]<value> damage.|Doesn't disappear after your turn.,NO,YES,NO,NO,NO
-mf_shiver,Shiver,ice,At the start of your turn[;] take [ice]<value> damage.|Doesn't disappear after your turn.,NO,YES,NO,NO,NO
-alternate_mf_magma,Magma?,fire,At the start of your turn[;] take [ice]2x<value> damage[;]|then reduce how much [ice]Drowning? you have by half.,NO,YES,NO,NO,NO
-alternate_mf_shiver,Shiver?,ice,At the start of your turn[;] take 2x [ice]<value> damage[;]|then reduce how much [ice]Shiver? you have by half.,NO,YES,NO,NO,NO
-pierce,Pierce,shield,This turn[;] your attacks bypass [shield] Shield and [reduce] Reduce.,NO,NO,YES,NO,NO
-slowregen,Rejuvenation,heal,Restore [heal]1 health every 2 seconds[;] for <value> seconds.,NO,YES,NO,NO,NO
-mf_nospellbook,No_Spellbook,curse,Spellbook is disabled for the rest of this battle.|Rely on your remaining spells!,NO,NO,NO,NO,NO
+Name,Displayed As,Symbol,Description,Stacks?,Remove at End Turn?,Remove at Start Turn?,Invisible?,Blocked by Reduce?,Script: When inflicted,Script: On any status infliction,Script: Before Start Turn,Script: On Start Turn,Script: On any equipment use,Script: On any countdown reduce,Script: End Turn,Script: After Combat,Script: On damage inflicted,Script: On damage taken,Script: On status remove
+regen1,Regen,heal,Restore <value> health at the end of your turn. Lasts for 1 turn.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen2,Regen,heal,Restore <value> health at the end of your turn. Lasts for 2 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen3,Regen,heal,Restore <value> health at the end of your turn. Lasts for 3 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen4,Regen,heal,Restore <value> health at the end of your turn. Lasts for 4 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen5,Regen,heal,Restore <value> health at the end of your turn. Lasts for 5 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen6,Regen,heal,Restore <value> health at the end of your turn. Lasts for 6 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen7,Regen,heal,Restore <value> health at the end of your turn. Lasts for 7 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen8,Regen,heal,Restore <value> health at the end of your turn. Lasts for 8 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen9,Regen,heal,Restore <value> health at the end of your turn. Lasts for 9 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen10,Regen,heal,Restore <value> health at the end of your turn. Lasts for 10 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen11,Regen,heal,Restore <value> health at the end of your turn. Lasts for 11 turns.|Stacking this increases the healing[;] not duration.,YES,NO,NO,NO,NO,,,,,,,,,,,
+regen12,Regen,heal,Restore <value> health at the end of your turn. Lasts for 12 turns.|Stacking this increases the healing[;] not duration.  (Maximum duration!),YES,NO,NO,NO,NO,,,,,,,,,,,
+bleed1,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 1 turn.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed2,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 2 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed3,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 3 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed4,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 4 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed5,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 5 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed6,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 6 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed7,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 7 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed8,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 8 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed9,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 9 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed10,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 10 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed11,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 11 turns.|Stacking this increases the damage[;] not duration.,YES,NO,NO,NO,YES,,,,,,,,,,,
+bleed12,[red]Bleed[],sword,Lose <value> health at the start of your turn. Lasts for 12 turns.|Stacking this increases the damage[;] not duration. (Maximum duration!),YES,NO,NO,NO,YES,,,,,,,,,,,
+pursuit,Pursuit,sword,Increases damage dealt by Pursuit by 3 this turn.,NO,NO,YES,NO,NO,,,,,,,,,,,
+pursuitnext,Pursuing,sword,Pursuit deals 3 more damage next turn.,NO,NO,YES,NO,NO,,,,,,,,,,,
+bound1,Bound 1,lock,Next turn[;] at least <value> of your|dice will have a value of one.,NO,YES,NO,NO,YES,,,,,,,,,,,
+bound2,Bound 2,lock,Next turn[;] at least <value> of your|dice will have a value of two.,NO,YES,NO,NO,YES,,,,,,,,,,,
+bound3,Bound 3,lock,Next turn[;] at least <value> of your|dice will have a value of three.,NO,YES,NO,NO,YES,,,,,,,,,,,
+bound4,Bound 4,lock,Next turn[;] at least <value> of your|dice will have a value of four.,NO,YES,NO,NO,YES,,,,,,,,,,,
+bound5,Bound 5,lock,Next turn[;] at least <value> of your|dice will have a value of five.,NO,YES,NO,NO,YES,,,,,,,,,,,
+bound6,Bound 6,lock,Next turn[;] at least <value> of your|dice will have a value of six.,NO,YES,NO,NO,YES,,,,,,,,,,,
+petrified1,Petrified,lock,A random item can only be|activated with a 1 next turn.,NO,YES,NO,NO,YES,,,,,,,,,,,
+petrified2,Petrified,lock,A random item can only be|activated with a 2 next turn.,NO,YES,NO,NO,YES,,,,,,,,,,,
+petrified3,Petrified,lock,A random item can only be|activated with a 3 next turn.,NO,YES,NO,NO,YES,,,,,,,,,,,
+petrified4,Petrified,lock,A random item can only be|activated with a 4 next turn.,NO,YES,NO,NO,YES,,,,,,,,,,,
+petrified5,Petrified,lock,A random item can only be|activated with a 5 next turn.,NO,YES,NO,NO,YES,,,,,,,,,,,
+petrified6,Petrified,lock,A random item can only be|activated with a 6 next turn.,NO,YES,NO,NO,YES,,,,,,,,,,,
+cache,Cached,dice,Store <value> dice for next turn.,YES,NO,YES,NO,NO,,,,,,,,,,,
+lightstatus,Enlightened,dice,Get [yellow]<value>[] extra dice next turn.,YES,NO,YES,NO,NO,,,,,,,,,,,
+permafrost,Permafrost,ice,Receive [ice]<value> freeze next turn.,YES,NO,NO,NO,YES,,,,,,,,,,,
+lamppost1,Lamppost,dice,Get a free [yellow]1[] next turn.,NO,NO,YES,NO,NO,,,,,,,,,,,
+lamppost2,Lamppost,dice,Get a free [yellow]2[] next turn.,NO,NO,YES,NO,NO,,,,,,,,,,,
+lamppost3,Lamppost,dice,Get a free [yellow]3[] next turn.,NO,NO,YES,NO,NO,,,,,,,,,,,
+lamppost4,Lamppost,dice,Get a free [yellow]4[] next turn.,NO,NO,YES,NO,NO,,,,,,,,,,,
+lamppost5,Lamppost,dice,Get a free [yellow]5[] next turn.,NO,NO,YES,NO,NO,,,,,,,,,,,
+lamppost6,Lamppost,dice,Get a free [yellow]6[] next turn.,NO,NO,YES,NO,NO,,,,,,,,,,,
+tickly,Tickled,dice,Get <value> free [yellow]1[]s next turn.,YES,NO,YES,NO,NO,,,,,,,,,,,
+lifesteal,Lifesteal,heal,Whenever your attacks deal damage[;] heal yourself for [heal]<value> health.,YES,YES,NO,NO,NO,,,,,,,,,,,
+mechanical_lantern,Mechanicalantern,dice,Get <value> free dice next turn.,YES,NO,YES,NO,NO,,,,,,,,,,,
+ratchet,Ratchet,cog,Increases the range on MAX or MIN|equipment by <value> this turn.,YES,YES,NO,NO,NO,,,,,,,,,,,
+widget,Widgeted,cog,ODD items take EVEN dice this turn[;]|and EVEN items take ODD dice this turn.,NO,YES,NO,NO,NO,,,,,,,,,,,
+focusbeam,Focused,sword,[red]Focus Beam[] deals <value> more damage.,YES,NO,NO,NO,NO,,,,,,,,,,,
+solarbeam,Solar_Powered,sword,[yellow]Solar Beam[] deals <value> more damage.,YES,NO,NO,NO,NO,,,,,,,,,,,
+lunarbeam,Lunar_Powered,sword,[blue]Lunar Beam[] deals <value> more damage.,YES,NO,NO,NO,NO,,,,,,,,,,,
+terrabeam,Terra_Charged,sword,[orange]Terra Beam[] deals <value> more damage.,YES,NO,NO,NO,NO,,,,,,,,,,,
+dynamo,Beam_Power,cog,Beam weapons[;] such as [red]Focus Beam[][;] [yellow]Solar Beam[][;]|[blue]Lunar Beam[] and [orange]Terra Beam[][;] all deal [cog]<value> damage.,YES,NO,NO,NO,NO,,,,,,,,,,,
+gemstoneboost,Boosted,gold,Gem Generators create upgraded gems this turn.,NO,YES,NO,NO,NO,,,,,,,,,,,
+gemstoneamount,Crystallized,gold,Gem Generators create <value> more gems this turn.,YES,YES,NO,NO,NO,,,,,,,,,,,
+batted,Battered,dice,Enemy caught the dice you batted!|They get <value> more dice next turn.,YES,YES,NO,NO,NO,,,,,,,,,,,
+lego,Lego,cog,Gain [thorns]999 thorns at the end of this turn.,NO,NO,NO,NO,NO,,,,,,,,,,,
+lego2,Lego,cog,Gain [thorns]999999 thorns at the end of this turn.,NO,NO,NO,NO,NO,,,,,,,,,,,
+helium,Inflated,jinx,Your dice are... floaty!|More helium means faster floatiness.,YES,YES,NO,NO,YES,,,,,,,,,,,
+whelm,Whelmed,sword,Whelm deals <value> more damage.,YES,NO,NO,NO,NO,,,,,,,,,,,
+polymorph,Polymorph,potion,A random item has been replaced|with another random item.,YES,NO,NO,NO,,,,,,,,,,,,
+polymorphall,Polymorph_All,potion,ALL items have been replaced|with random items.,NO,NO,NO,NO,,,,,,,,,,,,
+nerfed,Nerfed,jinx,Items are harder to play.|Weakening an item resets it.,YES,NO,NO,NO,YES,,,,,,,,,,,
+reaper,Reaper,heal,Your next attack heals you|for the damage done.,YES,YES,NO,NO,NO,,,,,,,,,,,
+essence_base,Base_Essence,sword,Does nothing. When invoked:|Take [sword]4 damage for each Base Essence.,YES,NO,NO,NO,NO,,,,,,,,,,,
+essence_fire,Flame_Essence,fire,Does nothing. When invoked:|Receive [fire]1 burn for each Flame Essence.,YES,NO,NO,NO,NO,,,,,,,,,,,
+essence_ice,Frost_Essence,ice,Does nothing. When invoked:|Receive [ice]1 freeze for each Frost Essence.,YES,NO,NO,NO,NO,,,,,,,,,,,
+essence_shock,Air_Essence,shock,Does nothing. When invoked:|Receive [shock]1 shock for each Air Essence.,YES,NO,NO,NO,NO,,,,,,,,,,,
+essence_weaken,Earth_Essence,weaken,Does nothing. When invoked:|Receive [weaken]1 weaken for each Earth Essence.,YES,NO,NO,NO,NO,,,,,,,,,,,
+essence_poison,Toxic_Essence,poison,Does nothing. When invoked:|Receive [poison]2 poison for each Toxic Essence.,YES,NO,NO,NO,NO,,,,,,,,,,,
+essence_dark,Dark_Essence,curse,Does nothing. When invoked:|Receive a bad status ([curse]Curse[;] [lock]Lock[;] [shock]Stun),YES,NO,NO,NO,NO,,,,,,,,,,,
+mf_stun,Stun,shock,Random equipment is disabled for the turn.,YES,YES,NO,NO,YES,,,,,,,,,,,
+alternate_mf_stun,Stun?,shock,Lose a dice next turn.,YES,YES,NO,NO,YES,,,,,,,,,,,
+nothing,Nothing,curse,Does absolutely nothing.,NO,YES,NO,NO,NO,,,,,,,,,,,
+alternate_nothing,Nothing?,curse,Does absolutely nothing[;] but with a question mark.,NO,YES,NO,NO,NO,,,,,,,,,,,
+grace,Grace,heart,At the start of your turn[;] if your health is less than|your Grace ([heart]<value>[])[;] swap your health and your Grace.,YES,NO,NO,NO,NO,,,,,,,,,,,
+healaftercombat,Regeneration,heal,After combat[;] recover [heal]<value> health.|Doesn't trigger if you flee.,YES,NO,NO,NO,NO,,,,,,,,,,,
+poisonovertime,Toxins,poison,At the end of your turn[;] receive [poison]1 poison.|Lasts for <value> turns.,YES,NO,NO,NO,YES,,,,,,,,,,,
+revolver,Ammunition,sword,After this reaches 6[;] reduce this by 6|and deal [sword]18 damage.,YES,NO,NO,NO,NO,,,,,,,,,,,
+shielddown,Shield_Down,potion,At the start of your turn[;] lose [shield]<value> shield.,YES,NO,NO,NO,YES,,,,,,,,,,,
+hallucinate,Hallucinate,confuse,Equipment slots are randomised.,NO,YES,NO,NO,NO,,,,,,,,,,,
+hallucinate_upgraded,Hallucinate+,confuse,Equipment slots are randomised. No [quote]Needs X[quote] slots will appear.,NO,YES,NO,NO,NO,,,,,,,,,,,
+hallucinate_downgraded,Hallucinate-,confuse,Equipment slots are randomised to random [quote]Needs X[quote] slots.,NO,YES,NO,NO,NO,,,,,,,,,,,
+mf_skipturn,Skip_Turn,confuse,Skips your next turn.,YES,NO,NO,NO,YES,,,,,,,,,,,
+mf_bonusturn,Time_Loop,potion,At the start of your next turn[;] gain an extra turn.,NO,NO,NO,YES,NO,,,,,,,,,,,
+mf_suffocate,Suffocate,lock,At the start of your turn[;] lock any blinded dice.,NO,NO,YES,NO,YES,,,,,,,,,,,
+mf_healnextturn,Heal_Next_Turn,heart,At the start of next turn[;] recover [heart]<value> health.,YES,NO,NO,NO,NO,,,,,,,,,,,
+mf_cursecarryover,Curse_Next_Turn,curse,At the start of next turn[;] convert this into [curse]<value> curse.,YES,NO,NO,NO,YES,,,,,,,,,,,
+mf_magma,Magma,fire,At the start of your turn[;] take [fire]<value> damage.|Doesn't disappear after your turn.,YES,NO,NO,NO,YES,,,,,,,,,,,
+mf_shiver,Shiver,ice,At the start of your turn[;] take [ice]<value> damage.|Doesn't disappear after your turn.,YES,NO,NO,NO,YES,,,,,,,,,,,
+alternate_mf_magma,Magma?,fire,At the start of your turn[;] take [ice]2x<value> damage[;]|then reduce how much [ice]Drowning? you have by half.,YES,NO,NO,NO,YES,,,,,,,,,,,
+alternate_mf_shiver,Shiver?,ice,At the start of your turn[;] take 2x [ice]<value> damage[;]|then reduce how much [ice]Shiver? you have by half.,YES,NO,NO,NO,YES,,,,,,,,,,,
+slowregen,Rejuvenation,heal,Restore [heal]1 health every 2 seconds[;] for <value> seconds.,YES,NO,NO,NO,NO,,,,,,,,,,,
+nospellbook,No_Spellbook,curse,Spellbook is disabled for the rest of this battle.|Rely on your remaining spells!,NO,NO,NO,NO,NO,,,,,,,,,,,
+mf_poweredup,Powered_Up!,star,You[quote]ve used [star]<value> [yellow]Power Bolts[] this turn.,YES,YES,NO,NO,NO,,,,,,,,,,,

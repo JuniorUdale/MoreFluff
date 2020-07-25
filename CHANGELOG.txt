@@ -1,8 +1,31 @@
-ESSENCE DETONATOR
+
+paw claw/war axe
+
+
+
+v3 - 1000 items! 🎉
+
+1.9 is finally here, and also: Fluff now officially has over 1000 items in it!
+
+New items:
+	* 
 
 Changes:
+	* New attack animations for:
+		* Iron Swan
+		* Chronal Rhapsody
+		* Elemental Blast
+	* drowS changed:
+		detcirtsernu eb ot gnidargpu fo daetsni ,dedargpu nehw ecid eht snruter woN *
 	* Snail Bat is now disabled by making the item unavailable
 		* This fixes it getting unlocked when weakened
+	* Crown and Anchor+ is now 3 uses instead of reusable
+	* Twin Slam buffed to 12 damage
+	* One With Everything buffed:
+		* Now inflicts Curse at base
+		* Upgraded, it inflicts Lock as well
+	* Elemental Blast nerfed to a countdown of 12
+	* Paw Claw buffed to now roll a 5 at all levels
 
 Bugfixes:
 	* Fixed some junk console output
@@ -10,6 +33,8 @@ Bugfixes:
 	* Fissure- and Frosty Fang- now have correct descriptions
 	* Fixed description of Lucky Sword+ and Lucky Sword-
 	* Superconductor now works when weakened
+	* Crown and Anchor now fires backwards when you get thorns
+	* Starspike's downgrade is now accurate (it does damage, doesn't add a status)
 
 =====================================================================
 
