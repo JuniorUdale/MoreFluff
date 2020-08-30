@@ -1,0 +1,11 @@
+init,rewards1,rewards2
+InitialEquipment:Nine Iron,Equipment:Ratchet,Equipment:Super Spatula
+InitialEquipment:Sapping Spores,Equipment:Recharge,Equipment:Scraptula
+InitialEquipment:Canesword,,Equipment:Plurale Tantrum
+InitialEquipment:Starsword,,
+InitialEquipment:Breakthrough,,
+InitialEquipment:Fissure,,
+DoubleEquipment:Focus Beam|Focus Beam,,
+DoubleEquipment:Solar Beam|Dynamo Beam,,
+DoubleEquipment:Terra Beam|Terra Beam,,
+DoubleEquipment:Dynamo|Lunar Beam,,

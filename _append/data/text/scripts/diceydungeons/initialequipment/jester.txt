@@ -1,0 +1,7 @@
+InitialEquipment:Action!
+InitialEquipment:Big Moment
+InitialEquipment:Laugh Track
+InitialEquipment:Dice Cannon
+InitialEquipment:Grand Finale
+InitialEquipment:Punchline
+InitialEquipment:Encore

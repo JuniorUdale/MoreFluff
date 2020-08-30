@@ -26,6 +26,9 @@ Changes:
 		* Upgraded, it inflicts Lock as well
 	* Elemental Blast nerfed to a countdown of 12
 	* Paw Claw buffed to now roll a 5 at all levels
+	* Stun Blast reworked:
+		* Now deals 2 damage (4 when upgraded)
+		* Inflicts Stun instead of Shock
 
 Bugfixes:
 	* Fixed some junk console output
@@ -35,6 +38,12 @@ Bugfixes:
 	* Superconductor now works when weakened
 	* Crown and Anchor now fires backwards when you get thorns
 	* Starspike's downgrade is now accurate (it does damage, doesn't add a status)
+	* Magma?'s tooltip has been fixed
+	* Dainsleif no longer deals additional damage if the enemy has weaken? or the Rose rule is active
+	* Pockets+ is no longer error-immune
+	* Steamstaff+ and Steamstaff- now have a fixed description
+	* Offering no longer appears randomly, but Iron Swan does
+		* darn alignments
 
 =====================================================================
 
