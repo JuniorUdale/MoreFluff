@@ -44,6 +44,10 @@ Bugfixes:
 	* Steamstaff+ and Steamstaff- now have a fixed description
 	* Offering no longer appears randomly, but Iron Swan does
 		* darn alignments
+	* Inspiring Tune+ description fixed
+	
+Some items have been removed; unfortunately they were just unworkable, and probably bad ideas. If you enjoyed them, sorry!
+	* Hallucinogen
 
 =====================================================================
 

@@ -1,6 +1,10 @@
 init,rewards1_common,rewards1_rare,rewards2
-DoubleEquipment:Infliction|Daffodil,Spell:Cold Snap,Spell:Burning Light,Spell:Doppeldice
-DoubleEquipment:Fruit Bowl|Snapdragon,Spell:Sun Beam,Spell:Electric Shock,Spell:Duplicate
-DoubleEquipment:Flower Pot|Infliction,,Spell:Ice Shard,Spell:Magnifying Glass
-DoubleEquipment:Cauldron|Snapdragon,,Spell:Lucky 7,Spell:Daffodil
-,,Spell:Sonic Wave,
+DoubleEquipment:Quartz Cauldron[;]Rend,Spell:Carnation,Spell:Venom Bolt,Spell:Camellia
+DoubleEquipment:Cauldron[;]Snapdragon,Spell:Swingset,Spell:Leech Soul,
+DoubleEquipment:Electrum Cauldron[;]Steamball,Spell:Wisteria,Spell:Prestidigitate,
+DoubleEquipment:Vise Grip[;]Snapdragon,,Spell:Philosopher/'s Stone,
+DoubleEquipment:Bite[;]Crocus,,,
+DoubleEquipment:Primal Punch[;]Budge,,,
+DoubleEquipment:Flower Pot[;]Stinging Nettle,,,
+DoubleEquipment:Fruit Bowl[;]Bloodroot,,,
+DoubleEquipment:Dock Leaf[;]Rosebud,,,

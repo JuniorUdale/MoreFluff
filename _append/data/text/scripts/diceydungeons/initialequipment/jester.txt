@@ -1,7 +1,10 @@
-InitialEquipment:Action!
-InitialEquipment:Big Moment
-InitialEquipment:Laugh Track
-InitialEquipment:Dice Cannon
-InitialEquipment:Grand Finale
-InitialEquipment:Punchline
-InitialEquipment:Encore
+InitialEquipment:Standing Ovation
+InitialEquipment:Inspiring Tune
+InitialEquipment:Have a Ball
+InitialEquipment:Slapjack
+InitialEquipment:6 Years Bad Luck
+InitialEquipment:Star of the Show
+InitialEquipment:Emergency Barricade
+InitialEquipment:Battle Sax
+InitialEquipment:Nerf Hammer
+InitialEquipment:Recycling Charm

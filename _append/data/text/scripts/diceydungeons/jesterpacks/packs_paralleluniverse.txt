@@ -1,0 +1,7 @@
+Boosterpack:Cactus Spear,Rose Bush,Rose Bush
+Boosterpack:Dazzling Light,Twinkle,Twinkle
+Boosterpack:Rusty Broadsword,Stumble,Stumble
+Boosterpack:Starburst,Starshine,Starshine
+Boosterpack:Mind Blast,Precognition,Precognition
+Boosterpack:Transmogrify,Dud,Dud
+Boosterpack:Eviscerate,Nosebleed,Nosebleed
