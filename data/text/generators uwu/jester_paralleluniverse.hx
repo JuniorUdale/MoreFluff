@@ -39,13 +39,14 @@ var finale = shuffle(["Action!", "Big Moment", "Laugh Track", "Slapjack", "6 Yea
 if(getfinalboss() == "Scathach"){
 	finale.remove("Nerf Hammer");
 	//find me a better way to nerf the The cards and maybe
+	//update: epic
 };
 var chosen = finale.pop();
 items = [chosen];
 gooditems = [jester_dice_pool.pop()];
 otherstuff = [
   health(), 
-  health()
+  health()A
 ];
 goodotherstuff = [
   shop(["Delete", "Backfire", "Delete"], [2, 3, 2]),

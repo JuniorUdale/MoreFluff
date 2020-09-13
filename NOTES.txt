@@ -31,43 +31,128 @@ Yoinked ideas:
 
 
 
-
-nerf hammer rework
-blade of null -> jester
-
+ELEMENTAL BLAST
+anything else using boxtech
 
 
 
 
 
 
+items to add:
+Rage Potion
+Dynamite Shotgun
+Icicle Shotgun
+Effluxion
+Crunch
+Chronal Rhapsody
+Ghost Blood
+Mending Charm
+Chocolate Egg
+Sick Shooter
+Regen Potion
+Fall Damage
+Lipstick
+Ramming Speed
+Eternal Goat
+Spiky Health Kit
+Gear Train
+Thunder Buster
+Heal Spell
+Drooplicate
+Splitting Shatter
+Splitting Shatter?
+Fissure
+Surprisingly Warm Rock
+Pyroclastic Flow
+Magma Potion
+Frosty Fang
+Extraordinarily Cold Stone
+Floe Flow
+Shivering Potion
+Idol of Blades
+Flame Idol
+Frost Idol
+Chronal Idol
+Idyllic Idol
+Scrap Key
+Volume Up
+Chained Oak
+Fuji
+Chaffcannon
+Medicine Practice
+Spudge
+Swoocerang
+Exit
+Keytar
+Subduction
+Dicesteal
+Counter Charm
+Theft and Shrubbery
+Get Out Of Jail Free
+Clank
+Duplockate
+Lockbash
+Countdownerfeit
+Roller Skates
+Waltzer
+Guillotine
+Crypto Miner
+Shattered Crown
+Wispy Kaboom Smash
+Glue Pact
+Homemade Medal
+Unlucky Shot
+Sniper's Dream
+Happy Camping
+Throw The Book
+Yeeteor
+Broken Spell
+Kleptolovania
+Time Travel
+Bolt Blaster
+Power Pulse
+Star Smash
+MF Blank Equipment
+Draining Bolt
+Faeblade
+Skeleglare
+Ubersword
+Morale Booster
+Two Hookshots
+Holy Heal Grenade
+Sustained Loud Yelling
+Shield of Light
+Bumpster Sword
+Ultimuplicate
+Kablammo
+Abracastabra
+Second Sun
+Eternal Frostbite
+Eternal Frostbite?
+Hold The Line
+Headache
+Recurseion
+Elementablast
+Morphing Egg
+Shadow Spell
+Regen Spell
+Blood Spell
+
+items to implement:
+* Cancel
+* Steel Egg
 
 
 
 
 
 
-icons:
-* reaper
-* essences
-	* green?
-* stun
-* nothing
-* grace
 
-* toxins
-* ammunition
-* suffocate
-* shield down
 
-* skip turn
 
-* magma
-* shiver
 
-* no spellbook
-* critical hit
-* wings of light
+
 
 
 

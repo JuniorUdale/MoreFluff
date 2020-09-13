@@ -1,10 +1,10 @@
 init,rewards1_common,rewards1_rare,rewards2
-DoubleEquipment:Quartz Cauldron[;]Rend,Spell:Carnation,Spell:Venom Bolt,Spell:Camellia
-DoubleEquipment:Cauldron[;]Snapdragon,Spell:Swingset,Spell:Leech Soul,
-DoubleEquipment:Electrum Cauldron[;]Steamball,Spell:Wisteria,Spell:Prestidigitate,
-DoubleEquipment:Vise Grip[;]Snapdragon,,Spell:Philosopher/'s Stone,
-DoubleEquipment:Bite[;]Crocus,,,
-DoubleEquipment:Primal Punch[;]Budge,,,
-DoubleEquipment:Flower Pot[;]Stinging Nettle,,,
-DoubleEquipment:Fruit Bowl[;]Bloodroot,,,
-DoubleEquipment:Dock Leaf[;]Rosebud,,,
+DoubleEquipment:Quartz Cauldron|Rend,Spell:Carnation,Spell:Venom Bolt,Spell:Camellia
+DoubleEquipment:Cauldron|Snapdragon,Spell:Swingset,Spell:Leech Soul,
+DoubleEquipment:Electrum Cauldron|Steamball,Spell:Wisteria,Spell:Prestidigitate,
+DoubleEquipment:Vise Grip|Snapdragon,,Spell:Philosopher/'s Stone,
+DoubleEquipment:Bite|Crocus,,,
+DoubleEquipment:Primal Punch|Budge,,,
+DoubleEquipment:Flower Pot|Stinging Nettle,,,
+DoubleEquipment:Fruit Bowl|Bloodroot,,,
+DoubleEquipment:Dock Leaf|Rosebud,,,
