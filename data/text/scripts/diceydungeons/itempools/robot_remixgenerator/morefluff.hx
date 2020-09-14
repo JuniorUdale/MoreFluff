@@ -14,7 +14,7 @@ var floor3advanced = ["Metallicize","Electroplating","Overheat","Underclock","Li
 
 var tradeoffer = [];
 
-var traderesult = ["Powerfield","Phaser","Marvellous Cheer","Death Penalty","Princess Guard", "Premium Heart", "Venus Gospel"];
+var traderesult = ["Powerfield","Phaser","Marvellous Cheer","Death Penalty","Chronal Idol"];
 
 var vampireitem = [];
 

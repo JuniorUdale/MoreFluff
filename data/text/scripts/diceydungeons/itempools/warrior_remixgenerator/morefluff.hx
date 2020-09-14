@@ -6,7 +6,7 @@ var awesomelist = ["Sapping Spores", "Resonator", "Leech Seed", "Canesword","Met
 
 var newdicemanipulator = ["Permafrost", "Jolt", "Promote","Inflation","Spatulargh"];
 
-var floor3item = ["Finisher",strangeshop.pop(),warriorshops.pop()];
+var floor3item = ["Finisher",strangeshop.pop(),warriorshops.pop(),"Chained Oak"];
 
 var floor5item = ["Custard Cream", "Doppliduplicateinate","Shield Scrap",strangeshop.pop(),warriorshops.pop()];
 

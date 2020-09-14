@@ -12,7 +12,7 @@ var rarelist1 = ["Scales of Justdice", "Meteor Hammer", "Megaclone", "Curseven",
 
 var commonlist3 = ["Unsettling Dream", "Momentum", "Tesseract", "Envenomate","Imperishability","Mortice Lock","Hydraulic Press","Key Change"];
 
-var floor4items = ["Blunderbuss","Aqua Fortis"];
+var floor4items = ["Blunderbuss","Aqua Fortis","Theft And Shrubbery"];
 
 var tradeoffer = [];
 var traderesult = [];

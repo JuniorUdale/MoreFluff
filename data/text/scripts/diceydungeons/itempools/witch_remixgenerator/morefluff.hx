@@ -6,7 +6,7 @@ var commonlist_spring = [ "Bloodroot", "Pea Pod", "Coffee Bean", "Pear Spear", "
 var floor2items = ["Magic Mirror"];
 var floor4items = ["Rannuncarpus","Sunflower","Iris","Rosebud", "Blackberry", "Magic Mistletoe", "Magic Thistle"];
 
-var floor5shop = ["Heal Spell","Molten Core","Solar Eclipse","Enlightenment"];
+var floor5shop = ["Heal Spell","The Bear Witch Project","Yeeteor"];
 var floor5strongshop = ["Sunshower","Plague Wave","Magnum Opus","Conjurate"];
 
 var vampireitems = [];

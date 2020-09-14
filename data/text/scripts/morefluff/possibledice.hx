@@ -26,7 +26,7 @@ if(type != "all" && type != "min" && type != "max"){trace("Error: Type must be e
 
 var returnlist = [];
 
-for(slot in eq.slots){
+for(slot in eq.getslots()){
 	if (slot == "NORMAL") {
 		if(type == "all"){returnlist.push([1,2,3,4,5,6]);};
 		if(type == "min"){returnlist.push(1);};
@@ -93,4 +93,5 @@ for(slot in eq.slots){
 			if(type == "max"){returnlist.push(r[1]);};
 		}
 	};
-}
+};
+return returnlist;

@@ -58,3 +58,4 @@ Spellbook Bash,(should not appear),var eqfire = self.getvar(~uddy~)[self.getvar(
 Yeeteor Cleanup,(should not appear),self.setvar(~uddy~|null);
 mf_blankskill,(should not appear),
 Spectre,Inflict [vanish]1 vanish,inflict(VANISH); sfx(~_vanish~);
+Bear!,Transform into a bear,beartransform();

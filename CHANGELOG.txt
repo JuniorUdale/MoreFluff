@@ -1,14 +1,32 @@
-
-paw claw/war axe
-
-
-
-v3 - 1000 items! 🎉
+v3.0.0 - 1000 items! 🎉
 
 1.9 is finally here, and also: Fluff now officially has over 1000 items in it!
 
-New items:
-	* 
+A selection from the list of new items:
+	* Idols - it's about time
+		* A set of items that do effects, but delayed.
+		* They're like Jinxes, except instead of doing them in [] turns, they do them ON turn [].
+		* Make sure you use these early enough!
+	* Chained Oak - don't branch with this item
+		* Deals 13 damage for a countdown of 7!
+		* However, curse yourself whenever its countdown gets reduced...
+	* Dicesteal - YOINK
+		* If the enemy rolls a [], lock it and steal it!
+	* Wispy Kaboom Smash - should be renamed to ncreccy kaboom smash
+		* Whenever you roll a 1, instantly consumes it to deal 3 damage.
+	* Yeeteor - can i have my spellbook back please
+		* Activates ALL of your spells.
+		* For free!
+		* Well, it costs a countdown of 25.
+		* And sure, you lose your spellbook for the battle in the process, but it's FREE!
+	* Theft and Shrubbery - I do beg your pardon...
+		* Steals an item from the enemy!
+		* Properly yoinks it and everything!
+		* However, they're compensated with a bunch of thorns, so be careful...
+	* The Bear Witch Project - do I even need to describe it
+		* Transform into a bear!
+		* As witch!
+		* Kind of!
 
 Changes:
 	* New attack animations for:
@@ -29,6 +47,7 @@ Changes:
 	* Stun Blast reworked:
 		* Now deals 2 damage (4 when upgraded)
 		* Inflicts Stun instead of Shock
+	* Plenty of other QoL changes and little tweaks to items
 
 Bugfixes:
 	* Fixed some junk console output
@@ -46,9 +65,16 @@ Bugfixes:
 		* darn alignments
 	* Inspiring Tune+ description fixed
 	* Spirit Level now fires backwards
+	* Pencil's countdown reduced to 4
+	* Equipment now works (mostly!) correctly on Dodge
+		* Because of this, a few items like Thump, Iron Swan, Stinging Nettle, the almighty Swedge and Auto Turret have snazzy animations now!
+	* A bunch of other minor bugs fixed
 	
-Some items have been removed; unfortunately they were just unworkable, and probably bad ideas. If you enjoyed them, sorry!
-	* Hallucinogen
+Also, some bugs from the Github page have been fixed. It's the best place to report them if you find any. (Sending me a DM on Discord or a comment on the itch.io page is fine too though!)
+	* More items have Marshmallow swaps
+	* Nudgeknife now deals the correct amount of damage
+	* Stun Blast? and Freezing Trap?'s descriptions have been fixed
+
 
 =====================================================================
 

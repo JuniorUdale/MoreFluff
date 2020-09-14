@@ -1,19 +1,19 @@
 fire_equipment,ice_equipment
-Pencil,Paintbrush
-Vent Steam,Overheat
-Freezing Trap,Stun Blast
-Frost Siphon,Fire Siphon
-Glaciate,Immolate
-Cryoshock,Heckfire
-Ice Lash,Cat O' Six Tails
-Cryocautery,Cauterize
-Green Dragon's Blade,Thorium Hammer
-Frost Fling,Overblaster
-Icy Iceblade of Iciness,Firey Firesword of Fire
-Splinters,Shrapnel
-Comet Storm,Magma Storm
-Cryolily,Thermalily
-Magic Smoke,Underclock
+Paintbrush,Pencil
+Overheat,Vent Steam
+Stun Blast,Freezing Trap
+Fire Siphon,Frost Siphon
+Immolate,Glaciate
+Heckfire,Cryoshock
+Cat O' Six Tails,Ice Lash
+Cauterize,Cryocautery
+Thorium Hammer,Green Dragon's Blade
+Overblaster,Frost Fling
+Firey Firesword of Fire,Icy Iceblade of Iciness
+Shrapnel,Splinters
+Magma Storm,Comet Storm
+Thermalily,Cryolily
+Underclock,Magic Smoke
 Firewall,Deep Freeze
 Chimney Fire,Decay
 Flaming Dirk,Frosted Dirk
@@ -32,7 +32,7 @@ Blade of September,Solstice Sword
 Solar Panel,Snowlar Panel
 Holy Fire,Holy Frost
 Penance of Flame,Penance of Frost
-Icicle Fall,Impending Flames
+Impending Flames,Icicle Fall
 Lavateinn,Jokulteinn
 Firecracker,Splitting Shatter
 Fissure,Frosty Fang
@@ -44,3 +44,13 @@ Dynamite Shotgun,Icicle Shotgun
 Flame Idol,Frost Idol
 Second Sun,Eternal Frostbite
 Flame Launch,Frost Launch
+Burning Stick,Gemstone
+Oil Barrel,Nuclear Fridge
+Flame Shield,Frost Shield
+Short Staff,Short Gemstaff
+Fireflash,Frozen Flute
+Angelfire,Angelfrost
+Flame Essence,Frost Essence
+Scorch,Hailstorm
+Magic Firewall,Magic Frostbolt
+Channel Rage,Channel Calm
