@@ -1,5 +1,6 @@
 InitialEquipment:Standing Ovation
 InitialEquipment:Inspiring Tune
+InitialEquipment:Cauldron Crafter
 InitialEquipment:Have a Ball
 InitialEquipment:Slapjack
 InitialEquipment:6 Years Bad Luck
