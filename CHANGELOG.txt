@@ -1,11 +1,34 @@
-TODO:
-* remeasure kalis
-https://jackeea.itch.io/more-fluff/comments?after=20
+v3.0.1 - lukewarmfix
 
+Phew, what an update! Tons of helpful suggestions, and bugs to squash. Here's a few of the more blatant ones:
 
+Changes:
+	* Bearning Light is now more distinct to Beargic Missile
+		* It also now has a Marshmallow swap
+	* Booster Pack has been reworked:
+		* Now rolls you an extra dice for every 6 you have
+		* The old design was a bit... weird when it worked with e.g. "on 6" items and other stuff.
+		* Thanks to Wisp for reminding me on about this!
+	* Begonia reworked:
+		* Now curses you at the start of your turn
+		* Thanks Reamer for making this suggestion - it plays out pretty evilly now!
 
+Bugfixes:
+	* Vise Rip now works
+	* Chronal Rhapsody now plays the correct effect, and works when dodged
+	* Hold The Line description fixed
+	* Mass Polymorph fixed (thanks a_galvantula!)
+	* Polymorph/Mass Polymorph have been spruced up a bit:
+		* They properly weaken downgraded items
+		* They properly grant upgraded items
+		* They no longer grant Once Per Battle or ? items
+	* Exoskeleton no longer activates after battle (thanks Wisp!)
+	* Channel Rage/Channel Calm now check to see if your dice are available before doing damage
+	* Transmogrify is now less janky
+	* Finale cards are now actually finale cards
+	* Kalis is now aligned properly
 
-
+=====================================================================
 
 
 v3.0.0 - 1000 items! 🎉
