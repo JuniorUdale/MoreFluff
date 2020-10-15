@@ -1,3 +1,60 @@
+
+STOP OVERWRITING EPISODES.CSV
+banish!!!!!!! auhghfdushgkashgkjahskj
+grandfather clock magician
+robot jackpot custom rewards
+overconfidence - check other "on jackpot" effects to double check that you're not also checking CPU > CPU total
+finger guns luck
+check boxtech with curse?
+gadgets for everything
+malevolence
+
+HUGE COPYCAT PASS
+
+
+Changes:
+	* Chronoblade is now MAX5
+	* Caduceus numbers tweaked:
+		* Instead of deal 4/drain 4, it deals 6 damage and drains 2 health
+		* Upgraded it deals 8/drains 2, downgraded it deals 3/drains 2
+	* Lucky Sword now scraps to Lucky Shot
+	* Finger Guns has been massively  boosted in power
+
+Bugfixes:
+	* Grace now actually works
+	* Freegen description fixed
+	* Fruit Juice description fixed
+	* Channel Calm description+gadget fixed
+	* Dainsleif now shakes the screen
+	* Magma Hurl + Frostbite Fling gadgets now use the right symbol
+	* Fire Strike now correctly swaps to Frost Strike when Marshmallow is active
+	* Cauldron Crafter now pulls from ANY equipment with Cauldron in its name
+	* Icicle Fall and Impending Flames now inflict freeze/burn
+	* Faeblade now has the damage sound effect, and fires upwards
+	* Min Night Charm's description now resets between turns
+	* Snippety Snap+ and - now work
+	* Chilly Pepper's description and script fixed
+	* Cauldron + Snapdragon no longer shows up twice in Witch BR
+	* Begonia description tweaked
+	* Theft and Shrubbery is now size 2
+	* Recycling Charm?- now works 100% of the time
+	* Dainsleif no longer lets the enemy live if they have shield
+	* Firefrost/Frostfire no longer bug out after combat
+	* Yeeteor no longer shows up in random lists
+	* Transmogrify now no longer makes Warrior/Thief/Inventor only equipment, or finale cards, show up
+	* Differblade no longer returns a 1 on doubles
+	* Zapthwack description tweaked
+	* Burst Laser+ and - now work
+	* Fixed text bleed on CPU CUP
+	* Theft and Shrubbery can no longer be re-equipped
+	* Chained Oak now activates in the right direction
+	* Petrification Spell+ and - now work properly
+	* Flame Launch, Frost Launch and Healing Song now have gadgets
+	
+Huge thanks to Wisp/ncrecc for catching a ton of these bugs. The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
+
+=====================================================================
+
 v3.0.1 - lukewarmfix
 
 Phew, what an update! Tons of helpful suggestions, and bugs to squash. Here's a few of the more blatant ones:

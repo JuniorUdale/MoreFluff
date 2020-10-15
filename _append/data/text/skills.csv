@@ -4,7 +4,7 @@ Padlock,Lock all dice (once),inflict(LOCK[;]ALL); sfx(~_lock~); Gadget.changegad
 Ice Burn,Burn [fire]1[;] freeze [ice]1,inflict(FIRE[;]1); inflict(ICE[;]1); sfx(~_fire~); sfx(~_ice~);
 Goop Gun,Inflict [poison]2 poison,inflict(POISON[;]2); sfx(~_poison~);
 JOAT Smash,[sword]1[;] [heal]1[;] [shield]1[;] [poison]1,attack(1); attackself(-1); inflict(POISON); inflictself(SHIELD); sfxdamage(target[;]1); sfx(~_heal~); sfx(~_shield~[;]~~[;]0.6); sfx(~_poison~[;]~~[;]0.2);
-Zapthwack,[shock]1 item + [weaken]1 item,inflict(SHOCK); inflict(WEAKEN); sfx(~_weaken~); sfx(~_shock~);
+Zapthwack,Inflict [shock]1 and [weaken]1,inflict(SHOCK); inflict(WEAKEN); sfx(~_weaken~); sfx(~_shock~);
 Mystic Boop,Add random status: [fire][ice][shock][weaken],var r = rand([0[;]1[;]2[;]3]); var effs = [SHOCK[;]WEAKEN[;]ICE[;]FIRE]; inflict(effs[r]); var sounds=[~_shock~[;]~_weaken~[;]~_ice~[;]~_fire~]; sfx(sounds[r]);
 Pinprick,Gain [thorns]1 thorns,inflictself(THORNS); sfx(~_shield~);
 Steel Skin,Lose [heart]2[;] add [shield]4 shield,pierceattackself(2); inflictself(SHIELD[;]4); sfx(~_drain~); sfx(~_shield~[;]~~[;]0.4);
@@ -38,11 +38,11 @@ Double Tap,Deal [sword]2 dmg[;] twice,attack(2); attack(2); sfxdamage(target[;]2
 Helium Script,(should not appear),if(!self.isplayer){target.getvar(~dicegrav_trigger~).stop(); target.resetvar(~dicegrav_trigger~);}else if(target.hp == 0){self.getvar(~dicegrav_trigger~).stop(); self.resetvar(~dicegrav_trigger~);}; if(getstatusself(~helium~) == 0){if(self.varexists(~dicegrav_trigger~)){self.getvar(~dicegrav_trigger~).stop(); self.resetvar(~dicegrav_trigger~);};}else{var flag = false; for(mydice in self.dicepool){if(mydice.available()){flag = true; mydice.kick(-90|5+3*getstatusself(~helium~));  if(mydice.y < 50){ mydice.animate(~disappear~);};  }; }; };
 Grace Checks,(should not appear),var grace = getstatusself(~grace~); var diff = grace - self.hp; if(diff > 0){ pierceattackself(-diff); sfx(~_heal~); sfx(~_survive~); removestatusself(~grace~[;]diff); };
 Unlimited Limit,Gain [confuse]5 limit break charge,self.limitvalue+=5; if(self.limitvalue > self.limitmax){self.limitvalue = self.limitmax;}; sfx(~_thinghappens~);
-Beam Dream,Gain [cog]2 Beam Power,inflictself(~dynamo~|2); self.setvar(~dynamo~|getstatusself(~dynamo~)); sfx(~_magic~);
+Beam Dream,Gain [dynamo]2 Beam Power,inflictself(~dynamo~|2); self.setvar(~dynamo~|getstatusself(~dynamo~)); sfx(~_magic~);
 Stupendously Unlucky Roll,Roll a 1,givedice(1);
 Slick Slash,Do [sword]1 per turn for 3 turns,inflict(~bleed3~); sfxdamage(target|3);
-Magma Hurl,Inflict [fire]1 magma,inflict(~mf_magma~); sfx(~_fire~);
-Frostbite Fling,Inflict [ice]1 shiver,inflict(~mf_shiver~); sfx(~_ice~);
+Magma Hurl,Inflict [magma]1 magma,inflict(~mf_magma~); sfx(~_fire~);
+Frostbite Fling,Inflict [shiver]1 shiver,inflict(~mf_shiver~); sfx(~_ice~);
 Slightly Lucky Roll,Roll a 4,givedice(4);
 Luckier Shot,Deal [sword]8 damage,
 Regeneratier,Recover [heal]5 health,
@@ -59,3 +59,4 @@ Yeeteor Cleanup,(should not appear),self.setvar(~uddy~|null);
 mf_blankskill,(should not appear),
 Spectre,Inflict [vanish]1 vanish,inflict(VANISH); sfx(~_vanish~);
 Bear!,Transform into a bear,beartransform();
+Zap Shrine,Inflict [stun]1 stun,inflict(~mf_stun~); sfx(~_shock~);

@@ -54,3 +54,7 @@ if (levelupselections.indexOf("Boosterpack:Eviscerate,Nosebleed,Nosebleed") > -1
   Rules.substitute("Backfire", "Paper Cut"); 
   Rules.substitute("Bop,Bop,Bop", rand(["Nosebleed,Blood Breath,Nosebleed", "Nosebleed,Slice and Dice,Nosebleed", "Slice and Dice,Blunt Sword,Slice and Dice"])); 
 }
+if (levelupselections.indexOf("Boosterpack:Naughty Step,Time Out,Time Out") > -1){ 
+  Rules.substitute("Backfire", "Get Out Of Jail Free"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Time Out,Get Out Of Jail Free,Time Out"])); 
+}
