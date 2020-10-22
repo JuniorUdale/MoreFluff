@@ -1,14 +1,9 @@
-
-STOP OVERWRITING EPISODES.CSV
-banish!!!!!!! auhghfdushgkashgkjahskj
-grandfather clock magician
 robot jackpot custom rewards
-overconfidence - check other "on jackpot" effects to double check that you're not also checking CPU > CPU total
+
 finger guns luck
 check boxtech with curse?
 gadgets for everything
-malevolence
-
+mutagen should increase hp
 HUGE COPYCAT PASS
 
 
@@ -18,7 +13,7 @@ Changes:
 		* Instead of deal 4/drain 4, it deals 6 damage and drains 2 health
 		* Upgraded it deals 8/drains 2, downgraded it deals 3/drains 2
 	* Lucky Sword now scraps to Lucky Shot
-	* Finger Guns has been massively  boosted in power
+	* Robot now gets a wider variety of Jackpot rewards
 
 Bugfixes:
 	* Grace now actually works
@@ -50,6 +45,9 @@ Bugfixes:
 	* Chained Oak now activates in the right direction
 	* Petrification Spell+ and - now work properly
 	* Flame Launch, Frost Launch and Healing Song now have gadgets
+	* Revolver no longer crashes and makes a huge noise (sorry!)
+	* Malevolence now correctly maintains curse
+	* Heal Next Turn now works
 	
 Huge thanks to Wisp/ncrecc for catching a ton of these bugs. The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
 
