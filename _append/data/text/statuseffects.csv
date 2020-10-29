@@ -67,7 +67,7 @@ essence_weaken,Earth_Essence,earthessence,Does nothing. When invoked:|Receive [w
 essence_poison,Toxic_Essence,poisonessence,Does nothing. When invoked:|Receive [poison]2 poison for each Toxic Essence.,YES,NO,NO,NO,NO,,,,,,,,,,,
 essence_dark,Dark_Essence,curseessence,Does nothing. When invoked:|Receive a bad status ([curse]Curse[;] [lock]Lock[;] [shock]Stun),YES,NO,NO,NO,NO,,,,,,,,,,,
 mf_stun,Stun,stun,Random equipment is disabled for the turn.,YES,YES,NO,NO,YES,,,,var goodeq = []; for(eq in self.equipment){ if(eq.availablethisturn){ goodeq.push(eq); }; }; goodeq = shuffle(goodeq); var s = getstatusself(~mf_stun~); while(goodeq.length > 0 && s > 0){ s-=1; var r = goodeq.pop(); r.availablethisturn = false;  r.unavailabledetails = [~Stunned~]; r.animate(~flashandshake~); }; sfx(~_shock~);,,,,,,,
-alternate_mf_stun,Stun?,stun,Lose a dice next turn.,YES,YES,NO,NO,YES,,,,for(mydice in self.dicepool){trace(mydice.basevalue);};,,,,,,,
+alternate_mf_stun,Stun?,stun,Lose a dice next turn.,YES,YES,NO,NO,YES,,,,var count = 0; for(mydice in self.dicepool){if(mydice.available()){if(count < status.value){count+=1; mydice.animate(~disappear~);};};}; sfx(~_shock~);,,,,,,,
 nothing,Nothing,nothing,Does absolutely nothing.,NO,YES,NO,NO,NO,,,,,,,,,,,
 alternate_nothing,Nothing?,nothing,Does absolutely nothing[;] but with a question mark.,NO,YES,NO,NO,NO,,,,,,,,,,,
 grace,Grace,grace,At the start of your turn[;] if your health is less than|your Grace ([grace]<value>[])[;] swap your health and your Grace.,YES,NO,NO,NO,NO,,,var grace = status.value; var diff = grace - self.hp; if(diff > 0){ pierceattackself(-diff); sfx(~_heal~); sfx(~_survive~); removestatusself(~grace~[;]diff); status.set_displayvalue(status.value); };,,,,,,,,

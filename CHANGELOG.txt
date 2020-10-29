@@ -3,7 +3,8 @@ robot jackpot custom rewards
 finger guns luck
 check boxtech with curse?
 gadgets for everything
-mutagen should increase hp
+woozy whack not for jester
+stun?
 HUGE COPYCAT PASS
 
 
@@ -48,6 +49,7 @@ Bugfixes:
 	* Revolver no longer crashes and makes a huge noise (sorry!)
 	* Malevolence now correctly maintains curse
 	* Heal Next Turn now works
+	* Third Eye is now correctly size 1
 	
 Huge thanks to Wisp/ncrecc for catching a ton of these bugs. The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
 

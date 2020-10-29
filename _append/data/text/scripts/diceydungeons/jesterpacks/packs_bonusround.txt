@@ -12,4 +12,3 @@ Boosterpack:Essence Detonator,Basic Essence,Basic Essence
 Boosterpack:Refund,Reject,Reject
 Boosterpack:Secretive Swipe,Stealth,Stealth
 Boosterpack:Life Siphon,Regen,Regen
-Boosterpack:Naughty Step,Time Out,Time Out

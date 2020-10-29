@@ -30,7 +30,7 @@ Mass Polymorph,Randomize everyone's items,var poss = []; for(eq in self.equipmen
 Regenerous,Heal [heal]3 hp (for both),attack(-3); attackself(-3); sfx(~_heal~);
 Health Down,Reduce enemy health by [heart]3,pierceattack(3); sfx(~_drain~);
 Lava Drop,[sword]2 dmg[;] gain [shield]2 shield,attack(2); sfxdamage(target[;]2); inflictself(SHIELD[;]2); sfx(~_shield~);
-Mutagen,Gain [heart]3 max hp (once),self.maxhp+=3; sfx(~_cure~); Gadget.changegadget(self[;] ~Mutagen~[;] ~Broken Gadget~);
+Mutagen,Gain [heart]3 max hp (once),self.maxhp+=3; self.hp+=3; sfx(~_cure~); Gadget.changegadget(self[;] ~Mutagen~[;] ~Broken Gadget~);
 Megacurse,Inflict curse to both,inflict(CURSE); inflictself(CURSE); sfx(~_curse~);
 Magic Counterspell,Lock a random dice value,inflict(~counter_~+rand([1[;]2[;]3[;]4[;]5[;]6])); sfx(~_lock~);
 Whacksies,Deal [sword]10 dmg in [jinx]2 turns,jinx(~Whacksies~[;]~take [sword]10 damage~[;]~take [sword]10 damage~[;]~attack(10); sfxdamage(null[;]10);~[;]target[;]self[;]2[;]2); sfx(~_thinghappens~);
