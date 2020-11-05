@@ -14,6 +14,8 @@ Changes:
 		* Upgraded it deals 8/drains 2, downgraded it deals 3/drains 2
 	* Lucky Sword now scraps to Lucky Shot
 	* Robot now gets a wider variety of Jackpot rewards
+	* Zweihander reworked:
+		* 
 
 Bugfixes:
 	* Grace now actually works
@@ -52,6 +54,8 @@ Bugfixes:
 	* Labrys- is now different
 	* Swordstave- description fixed
 	* Chitin Helmet now works when dodged
+	* Gamebreaking exploit with Rake Pick+ fixed
+	* Fixed missing SFX for Drill Arm
 	
 Huge thanks to Wisp/ncrecc for catching a ton of these bugs. The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
 
