@@ -50,6 +50,8 @@ Bugfixes:
 	* Heal Next Turn now works
 	* Third Eye is now correctly size 1
 	* Labrys- is now different
+	* Swordstave- description fixed
+	* Chitin Helmet now works when dodged
 	
 Huge thanks to Wisp/ncrecc for catching a ton of these bugs. The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
 

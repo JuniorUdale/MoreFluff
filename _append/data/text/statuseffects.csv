@@ -108,3 +108,4 @@ internalbanish3,Banished,banish,Whoops! Probably shouldn't be seeing this.,YES,N
 internalbanish4,Banished,banish,Whoops! Probably shouldn't be seeing this.,YES,NO,YES,YES,NO,,,,,,,,,,,
 internalbanish5,Banished,banish,Whoops! Probably shouldn't be seeing this.,YES,NO,YES,YES,NO,,,,,,,,,,,
 internalbanish6,Banished,banish,Whoops! Probably shouldn't be seeing this.,YES,NO,YES,YES,NO,,,,,,,,,,,
+teleportitis,Teleportitis,jinx,Whenever you take damage[;] gain [dodge]<value> dodge.,YES,NO,YES,NO,NO,,,,,,,,,,inflictself(DODGE); sfx(~_dodge~);,
