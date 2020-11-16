@@ -51,7 +51,7 @@ tickly,Tickled,dice,Get <value> free [yellow]1[]s next turn.,YES,NO,YES,NO,NO,,,
 lifesteal,Lifesteal,lifesteal,Your attacks deal [sword]<value> less damage[;] but|heal you for [heal]<value> health.,YES,YES,NO,NO,NO,,,,,,,,,var amt = getstatusself(~lifesteal~); if(dmg < amt){attackself(-dmg); target.hp+=dmg;}else{attackself(-amt); target.hp+=amt; }; sfx(~_heal~);,,
 mechanical_lantern,Mechanicalantern,dice,Get <value> free dice next turn.,YES,NO,YES,NO,NO,,,,,,,,,,,
 ratchet,Ratchet,cog,Increases the range on MAX or MIN|equipment by <value> this turn.,YES,YES,NO,NO,NO,,,,,,,,,,,
-dynamo,Beam_Power,dynamo,Beam weapons[;] such as [red]Focus Beam[][;] [yellow]Solar Beam[][;]|[blue]Lunar Beam[] and [orange]Terra Beam[][;] all deal [dynamo]<value> damage.,YES,NO,NO,NO,NO,self.setvar(~dynamo~|status.value);,,,,,,,,,,self.setvar(~dynamo~|status.value);
+dynamo,Beam_Power,dynamo,Beam weapons[;] such as [red]Focus Beam[][;] [yellow]Solar Beam[][;]|[blue]Lunar Beam[] and [orange]Terra Beam[][;] all deal [dynamo]<value> damage.,YES,NO,NO,NO,NO,self.setvar(~dynamo~|status.value);,,,,,,,self.setvar(~dynamo~|0);,,,self.setvar(~dynamo~|status.value);
 batted,Battered,dice,Enemy caught the dice you batted!|They get <value> more dice next turn.,YES,YES,NO,NO,NO,,,,,,,,,,,
 helium,Inflated,helium,Your dice are... floaty!|More helium means faster floatiness.,YES,YES,NO,NO,YES,if(self.isplayer && !self.varexists(~dicegrav_trigger~)){var s = new elements.Skill(~Helium Script~); var tw = new motion.actuators.SimpleActuator(null|0.05|null);  tw._repeat = -1; tw.onRepeat(s.execute|[self|target]);  self.setvar(~dicegrav_trigger~|tw); tw.move(); s.remove(); };,,,,,,,,,,if(self.varexists(~dicegrav_trigger~)){self.getvar(~dicegrav_trigger~).stop(); self.resetvar(~dicegrav_trigger~);};
 whelm,Whelmed,sword,Whelm deals <value> more damage.,YES,NO,NO,NO,NO,,,,,,,,,,,
@@ -109,3 +109,4 @@ internalbanish4,Banished,banish,Whoops! Probably shouldn't be seeing this.,YES,N
 internalbanish5,Banished,banish,Whoops! Probably shouldn't be seeing this.,YES,NO,YES,YES,NO,,,,,,,,,,,
 internalbanish6,Banished,banish,Whoops! Probably shouldn't be seeing this.,YES,NO,YES,YES,NO,,,,,,,,,,,
 teleportitis,Teleportitis,jinx,Whenever you take damage[;] gain [dodge]<value> dodge.,YES,NO,YES,NO,NO,,,,,,,,,,inflictself(DODGE); sfx(~_dodge~);,
+mf_polevaulted,Pole_Vaulted,dice,hello lurker in the code! This is just a dummy status. It does nothing. Literally nothing.|Excel is autocorrecting this to make me seem more enthusiastic about this. Why are you like this[;] excel. ,NO,NO,NO,YES,NO,,,,,,,,,,inflictself(DODGE); sfx(~_dodge~);,
