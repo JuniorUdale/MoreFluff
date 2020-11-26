@@ -2,9 +2,9 @@ if (levelupselections.indexOf("Boosterpack:Firecracker,Bang Snaps,Bang Snaps") >
   Rules.substitute("Backfire", "Firecracker"); 
   Rules.substitute("Bop,Bop,Bop", rand(["Sparkler,Firecracker,Sparkler", "Bang Snaps,Bang Snaps,Bang Snaps", "Sparkler,Firecracker,Sparkler"])); 
 }
-if (levelupselections.indexOf("Boosterpack:Mace,Boopin' Stick, Boopin' Stick") > -1){ 
+if (levelupselections.indexOf("Boosterpack:Mace,Boopin' Stick,Boopin' Stick") > -1){ 
   Rules.substitute("Backfire", "Chain Whip"); 
-  Rules.substitute("Bop,Bop,Bop", rand(["Liquorice,Staff,Liquorice", "Dice Storage,Crossbow,Dice Storage", "Buckler,Paintbrush,Buckler"])); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Liquorice,Staff,Liquorice", "Buckler,Paintbrush,Buckler"])); /*missing dice storage *2 + crossbow*/
 }
 if (levelupselections.indexOf("Boosterpack:Pristine Sword,Sweets,Sweets") > -1){ 
   Rules.substitute("Backfire", "Venus Fly Trap"); 

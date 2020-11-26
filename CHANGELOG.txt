@@ -61,6 +61,7 @@ Bugfixes:
 	* SFX for Cup of Tea fixed
 	* Nanoleech/Megaleech no longer drain health twice
 	* Blightmare+ is no longer false advertising
+	* Essence Detonator+ and - now work
 	
 Huge thanks to Wisp/ncrecc for catching a ton of these bugs. The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
 
