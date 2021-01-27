@@ -10,17 +10,62 @@ CLOCK BLOCK for COUNTER CHARM
 
 
 Changes:
-	* Chronoblade is now MAX5
+	* All equipment that can have a gadget now has a gadget!
+	* Prestidigitate and Conjurate nerfed:
+		* Both now give you an extra low dice next turn (between 1 and 3)
+		* Conjurate changed to MAX3
+	* Chronoblade is now MAX5, it was just a bit too strong
+	* Phaser buffed:
+		* Now does [max4]+1 damage
+		* Upgrades to unrestricted+1, downgrades to max3+1
 	* Caduceus numbers tweaked:
 		* Instead of deal 4/drain 4, it deals 6 damage and drains 2 health
 		* Upgraded it deals 8/drains 2, downgraded it deals 3/drains 2
 	* Lucky Sword now scraps to Lucky Shot
 	* Robot now gets a wider variety of Jackpot rewards
-	* Zweihander reworked:
-		* 
+	* Superbolt now shocks itself a bit later, so can be weakened!
+		* Also, the downgrade has been made less harsh - it still does 2x[] damage, while being reduced to a MAX3 slot
+	* Evocation wording tweaked slightly
+	* Boomstick- is no longer as punishing
+	* Refresh slightly tweaked:
+		* Now it doesn't roll doubles AND doesn't give you either of the dice you started with
+		* Upgraded, it has 2 uses
+	* Blutsauger countdown reduced from 7 -> 6
+	* Metalmorph countdown reduced from 4 -> 3
+	* Coconut Gun initial countdown increased from 8 -> 10 
+	* Superconductor reworked:
+		* Now deals 2x([]+2) damage, but only on jackpots
+		* Upgraded it deals 2x([]+4) damage
+	* Heartbeat no longer consumes re-equip next
+	* Starfall now deals [max5] damage, but triple if it's turn []
+	* Slick Slash buffed to deal 2 damage/turn for 3 turns
+	* Push Knife nerfed to MIN3
+	* Chronal Rhapsody's colour changed to be more appropriate
+	* Effluxion buffed to MAX5
+	* Helmet Headbutt+ is +2 damage instead of 2 uses/turn
+	* Petal to the Metal buffed to be size 1
+	* CPU shooter rebalanced:
+		* Normally:   "every 3 calculations each turn, deal 3 damage"
+		* Upgraded:   "every 2 calculations each turn, deal 3 damage"
+		* Downgraded: "every 3 calculations each turn, deal 2 damage"
+	* Clarified the description on Ravage to say "drain 1 health for every 6 you've rolled"
+	* Bludgeon+ changed to two MAX3 slots
+	* Ornamental Shield+ buffed to give 5 shield
+	* Spare Ram- buffed to double damage if CPU is less than 4, instead of 3
+	* Risley now buffed to MIN3
+	* Wings of Light+ buffed to recover 12 health
+	* Sapping Spores reworked:
+		* Now MAX3 by base, upgrades to MAX5
+		* No longer costs max health to use
+		* After combat, you lose 1 max HP, and it gets a +1 (so +2 damage, +1 poison, +1 health loss)
+		* This costs 1 max HP though!
+		* This continues; you can upgrade it 6 times, each time giving it a +1, but costing more and more max HP...
+
 
 Bugfixes:
 	* Grace now actually works
+	* Stun can no longer target your skillcard
+		* No more losing your spellbook as Witch!
 	* Freegen description fixed
 	* Fruit Juice description fixed
 	* Channel Calm description+gadget fixed
@@ -62,8 +107,31 @@ Bugfixes:
 	* Nanoleech/Megaleech no longer drain health twice
 	* Blightmare+ is no longer false advertising
 	* Essence Detonator+ and - now work
+	* Accumulator now heals you in its healing mode, and doesn't explode in its shielding mode
+	* Rose Bush and Spiked Drink are more robust, and now work for non-six characters and enemies
+	* Flak Cannon- description fixed
+	* Shield Synthesis made a bit more explicit in how it works
+	* Segfault now works a bit better with curse
+	* Impending Flames no longer has a trailing comma,
+	* enil tsrif sti ni "tub" sedulcni yltcerroc won noitpircsed s'+Sword
+	* Blood Transfer+ and - now work properly
+	* Reaper no longer glitches out if you have statuses after it
+	* Lava Burst/Frost Burst no longer activate their effect in 2 turns' time if they deal the killing blow
+	* Dropkick- description fixed
+	* Recognition now works
+	* Rose Bush and Spiked Drink now work if they're the leftmost card in your hand
+	* Intended Gameplay now works
+	* Coin Flip's animation has been sped up
+	* Pinprick now has the correct sound effect
+	* Pyrodrop no longer appears in Witch episode 2
 	
-Huge thanks to Wisp/ncrecc for catching a ton of these bugs. The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
+Misc:
+	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)
+		* If you don't know what this is, then don't worry about it - it's an internal tool used to count how many items there are.
+		* If you *do* know what this is, then you might want to start using this updated version.
+	
+	
+Huge, huge HUGE thanks to Wisp/ncrecc for catching a ton of these bugs! The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
 
 =====================================================================
 

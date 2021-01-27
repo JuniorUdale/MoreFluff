@@ -12,7 +12,7 @@ var floor3advanced = ["Redundant Coolant","Chocolate Cookie","Metallicize"];
 
 var tradeoffer = [];
 
-var traderesult = ["Rake Pick","Tribute", "Multiplicate", "Turtle",  "Shammer"];
+var traderesult = ["Rake Pick","Tribute", "Multiplicate", "Turtle", "Shammer"];
 
 var vampireitem = [];
 

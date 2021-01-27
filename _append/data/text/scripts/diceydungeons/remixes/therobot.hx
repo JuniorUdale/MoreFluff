@@ -35,3 +35,5 @@ Rules.substitute("Thunder Buster", "Gavel");
 Rules.substitute("Crypto Miner", "Lute Bocks");
 Rules.substitute("Bumpster Sword", "Butterfly Edge");
 Rules.substitute("Ultimuplicate", "Duplicate"); //RIP
+Rules.substitute("Phaser", "Dagger"); 
+Rules.substitute("Conformer", "Duplicate"); 

@@ -10,8 +10,8 @@ def count():
                             print()
                             line_count += 1
                         else:
-                            if row[0].split("_")[0].split("@")[0] not in finallist:
-                                    finallist.append(row[0])
+                            if len(row[0].split("_")) == 1 and row[0].split("@")[0] not in finallist and len(row[0].split("?")) == 1:
+                                    finallist.append(row[0].split("@")[0])
                                     print(str(len(finallist))+": "+row[0])
                             line_count += 1
         return finallist

@@ -21,6 +21,16 @@ pogo stick? water gun? fidget spinner? yoyo? marbles? lasso? glowstick?
 
 * JITB doesn't work (discard isn't counted as an item use)
 
+
+
+
+
+
+
+
+
+
+
 Yoinked ideas:
 * Befuddle
 * Chisel

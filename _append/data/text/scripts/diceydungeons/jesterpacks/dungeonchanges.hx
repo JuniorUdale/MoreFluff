@@ -32,7 +32,7 @@ if (levelupselections.indexOf("Boosterpack:Cactus Spear,Rose Bush,Rose Bush") > 
 }
 if (levelupselections.indexOf("Boosterpack:Dazzling Light,Twinkle,Twinkle") > -1){ 
   Rules.substitute("Backfire", "Radar"); 
-  Rules.substitute("Bop,Bop,Bop", rand(["Twinkle,Solar Blessing,Twinkle", "Twinkle,Flashlight,Twinkle", "Solar Blessing,Twinkle,Solar Blessing"])); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Twinkle,Solar Blessing,Twinkle", "Twinkle,Flashlight,Twinkle", "Twinkle,Twinkle,Little Star"])); 
 }
 if (levelupselections.indexOf("Boosterpack:Rusty Broadsword,Stumble,Stumble") > -1){ 
   Rules.substitute("Backfire", "Rusty Shield"); 

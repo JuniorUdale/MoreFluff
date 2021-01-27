@@ -2,7 +2,7 @@ var chiselorcandle = ["Jerk", "Swizzle", "Sprinkler"];
 
 var commonlist1 = ["Ballerina Charm",pick(["Twotool", "Crowpick"]),"Lifesteal", "Thistle Tea", "Illumineight", "Rope Dart", "Blunt Dagger", "Starspike","Rockfall", "Slice And Dice", "Blunt Dagger","Secateurs", "Heavy Gatling", "Vampire Blade", "Duoplicate", "Juice Box", "Ignite", "Umbrella","Rock Crusher","Arbitrage","Rift Stabilizer","Sawmill","Inflation","Flying Venus Trap","Iron Swan","Bottled Thunder","Tail Bap","Bludgeon","Revolver","Popcorn","Stop Sign","Hand Sanitiser","Sky Lantern","Rudimentary Lathe","Cleaver", "Magma Storm", "Plaster", "Blast Chiller", "Splat", "Cup Of Tea", "Trianguleight", "Coin Flip", "Dodgy Chronometer", "Starstaff","Warcry","Fortnight","Cup of Tea","Accretion","Kalis","Splutter", "Twoplicate", "Stinging Nettle", "Crown and Anchor", "Knitting Needle","Warcry","Fortnight","Molten Blast","Drumkit","Doot"];
 
-var floor2items = ["Stony Armor","Heartbeat"];
+var floor2items = ["Stony Armour","Heartbeat"];
 
 var floor2shop = ["Duoplicate"];
 

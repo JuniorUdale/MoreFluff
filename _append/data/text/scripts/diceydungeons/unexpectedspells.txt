@@ -89,7 +89,6 @@ Comet Storm
 Chimney Fire
 Flaming Dirk
 Cinderstorm
-Pyrodrop
 Mossy Cauldron
 Trash Cauldron
 Ash Cauldron

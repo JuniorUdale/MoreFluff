@@ -8,9 +8,15 @@ var commonlist1 = ["Fulcrum Blade", "Jail Bat", "Crystal Skull","Starsword", "Bl
 
 var shoplist1 = ["Square Wave","Triangle Wave", "Solder","Tin Snips","Crescent Pendant","Bowsaw","Belt Sander","Velcro", "Sprinkler", "Ballerina Charm", "Triplicate", "Radical Wrench", "Berserker Rage","Trianguleight","Min Night Charm","Staple Gun","Stock Up","Electrophoresis","Arbitrage","Rift Stabilizer","Sawmill","Inflation","Overcharge","Janky Spanner","Doppeldagger","Pinball Machine","Popcorn","Sour Note","Metal Crusher","Mirror Madness","Discombobulate","Kalis", "Surfive", "Illumineight", "Threeken", "Nanobots","Caltrops","Lifesteal", "Preparation", "Defibrilator", "Pandora's Box","Stony Armour","Cup of Tea","Message in a Bottle","Sunday Sundae","Lunar Beam", "Terra Beam", "Firey Firesword of Fire", "Lamppost", "Flourish", "Chromatic Cutlass", pick(["Hexatomb","Blind Rage"]),"Sledgehammer", "Magma Storm", "Flamecrower", "Kerfuffle", "Electrolysis", "Doppelice", "Gavel","Spade","Dice Synthesis"];
 
-var scrapitems = ["Swedge","Plurale Tantrum", "Super Spatula", "Scraptula","Scrap Cauldron","Scrap Turret","Scrap Key"];
+var scrapitems = ["Scrap Cauldron"];
+var uselessitem = rand(["Swedge","Plurale Tantrum", "Super Spatula", "Scraptula","Scrap Cauldron","Scrap Turret","Scrap Key"]);
+scrapitems.push(uselessitem);
 
 var midtierdrops = ["Fifteen Squirrels", "Polymorph"];
+if(uselessitem == "Swedge" || uselessitem == "Scrap Key"){
+	var luckitems = ["Lucky Sword","Lucky Lock","Good Feeling Crystal"];
+	midtierdrops.push(pick(luckitems));
+};
 
 var floor3items = ["Calculator", "Spannersword", "Rubber Mallet", "Encyclopedia", "Broken Mirror", "Lucky Star"];
 

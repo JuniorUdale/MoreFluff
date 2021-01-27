@@ -1,6 +1,6 @@
 var floor1countdowns = ["Plague Stave","Asklepios"];
 
-var floor1sword = [];
+var floor1sword = ["Super Duper Sword","Blade of Null","Exit"];
 
 var floor1crap = ["Gemstone","Burning Stick","Life Rip","Stealth","Blade of JOAT", pick(["Fireflash", "Frostbitten", "Frozen Flute"]), "Oven Gloves",pick(["Box of Nails","Oil Barrel","Aftershock","Frost Shield"]),"Portavortex","Flame Lance"];
 
