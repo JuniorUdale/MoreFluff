@@ -1,2 +1,0 @@
-jinx("Draupnir","take [sword]%VAR%[;] get 2 copies of this","Take [sword]1[;] get 2 copies of this","attack(%VAR%); sfxdamage(target|%VAR%); runscript(\"morefluff/draupnir\",[]);",target,self,2,1);
-jinx("Draupnir","take [sword]%VAR%[;] get 2 copies of this","Take [sword]1[;] get 2 copies of this","attack(%VAR%); sfxdamage(target|%VAR%); runscript(\"morefluff/draupnir\",[]);",target,self,2,1);

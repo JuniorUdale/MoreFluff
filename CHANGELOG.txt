@@ -11,6 +11,8 @@ CLOCK BLOCK for COUNTER CHARM
 
 Changes:
 	* All equipment that can have a gadget now has a gadget!
+	* "If your health is critical" changed to "If your health is below 25%" on most items
+		* This isn't a balance change, just a wording clarification since not everyone has sound on
 	* Prestidigitate and Conjurate nerfed:
 		* Both now give you an extra low dice next turn (between 1 and 3)
 		* Conjurate changed to MAX3

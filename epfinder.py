@@ -9,7 +9,7 @@ def getEquipmentList():
         with open("_append/data/text/equipment.csv","r") as f:
                 reader = csv.reader(f)
                 for row in reader:
-                        if "_" not in row[0] and row[0] != "Name":
+                        if "_" not in row[0] and "?" not in row[0] and row[0] != "Name":
                                 out.append(row[0])
         return(out)
 
@@ -32,10 +32,14 @@ def mainscript():
                 eqs[br] = itemfinder.mainscript(br)
         outfile = open("file/equipment_list.txt","w+")
         for eq in getEquipmentList():
+                flag = True
                 outfile.write(eq+"\n")
                 for e in eqs:
                         if eq in eqs[e]:
-                                outfile.write("* "+e+"\n")                        
+                                outfile.write("* "+e+"\n")
+                                flag = False
+                if flag: #hasn't been found, flag it!
+                        print(f"Item {eq} not found in generators") 
                 outfile.write("------\n")
                 
 if __name__ == "__main__":

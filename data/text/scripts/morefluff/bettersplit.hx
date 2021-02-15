@@ -4,19 +4,20 @@
 //Arguments:
 /* 
  * diceval:Int. The number to split.
- * splitamt:Int. The amount of dice to split it into.
+ * splitamt:Int. The amount of dice to split it into.  Defaults to 2.
  * generateOnes:Bool. Whether or not to generate ones out of thin air in the case that splitAmt > diceval. Defaults to false.
  */
  
 if(args.length < 2){
 	if(args.length == 0){
 		trace("Error: no arguments supplied. Run this script with the value to split, as well as how many dice to split it into.");
+		return;
 	}else{
 		args.push(2);
 	}
 }
-var diceval = args[0];
-var splitamt = args[1];
+var diceval      = args[0];
+var splitamt     = args[1];
 var generateOnes = (args.length >= 2 && args[2]);
 
 if(splitamt >= diceval){

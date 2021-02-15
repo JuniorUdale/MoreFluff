@@ -7,7 +7,7 @@ def mainscript(gen = ""):
 		gen=input("Which generator? ")
 	else:
 		flag = False
-	f = open("data/text/generators/" + gen + ".hx","r")
+	f = open("data/text/scripts/diceydungeons/itempools/" + gen + "/morefluff.hx","r")
 	excluded = ["tiny","normal","small","upgrade", "health", "big", "boss","Drake","weapon","shield","Wooden Stake,Wooden Stake","Wooden Stake","top floor", "template", "graph_tiny1","graph_tiny2","Delete","floor","Health"]
 
 	x = []

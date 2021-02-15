@@ -58,12 +58,12 @@ Lead Script,(should not appear),var boundary = 240; var size = 240; function che
 Spellbook Bash,(should not appear),var eqfire = self.getvar(~uddy~)[self.getvar(~uddy_count~)]; eqfire.animate(~flashandshake~); eqfire.reuseable = 0; eqfire.usesleft = 1; eqfire.doequipmentaction(self|target|(self.isplayer ? 1 : -1) |[]|0|true); sfx(~_thinghappens~); self.setvar(~uddy_count~|self.getvar(~uddy_count~)+1); if(self.getvar(~uddycount~) > 6){self.setvar(~uddy~|null);};
 Yeeteor Cleanup,(should not appear),self.setvar(~uddy~|null);
 mf_blankskill,(should not appear),
-Spectre,Inflict [vanish]1 vanish,inflict(VANISH); sfx(~_vanish~);
+Spectre,Inflict [vanish] vanish,inflict(VANISH); sfx(~_vanish~);
 Bear!,Transform into a bear,beartransform();
 Zap Shrine,Inflict [stun]1 stun,inflict(~mf_stun~); sfx(~_shock~);
 Omegabumpy,dfashasdk,var boundary = 240; var size = 240; var gooddice = self.getvar(~chosendice~); var mdx = gooddice.x; var mdy = gooddice.y; var deseq = null; for(eq in self.equipment){ if(eq.assigneddice.indexOf(null) != -1 && gooddice.x > eq.x && gooddice.x+size < (eq.x+eq.width) && gooddice.y > eq.y && gooddice.y+size < (eq.y + eq.height)){eq.fulldescription=~Do [sword]7 damage~;};};
 Anticipation,Heal [heal]3 after combat,inflictself(~healaftercombat~|3); sfx(~_cure~);
 Lightshield,Heal [heal]1[]/turn per dmg taken,inflictself(~shieldoflight~|1); sfx(~_survive~);
-Silence[;] fool,Inflict [silence] silence,inflict(SILENCE); sfx(~_silence~);
+Silence[comma] fool,Inflict [silence] silence,inflict(SILENCE); sfx(~_silence~);
 Spikes Shield,[thorns]1 thorn + [shield]2 shield,inflictself(THORNS); sfx(~_thorns~); inflictself(SHIELD|2); sfx(~_shield~); sfx(~_shield~|~~|0.2);
 Shield Bonk,Do [sword] equal to shield (<myshield>),attack(getstatusself(SHIELD)); sfxdamage(getstatusself(SHIELD)); sfx(~_shield~);

@@ -10,7 +10,7 @@
  * y:Float. The y-coordinate to create it at.
  * script:String. The script to execute.
  * delay:Float. The delay before activating it. Defaults to 0.
- * col:String. The equipment colour. Defaults to yellow.
+ * col:String. The equipment colour. Defaults to gray.
  * desc:String. The description of the equipment (used for animations). Defaults to blank.
  * name:String. The name of the small equipment. Defaults to nothing.
  */
@@ -23,6 +23,7 @@ if(args.length == 0){
 	trace("Error: no y-coord supplied.");
 }if(args.length <= 3){
 	trace("Error: no script supplied.");
+	return;
 }if(args.length <= 4){
 	args.push(0);
 }if(args.length <= 5){

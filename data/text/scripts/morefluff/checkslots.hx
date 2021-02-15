@@ -20,10 +20,15 @@ if(args.length < 2){
 	}
 }else if(args[1] == null){
 	trace("Error: Missing a dice value.");
+	return;
 }else if(args[1] < 1){
 	trace("Error: Dice can't be less than 1!");
+	//okay they *can*, but go away, smartarse
+	return;
 }else if(args[1] > 6){
 	trace("Error: Dice can't be greater than 6!");
+	//again, stop trying to game the system :P
+	return;
 }else{
 	var slot = args[0];
 	var dice = args[1];
