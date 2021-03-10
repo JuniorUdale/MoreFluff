@@ -56,6 +56,7 @@ Changes:
 	* Spare Ram- buffed to double damage if CPU is less than 4, instead of 3
 	* Risley now buffed to MIN3
 	* Wings of Light+ buffed to recover 12 health
+	* Flak Cannon+ nerfed to 3 uses per turn
 	* Sapping Spores reworked:
 		* Now MAX3 by base, upgrades to MAX5
 		* No longer costs max health to use
@@ -126,6 +127,7 @@ Bugfixes:
 	* Coin Flip's animation has been sped up
 	* Pinprick now has the correct sound effect
 	* Pyrodrop no longer appears in Witch episode 2
+	* Snippety Snap now actually splits dice
 	
 Misc:
 	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)

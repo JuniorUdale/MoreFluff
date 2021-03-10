@@ -1,5 +1,6 @@
 //possibledice.hx
-//Takes an equipment and returns all possible dice that fit into it.
+//Takes an equipment and returns dice that fit into it.
+//Also lets you specify which type of data to return
 
 //Arguments:
 /*
