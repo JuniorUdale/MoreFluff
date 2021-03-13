@@ -128,6 +128,7 @@ Bugfixes:
 	* Pinprick now has the correct sound effect
 	* Pyrodrop no longer appears in Witch episode 2
 	* Snippety Snap now actually splits dice
+	* Death Penalty+ now has Luck applied correctly to it
 	
 Misc:
 	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)
