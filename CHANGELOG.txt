@@ -6,7 +6,6 @@ woozy whack not for jester
 
 HUGE COPYCAT PASS
 
-CLOCK BLOCK for COUNTER CHARM
 
 
 Changes:
@@ -57,6 +56,11 @@ Changes:
 	* Risley now buffed to MIN3
 	* Wings of Light+ buffed to recover 12 health
 	* Flak Cannon+ nerfed to 3 uses per turn
+	* Really Spiky Shield no longer has a PU variant
+		* It does, internally, but shouldn't show up - this is on the offchance that deleting the PU version will just nuke someone's savefile.
+	* Vampire Blade reworked:
+		* Now MIN4, and drains 1 health (reusable)
+		* Losing max hp just wasn't enough of a downside!
 	* Sapping Spores reworked:
 		* Now MAX3 by base, upgrades to MAX5
 		* No longer costs max health to use
@@ -129,14 +133,15 @@ Bugfixes:
 	* Pyrodrop no longer appears in Witch episode 2
 	* Snippety Snap now actually splits dice
 	* Death Penalty+ now has Luck applied correctly to it
+	* Brass Beast no longer breaks on turn 6
+	* Petrification Spell- now works
 	
 Misc:
 	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)
 		* If you don't know what this is, then don't worry about it - it's an internal tool used to count how many items there are.
 		* If you *do* know what this is, then you might want to start using this updated version.
 	
-	
-Huge, huge HUGE thanks to Wisp/ncrecc for catching a ton of these bugs! The best place to report them is https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
+The best place to report bugs is at https://github.com/JuniorUdale/MoreFluff/issues - I'll be guaranteed to spot them. Otherwise, ping me on discord at Jackeea#4360.
 
 =====================================================================
 

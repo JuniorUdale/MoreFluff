@@ -44,30 +44,77 @@ var desc   = args[6];
 var name   = args[7];
 
 if(eq != null){
-	var tw = new motion.actuators.SimpleActuator(null,2);
-	tw._repeat = 2;
-	tw.onComplete(trace|["hello, world!"]);
-	tw.move();
+	trace(Rules.curseodds); //traces the curse odds!
 	
+	//If the equipment gets cursed, then there's no way to check for that.
+	//So... handle all the cursey stuff yourself!
+	var curse_eq = false
+	var alt_curse = false
+	if(getstatusself(CURSE) > 0){ //If you've got curse, then check for cursey stuff
+		curse_eq = chance(Rules.curseodds);
+		if(eq.hasTag("curseavoid")){ //Check if it avoids...
+			curse_eq = false
+		}
+		if(eq.hasTag("curseattract")){ //...but also if it attracts. 
+			curse_eq = true
+		}
+		//Note that a curseavoid + curseattract equipment WILL be cursed if you've got cursed.
+		//Weird, but that's how the game does it!
+		
+		var alt_curse = false;
+		if(Rules.alternatestatus.indexOf("all") != -1){ //If everything's alternate, then curse is PU too
+			alt_curse = true;
+		}else if(Rules.alternatestatus.indexOf("curse") != -1){
+			alt_curse = true;
+		}
+		trace(alt_curse);
+	}
 	
-	var blank = new elements.Equipment("mf blank equipment");
-	self.equipment.push(blank);
+	if(curse_eq){ //If it's cursed
+		removestatusself(CURSE,1); //nix one curse frometh thineself
+		if(alt_curse){ //Fire the equipment AT YOU!
+			var blank = new elements.Equipment("mf blank equipment");
+			self.equipment.push(blank);
 
-	blank.temporary_thisturnonly = true;
-	blank.show = true;
-	blank.width = 400;
-	blank.height= 400;
+			blank.temporary_thisturnonly = true;
+			blank.show = true;
+			blank.width = 400;
+			blank.height= 400;
 
-	blank.x = x;
-	blank.y = y;
+			blank.x = x;
+			blank.y = y;
 
-	blank.script = script;
-	blank.displayname = name;
-	blank.changecolour(col);
-	blank.fulldescription = desc;
+			blank.script = script;
+			blank.displayname = name;
+			blank.changecolour(col);
+			blank.fulldescription = desc;
 
-	blank.animate("flashandshake");
-	blank.doequipmentaction(self,target,self.isplayer ? 1 : 0,[],delay,true,true);
+			blank.animate("flashandshake");
+			blank.doequipmentaction(target,self,self.isplayer ? 0 : 1,[],delay,true,true);
+		}else{ //Curse it manually
+			eq.usesleft = 0;
+			eq.animate(CURSE);
+		}
+	}else{
+		var blank = new elements.Equipment("mf blank equipment");
+		self.equipment.push(blank);
+
+		blank.temporary_thisturnonly = true;
+		blank.show = true;
+		blank.width = 400;
+		blank.height= 400;
+
+		blank.x = x;
+		blank.y = y;
+
+		blank.script = script;
+		blank.displayname = name;
+		blank.changecolour(col);
+		blank.fulldescription = desc;
+
+		blank.animate("flashandshake");
+		blank.doequipmentaction(self,target,self.isplayer ? 1 : 0,[],delay,true,true);
+	}
 };
 
 
