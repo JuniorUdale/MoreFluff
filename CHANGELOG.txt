@@ -35,8 +35,8 @@ Changes:
 	* Metalmorph countdown reduced from 4 -> 3
 	* Coconut Gun initial countdown increased from 8 -> 10 
 	* Superconductor reworked:
-		* Now deals 2x([]+2) damage, but only on jackpots
-		* Upgraded it deals 2x([]+4) damage
+		* Now deals 3x[max4] damage, but only on jackpots
+		* Upgraded it deals 3x[max5] damage
 	* Heartbeat no longer consumes re-equip next
 	* Starfall now deals [max5] damage, but triple if it's turn []
 	* Slick Slash buffed to deal 2 damage/turn for 3 turns
