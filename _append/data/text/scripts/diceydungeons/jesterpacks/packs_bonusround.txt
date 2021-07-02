@@ -8,7 +8,6 @@ Boosterpack:Eviscerate,Nosebleed,Nosebleed
 Boosterpack:Firecracker,Bang Snaps,Bang Snaps
 Boosterpack:Mace,Boopin' Stick,Boopin' Stick
 Boosterpack:Pristine Sword,Sweets,Sweets
-Boosterpack:Essence Detonator,Basic Essence,Basic Essence
 Boosterpack:Refund,Reject,Reject
 Boosterpack:Secretive Swipe,Stealth,Stealth
 Boosterpack:Life Siphon,Regen,Regen
