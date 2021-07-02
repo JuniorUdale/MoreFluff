@@ -135,6 +135,7 @@ Bugfixes:
 	* Death Penalty+ now has Luck applied correctly to it
 	* Brass Beast no longer breaks on turn 6
 	* Petrification Spell- now works
+	* Mind Blast now takes Precognition- jinxes into account
 	
 Misc:
 	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)
