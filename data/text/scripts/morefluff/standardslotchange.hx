@@ -51,6 +51,10 @@ function increaseRangeSubstitute(slotstring){
 		}
 		switch(returnslots[i]){
 			case "REQUIRE1": returnslots[i] = "MAX2";
+			case "REQUIRE2": returnslots[i] = "MAX3";
+			case "REQUIRE3": returnslots[i] = "RANGE24";
+			case "REQUIRE4": returnslots[i] = "RANGE35";
+			case "REQUIRE5": returnslots[i] = "MIN4";
 			case "REQUIRE6": returnslots[i] = "MIN5";
 			case "RANGE23": returnslots[i] = "MAX4";
 			case "RANGE24": returnslots[i] = "MAX5";

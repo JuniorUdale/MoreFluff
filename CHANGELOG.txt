@@ -56,8 +56,11 @@ Changes:
 	* Risley now buffed to MIN3
 	* Wings of Light+ buffed to recover 12 health
 	* Flak Cannon+ nerfed to 3 uses per turn
-	* Really Spiky Shield no longer has a PU variant
-		* It does, internally, but shouldn't show up - this is on the offchance that deleting the PU version will just nuke someone's savefile.
+	* Glue Pact "buffed" to MAX3/MAX3, upgrade is now MAX3 as well
+	* PU variants removed from:
+		* Superbolt
+		* Really Spiky Shield
+		
 	* Vampire Blade reworked:
 		* Now MIN4, and drains 1 health (reusable)
 		* Losing max hp just wasn't enough of a downside!
@@ -136,6 +139,7 @@ Bugfixes:
 	* Brass Beast no longer breaks on turn 6
 	* Petrification Spell- now works
 	* Mind Blast now takes Precognition- jinxes into account
+	* Triangle Beam now no longer leaves dice around
 	
 Misc:
 	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)
