@@ -1,10 +1,13 @@
-//isalt.hx
-//is alt, not iSalt, the new overpriced Apple condiment
-//Takes a status and returns whether or not it's alternate or not (if PU rules are active for it)
+//nonstackingstatus.hx
+//Creates a non-stacking status effect. hooooo oo ooooooooo boy
 
 //Arguments:
 /*
  * status:String. The status to check. If left blank, returns a list of all alternate status effects (or [all] if all are PU)
+ * 
+ * 
+ * 
+ * 
  */
 
 if(args.length == 0){
