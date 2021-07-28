@@ -57,6 +57,9 @@ Changes:
 	* Wings of Light+ buffed to recover 12 health
 	* Flak Cannon+ nerfed to 3 uses per turn
 	* Glue Pact "buffed" to MAX3/MAX3, upgrade is now MAX3 as well
+	* Crass Knuckles no longer does damage on doubles
+		* This is to balance it a bit (10 damage and fury? yikes) as well as make the fury interaction clearer
+	* Digging Bar now actually works how its description describes
 	* PU variants removed from:
 		* Superbolt
 		* Really Spiky Shield
