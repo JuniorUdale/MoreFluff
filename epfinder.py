@@ -31,6 +31,7 @@ def mainscript():
                 eqs[pu] = itemfinder.mainscript(pu)
                 eqs[br] = itemfinder.mainscript(br)
         outfile = open("file/equipment_list.txt","w+")
+        notfound = open("file/not_found.txt","w+")
         for eq in getEquipmentList():
                 flag = True
                 outfile.write(eq+"\n")
@@ -39,8 +40,11 @@ def mainscript():
                                 outfile.write("* "+e+"\n")
                                 flag = False
                 if flag: #hasn't been found, flag it!
-                        print(f"Item {eq} not found in generators") 
+                        print(f"Item {eq} not found in generators")
+                        notfound.write(eq+"\n")
                 outfile.write("------\n")
+        print("Press enter to exit")
+        input()
                 
 if __name__ == "__main__":
         mainscript()

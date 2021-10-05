@@ -13,6 +13,7 @@
  * col:String. The equipment colour. Defaults to gray.
  * desc:String. The description of the equipment (used for animations). Defaults to blank.
  * name:String. The name of the small equipment. Defaults to nothing.
+ * dir:String. The name of the small equipment. Defaults to nothing.
  */
  
 if(args.length == 0){
@@ -32,6 +33,8 @@ if(args.length == 0){
 	args.push("");
 }if(args.length <= 7){
 	args.push("");
+}if(args.length <= 8){
+	args.push("");
 }
 
 var eq     = args[0];
@@ -42,6 +45,7 @@ var delay  = args[4];
 var col    = args[5];
 var desc   = args[6];
 var name   = args[7];
+var dir    = args[8];
 
 if(eq != null){
 	trace(Rules.curseodds); //traces the curse odds!
