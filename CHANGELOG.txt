@@ -63,6 +63,7 @@ Changes:
 	* PU variants removed from:
 		* Superbolt
 		* Really Spiky Shield
+	* Rusty Broadsword is now different to the new Rusty Sword
 		
 	* Vampire Blade reworked:
 		* Now MIN4, and drains 1 health (reusable)
