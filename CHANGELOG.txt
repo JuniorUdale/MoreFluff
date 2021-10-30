@@ -145,6 +145,7 @@ Bugfixes:
 	* Mind Blast now takes Precognition- jinxes into account
 	* Triangle Beam now no longer leaves dice around
 	* Lifesteal+ and - now give you more than 1 stack of the status
+	* GADGET.PDF.EXE now burn?s your dice when statuses are alternate
 	
 Misc:
 	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)

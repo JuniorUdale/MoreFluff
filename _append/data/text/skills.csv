@@ -18,7 +18,7 @@ Phoenix Down,[curse]Survive a fatal blow (once),inflictself(SURVIVE); sfx(~_surv
 Phoenix Down?,[curse]Survive for 3 turns (once),inflictself(SURVIVE); sfx(~_curse~); Gadget.changegadget(self[;] ~Phoenix Down?~[;] ~Broken Gadget~);
 Coin Clippers,[]+[shield]1 per dice you have,var s = 0; for(d in self.dicepool){ if(d.available()){ s+=1; }; }; if(s > 0){ sfx(~_shield~); inflictself(SHIELD[;]s); };
 Mechanical Kneecap,[sword]1 dmg per dice you have,var s = 0; for(d in self.dicepool){ if(d.available()){ s+=1; }; }; if(s > 0){ sfxdamage(target[;]s); attack(s); };
-GADGET.PDF.EXE,Roll [red]3[] new dice!,givedice([1[;]1[;]1]); for(x in [1[;]2[;]3]){ self.dicepool[self.dicepool.length-x].animate(~lock~[;](3-x)*0.3); self.dicepool[self.dicepool.length-x].animate(~fire~[;](3-x)*0.3); }
+GADGET.PDF.EXE,Roll [red]3[] new dice!,givedice([1[;]1[;]1]); for(x in [1[;]2[;]3]){ self.dicepool[self.dicepool.length-x].animate(~lock~[;](3-x)*0.3); var anim = ~fire~; if(runscript(~morefluff/isalt~|[~fire~])){anim=~alternate_fire~; }; self.dicepool[self.dicepool.length-x].animate(anim[;](3-x)*0.3); }
 Smoke Cloud,Blind [blind]all dice,inflict(BLIND[;]ALL); sfx(~_blind~);
 Whelm,[sword]1 dmg[;] +1 each use,attack(1 + getstatusself(~whelm~)); inflictself(~whelm~); sfxdamage(target[;]1+getstatusself(~whelm~));
 Two Handed Knife,[sword]5 dmg to both,attack(5); attackself(5); sfxdamage(target[;]5);
