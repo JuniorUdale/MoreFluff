@@ -1,4 +1,5 @@
 
+
 finger guns luck
 check boxtech with curse?
 
@@ -74,7 +75,7 @@ Changes:
 		* After combat, you lose 1 max HP, and it gets a +1 (so +2 damage, +1 poison, +1 health loss)
 		* This costs 1 max HP though!
 		* This continues; you can upgrade it 6 times, each time giving it a +1, but costing more and more max HP...
-
+v3.1.0 - One Hundred Dozen
 
 Bugfixes:
 	* Grace now actually works
@@ -146,6 +147,7 @@ Bugfixes:
 	* Triangle Beam now no longer leaves dice around
 	* Lifesteal+ and - now give you more than 1 stack of the status
 	* GADGET.PDF.EXE now burn?s your dice when statuses are alternate
+	* Piercing Scroll+ now returns the dice
 	
 Misc:
 	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)
