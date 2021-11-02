@@ -1,1 +1,1 @@
-Hello there! This is mainly just a proof-of-concept mod, a library of over 1000 items where I went "huh, that's a cute idea", then erratically sorted them into some slightly fitting episodes. Balance-wise this mod is probably all over the place (since the amount of loot and shops has been increased MASSIVELY), so I'm counting on you, the user, to shout at me if you find any broken OTK combos!
+readme text goes here
