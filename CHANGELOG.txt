@@ -1,4 +1,4 @@
-
+v3.1.0 - One Hundred Dozen
 
 finger guns luck
 check boxtech with curse?
@@ -75,7 +75,6 @@ Changes:
 		* After combat, you lose 1 max HP, and it gets a +1 (so +2 damage, +1 poison, +1 health loss)
 		* This costs 1 max HP though!
 		* This continues; you can upgrade it 6 times, each time giving it a +1, but costing more and more max HP...
-v3.1.0 - One Hundred Dozen
 
 Bugfixes:
 	* Grace now actually works
