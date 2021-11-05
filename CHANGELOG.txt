@@ -148,6 +148,7 @@ Bugfixes:
 	* Lifesteal+ and - now give you more than 1 stack of the status
 	* GADGET.PDF.EXE now burn?s your dice when statuses are alternate
 	* Piercing Scroll+ now returns the dice
+	* Splutter+ now works
 	
 Misc:
 	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)
