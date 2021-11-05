@@ -71,3 +71,4 @@ Silence[comma] fool,Inflict [silence] silence,inflict(SILENCE); sfx(~_silence~);
 Spikes Shield,[thorns]1 thorn + [shield]2 shield,inflictself(THORNS); sfx(~_thorns~); inflictself(SHIELD|2); sfx(~_shield~); sfx(~_shield~|~~|0.2);
 Shield Bonk,Do [sword] equal to shield (<myshield>),attack(getstatusself(SHIELD)); sfxdamage(getstatusself(SHIELD)); sfx(~_shield~);
 Snap@fluff,Matching cards can be used for free,
+Recurring Rage,Roll 2 extra dice[;] lose [heart]5 hp,var rd = [rand([1|2|3|4|5|6])|rand([1|2|3|4|5|6])]; givedice(rd); pierceattackself(5); sfx(~_drain~);
