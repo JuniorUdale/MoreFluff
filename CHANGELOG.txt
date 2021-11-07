@@ -69,6 +69,9 @@ Changes:
 	* Vampire Blade reworked:
 		* Now MIN4, and drains 1 health (reusable)
 		* Losing max hp just wasn't enough of a downside!
+	* Spatulargh nerfed:
+		* Now MIN4 by default, upgrading to MAX3
+		* Was just a strictly better Candle that went infinite before, was way too strong.
 	* Sapping Spores reworked:
 		* Now MAX3 by base, upgrades to MAX5
 		* No longer costs max health to use
