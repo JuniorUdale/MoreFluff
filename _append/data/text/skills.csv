@@ -72,3 +72,4 @@ Spikes Shield,[thorns]1 thorn + [shield]2 shield,inflictself(THORNS); sfx(~_thor
 Shield Bonk,Do [sword] equal to shield (<myshield>),attack(getstatusself(SHIELD)); sfxdamage(getstatusself(SHIELD)); sfx(~_shield~);
 Snap@fluff,Matching cards can be used for free,
 Recurring Rage,Roll 2 extra dice[;] lose [heart]5 hp,var rd = [rand([1|2|3|4|5|6])|rand([1|2|3|4|5|6])]; givedice(rd); pierceattackself(5); sfx(~_drain~);
+Bellow,Inflict [weaken]3 in [jinx]3 turns,jinx(~Bellow~[;]~receive [weaken]3 weaken~[;]~Receive [weaken]3 weaken~[;]~inflict(WEAKEN|3); sfx(\~_weaken\~);~[;]target[;]self[;]3[;]3); sfx(~_thinghappens~);
