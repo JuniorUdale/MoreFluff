@@ -98,7 +98,7 @@ dummyweaken,Weaken_Enemy_Next_Turn,weaken,Whoops! Probably shouldn't be seeing t
 mf_weakeneachturn,Weaken_Each_Turn,weaken,Receive [weaken]<value> weaken each turn.,YES,NO,NO,NO,NO,inflict(WEAKEN|status.value);,,,,,,inflict(~dummyweaken~|status.value);,,,,
 shieldoflight,Shield_Of_Light,shieldoflight,Whenever you take damage this turn[;] heal [heal]<value> health per|turn[;] for turns equal to the damage (maximum: 5),YES,NO,YES,NO,NO,,,,,,,,,,if(dmg > 5){inflictself(~regen5~|status.value);}else if(dmg > 0){inflictself(~regen~+dmg|status.value);} sfx(~_cure~);,
 mf_recurseion,Recurseion,curse,(should not appear),NO,NO,YES,YES,NO,,,,,,,,,,,
-curseeachturn,Curse_Each_Turn,curse,Receive [curse]<value> curse each turn for the rest of battle.,YES,NO,NO,NO,YES,,,inflict(CURSE); sfx(~_curse~);,,,,,,,,
+curseeachturn,Curse_Each_Turn,curse,Receive [curse]<value> curse each turn for the rest of battle.,YES,NO,NO,NO,YES,,,inflictself(CURSE); sfx(~_curse~);,,,,,,,,
 mf_maintaincurse,Maintain_Curse,sword,Maintain curse between turns.,NO,NO,NO,YES,NO,,,,,,,for(st in self.status){if(st.type == CURSE){st.remove_at_endturn = false;};};,,,,for(st in self.status){if(st.type == CURSE){st.remove_at_endturn = true;};};
 tempbear_witch,Bear!,potion,You're a bear!,NO,NO,NO,NO,NO,,,,,,,,,,,
 internal_timefreeze_lockout,Lockout,skipturn,Any dice that aren't a 1 immediately vanish.|Should be invisible!!!!,NO,NO,NO,YES,NO,,,inflictself(~timefreeze_lockout~); var tw = new motion.actuators.SimpleActuator(null|0.01|null); var s = new elements.Skill(~Against all odds_old~); s.script = ~  removestatusself(\~~ + status.type + ~\~|~ + status.value+~);~; tw.onComplete(s.execute|[self|target]); tw.move(); sfx(~_recycle~);,,,,,,,,
