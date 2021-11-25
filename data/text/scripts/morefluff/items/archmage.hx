@@ -2,6 +2,11 @@
 
 var total = args[0];
 var coords = args[1];
+var itcount = 0;
+if(args.length > 2){itcount=args[2];};
+
+trace("TOTAL: "+total);
+trace("ITERATION COUNT: "+itcount);
 
 var newitem;
 
@@ -28,8 +33,12 @@ if(total <= 0){ //Uh, something's gone wrong
 		newitem = new elements.Equipment(rand(l));
 	}
 }
+trace("NEW ITEM: "+newitem.name);
+trace("COUNTDOWN: "+newitem.countdown);
 
 total -= newitem.countdown;
+trace("NEW TOTAL:"+total);
+
 if(total < 0){
 	trace("Oh no! What a bad roll! Something's gone horribly, horribly wrong.");
 	trace("The culprit equipment is "+newitem+" with a countdown of "+newitem.countdown+" which made total "+total+".");
@@ -39,18 +48,18 @@ if(total < 0){
 
 self.equipment.push(newitem); //even if it's only going to be there for a few seconds!
 
-if(newitem.countdown > 6){newitem.countdown = 6;};
+if(newitem.remainingcountdown > 6){newitem.remainingcountdown = 6;};
 newitem.reuseable = 0;
 newitem.usesleft = 1;
 newitem.temporary_thisturnonly = true;
 
-newitem.x = coords.x;
-newitem.y = coords.y
+newitem.x = coords[0];
+newitem.y = coords[1];
 
 newitem.addtag("ignorereuse");
 
 var b = new elements.Dice();
-b.basevalue = newitem.countdown;
+b.basevalue = newitem.remainingcountdown;
 b.owner = self;
 newitem.assigndice(b);
 
@@ -58,63 +67,14 @@ newitem.assigndice(b);
 //newitem.doequipmentaction(self|target|(self.isplayer ? 1 : -1)|[]|0|true);
 
 //wrap the recursion in an actuator!
-var sc = "if(total > 0){ runscript(\"morefluff/items/archmage\", [total,coords]); }";
-var s = new elements.Skill("mf_blankskill");
-s.script = sc;
-var tw = new motion.actuators.SimpleActuator(null|1|null);
-tw._repeat = 1;
-tw.onComplete(s.execute,[self,target]);
-tw.move();
-s.remove();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if(total > 0){ 
+	var sc = "runscript(\"morefluff/items/archmage\", ["+total+","+coords+","+(itcount+1)+"]);";
+	trace("NEW SCRIPT: "+sc);
+	trace("");
+	var s = new elements.Skill("mf_blankskill");
+	s.script = sc;
+	var tw = new motion.actuators.SimpleActuator(null|2+(itcount*2));
+	tw._repeat=2;
+	tw.onComplete(s.execute,[self,target]);
+	//tw.move();
+};
