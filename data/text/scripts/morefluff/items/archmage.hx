@@ -10,26 +10,28 @@ trace("ITERATION COUNT: "+itcount);
 
 var newitem;
 
+function blacklistedscript(item){
+	return item.script.length > 50 || (item.script.indexOf("endturn") > -1 || item.scriptbeforeexecute.indexOf("endturn") > -1 ||
+	item.script.indexOf("boomerang") > -1 || item.scriptbeforeexecute.indexOf("boomerang") > -1 ||
+	item.script.indexOf("actuator") > -1 || item.scriptbeforeexecute.indexOf("actuator") > -1 ||
+	item.script.indexOf("usesleft") > -1 || item.scriptbeforeexecute.indexOf("usesleft") > -1 ||
+	item.script.indexOf("fury") > -1 || item.scriptbeforeexecute.indexOf("fury") > -1);
+}
+
 //Specialcasing some smaller sizes speeds up searching
-if(total <= 0){ //Uh, something's gone wrong
-	trace("Something's gone wrong! Oh no!");
-	trace("Luckily, Jackeea's amazing foresight in doing the very minimum of error checking has saved the day once again.");
-	trace("Total is "+total+", for reference");
-}else if(total == 0){
-	//If you're at 0 - bingo bango boingo you're done!
+if(total <= 0){ //you're done!
 	return;
 }else if(total == 1){
-	newitem = new elements.Equipment("Junk Spell");
+	newitem = new elements.Equipment("Junk Spell"); //speeds up things
+	//Could specialcase 2 and 3, but there's legitimate cases for those
 }else if(total == 2){
-	newitem = new elements.Equipment("Burning Stick");
-}else if(total == 3){
-	newitem = new elements.Equipment("Magic Armor");
+	newitem = new elements.Equipment(rand(["Burning Stick","Junk Spell"]));
 }else{
-	var l = getequipmentlist(null,["small"],["witchonly","robotonly","inventoronly","thiefonly","warrioronly","jesteronly","excludefromrandomlists","alternateversion"]);
+	var l = getequipmentlist(null,[],["witchonly","robotonly","inventoronly","thiefonly","warrioronly","jesteronly","excludefromrandomlists","alternateversion"]);
 	
 	//Now... we need to go find countdowns!
 	newitem = new elements.Equipment(rand(l));
-	while(newitem.countdown == 0 || newitem.countdown == null || newitem.countdown > total){
+	while((itcount < 1 && newitem.countdown == total) || newitem.countdown == 0 || newitem.countdown == null || newitem.countdown > total || blacklistedscript(newitem)){
 		newitem = new elements.Equipment(rand(l));
 	}
 }
@@ -48,33 +50,42 @@ if(total < 0){
 
 self.equipment.push(newitem); //even if it's only going to be there for a few seconds!
 
-if(newitem.remainingcountdown > 6){newitem.remainingcountdown = 6;};
+//if(newitem.remainingcountdown > 6){newitem.remainingcountdown = 6;};
 newitem.reuseable = 0;
 newitem.usesleft = 1;
 newitem.temporary_thisturnonly = true;
 
 newitem.x = coords[0];
 newitem.y = coords[1];
+if(newitem.size == 2){
+	newitem.y-=144;
+}
 
 newitem.addtag("ignorereuse");
 
+newitem.script = "runscript(\"morefluff/items/archmage\", ["+total+","+coords+","+(itcount+1)+"]);" + newitem.script;
+
+var count = newitem.remainingcountdown;
+while(count > 6){
+	var b = new elements.Dice();
+	b.basevalue = 6;
+	b.owner = self;
+	newitem.assigndice(b);
+	count -= 6;
+}
 var b = new elements.Dice();
-b.basevalue = newitem.remainingcountdown;
+b.basevalue = count;
 b.owner = self;
 newitem.assigndice(b);
+newitem.animate("flashandshake");
 
-//is this one even needed?
-//newitem.doequipmentaction(self|target|(self.isplayer ? 1 : -1)|[]|0|true);
 
-//wrap the recursion in an actuator!
-if(total > 0){ 
-	var sc = "runscript(\"morefluff/items/archmage\", ["+total+","+coords+","+(itcount+1)+"]);";
-	trace("NEW SCRIPT: "+sc);
-	trace("");
-	var s = new elements.Skill("mf_blankskill");
-	s.script = sc;
-	var tw = new motion.actuators.SimpleActuator(null|2+(itcount*2));
-	tw._repeat=2;
-	tw.onComplete(s.execute,[self,target]);
-	//tw.move();
-};
+
+
+
+
+
+
+
+
+

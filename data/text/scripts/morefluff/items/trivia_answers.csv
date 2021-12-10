@@ -1,7 +1,15 @@
 ID,text1,text2,answer
-1,How many dice does,Scathach roll?,1
-2,How many dice does,Pumpkin Spice roll?,2
-3,What dice does,Kunai accept?,1
-4,Give an integer solution to,2x^3 + 9x^2 -101x = -90,1
-5,What is the lowest value,commonly found on a d6?,1
-6,What is the last dice needed,to unlock Precious Egg?,1
+null,How many dice does,Scathach roll?,1
+null,How many dice does,Wizard roll?,1
+null,What dice does,Kunai accept?,1
+null,What dice does,Freeze Spell accept?,1
+null,How much damage does,Wisp take from burning dice?,1
+null,How much gold does,Pickpocket steal?,1
+null,What is the lowest value,commonly found on a d6?,1
+null,What is the last dice needed,to unlock Precious Egg?,1
+null,What value does Freeze,set your highest dice to?,1
+null,What would receiving 5 PU,Freeze set your dice to?,1
+null,Give an integer solution to,2x^3 + 9x^2 -101x = -90,1
+null,How many eyes does,a Cyclops have?,1
+null,Rounded down[;] how many,yards are in a meter?,1
+check,What is the best score,in a round of golf?,1

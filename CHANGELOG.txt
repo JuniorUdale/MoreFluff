@@ -2,11 +2,19 @@ v3.1.0 - Almost Unlucky
 
 finger guns luck
 
+There's a LOT of new items. Instead of telling you about them... let's rattle off some newly added quotes and effects:
+	* "Get 8 copies of a dice"
+	* Grace and Shield of Light appearing on the same item
+	* "Replace your gadget with this"
+	* 2 fun items crunched together into one awful to activate abomination
+	* "Inflict 15 blind"
+	* Spanner, but for items
+	* "if these dice could be the sides of a triangle,"
+	* An item that can inflict up to 24 freeze in a single turn
+	* "deal double damage if _____"
+		* Upgrades to "deal quintuple damage if _____"
 
-
-
-
-Changes:
+How about some balance changes too?
 	* All equipment that can have a gadget now has a gadget!
 	* "If your health is critical" changed to "If your health is below 25%" on most items
 		* This isn't a balance change, just a wording clarification since not everyone has sound on
@@ -55,14 +63,17 @@ Changes:
 	* Wings of Light+ buffed to recover 12 health
 	* Flak Cannon+ nerfed to 3 uses per turn
 	* Glue Pact "buffed" to MAX3/MAX3, upgrade is now MAX3 as well
-	* Crass Knuckles no longer does damage on doubles
-		* This is to balance it a bit (10 damage and fury? yikes) as well as make the fury interaction clearer
+	* Crass Knuckles reworked:
+		* Now "works" with Fury better
+		* Slots reduced by 1 (so MAX3 to start, MAX4 when upgraded)
 	* Digging Bar now actually works how its description describes
 	* PU variants removed from:
 		* Superbolt
 		* Really Spiky Shield
 	* Rusty Broadsword is now different to the new Rusty Sword
-		
+	* Captured Flag reworked:
+		* Now takes any dice (instead of MIN3)
+		* Upgrade now gives it 2 uses
 	* Vampire Blade reworked:
 		* Now MIN4, and drains 1 health (reusable)
 		* Losing max hp just wasn't enough of a downside!
@@ -76,7 +87,7 @@ Changes:
 		* This costs 1 max HP though!
 		* This continues; you can upgrade it 6 times, each time giving it a +1, but costing more and more max HP...
 
-Bugfixes:
+And a far-too-big list of bugfixes:
 	* Grace now actually works
 	* Stun can no longer target your skillcard
 		* No more losing your spellbook as Witch!
@@ -149,8 +160,8 @@ Bugfixes:
 	* Piercing Scroll+ now returns the dice
 	* Splutter+ now works
 	
-Misc:
-	* itemcounter.py has been tweaked! Now it's much less overgenerous (though fluff is still over 1000 items!)
+And one thing for the modders out there:
+	* itemcounter.py has been tweaked! Now it's much less overgenerous
 		* If you don't know what this is, then don't worry about it - it's an internal tool used to count how many items there are.
 		* If you *do* know what this is, then you might want to start using this updated version.
 	
