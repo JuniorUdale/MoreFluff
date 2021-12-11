@@ -6,7 +6,7 @@ Goop Gun,Inflict [poison]2 poison,inflict(POISON[;]2); sfx(~_poison~);
 JOAT Smash,[sword]1[;] [heal]1[;] [shield]1[;] [poison]1,attack(1); attackself(-1); inflict(POISON); inflictself(SHIELD); sfxdamage(target[;]1); sfx(~_heal~); sfx(~_shield~[;]~~[;]0.6); sfx(~_poison~[;]~~[;]0.2);
 Zapthwack,Inflict [shock]1 and [weaken]1,inflict(SHOCK); inflict(WEAKEN); sfx(~_weaken~); sfx(~_shock~);
 Mystic Boop,Add random status: [fire][ice][shock][weaken],var r = rand([0[;]1[;]2[;]3]); var effs = [SHOCK[;]WEAKEN[;]ICE[;]FIRE]; inflict(effs[r]); var sounds=[~_shock~[;]~_weaken~[;]~_ice~[;]~_fire~]; sfx(sounds[r]);
-Pinprick,Gain [thorns]1 thorns,inflictself(THORNS); sfx(~_thorns~);
+Pinprick,Gain [thorns]2 thorns,inflictself(THORNS|2); sfx(~_thorns~);
 Steel Skin,Lose [heart]2[;] add [shield]4 shield,pierceattackself(2); inflictself(SHIELD[;]4); sfx(~_drain~); sfx(~_shield~[;]~~[;]0.4);
 Magic Lantern,[]+1 dice next turn,inflictself(~stash~+rand([1[;]2[;]3[;]4[;]5[;]6])); inflictself(~lantern~); sfx(~magic_gaindice~);
 Ballerina,Roll 2 twos,givedice([2[;]2]);
